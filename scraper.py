@@ -1,10 +1,26 @@
 import re
 from urllib.parse import urlparse
+
 valid_domains = [r".*\.*ics\.uci\.edu", r".*\.*cs\.uci\.edu",
                 r".*\.*informatics\.uci\.edu", r".*\.*stat\.uci\.edu"]
+valid_urls = set()
+invalid_urls = set()
+tokens = dict()
+
 def scraper(url, resp):
+    # robot.txt check goes here
+    
+    if not is_valid(url): # check if the url is valid
+        invalid_urls.add(url)
+        return []
+
+    if url in valid_urls or url in invalid_urls: # already searched through that url (skip)
+        return []
+    
     links = extract_next_links(url, resp)
 
+    [invalid_urls.add(link) for link in links if not is_valid(link)] # add invalid urls to the searched through invalid_urls
+    
     return [link for link in links if is_valid(link)]
 
 def extract_next_links(url, resp):
@@ -25,16 +41,14 @@ def is_valid(url):
     # There are already some conditions that return False.
     try:
         parsed = urlparse(url)
-        print("Scheme:", parsed.scheme)
-        print("netloc:", parsed.netloc)
-        print("path:", parsed.path)
+       
         if parsed.scheme not in set(["http", "https"]):
             return False
 
         if  re.match(valid_domains[0], parsed.netloc) and \
             re.match(valid_domains[1], parsed.netloc) and \
             re.match(valid_domains[2], parsed.netloc) and \
-            re.match(valid_domains[3], parsed.netloc):
+            re.match(valid_domains[3], parsed.netloc): # check for valid domain
                 return False
         
         # check for repetition within the path
