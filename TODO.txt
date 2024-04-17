@@ -1,0 +1,15 @@
+1. Validate Function
+    a. check if it matches domain
+    b. check robot.txt
+    c. detect infite traps
+        1. track visited URLS
+        2. maximum depth threshold
+        3. pattern exclusion
+        4. content to link ratio
+    d. scraper/tokenize
+        1. add tokens to global dict
+        2. increment count accordingly
+        3.
+2. test connection
+    a. test to check if server is available (every 10 or n seconds)
+    b. 
