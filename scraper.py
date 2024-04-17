@@ -1,6 +1,6 @@
 import re
 from urllib.parse import urlparse
-
+from bs4 import BeautifulSoup
 valid_domains = [r".*\.*ics\.uci\.edu", r".*\.*cs\.uci\.edu",
                 r".*\.*informatics\.uci\.edu", r".*\.*stat\.uci\.edu"]
 valid_urls = set()
@@ -38,6 +38,10 @@ def extract_next_links(url, resp):
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
+    if resp.status == 200 and resp.raw_response.content:
+        soup = BeautifulSoup(resp.raw_response.content, "html.parser")
+        links  = [link.get('href') for link in soup.find_all('a', href=True)]
+        return links
     return list()
 
 def is_valid(url):
@@ -50,10 +54,10 @@ def is_valid(url):
         if parsed.scheme not in set(["http", "https"]):
             return False
 
-        if  re.match(valid_domains[0], parsed.netloc) and \
-            re.match(valid_domains[1], parsed.netloc) and \
-            re.match(valid_domains[2], parsed.netloc) and \
-            re.match(valid_domains[3], parsed.netloc): # check for valid domain
+        if  not (re.match(valid_domains[0], parsed.netloc) or \
+            re.match(valid_domains[1], parsed.netloc) or \
+            re.match(valid_domains[2], parsed.netloc) or \
+            re.match(valid_domains[3], parsed.netloc)): # check for valid domain
                 return False
         
         # check for repetition within the path
@@ -76,3 +80,4 @@ if __name__ == "__main__":
     # testing is_valid function
     print(is_valid("https://archive.ics.uci.edu/"))
     print(is_valid("https://ics.uci.edu/"))
+    print(is_valid("https://youtube.com/"))
