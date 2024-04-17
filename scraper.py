@@ -1,10 +1,10 @@
 import re
 from urllib.parse import urlparse
-valid_domains = [".ics.uci.edu/", ".cs.uci.edu/",
-                ".informatics.uci.edu/",".stat.uci.edu/"]
+valid_domains = [r".*\.ics\.uci\.edu", r".*\.cs\.uci\.edu",
+                r".*\.informatics\.uci\.edu", r".*\.stat\.uci\.edu"]
 def scraper(url, resp):
     links = extract_next_links(url, resp)
-    
+
     return [link for link in links if is_valid(link)]
 
 def extract_next_links(url, resp):
@@ -25,8 +25,18 @@ def is_valid(url):
     # There are already some conditions that return False.
     try:
         parsed = urlparse(url)
+        print("Scheme:", parsed.scheme)
+        print("netloc:", parsed.netloc)
+        print("path:", parsed.path)
         if parsed.scheme not in set(["http", "https"]):
             return False
+
+        if  re.match(valid_domains[0], parsed.netloc) and \
+            re.match(valid_domains[1], parsed.netloc) and \
+            re.match(valid_domains[2], parsed.netloc) and \
+            re.match(valid_domains[3], parsed.netloc):
+                return False
+        
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
@@ -40,3 +50,8 @@ def is_valid(url):
     except TypeError:
         print ("TypeError for ", parsed)
         raise
+
+if __name__ == "__main__":
+    # testing is_valid function
+    flag = is_valid("https://archive.ics.uci.edu/")
+    print(flag)
