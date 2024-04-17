@@ -1,6 +1,7 @@
-import re
+import re, requests, cbor
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
+
 valid_domains = [r".*\.*ics\.uci\.edu", r".*\.*cs\.uci\.edu",
                 r".*\.*informatics\.uci\.edu", r".*\.*stat\.uci\.edu"]
 valid_urls = set()
@@ -33,11 +34,74 @@ def extract_next_links(url, resp):
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
+
     if resp.status == 200 and resp.raw_response.content:
         soup = BeautifulSoup(resp.raw_response.content, "html.parser")
         links  = [link.get('href') for link in soup.find_all('a', href=True)]
-        return links
+        print(links)
+        return []
     return list()
+
+def check_robot_permission(url) -> bool:
+    parsed = urlparse(url)
+    scheme = parsed.scheme
+    domain = parsed.netloc
+    robots_file_url = f"{scheme}://{domain}/robots.txt"
+    # print("Scheme: ", scheme) # delete later, just to see output
+    # print("Domain: ", domain) # delete later, just to see output
+    # print(robots_file_url)
+    try: 
+        response = requests.get(robots_file_url)
+    except:
+        return True
+
+    if response.status_code == 200:
+        robot_html_text = response.text
+        flag = false
+        for line in robot_html_text:
+            if flag:
+                tokens = line.split(": ")
+            if tokens[0] == "User-agent" and tokens[1] == '*':
+                flag = True
+            
+
+
+        # read file
+        # check EXACT file perms
+            # if correct perms, return true
+            # else return false
+    else:
+        return False
+
+def parse_robots_txt_for_disallows(robots_txt, user_agent='*'):
+    """ Parse the robots.txt to find all disallowed paths for the given user-agent. """
+    disallow_paths = []
+    finished = False
+    allow_all_agents = False
+
+    # Split the file into lines
+    for line in robots_txt:
+        line = line.split('#', 1)[0].strip()  # Remove comments and whitespace
+        if not line:
+            continue  # Skip empty lines
+
+        if ':' in line:
+            key, value = line.split(':', 1) # split line into two tokens
+            key = key.strip().lower()
+            value = value.strip()
+
+            if key == 'user-agent':
+                if value == user_agent and not finished:
+                    allow_all_agents = True
+                else:
+                    if allow_all_agents and finished:
+                        return disallow_paths
+            elif key == 'disallow' and allow_all_agents:
+                finished = True
+                if value:  # Ignore empty Disallow directives which mean allow everything
+                    disallow_paths.append(value)
+                
+    return disallow_paths
 
 def is_valid(url):
     # Decide whether to crawl this url or not. 
@@ -76,3 +140,11 @@ if __name__ == "__main__":
     print(is_valid("https://archive.ics.uci.edu/"))
     print(is_valid("https://ics.uci.edu/"))
     print(is_valid("https://youtube.com/"))
+    with open("/Users/einargatchalian/Downloads/robots.txt", 'r') as f:
+        print(parse_robots_txt_for_disallows(f))
+    print()
+    with open("/Users/einargatchalian/Downloads/Arobots.txt", 'r') as f:
+        print(parse_robots_txt_for_disallows(f))
+    print()
+    with open("/Users/einargatchalian/Downloads/YTrobots.txt", 'r') as f:
+        print(parse_robots_txt_for_disallows(f))
