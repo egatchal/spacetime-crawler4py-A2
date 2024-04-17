@@ -1,7 +1,7 @@
 import re
 from urllib.parse import urlparse
-valid_domains = [r".*\.ics\.uci\.edu", r".*\.cs\.uci\.edu",
-                r".*\.informatics\.uci\.edu", r".*\.stat\.uci\.edu"]
+valid_domains = [r".*\.*ics\.uci\.edu", r".*\.*cs\.uci\.edu",
+                r".*\.*informatics\.uci\.edu", r".*\.*stat\.uci\.edu"]
 def scraper(url, resp):
     links = extract_next_links(url, resp)
 
@@ -37,6 +37,8 @@ def is_valid(url):
             re.match(valid_domains[3], parsed.netloc):
                 return False
         
+        # check for repetition within the path
+
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
@@ -53,5 +55,5 @@ def is_valid(url):
 
 if __name__ == "__main__":
     # testing is_valid function
-    flag = is_valid("https://archive.ics.uci.edu/")
-    print(flag)
+    print(is_valid("https://archive.ics.uci.edu/"))
+    print(is_valid("https://ics.uci.edu/"))
