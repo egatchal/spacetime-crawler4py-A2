@@ -5,6 +5,11 @@ def scraper(url, resp):
     links = extract_next_links(url, resp)
     return [link for link in links if is_valid(link)]
 
+# This function needs to return a list of urls that are scraped from the response. 
+# (An empty list for responses that are empty). These urls will be added to the Frontier 
+# and retrieved from the cache. These urls have to be filtered so that urls that do not 
+# have to be downloaded are not added to the frontier.
+
 def extract_next_links(url, resp):
     # Implementation required.
     # url: the URL that was used to get the page
