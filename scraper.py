@@ -17,9 +17,9 @@ def scraper(url, resp):
     if url in valid_urls or url in invalid_urls: # already searched through that url (skip)
         return []
     
-    links = extract_next_links(url, resp)
+    # frunction - "tokenize" extract all tokens here (exclude urls)
 
-    [invalid_urls.add(link) for link in links if not is_valid(link)] # add invalid urls to the searched through invalid_urls
+    links = extract_next_links(url, resp)
     
     return [link for link in links if is_valid(link)]
 
