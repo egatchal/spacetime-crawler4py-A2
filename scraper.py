@@ -1,8 +1,26 @@
 import re
 from urllib.parse import urlparse
 
+valid_domains = [r".*\.*ics\.uci\.edu", r".*\.*cs\.uci\.edu",
+                r".*\.*informatics\.uci\.edu", r".*\.*stat\.uci\.edu"]
+valid_urls = set()
+invalid_urls = set()
+tokens = dict()
+
 def scraper(url, resp):
+    # robot.txt check goes here
+    
+    if not is_valid(url): # check if the url is valid
+        invalid_urls.add(url)
+        return []
+
+    if url in valid_urls or url in invalid_urls: # already searched through that url (skip)
+        return []
+    
+    # frunction - "tokenize" extract all tokens here (exclude urls)
+
     links = extract_next_links(url, resp)
+    
     return [link for link in links if is_valid(link)]
 
 # This function needs to return a list of urls that are scraped from the response. 
@@ -28,8 +46,18 @@ def is_valid(url):
     # There are already some conditions that return False.
     try:
         parsed = urlparse(url)
+       
         if parsed.scheme not in set(["http", "https"]):
             return False
+
+        if  re.match(valid_domains[0], parsed.netloc) and \
+            re.match(valid_domains[1], parsed.netloc) and \
+            re.match(valid_domains[2], parsed.netloc) and \
+            re.match(valid_domains[3], parsed.netloc): # check for valid domain
+                return False
+        
+        # check for repetition within the path
+
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
@@ -43,3 +71,8 @@ def is_valid(url):
     except TypeError:
         print ("TypeError for ", parsed)
         raise
+
+if __name__ == "__main__":
+    # testing is_valid function
+    print(is_valid("https://archive.ics.uci.edu/"))
+    print(is_valid("https://ics.uci.edu/"))
