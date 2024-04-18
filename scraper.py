@@ -1,7 +1,7 @@
 import re, requests, cbor
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
-
+from utils import  normalize
 valid_domains = [r".*\.*ics\.uci\.edu", r".*\.*cs\.uci\.edu",
                 r".*\.*informatics\.uci\.edu", r".*\.*stat\.uci\.edu"]
 valid_urls = set()
@@ -18,22 +18,14 @@ def scraper(url, resp):
     if url in valid_urls or url in invalid_urls: # already searched through that url (skip)
         return []
     
-    try:
-        if check_robots_exists(url):
-            print("Does robot exist?")
-            # check contents of the robot.txt
-            # call check_robot_permissions
-            check_robot_permission(url)
-        # Otherwise we scrape anyways
-        extract_next_links()
-        print("Going to extract next links!")
-
-    except TypeError:
-        print("URL incorrect: ", url)
+    
+    flag, disallows = check_robot_permission(url)
+    if not flag: # cannot access page
+        return []
     
     # function - "tokenize" extract all tokens here (exclude urls)
 
-    links = extract_next_links(url, resp)
+    links = extract_next_links(url, resp, disallows)
     
     return [link for link in links if is_valid(link)]
 
@@ -42,7 +34,7 @@ def scraper(url, resp):
 # and retrieved from the cache. These urls have to be filtered so that urls that do not 
 # have to be downloaded are not added to the frontier.
 
-def extract_next_links(url, resp):
+def extract_next_links(url, resp, disallows):
     # Implementation required.
     # url: the URL that was used to get the page
     # resp.url: the actual url of the page
@@ -53,11 +45,16 @@ def extract_next_links(url, resp):
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
 
-    if resp.status == 200 and resp.raw_response.content:
-        soup = BeautifulSoup(resp.raw_response.content, "html.parser")
-        links  = [link.get('href') for link in soup.find_all('a', href=True)]
-        print(links)
-        return []
+    #if resp.status == 200 and resp.raw_response.content:
+    if resp.status_code == 200 and resp.text:
+        soup = BeautifulSoup(resp.text, "html.parser")
+        links  = set()
+        for link in soup.find_all('a', href=True):
+            for disallowed_link in disallows:
+                pattern = re.compile(disallowed_link, re.I)
+                if not re.match(pattern, link):
+                    links.add(link)
+        return links
     return list()
 
 def check_robot_permission(url) -> bool:
@@ -81,10 +78,11 @@ def parse_robots_txt_for_disallows(robots_txt, user_agent='*'):
     """ Parse the robots.txt to find all disallowed paths for the given user-agent. """
     disallow_paths = []
     finished = False
-    allow_all_agents = False
+    found_agents = False
 
     # Split the file into lines
-    for line in robots_txt:
+    for line in robots_txt.splitlines():
+        # print(line)
         line = line.split('#', 1)[0].strip()  # Remove comments and whitespace
         if not line:
             continue  # Skip empty lines
@@ -96,16 +94,16 @@ def parse_robots_txt_for_disallows(robots_txt, user_agent='*'):
 
             if key == 'user-agent':
                 if value == user_agent and not finished:
-                    allow_all_agents = True
+                    found_agents = True
                 else:
-                    if allow_all_agents and finished:
-                        return disallow_paths
-            elif key == 'disallow' and allow_all_agents:
+                    if found_agents and finished:
+                        return set(disallow_paths)
+            elif key == 'disallow' and found_agents:
                 finished = True
                 if value:  # Ignore empty Disallow directives which mean allow everything
                     disallow_paths.append(value)
                 
-    return disallow_paths
+    return set(disallow_paths)
 
 def is_valid(url):
     # Decide whether to crawl this url or not. 
@@ -141,9 +139,13 @@ def is_valid(url):
 
 if __name__ == "__main__":
     # testing is_valid function
+    """
     print(is_valid("https://archive.ics.uci.edu/"))
     print(is_valid("https://ics.uci.edu/"))
     print(is_valid("https://youtube.com/"))
+    """
+    
+    """
     with open("/Users/einargatchalian/Downloads/robots.txt", 'r') as f:
         print(parse_robots_txt_for_disallows(f))
     print()
@@ -152,3 +154,12 @@ if __name__ == "__main__":
     print()
     with open("/Users/einargatchalian/Downloads/YTrobots.txt", 'r') as f:
         print(parse_robots_txt_for_disallows(f))
+    """
+    url = "https://spaces.lib.uci.edu/reserve/Science"
+    resp = requests.get(url)
+    flag, disallows = check_robot_permission(url)
+    
+    print(extract_next_links(url, resp, disallows))
+
+    #print(disallows)
+
