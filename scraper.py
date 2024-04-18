@@ -2,8 +2,31 @@ import re, requests, cbor
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from utils import  normalize
+from utils.response import Response
+
 valid_domains = [r".*\.*ics\.uci\.edu", r".*\.*cs\.uci\.edu",
                 r".*\.*informatics\.uci\.edu", r".*\.*stat\.uci\.edu"]
+stopwords_list = set([
+    "a", "about", "above", "after", "again", "against", "all", "am", "an", "and", 
+    "any", "are", "aren't", "as", "at", "be", "because", "been", "before", "being", 
+    "below", "between", "both", "but", "by", "can't", "cannot", "could", "couldn't", 
+    "did", "didn't", "do", "does", "doesn't", "doing", "don't", "down", "during", 
+    "each", "few", "for", "from", "further", "had", "hadn't", "has", "hasn't", 
+    "have", "haven't", "having", "he", "he'd", "he'll", "he's", "her", "here", 
+    "here's", "hers", "herself", "him", "himself", "his", "how", "how's", "i", 
+    "i'd", "i'll", "i'm", "i've", "if", "in", "into", "is", "isn't", "it", "it's", 
+    "its", "itself", "let's", "me", "more", "most", "mustn't", "my", "myself", 
+    "no", "nor", "not", "of", "off", "on", "once", "only", "or", "other", "ought", 
+    "our", "ours", "ourselves", "out", "over", "own", "same", "shan't", "she", 
+    "she'd", "she'll", "she's", "should", "shouldn't", "so", "some", "such", "than", 
+    "that", "that's", "the", "their", "theirs", "them", "themselves", "then", "there", 
+    "there's", "these", "they", "they'd", "they'll", "they're", "they've", "this", 
+    "those", "through", "to", "too", "under", "until", "up", "very", "was", "wasn't", 
+    "we", "we'd", "we'll", "we're", "we've", "were", "weren't", "what", "what's", 
+    "when", "when's", "where", "where's", "which", "while", "who", "who's", "whom", 
+    "why", "why's", "with", "won't", "would", "wouldn't", "you", "you'd", "you'll", 
+    "you're", "you've", "your", "yours", "yourself", "yourselves"
+])
 valid_urls = set()
 invalid_urls = set()
 tokens = dict()
@@ -44,12 +67,14 @@ def extract_next_links(url, resp, disallows):
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
-
+    
+    resp = requests.get(url)
     #if resp.status == 200 and resp.raw_response.content:
     if resp.status_code == 200 and resp.text:
         soup = BeautifulSoup(resp.text, "html.parser")
         links  = set()
         for link in soup.find_all('a', href=True):
+            link = link['href']
             for disallowed_link in disallows:
                 pattern = re.compile(disallowed_link, re.I)
                 if not re.match(pattern, link):
@@ -136,6 +161,9 @@ def is_valid(url):
     except TypeError:
         print ("TypeError for ", parsed)
         raise
+ 
+def tokenize():
+    pass
 
 if __name__ == "__main__":
     # testing is_valid function
@@ -155,11 +183,11 @@ if __name__ == "__main__":
     with open("/Users/einargatchalian/Downloads/YTrobots.txt", 'r') as f:
         print(parse_robots_txt_for_disallows(f))
     """
+
     url = "https://spaces.lib.uci.edu/reserve/Science"
-    resp = requests.get(url)
     flag, disallows = check_robot_permission(url)
     
-    print(extract_next_links(url, resp, disallows))
+    print(extract_next_links(url, url, disallows))
 
     #print(disallows)
 
