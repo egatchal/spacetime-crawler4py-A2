@@ -68,24 +68,18 @@ def extract_next_links(url, resp, disallows):
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
     
-    resp = requests.get(url) # gets the web page
+    resp = requests.get(url)
     #if resp.status == 200 and resp.raw_response.content:
     if resp.status_code == 200 and resp.text:
-        soup = BeautifulSoup(resp.text, "html.parser") # gets the text
+        soup = BeautifulSoup(resp.text, "html.parser")
         links  = set()
-        for link in soup.find_all('a', href=True): # iterate over all links
+        for link in soup.find_all('a', href=True):
             link = link['href']
-            parsed = urlparse(link) # get the path of the link
-            check = True
-            
-            for disallowed_link in disallows: # check if valid link
+            for disallowed_link in disallows:
                 pattern = re.compile(disallowed_link, re.I)
-                if re.match(pattern, parsed.path):
-                    check = False
-                    break
-            
-            if check:
-                links.add(link)
+                # if not pattern.match(link.get('href')):
+                if not re.match(pattern, link):
+                    links.add(link)
         return links
     return list()
 
@@ -133,7 +127,7 @@ def parse_robots_txt_for_disallows(robots_txt, user_agent='*'):
             elif key == 'disallow' and found_agents:
                 finished = True
                 if value:  # Ignore empty Disallow directives which mean allow everything
-                    disallow_paths.append(value) # might have to add a little more preprocessing
+                    disallow_paths.append(value)
                 
     return set(disallow_paths)
 
@@ -143,7 +137,7 @@ def is_valid(url):
     # There are already some conditions that return False.
     try:
         parsed = urlparse(url)
-       
+
         if parsed.scheme not in set(["http", "https"]):
             return False
 
@@ -169,8 +163,56 @@ def is_valid(url):
         print ("TypeError for ", parsed)
         raise
  
-def tokenize():
-    pass
+# # Tokenize contents of a url instead of a .txt file?
+# def tokenize(url) -> list:
+#     text_file = requests.get(url).text
+
+# Tokenize contents of a .txt file using a buffer and reading by each char
+def tokenize(text_file) -> list:
+    token_list = []
+    with open(text_file, 'r') as file:
+        while True:
+            buffer = file.read(1024)
+            if not buffer:
+                break
+            token = ''
+            for char in buffer:
+                if is_alpha_num(char):
+                    token += char.lower()
+                else:
+                    if token:
+                        token_list.append(token)
+                        token = ''
+            if token and not file.read(1): 
+                token_list.append(token)
+    return token_list
+
+# Tokenize contents of a .txt file using a buffer and reading by line
+def tokenize1(text_file) -> list:
+    token_list = []
+    with open(text_file, 'r') as file:
+        for line in file:
+            token = ''
+            for char in line:
+                if is_alpha_num(char):
+                    token += char.lower()
+                else:
+                    if token:
+                        token_list.append(token)
+                        token = ''
+            if token: 
+                token_list.append(token)
+    return token_list
+
+# Custom alpha numeric function that includes ' using regex
+def is_alpha_num(char) -> bool:
+    pattern = r"^[a-z0-9']$"
+    return re.match(pattern, char.lower()) or False
+
+# JUST TEMP COUNT FUNCTION TO TEST SAME TOKENS ARE BEING COUNTED FROM PAGE TO PAGE
+def count_common_tokens(set1, set2) -> int: # TO BE DELETED WHEN DONE COUNTING
+    common_tokens = set1.intersection(set2)
+    return len(common_tokens)
 
 if __name__ == "__main__":
     # testing is_valid function
@@ -178,24 +220,41 @@ if __name__ == "__main__":
     print(is_valid("https://archive.ics.uci.edu/"))
     print(is_valid("https://ics.uci.edu/"))
     print(is_valid("https://youtube.com/"))
-    """
-    
-    """
-    with open("/Users/einargatchalian/Downloads/robots.txt", 'r') as f:
+    with open("/Users/shika/Downloads/robots.txt", 'r') as f:
         print(parse_robots_txt_for_disallows(f))
     print()
-    with open("/Users/einargatchalian/Downloads/Arobots.txt", 'r') as f:
+    with open("/Users/shika/Downloads/Arobots.txt", 'r') as f:
         print(parse_robots_txt_for_disallows(f))
     print()
-    with open("/Users/einargatchalian/Downloads/YTrobots.txt", 'r') as f:
+    with open("/Users/shika/Downloads/YTrobots.txt", 'r') as f:
         print(parse_robots_txt_for_disallows(f))
     """
 
-    url = "https://www.wikipedia.org/"
+    url = "https://spaces.lib.uci.edu/reserve/Science"
     flag, disallows = check_robot_permission(url)
-    print(disallows)
-    print(extract_next_links(url, url, disallows))
-    print()
     
-    #print(disallows)
+    # print(extract_next_links(url, url, disallows))
 
+    # print(disallows)
+
+    # # Testing retrieving tokens from a webpage
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, "html.parser")
+    text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
+    text_content = [tag.get_text(separator=' ', strip = True) for tag in text_tags]
+    text = ' '.join(text_content)
+    # # Downloading the file since the text is now too large to pass in
+    with open('webpage_text.txt', 'w', encoding='utf-8') as file:
+        file.write(text)
+    # Testing the tokenize function with the downloaded page as a text file
+    print(tokenize("webpage_text.txt"))
+
+    # === Testing the lengths of lists being returned from a line-by-line read
+    my_list = tokenize(text)
+    print(len(my_list))
+    my_list1 = tokenize1(text)
+    print(len(my_list1))
+
+    # Testing similar tokens in the two "my_lists"
+    count = count_common_tokens(set(my_list),set(my_list1))
+    print(count)
