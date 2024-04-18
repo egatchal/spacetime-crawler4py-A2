@@ -68,16 +68,17 @@ def extract_next_links(url, resp, disallows):
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
     
-    resp = requests.get(url)
+    resp = requests.get(url) # gets the web page
     #if resp.status == 200 and resp.raw_response.content:
     if resp.status_code == 200 and resp.text:
-        soup = BeautifulSoup(resp.text, "html.parser")
+        soup = BeautifulSoup(resp.text, "html.parser") # gets the text
         links  = set()
-        for link in soup.find_all('a', href=True):
+        for link in soup.find_all('a', href=True): # iterate over all links
             link = link['href']
-            for disallowed_link in disallows:
+            parsed = urlparse(link) # get the path of the link
+            for disallowed_link in disallows: # check if valid link
                 pattern = re.compile(disallowed_link, re.I)
-                if not re.match(pattern, link):
+                if not re.match(pattern, parsed.path):
                     links.add(link)
         return links
     return list()
@@ -126,7 +127,7 @@ def parse_robots_txt_for_disallows(robots_txt, user_agent='*'):
             elif key == 'disallow' and found_agents:
                 finished = True
                 if value:  # Ignore empty Disallow directives which mean allow everything
-                    disallow_paths.append(value)
+                    disallow_paths.append(value) # might have to add a little more preprocessing
                 
     return set(disallow_paths)
 
@@ -184,10 +185,11 @@ if __name__ == "__main__":
         print(parse_robots_txt_for_disallows(f))
     """
 
-    url = "https://spaces.lib.uci.edu/reserve/Science"
+    url = "https://www.wikipedia.org/"
     flag, disallows = check_robot_permission(url)
-    
+    print(disallows)
     print(extract_next_links(url, url, disallows))
-
+    print()
+    
     #print(disallows)
 
