@@ -76,10 +76,16 @@ def extract_next_links(url, resp, disallows):
         for link in soup.find_all('a', href=True): # iterate over all links
             link = link['href']
             parsed = urlparse(link) # get the path of the link
+            check = True
+            
             for disallowed_link in disallows: # check if valid link
                 pattern = re.compile(disallowed_link, re.I)
-                if not re.match(pattern, parsed.path):
-                    links.add(link)
+                if re.match(pattern, parsed.path):
+                    check = False
+                    break
+            
+            if check:
+                links.add(link)
         return links
     return list()
 
