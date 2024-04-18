@@ -18,8 +18,19 @@ def scraper(url, resp):
     if url in valid_urls or url in invalid_urls: # already searched through that url (skip)
         return []
     
-    valid_urls.add(url)
-    check_robot_permission(url)
+    try:
+        if check_robots_exists(url):
+            print("Does robot exist?")
+            # check contents of the robot.txt
+            # call check_robot_permissions
+            check_robot_permission(url)
+        # Otherwise we scrape anyways
+        extract_next_links()
+        print("Going to extract next links!")
+
+    except TypeError:
+        print("URL incorrect: ", url)
+    
     # function - "tokenize" extract all tokens here (exclude urls)
 
     links = extract_next_links(url, resp)
