@@ -18,7 +18,9 @@ def scraper(url, resp):
     if url in valid_urls or url in invalid_urls: # already searched through that url (skip)
         return []
     
-    # frunction - "tokenize" extract all tokens here (exclude urls)
+    valid_urls.add(url)
+    check_robot_permission(url)
+    # function - "tokenize" extract all tokens here (exclude urls)
 
     links = extract_next_links(url, resp)
     
@@ -52,31 +54,17 @@ def check_robot_permission(url) -> bool:
     scheme = parsed.scheme
     domain = parsed.netloc
     robots_file_url = f"{scheme}://{domain}/robots.txt"
-    # print("Scheme: ", scheme) # delete later, just to see output
-    # print("Domain: ", domain) # delete later, just to see output
-    # print(robots_file_url)
+    
     try: 
         response = requests.get(robots_file_url)
     except:
-        return True
+        return False, None
 
     if response.status_code == 200:
         robot_html_text = response.text
-        flag = false
-        for line in robot_html_text:
-            if flag:
-                tokens = line.split(": ")
-            if tokens[0] == "User-agent" and tokens[1] == '*':
-                flag = True
-            
-
-
-        # read file
-        # check EXACT file perms
-            # if correct perms, return true
-            # else return false
+        return True, parse_robots_txt_for_disallows(robot_html_text)
     else:
-        return False
+        return False, None
 
 def parse_robots_txt_for_disallows(robots_txt, user_agent='*'):
     """ Parse the robots.txt to find all disallowed paths for the given user-agent. """
