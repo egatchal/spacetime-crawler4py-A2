@@ -4,6 +4,20 @@ from bs4 import BeautifulSoup
 from utils import  normalize
 from utils.response import Response
 
+"""
+Response
+--------
+url: contains the url of the page request
+status: contains the status code of the request
+error: contains the error of the request
+raw_reponse: contains the text of the page
+
+Methods for checking traps
+--------------------------
+1. hash the content of the page (urls may be different but content same)
+2. keep track of set of urls
+3. check for repetitions within urls paths
+"""
 valid_domains = [r".*\.*ics\.uci\.edu", r".*\.*cs\.uci\.edu",
                 r".*\.*informatics\.uci\.edu", r".*\.*stat\.uci\.edu"]
 stopwords_list = set([
@@ -68,10 +82,10 @@ def extract_next_links(url, resp, disallows):
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
     
-    resp = requests.get(url) # gets the web page
     #if resp.status == 200 and resp.raw_response.content:
-    if resp.status_code == 200 and resp.text:
-        soup = BeautifulSoup(resp.text, "html.parser") # gets the text
+    text = resp.raw_response.content
+    if resp.status == 200 and text:
+        soup = BeautifulSoup(text, "html.parser") # gets the text
         links  = set()
         for link in soup.find_all('a', href=True): # iterate over all links
             link = link['href']
@@ -81,6 +95,7 @@ def extract_next_links(url, resp, disallows):
             for disallowed_link in disallows: # check if valid link
                 pattern = re.compile(disallowed_link, re.I)
                 if re.match(pattern, parsed.path):
+                    # print(f"Checked: {parsed.path}, Disallow: {pattern}")
                     check = False
                     break
             
@@ -115,7 +130,7 @@ def parse_robots_txt_for_disallows(robots_txt, user_agent='*'):
     # Split the file into lines
     for line in robots_txt.splitlines():
         # print(line)
-        line = line.split('#', 1)[0].strip()  # Remove comments and whitespace
+        line = line.split('#', 1)[0].strip()  # Defragment the url using (split '#') and take the 1st
         if not line:
             continue  # Skip empty lines
 
@@ -133,7 +148,7 @@ def parse_robots_txt_for_disallows(robots_txt, user_agent='*'):
             elif key == 'disallow' and found_agents:
                 finished = True
                 if value:  # Ignore empty Disallow directives which mean allow everything
-                    disallow_paths.append(value) # might have to add a little more preprocessing
+                    disallow_paths.append(value)
                 
     return set(disallow_paths)
 
@@ -169,7 +184,7 @@ def is_valid(url):
         print ("TypeError for ", parsed)
         raise
  
-def tokenize():
+def tokenize(url, resp):
     pass
 
 if __name__ == "__main__":
@@ -193,9 +208,8 @@ if __name__ == "__main__":
 
     url = "https://www.wikipedia.org/"
     flag, disallows = check_robot_permission(url)
-    print(disallows)
-    print(extract_next_links(url, url, disallows))
-    print()
+    links = extract_next_links(url, url, disallows)
+    
     
     #print(disallows)
 
