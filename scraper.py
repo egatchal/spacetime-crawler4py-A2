@@ -101,6 +101,32 @@ def extract_next_links(url, resp, disallows):
         return links
     return list()
 
+''' MODIFIED VERSION OF extract_next_links:
+def extract_next_links(base_url, resp, disallows):
+    links = set()
+
+    # Handle 200 OK: Directly parse content
+    if resp.status == 200 and resp.raw_response.content:
+        soup = BeautifulSoup(resp.raw_response.content, "html.parser")  # Parse the HTML content
+        for link_tag in soup.find_all('a', href=True):
+            abs_url = urljoin(base_url, link_tag['href'])  # Normalize the URL
+            if is_valid(abs_url):  # Check validity using the existing function
+                links.add(abs_url)
+
+    # Handle redirections (301, 302)
+    elif resp.status in (301, 302):
+        location = resp.headers.get('Location')
+        if location:
+            redirected_url = urljoin(base_url, location)
+            if is_valid(redirected_url):  # Validate redirected URL
+                links.add(redirected_url)
+
+    # Additional status codes could be handled here if needed
+    # For example, retrying or logging failures, etc.
+
+    return list(links)
+'''
+
 def check_robot_permission(url) -> bool:
     parsed = urlparse(url)
     scheme = parsed.scheme
