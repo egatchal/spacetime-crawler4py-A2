@@ -275,7 +275,8 @@ def tokenize100(text_file) -> list:
     token = ''
     for line in text_file:
         for char in line:
-            if is_alpha_num(char.lower()):
+            char = char.lower()
+            if is_alpha_num(char):
                 token += char
             else:
                 if token:
@@ -284,6 +285,7 @@ def tokenize100(text_file) -> list:
         if token:
             token_list.append(token)
             token = ''
+
     return token_list
 
 # Tokenize contents of a .txt file using a buffer and reading by line
