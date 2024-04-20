@@ -274,7 +274,6 @@ def tokenize100(text_file) -> list:
     token_list = []
     token = ''
     for line in text_file:
-        print("Start Line:",line)
         for char in line:
             if is_alpha_num(char.lower()):
                 token += char
@@ -282,8 +281,9 @@ def tokenize100(text_file) -> list:
                 if token:
                     token_list.append(token)
                     token = ''
-    if token:
-        token_list.append(token)
+        if token:
+            token_list.append(token)
+            token = ''
     return token_list
 
 # Tokenize contents of a .txt file using a buffer and reading by line
@@ -355,7 +355,7 @@ if __name__ == "__main__":
     """
 
     url = "https://spaces.lib.uci.edu/reserve/Science"
-    flag, disallows = check_robot_permission(url)
+    # flag, disallows = check_robot_permission(url)
     
     # print(extract_next_links(url, url, disallows))
 
@@ -365,10 +365,13 @@ if __name__ == "__main__":
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
     # soup = BeautifulSoup(response.raw_response.content, "html.parser")
+    # text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
     text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
-    text_content = [tag.get_text(separator=' ', strip = True) for tag in text_tags]
-    # text_content = [tag.get_text() for tag in text_tags]
+    # [print(tag.get_text()) for tag in text_tags]
+    text_content = [tag.get_text(separator = " ", strip = True) for tag in text_tags]
+    print(text_content)
     # text = ' '.join(text_content)
+
     # print(text_content)
     # # Downloading the file since the text is now too large to pass in
     # with open('webpage_text.txt', 'w', encoding='utf-8') as file:
