@@ -71,7 +71,7 @@ def scraper(url, resp):
 # and retrieved from the cache. These urls have to be filtered so that urls that do not 
 # have to be downloaded are not added to the frontier.
 
-def extract_next_links(url, resp, disallows):
+def extract_next_links(url, resp, disallows) -> list:
     # Implementation required.
     # url: the URL that was used to get the page
     # resp.url: the actual url of the page
@@ -144,7 +144,7 @@ def check_robot_permission(url) -> bool:
     else:
         return False, None
 
-def parse_robots_txt_for_disallows(robots_txt, user_agent='*'):
+def parse_robots_txt_for_disallows(robots_txt, user_agent='*') -> set:
     """ Parse the robots.txt to find all disallowed paths for the given user-agent. """
     disallow_paths = []
     finished = False
@@ -175,7 +175,33 @@ def parse_robots_txt_for_disallows(robots_txt, user_agent='*'):
                 
     return set(disallow_paths)
 
-def is_valid(url):
+# Find specified crawl delay value for the page being searched
+def parse_robots_txt_for_crawl_delay(robots_txt, user_agent = '*') -> int:
+    finished = False
+    found_delay = False
+    crawl_delay = None
+
+    for line in robots_txt.read().splitlines():
+        line = line.split('#', 1)[0].strip()
+        if not line:
+            continue
+
+        if ':' in line:
+            key, value = line.split(':', 1)
+            key = key.strip().lower()
+            value = value.strip() 
+            if key == "user-agent":
+                if value == user_agent and not finished:
+                    found_delay = True
+                elif found_delay:
+                    break
+            elif key == "crawl-delay" and value:
+                    crawl_delay = int(value)
+                    finished = True
+    return crawl_delay if crawl_delay and found_delay and finished else 2 # A delay of 2 (seconds) seems to be the standard delay for crawling websites
+
+
+def is_valid(url) -> bool:
     # Decide whether to crawl this url or not. 
     # If you decide to crawl it, return True; otherwise return False.
     # There are already some conditions that return False.
@@ -307,23 +333,27 @@ if __name__ == "__main__":
     # print(disallows)
 
     # # Testing retrieving tokens from a webpage
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, "html.parser")
-    text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
-    text_content = [tag.get_text(separator=' ', strip = True) for tag in text_tags]
-    text = ' '.join(text_content)
-    # # Downloading the file since the text is now too large to pass in
-    with open('webpage_text.txt', 'w', encoding='utf-8') as file:
-        file.write(text)
-    # Testing the tokenize function with the downloaded page as a text file
-    print(tokenize("webpage_text.txt"))
+    # response = requests.get(url)
+    # soup = BeautifulSoup(response.text, "html.parser")
+    # text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
+    # text_content = [tag.get_text(separator=' ', strip = True) for tag in text_tags]
+    # text = ' '.join(text_content)
+    # # # Downloading the file since the text is now too large to pass in
+    # with open('webpage_text.txt', 'w', encoding='utf-8') as file:
+    #     file.write(text)
+    # # Testing the tokenize function with the downloaded page as a text file
+    # print(tokenize("webpage_text.txt"))
 
     # === Testing the lengths of lists being returned from a line-by-line read
-    my_list = tokenize(text)
-    print(len(my_list))
-    my_list1 = tokenize1(text)
-    print(len(my_list1))
+    # my_list = tokenize(text)
+    # print(len(my_list))
+    # my_list1 = tokenize1(text)
+    # print(len(my_list1))
 
-    # Testing similar tokens in the two "my_lists"
-    count = count_common_tokens(set(my_list),set(my_list1))
-    print(count)
+    # # Testing similar tokens in the two "my_lists"
+    # count = count_common_tokens(set(my_list),set(my_list1))
+    # print(count)
+
+    # 
+    with open("/Users/shika/Downloads/nasarobots.txt", 'r') as f:
+        print("Crawl Delay is:", parse_robots_txt_for_crawl_delay(f))
