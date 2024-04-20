@@ -280,10 +280,12 @@ def tokenize100(text_file) -> list:
                 token += char
             else:
                 if token:
-                    token_list.append(token)
+                    if token not in stopwords_list:
+                        token_list.append(token)
                     token = ''
         if token:
-            token_list.append(token)
+            if token not in stopwords_list:
+                token_list.append(token)
             token = ''
 
     return token_list
