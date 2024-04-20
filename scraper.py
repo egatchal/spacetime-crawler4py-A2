@@ -200,6 +200,18 @@ def parse_robots_txt_for_crawl_delay(robots_txt, user_agent = '*') -> int:
                     finished = True
     return crawl_delay if crawl_delay and found_delay and finished else 2 # A delay of 2 (seconds) seems to be the standard delay for crawling websites
 
+# def find_all_sitemaps(robots_txt, keyword = "sitemap") -> list:
+#     sitemaps = []
+#     for line in robots_txt.read().splitlines():
+#         line = line.split('#', 1)[0].strip()
+#         if not line:
+#             continue
+#         if ':' in line:
+#             key, value = line.split(':' 1)
+#             key = key.strip().lower()
+#             if key == keyword:
+
+        
 
 def is_valid(url) -> bool:
     # Decide whether to crawl this url or not. 
@@ -257,6 +269,23 @@ def tokenize(text_file) -> list:
                 token_list.append(token)
     return token_list
 
+# Strictly testing !
+def tokenize100(text_file) -> list:
+    token_list = []
+    token = ''
+    for line in text_file:
+        print("Start Line:",line)
+        for char in line:
+            if is_alpha_num(char.lower()):
+                token += char
+            else:
+                if token:
+                    token_list.append(token)
+                    token = ''
+    if token:
+        token_list.append(token)
+    return token_list
+
 # Tokenize contents of a .txt file using a buffer and reading by line
 def tokenize1(text_file) -> list:
     token_list = []
@@ -301,7 +330,7 @@ def tokenize3(text_file) -> list:
     return token_list
 # Custom alpha numeric function that includes ' using regex
 def is_alpha_num(char) -> bool:
-    pattern = r"^[a-z0-9']$"
+    pattern = r"[a-z0-9']"
     return re.match(pattern, char.lower()) or False
 
 # JUST TEMP COUNT FUNCTION TO TEST SAME TOKENS ARE BEING COUNTED FROM PAGE TO PAGE
@@ -333,27 +362,36 @@ if __name__ == "__main__":
     # print(disallows)
 
     # # Testing retrieving tokens from a webpage
-    # response = requests.get(url)
-    # soup = BeautifulSoup(response.text, "html.parser")
-    # text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
-    # text_content = [tag.get_text(separator=' ', strip = True) for tag in text_tags]
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, "html.parser")
+    # soup = BeautifulSoup(response.raw_response.content, "html.parser")
+    text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
+    text_content = [tag.get_text(separator=' ', strip = True) for tag in text_tags]
+    # text_content = [tag.get_text() for tag in text_tags]
     # text = ' '.join(text_content)
-    # # # Downloading the file since the text is now too large to pass in
+    # print(text_content)
+    # # Downloading the file since the text is now too large to pass in
     # with open('webpage_text.txt', 'w', encoding='utf-8') as file:
-    #     file.write(text)
-    # # Testing the tokenize function with the downloaded page as a text file
+    #     file.write(text_content)
+    # Testing the tokenize function with the downloaded page as a text file
     # print(tokenize("webpage_text.txt"))
 
     # === Testing the lengths of lists being returned from a line-by-line read
-    # my_list = tokenize(text)
+    my_list = tokenize100(text_content)
+    print(my_list)
     # print(len(my_list))
-    # my_list1 = tokenize1(text)
+    # my_list1 = tokenize1("webpage_text.txt")
     # print(len(my_list1))
 
     # # Testing similar tokens in the two "my_lists"
     # count = count_common_tokens(set(my_list),set(my_list1))
     # print(count)
 
-    # 
-    with open("/Users/shika/Downloads/nasarobots.txt", 'r') as f:
-        print("Crawl Delay is:", parse_robots_txt_for_crawl_delay(f))
+
+    # Testing crawl delay function
+    # with open("/Users/shika/Downloads/nasarobots.txt", 'r') as f:
+    #     print("Crawl Delay is:", parse_robots_txt_for_crawl_delay(f))
+
+
+        # check for traps 
+            # algorithm for similarity
