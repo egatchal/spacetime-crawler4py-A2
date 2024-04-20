@@ -1,8 +1,8 @@
 import re, requests, cbor
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urljoin
 from bs4 import BeautifulSoup
 from utils import  normalize
-from utils.response import Response
+
 
 """
 Response
@@ -18,8 +18,8 @@ Methods for checking traps
 2. keep track of set of urls
 3. check for repetitions within urls paths
 """
-valid_domains = [r".*\.*ics\.uci\.edu", r".*\.*cs\.uci\.edu",
-                r".*\.*informatics\.uci\.edu", r".*\.*stat\.uci\.edu"]
+valid_domains = [r".*\.ics\.uci\.edu", r".*\.cs\.uci\.edu",
+                r".*\.informatics\.uci\.edu", r".*\.stat\.uci\.edu"]
 stopwords_list = set([
     "a", "about", "above", "after", "again", "against", "all", "am", "an", "and", 
     "any", "are", "aren't", "as", "at", "be", "because", "been", "before", "being", 
@@ -41,37 +41,41 @@ stopwords_list = set([
     "why", "why's", "with", "won't", "would", "wouldn't", "you", "you'd", "you'll", 
     "you're", "you've", "your", "yours", "yourself", "yourselves"
 ])
-valid_urls = set()
-invalid_urls = set()
-tokens = dict()
+
+url_set = set()
+content = dict()
+ics_subdomains = set()
+frequencies = dict()
 
 def scraper(url, resp):
     # robot.txt check goes here
-    
-    if not is_valid(url): # check if the url is valid
-        invalid_urls.add(url)
-        return []
-
-    if url in valid_urls or url in invalid_urls: # already searched through that url (skip)
+    if url in url_set or not is_valid(url):
         return []
     
+    # flag, disallows = check_robot_permission(url)
+    # if not flag: # cannot access page
+    #     return []
     
-    flag, disallows = check_robot_permission(url)
-    if not flag: # cannot access page
+    url_set.add(url)
+    if is_ics_subdomain(url):
+        ics_subdomains.add(url)
+    
+    if (resp.status == 200):
+        tokens = tokenize_content(resp)
+        content[url] = len(tokens)
+        compute_token_frequencies(tokens) # compute token frequencies and add to frequencies
+        save_data() 
+        links = extract_next_links(url, resp)
+        return [link for link in links if is_valid(link, [])]
+    else:
         return []
-    
-    # function - "tokenize" extract all tokens here (exclude urls)
-
-    links = extract_next_links(url, resp, disallows)
-    
-    return [link for link in links if is_valid(link)]
 
 # This function needs to return a list of urls that are scraped from the response. 
 # (An empty list for responses that are empty). These urls will be added to the Frontier 
 # and retrieved from the cache. These urls have to be filtered so that urls that do not 
 # have to be downloaded are not added to the frontier.
 
-def extract_next_links(url, resp, disallows) -> list:
+def extract_next_links(url, resp) -> list:
     # Implementation required.
     # url: the URL that was used to get the page
     # resp.url: the actual url of the page
@@ -84,22 +88,18 @@ def extract_next_links(url, resp, disallows) -> list:
     
     #if resp.status == 200 and resp.raw_response.content:
     text = resp.raw_response.content
+    new_urls  = set()
     if resp.status == 200 and text:
         soup = BeautifulSoup(text, "html.parser") # gets the text
-        links  = set()
-        for link in soup.find_all('a', href=True):
-            link = link['href']
-            for disallowed_link in disallows:
-                pattern = re.compile(disallowed_link, re.I)
-                if re.match(pattern, parsed.path):
-                    # print(f"Checked: {parsed.path}, Disallow: {pattern}")
-                    check = False
-                    break
-            
-            if check:
-                links.add(link)
-        return links
-    return list()
+        for tag in soup.find_all('a', href=True):
+            new_url = tag['href']
+            absolute_url = urljoin(url, new_url)
+            absolute_url = absolute_url.split('#', 1)[0].strip() # defragment the url
+            absolute_url = normalize(absolute_url)
+            if absolute_url not in url_set:
+                new_urls.add(absolute_url)
+        return new_urls
+    return new_urls
 
 ''' MODIFIED VERSION OF extract_next_links:
 def extract_next_links(base_url, resp, disallows):
@@ -211,13 +211,19 @@ def parse_robots_txt_for_crawl_delay(robots_txt, user_agent = '*') -> int:
 #             key = key.strip().lower()
 #             if key == keyword:
 
-        
+def is_ics_subdomain(url):
+    parsed = urlparse(url)
+    if (re.match(valid_domains[0], parsed.netloc)):
+        return True
+    return False
 
-def is_valid(url) -> bool:
+
+def is_valid(url, disallows = []) -> bool:
     # Decide whether to crawl this url or not. 
     # If you decide to crawl it, return True; otherwise return False.
     # There are already some conditions that return False.
     try:
+
         parsed = urlparse(url)
 
         if parsed.scheme not in set(["http", "https"]):
@@ -229,8 +235,14 @@ def is_valid(url) -> bool:
             re.match(valid_domains[3], parsed.netloc)): # check for valid domain
                 return False
         
-        # check for repetition within the path
-
+        if check_calendar(url):
+            return False
+        
+        for disallowed_link in disallows:
+                pattern = re.compile(disallowed_link, re.I)
+                if re.match(pattern, parsed.path):
+                    return False
+        
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
@@ -249,31 +261,15 @@ def is_valid(url) -> bool:
 # def tokenize(url) -> list:
 #     text_file = requests.get(url).text
 
-# Tokenize contents of a .txt file using a buffer and reading by each char
-def tokenize(text_file) -> list:
-    token_list = []
-    with open(text_file, 'r') as file:
-        while True:
-            buffer = file.read(1024)
-            if not buffer:
-                break
-            token = ''
-            for char in buffer:
-                if is_alpha_num(char):
-                    token += char.lower()
-                else:
-                    if token:
-                        token_list.append(token)
-                        token = ''
-            if token and not file.read(1): 
-                token_list.append(token)
-    return token_list
+# Tokenize contents of a .txt file using a buffer and reading by each char!
+def tokenize_content(resp) -> list:
+    soup = BeautifulSoup(resp.raw_response.content, "html.parser")
+    text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
+    text_content = [tag.get_text(separator = " ", strip = True) for tag in text_tags]
 
-# Strictly testing !
-def tokenize100(text_file) -> list:
     token_list = []
     token = ''
-    for line in text_file:
+    for line in text_content:
         for char in line:
             char = char.lower()
             if is_alpha_num(char):
@@ -290,53 +286,38 @@ def tokenize100(text_file) -> list:
 
     return token_list
 
-# Tokenize contents of a .txt file using a buffer and reading by line
-def tokenize1(text_file) -> list:
-    token_list = []
-    with open(text_file, 'r') as file:
-        for line in file:
-            token = ''
-            for char in line:
-                if is_alpha_num(char):
-                    token += char.lower()
-                else:
-                    if token:
-                        token_list.append(token)
-                        token = ''
-            if token: 
-                token_list.append(token)
-    return token_list
+def save_data():
+    num_pages = len(url_set)
+    longest_page = max(content, key=content.get)
+    top_50 = sorted(frequencies.items(), key=lambda x: (x[0])) # sort in alphabetical order
+    top_50 = sorted(frequencies, key=lambda x: (x[1]), reverse=True) [:50]
+    statistics = {"Unique Pages":num_pages, "Longest Page":longest_page, "Top 50":top_50, "ICS domain":ics_subdomains}
+    with open('statistics.txt', 'w') as file:
+        # Write the statistics data to the file
+        for key, value in statistics.items():
+            file.write(f"{key}: {value}\n")
 
-# Tokenize contents of a .txt using a buffer of chars
-def tokenize3(text_file) -> list:
-    buffer_size = 1024 # can be changed to whatever you want
-    last_line = False # last line flag
-    token_list = []
-    
-    with open(text_file, 'r') as file:
-        token = ''
-        while (not last_line):
-            buffer = file.read(buffer_size).lower()
-            if (len(buffer) < buffer_size): # check if we're on the last line by checking the buffer size
-                last_line = True
-            
-            for char in buffer:
-                if is_alpha_num(char):
-                    token += char.lower()
-                else:
-                    if token:
-                        token_list.append(token)
-                        token = ''
-            
-            if last_line and token: 
-                token_list.append(token)
+def compute_token_frequencies(tokens):
+    for token in tokens:
+        if token in frequencies:
+            frequencies[token] += 1
+        else:
+            frequencies[token] = 1
+    # save the frequencies here
 
-    return token_list
 # Custom alpha numeric function that includes ' using regex
 def is_alpha_num(char) -> bool:
     pattern = r"[a-z0-9']"
     return re.match(pattern, char.lower()) or False
 
+def check_calendar(url) -> bool:
+    parse = urlparse(url)
+    parts = parse.path.split("/")
+    for i in range(len(parts)-1):
+        if parts[i] == parts[i+1]:
+            return True
+    return False
+    
 # JUST TEMP COUNT FUNCTION TO TEST SAME TOKENS ARE BEING COUNTED FROM PAGE TO PAGE
 def count_common_tokens(set1, set2) -> int: # TO BE DELETED WHEN DONE COUNTING
     common_tokens = set1.intersection(set2)
@@ -345,7 +326,7 @@ def count_common_tokens(set1, set2) -> int: # TO BE DELETED WHEN DONE COUNTING
 if __name__ == "__main__":
     # testing is_valid function
     """
-    print(is_valid("https://archive.ics.uci.edu/"))
+    print(is_valid("https://archive.ics.uci.edu/path/path/path/path"))
     print(is_valid("https://ics.uci.edu/"))
     print(is_valid("https://youtube.com/"))
     with open("/Users/shika/Downloads/robots.txt", 'r') as f:
@@ -358,34 +339,34 @@ if __name__ == "__main__":
         print(parse_robots_txt_for_disallows(f))
     """
 
-    url = "https://spaces.lib.uci.edu/reserve/Science"
-    # flag, disallows = check_robot_permission(url)
+    # url = "https://spaces.lib.uci.edu/reserve/Science"
+    # # flag, disallows = check_robot_permission(url)
     
-    # print(extract_next_links(url, url, disallows))
+    # # print(extract_next_links(url, url, disallows))
 
-    # print(disallows)
-
-    # # Testing retrieving tokens from a webpage
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, "html.parser")
-    # soup = BeautifulSoup(response.raw_response.content, "html.parser")
+    # # print(disallows)
+    print(is_ics_domain("https://archive.ics.uci.edu/path/path/path/"))
+    # # # Testing retrieving tokens from a webpage
+    # response = requests.get(url)
+    # soup = BeautifulSoup(response.text, "html.parser")
+    # # soup = BeautifulSoup(response.raw_response.content, "html.parser")
+    # # text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
     # text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
-    text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
-    # [print(tag.get_text()) for tag in text_tags]
-    text_content = [tag.get_text(separator = " ", strip = True) for tag in text_tags]
-    print(text_content)
-    # text = ' '.join(text_content)
-
+    # # [print(tag.get_text()) for tag in text_tags]
+    # text_content = [tag.get_text(separator = " ", strip = True) for tag in text_tags]
     # print(text_content)
-    # # Downloading the file since the text is now too large to pass in
-    # with open('webpage_text.txt', 'w', encoding='utf-8') as file:
-    #     file.write(text_content)
-    # Testing the tokenize function with the downloaded page as a text file
-    # print(tokenize("webpage_text.txt"))
+    # # text = ' '.join(text_content)
 
-    # === Testing the lengths of lists being returned from a line-by-line read
-    my_list = tokenize100(text_content)
-    print(my_list)
+    # # print(text_content)
+    # # # Downloading the file since the text is now too large to pass in
+    # # with open('webpage_text.txt', 'w', encoding='utf-8') as file:
+    # #     file.write(text_content)
+    # # Testing the tokenize function with the downloaded page as a text file
+    # # print(tokenize("webpage_text.txt"))
+
+    # # === Testing the lengths of lists being returned from a line-by-line read
+    # my_list = tokenize100(text_content)
+    # print(my_list)
     # print(len(my_list))
     # my_list1 = tokenize1("webpage_text.txt")
     # print(len(my_list1))
