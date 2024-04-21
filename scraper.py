@@ -169,7 +169,7 @@ def check_robot_permission(url) -> bool:
 
     if response.status_code == 200:
         robot_html_text = response.text
-        return True, parse_robots_txt_for_disallows(robot_html_text)
+        return True, parse_robots_txt_for_disallows(robot_html_text), 
     else:
         return False, None
 
@@ -279,10 +279,10 @@ def is_valid(url, disallows = []) -> bool:
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
-            + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
+            + r"|wav|avi|mov|mpeg|mpg|ram|m4v|mkv|ogg|ogv|pdf"
             + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
-            + r"|epub|dll|cnf|tgz|sha1"
+            + r"|epub|dll|cnf|tgz|sha1|war|img"
             + r"|thmx|mso|arff|rtf|jar|csv"
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
 
