@@ -347,23 +347,23 @@ def save_data():
     top_50 = sorted(frequencies.items(), key=lambda x: (x[0])) # sort in alphabetical order
     top_50 = sorted(top_50, key=lambda x: (x[1]), reverse=True) [:50]
     statistics = {"Unique Pages":num_pages, "Longest Page":longest_page, "Top 50":top_50, "ICS domain":ics_subdomains}
-    with open('statistics.txt', 'w') as file:
+    with open('data_statistics.txt', 'w') as file:
         # Write the statistics data to the file
         for key, value in statistics.items():
             file.write(f"{key}: {value}\n")
-    with open('unique_urls.txt', 'w') as file:
+    with open('data_unique_urls.txt', 'w') as file:
         # Write the statistics data to the file
         for i, url in enumerate(valid_set):
             file.write(f"{i}: {url}\n")
-    with open('frequencies.txt', 'w') as file:
+    with open('data_frequencies.txt', 'w') as file:
         # Write the statistics data to the file
         for k, v in frequencies.items():
             file.write(f"{k}: {v}\n")
-    with open('content.txt', 'w') as file:
+    with open('data_content.txt', 'w') as file:
         # Write the statistics data to the file
         for k, v in content.items():
             file.write(f"{k}: {v}\n")
-    with open('content_sets.txt', 'w') as file:
+    with open('data_content_sets.txt', 'w') as file:
         # Write the statistics data to the file
         for i, content_set in enumerate(content_sets):
             file.write(f"{i}: {content_set}\n")
