@@ -245,32 +245,7 @@ def is_valid(url) -> bool:
         print ("TypeError for ", parsed)
         raise
  
-# # Tokenize contents of a url instead of a .txt file?
-# def tokenize(url) -> list:
-#     text_file = requests.get(url).text
-
-# Tokenize contents of a .txt file using a buffer and reading by each char
 def tokenize(text_file) -> list:
-    token_list = []
-    with open(text_file, 'r') as file:
-        while True:
-            buffer = file.read(1024)
-            if not buffer:
-                break
-            token = ''
-            for char in buffer:
-                if is_alpha_num(char):
-                    token += char.lower()
-                else:
-                    if token:
-                        token_list.append(token)
-                        token = ''
-            if token and not file.read(1): 
-                token_list.append(token)
-    return token_list
-
-# Strictly testing !
-def tokenize100(text_file) -> list:
     token_list = []
     token = ''
     for line in text_file:
@@ -287,51 +262,8 @@ def tokenize100(text_file) -> list:
             if token not in stopwords_list:
                 token_list.append(token)
             token = ''
-
     return token_list
 
-# Tokenize contents of a .txt file using a buffer and reading by line
-def tokenize1(text_file) -> list:
-    token_list = []
-    with open(text_file, 'r') as file:
-        for line in file:
-            token = ''
-            for char in line:
-                if is_alpha_num(char):
-                    token += char.lower()
-                else:
-                    if token:
-                        token_list.append(token)
-                        token = ''
-            if token: 
-                token_list.append(token)
-    return token_list
-
-# Tokenize contents of a .txt using a buffer of chars
-def tokenize3(text_file) -> list:
-    buffer_size = 1024 # can be changed to whatever you want
-    last_line = False # last line flag
-    token_list = []
-    
-    with open(text_file, 'r') as file:
-        token = ''
-        while (not last_line):
-            buffer = file.read(buffer_size).lower()
-            if (len(buffer) < buffer_size): # check if we're on the last line by checking the buffer size
-                last_line = True
-            
-            for char in buffer:
-                if is_alpha_num(char):
-                    token += char.lower()
-                else:
-                    if token:
-                        token_list.append(token)
-                        token = ''
-            
-            if last_line and token: 
-                token_list.append(token)
-
-    return token_list
 # Custom alpha numeric function that includes ' using regex
 def is_alpha_num(char) -> bool:
     pattern = r"[a-z0-9']"
