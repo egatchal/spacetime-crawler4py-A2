@@ -351,6 +351,22 @@ def save_data():
         # Write the statistics data to the file
         for key, value in statistics.items():
             file.write(f"{key}: {value}\n")
+    with open('unique_urls.txt', 'w') as file:
+        # Write the statistics data to the file
+        for i, url in enumerate(valid_set):
+            file.write(f"{i}: {url}\n")
+    with open('frequencies.txt', 'w') as file:
+        # Write the statistics data to the file
+        for k, v in frequencies.items():
+            file.write(f"{k}: {v}\n")
+    with open('content.txt', 'w') as file:
+        # Write the statistics data to the file
+        for k, v in content.items():
+            file.write(f"{k}: {v}\n")
+    with open('content_sets.txt', 'w') as file:
+        # Write the statistics data to the file
+        for i, content_set in enumerate(content_sets):
+            file.write(f"{i}: {content_set}\n")
 
 def compute_token_frequencies(tokens):
     for token in tokens:
