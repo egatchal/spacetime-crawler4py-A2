@@ -49,6 +49,8 @@ content = dict()
 ics_subdomains = set()
 frequencies = dict()
 
+content_sets = []
+
 def scraper(url, resp):
     # robot.txt check goes here
     if url in valid_set or url in invalid_set:
@@ -307,6 +309,29 @@ def tokenize_content(resp) -> list:
             token = ''
 
     return token_list
+
+def jaccard_similarity(set1, set2):
+    """Calculate the Jaccard Similarity between two sets."""
+    intersection = set1.intersection(set2)
+    union = set1.union(set2)
+    return len(intersection) / len(union) if union else 0
+
+def check_content(new_content_set):
+    """Check if the new content set is exact or approximately similar to existing sets."""
+    similarity_threshold = 0.5  # Define a threshold for similarity
+
+    # Check for exact match first
+    if new_content_set in content_sets:
+        return False  # Exact match found, content is not unique
+
+    # Check for approximate similarity
+    for content_set in content_sets:
+        if jaccard_similarity(new_content_set, content_set) > similarity_threshold:
+            return False  # Similar content found, content is not unique
+
+    # No match or similarity found, add to the list of content sets
+    content_sets.append(new_content_set)
+    return True  # Content is unique
 
 def save_data():
     num_pages = len(valid_set)
