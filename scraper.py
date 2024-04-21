@@ -42,32 +42,49 @@ stopwords_list = set([
     "you're", "you've", "your", "yours", "yourself", "yourselves"
 ])
 
-url_set = set()
+valid_set = set()
+invalid_set = set()
+
 content = dict()
 ics_subdomains = set()
 frequencies = dict()
 
 def scraper(url, resp):
     # robot.txt check goes here
-    if url in url_set or not is_valid(url):
+    if url in valid_set or url in invalid_set:
         return []
     
-    # flag, disallows = check_robot_permission(url)
-    # if not flag: # cannot access page
-    #     return []
+    if not is_valid(url):
+        invalid_set.add(url)
+        return []
     
-    url_set.add(url)
-    if is_ics_subdomain(url):
-        ics_subdomains.add(url)
+    flag, disallows = check_robot_permission(url)
+    if not flag: # cannot access page
+        invalid_set.add(url)
+        return []
     
-    if (resp.status == 200):
+    if (resp.status == 200 and resp.raw_response.content):
+        valid_set.add(url)
+        if is_ics_subdomain(url):
+            ics_subdomains.add(url)
+
         tokens = tokenize_content(resp)
         content[url] = len(tokens)
         compute_token_frequencies(tokens) # compute token frequencies and add to frequencies
         save_data() 
         links = extract_next_links(url, resp)
-        return [link for link in links if is_valid(link, [])]
+        return [link for link in links if is_valid(link, disallows)]
+    elif resp.status in set([301, 302]) and resp.raw_response.url:
+        location = resp.raw_response.url
+        if location:
+            redirected_url = urljoin(url, location)
+            if redirected_url not in valid_set and redirected_url not in invalid_set:
+                return [redirected_url]
+        else:
+            invalid_set.add(url)
+            return []
     else:
+        invalid_set.add(url)
         return []
 
 # This function needs to return a list of urls that are scraped from the response. 
@@ -89,17 +106,18 @@ def extract_next_links(url, resp) -> list:
     #if resp.status == 200 and resp.raw_response.content:
     text = resp.raw_response.content
     new_urls  = set()
-    if resp.status == 200 and text:
-        soup = BeautifulSoup(text, "html.parser") # gets the text
-        for tag in soup.find_all('a', href=True):
-            new_url = tag['href']
-            absolute_url = urljoin(url, new_url)
-            absolute_url = absolute_url.split('#', 1)[0].strip() # defragment the url
-            absolute_url = normalize(absolute_url)
-            if absolute_url not in url_set:
-                new_urls.add(absolute_url)
-        return new_urls
-    return new_urls
+
+    soup = BeautifulSoup(text, "html.parser") # gets the text
+    for tag in soup.find_all('a', href=True):
+        new_url = tag['href']
+        absolute_url = urljoin(url, new_url)
+        absolute_url = absolute_url.split('#', 1)[0].strip() # defragment the url
+        absolute_url = normalize(absolute_url)
+        if absolute_url not in valid_set and absolute_url not in invalid_set:
+            new_urls.add(absolute_url)
+
+    return list(new_urls)
+    
 
 ''' MODIFIED VERSION OF extract_next_links:
 def extract_next_links(base_url, resp, disallows):
@@ -243,9 +261,9 @@ def is_valid(url, disallows = []) -> bool:
             return False
         
         for disallowed_link in disallows:
-                pattern = re.compile(disallowed_link, re.I)
-                if re.match(pattern, parsed.path):
-                    return False
+            pattern = re.compile(disallowed_link, re.I)
+            if re.match(pattern, parsed.path):
+                return False
         
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
@@ -291,10 +309,10 @@ def tokenize_content(resp) -> list:
     return token_list
 
 def save_data():
-    num_pages = len(url_set)
+    num_pages = len(valid_set)
     longest_page = max(content, key=content.get)
     top_50 = sorted(frequencies.items(), key=lambda x: (x[0])) # sort in alphabetical order
-    top_50 = sorted(frequencies, key=lambda x: (x[1]), reverse=True) [:50]
+    top_50 = sorted(top_50, key=lambda x: (x[1]), reverse=True) [:50]
     statistics = {"Unique Pages":num_pages, "Longest Page":longest_page, "Top 50":top_50, "ICS domain":ics_subdomains}
     with open('statistics.txt', 'w') as file:
         # Write the statistics data to the file
