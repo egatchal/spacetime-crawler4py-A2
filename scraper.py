@@ -39,13 +39,17 @@ stopwords_list = set([
     "we", "we'd", "we'll", "we're", "we've", "were", "weren't", "what", "what's", 
     "when", "when's", "where", "where's", "which", "while", "who", "who's", "whom", 
     "why", "why's", "with", "won't", "would", "wouldn't", "you", "you'd", "you'll", 
-    "you're", "you've", "your", "yours", "yourself", "yourselves"
+    "you're", "you've", "your", "yours", "yourself", "yourselves", "b", "c", "d", "e", 
+    "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", 
+    "w", "x", "y", "z"
 ])
 
 valid_set = set()
 invalid_set = set()
 
+content_sets = set()
 content = dict()
+
 ics_subdomains = set()
 frequencies = dict()
 
@@ -71,9 +75,14 @@ def scraper(url, resp):
             ics_subdomains.add(url)
 
         tokens = tokenize_content(resp)
+        if (not check_content(set(tokens))):
+            invalid_set.add(url)
+            return []
+        
         content[url] = len(tokens)
         compute_token_frequencies(tokens) # compute token frequencies and add to frequencies
-        save_data() 
+        save_data()
+
         links = extract_next_links(url, resp)
         return [link for link in links if is_valid(link, disallows)]
     elif resp.status in set([301, 302]) and resp.raw_response.url:
@@ -316,9 +325,8 @@ def jaccard_similarity(set1, set2):
     union = set1.union(set2)
     return len(intersection) / len(union) if union else 0
 
-def check_content(new_content_set):
+def check_content(new_content_set, similarity_threshold = 0.8):
     """Check if the new content set is exact or approximately similar to existing sets."""
-    similarity_threshold = 0.5  # Define a threshold for similarity
 
     # Check for exact match first
     if new_content_set in content_sets:
