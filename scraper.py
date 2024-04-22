@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from utils import  normalize
 from tokenize_words import tokenize_content, token_frequencies
 from simhasing import sim_hash, compute_sim_hash_similarity
+import time
 
 """
 Response
@@ -34,19 +35,20 @@ global_frequencies = dict()
 
 def scraper(url, resp):
     # robot.txt check goes here
-    if url in valid_set or url in invalid_set:
-        return []
+    # if url in valid_set or url in invalid_set:
+    #     return []
     
-    if not is_valid(url):
-        invalid_set.add(url)
-        return []
+    # if not is_valid(url):
+    #     invalid_set.add(url)
+    #     return []
     
-    flag, disallows = check_robot_permission(url)
-    if not flag: # cannot access page
-        invalid_set.add(url)
-        return []
+    # flag, disallows = check_robot_permission(url)
+    # if not flag: # cannot access page
+    #     invalid_set.add(url)
+    #     return []
     try:
-        if (resp.status == 200 and resp.raw_response and resp.raw_response.content):
+        # if (resp.status == 200 and resp.raw_response and resp.raw_response.content):
+        if (resp.status_code == 200 and resp.raw_response and resp.raw_response.content): # jeff changed
             tokens = tokenize_content(resp) # get tokens
             frequencies = token_frequencies(tokens) # compute token frequencies
             hash_vector = sim_hash(frequencies) # compute the hash for the content
@@ -65,7 +67,8 @@ def scraper(url, resp):
             save_data()
 
             return [link for link in links if is_valid(link, disallows)]
-        elif resp.status in set([301, 302]) and resp.raw_response and resp.raw_response.url:
+        # elif resp.status in set([301, 302]) and resp.raw_response and resp.raw_response.url:
+        elif resp.status_code in set([301, 302]) and resp.raw_response and resp.raw_response.url: # jeff changed
             location = resp.raw_response.url
             if location:
                 redirected_url = create_absolute_url(url, location)
@@ -76,12 +79,35 @@ def scraper(url, resp):
             else:
                 invalid_set.add(url)
                 return []
+
+        elif resp.status_code == 429:
+            new_resp = retry_crawl(url, 5, 1)
+            if new_resp.status_code == 200:
+                return scraper(url, new_resp)
+            else:
+                invalid_set.add(url)
+                return []
         else:
             invalid_set.add(url)
             return []
     except:
         invalid_set.add(url)
         return []
+
+def retry_crawl(url, max_retries, time_delay):
+    delay = time_delay
+    for tries in range(1, max_retries+1):
+        resp = requests.get(url)
+        if resp.status_code == 200:
+            return resp
+        elif resp.status_code == 429:
+            retry_after = resp.headers.get("Retry-After", None)
+            wait = int(retry_after) if retry_after else delay
+            time.sleep(wait)
+            delay *= 2
+            # print(delay) # just to see if its working
+    return
+
 
 # This function needs to return a list of urls that are scraped from the response. 
 # (An empty list for responses that are empty). These urls will be added to the Frontier 
@@ -259,7 +285,7 @@ def is_valid(url, disallows = []) -> bool:
  
 # Tokenize contents of a .txt file using a buffer and reading by each char!
 
-def check_content(new_hash_vector, similarity_threshold = 0.8):
+def check_content(new_hash_vector, similarity_threshold = 0.95):
     """Check if the new content set is exact or approximately similar to existing sets."""
 
     # Check for exact match first
@@ -389,8 +415,12 @@ if __name__ == "__main__":
     #     print("Crawl Delay is:", parse_robots_txt_for_crawl_delay(f))
 
     # Testing gathering sitemaps
-    with open("/Users/shika/Downloads/robots.txt", 'r') as txt_file:
-        print("List of sitemaps:",len(find_all_sitemaps(txt_file)))
+    # with open("/Users/shika/Downloads/robots.txt", 'r') as txt_file:
+    #     print("List of sitemaps:",len(find_all_sitemaps(txt_file)))
 
-        # check for traps 
-            # algorithm for similarity
+    # Testing 429 error
+    url = "https://httpbin.org/status/429"
+    resp = requests.get(url)
+    print(resp.status_code)
+    scraper(url, resp)
+    print("Done")
