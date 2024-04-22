@@ -19,8 +19,8 @@ Methods for checking traps
 2. keep track of set of urls
 3. check for repetitions within urls paths
 """
-valid_domains = [r".*\.ics\.uci\.edu", r".*\.cs\.uci\.edu",
-                r".*\.informatics\.uci\.edu", r".*\.stat\.uci\.edu"]
+valid_domains = [r"^((.*\.)*ics\.uci\.edu)$", r"^((.*\.)*cs\.uci\.edu)$",
+                r"^((.*\.)*informatics\.uci\.edu)$", r"^((.*\.)*stat\.uci\.edu)$"]
 
 valid_set = set()
 invalid_set = set()
@@ -51,7 +51,7 @@ def scraper(url, resp):
         frequencies = token_frequencies(tokens) # compute token frequencies
         hash_vector = sim_hash(frequencies) # compute the hash for the content
         total_tokens = len(tokens)
-        if not check_content(hash_vector) or total_tokens < 250 or total_tokens > 10000000: # check if the content is unique or does not meet thresholds
+        if not check_content(hash_vector, similarity_threshold=.95) or total_tokens < 250: # check if the content is unique or does not meet thresholds
             invalid_set.add(url)
             return []
         
@@ -246,9 +246,9 @@ def is_valid(url, disallows = []) -> bool:
             + r"|wav|avi|mov|mpeg|mpg|ram|m4v|mkv|ogg|ogv|pdf"
             + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
-            + r"|epub|dll|cnf|tgz|sha1|war|img|apk|py|cp|h"
+            + r"|epub|dll|cnf|tgz|sha1|war|img|apk|py|cp|h|ff"
             + r"|thmx|mso|arff|rtf|jar|csv|bib|java|m|cc|odp|class|mexglx"
-            + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
+            + r"|rm|smil|wmv|swf|wma|zip|rar|gz|pov|sh|c)$", parsed.path.lower())
 
     except TypeError:
         print ("TypeError for ", parsed)

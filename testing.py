@@ -2,6 +2,7 @@ import requests, re
 from bs4 import BeautifulSoup
 from simhasing import sim_hash, compute_sim_hash_similarity
 from scraper import check_for_repeating_dirs, create_absolute_url
+from urllib.parse import urlparse, urljoin
 stopwords_list = set([
     "a", "about", "above", "after", "again", "against", "all", "am", "an", "and", 
     "any", "are", "aren't", "as", "at", "be", "because", "been", "before", "being", 
@@ -25,6 +26,14 @@ stopwords_list = set([
     "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", 
     "w", "x", "y", "z"
 ])
+
+def check_url(url) -> bool:
+    parsed = urlparse(url)
+    domain = parsed.netloc
+    pattern = r"^((.*\.)*ics\.uci\.edu)$"
+    if re.match(pattern, domain):
+        return True
+    return False
 
 def tokenize_content(resp) -> list:
     soup = BeautifulSoup(resp.text, "html.parser")
@@ -83,5 +92,6 @@ if __name__ == "__main__":
     print(compute_sim_hash_similarity(hash1, hash2))
     # http://http:www.ics.uci.edu/~jacobson/ics21/LabManual/00-LabManual.html
     print(check_for_repeating_dirs("https://www.cs.uci.edu/path/lies/beef"))
-    print(create_absolute_url("https://www.ics.uci.edu/", "https://www.cs.uci.edu/~jacobson/ics21/LabManual/00-LabMa nual.html"))
+    print(check_url("https://ics.uci.edu/employment/employ_distinguished.php"))
+
     

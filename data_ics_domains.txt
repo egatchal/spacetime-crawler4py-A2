@@ -1,11 +1,1 @@
-https://mds.ics.uci.edu: 6
-https://statconsulting.ics.uci.edu: 1
-http://www.ics.uci.edu: 50
-https://www.ics.uci.edu: 20
-http://mhcid.ics.uci.edu: 2
-https://mhcid.ics.uci.edu: 6
-https://mse.ics.uci.edu: 2
-https://mswe.ics.uci.edu: 3
-http://www-db.ics.uci.edu: 1
-https://mcs.ics.uci.edu: 9
-https://hpi.ics.uci.edu: 1
+https://mds.ics.uci.edu: 7
