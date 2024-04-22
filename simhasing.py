@@ -18,7 +18,7 @@ def sim_hash(frequencies):
             binary_vector.append(1)
         else:
             binary_vector.append(0)
-    return binary_vector
+    return tuple(binary_vector)
 
 def compute_sim_hash_similarity(vector1, vector2):
     count = 0

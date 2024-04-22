@@ -50,14 +50,14 @@ def scraper(url, resp):
         tokens = tokenize_content(resp) # get tokens
         frequencies = token_frequencies(tokens) # compute token frequencies
         hash_vector = sim_hash(frequencies) # compute the hash for the content
-
-        if not check_content(hash_vector): # check if the content is unique
+        total_tokens = len(tokens)
+        if not check_content(hash_vector) or total_tokens < 250 or total_tokens > 10000000: # check if the content is unique or does not meet thresholds
             invalid_set.add(url)
             return []
         
         valid_set.add(url)
         ics_subdomain(url)
-        content[url] = len(tokens)
+        content[url] = total_tokens
         content_hashes.add(hash_vector)
         add_token_to_frequencies(tokens)
     
@@ -99,7 +99,6 @@ def extract_next_links(url, resp) -> list:
     #if resp.status == 200 and resp.raw_response.content:
     text = resp.raw_response.content
     new_urls  = set()
-
     soup = BeautifulSoup(text, "html.parser") # gets the text
     for tag in soup.find_all('a', href=True):
         if tag.get('href'):
@@ -107,7 +106,8 @@ def extract_next_links(url, resp) -> list:
             absolute_url = create_absolute_url(url, new_url)
             if absolute_url not in valid_set and absolute_url not in invalid_set and is_valid(absolute_url):
                 new_urls.add(absolute_url)
-
+            else:
+                invalid_set.add(absolute_url)
     return list(new_urls)
     
 def create_absolute_url(base_url, new_url):
@@ -254,10 +254,6 @@ def is_valid(url, disallows = []) -> bool:
         print ("TypeError for ", parsed)
         raise
  
-# # Tokenize contents of a url instead of a .txt file?
-# def tokenize(url) -> list:
-#     text_file = requests.get(url).text
-
 # Tokenize contents of a .txt file using a buffer and reading by each char!
 
 def check_content(new_hash_vector, similarity_threshold = 0.8):
@@ -296,14 +292,15 @@ def save_data():
         # Write the statistics data to the file
         for k, v in content.items():
             file.write(f"{k}: {v}\n")
-    with open('data_content_sets.txt', 'w') as file:
+    with open('data_ics_domains.txt', 'w') as file:
         # Write the statistics data to the file
-        for i, content_set in enumerate(content_sets):
-            file.write(f"{i}: {content_set}\n")
+        for k, v in ics_subdomains.items():
+            file.write(f"{k}: {v}\n")
+    
 
 def add_token_to_frequencies(tokens):
     for token in tokens:
-        if token in tokens:
+        if token in global_frequencies:
             global_frequencies[token] += 1
         else:
             global_frequencies[token] = 1
