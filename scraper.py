@@ -50,7 +50,7 @@ invalid_set = set()
 content_sets = set()
 content = dict()
 
-ics_subdomains = set()
+ics_subdomains = dict()
 frequencies = dict()
 
 content_sets = []
@@ -71,8 +71,7 @@ def scraper(url, resp):
     
     if (resp.status == 200 and resp.raw_response.content):
         valid_set.add(url)
-        if is_ics_subdomain(url):
-            ics_subdomains.add(url)
+        ics_subdomain(url)
 
         tokens = tokenize_content(resp)
         if (not check_content(set(tokens))):
@@ -88,6 +87,8 @@ def scraper(url, resp):
     elif resp.status in set([301, 302]) and resp.raw_response.url:
         location = resp.raw_response.url
         if location:
+            valid_set.add(url)
+            ics_subdomain(url)
             redirected_url = urljoin(url, location)
             if redirected_url not in valid_set and redirected_url not in invalid_set:
                 return [redirected_url]
@@ -244,11 +245,14 @@ def find_all_sitemaps(robots_txt, keyword = "sitemap") -> list:
     return sitemaps
 
 
-def is_ics_subdomain(url):
+def ics_subdomain(url):
     parsed = urlparse(url)
     if (re.match(valid_domains[0], parsed.netloc)):
-        return True
-    return False
+        path = f"{parsed.scheme}://{parsed.netloc}"
+        if path in ics_subdomains:
+            ics_subdomains[path] += 1
+        else:
+            ics_subdomains[path] = 1
 
 
 def is_valid(url, disallows = []) -> bool:
@@ -282,8 +286,8 @@ def is_valid(url, disallows = []) -> bool:
             + r"|wav|avi|mov|mpeg|mpg|ram|m4v|mkv|ogg|ogv|pdf"
             + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
-            + r"|epub|dll|cnf|tgz|sha1|war|img"
-            + r"|thmx|mso|arff|rtf|jar|csv"
+            + r"|epub|dll|cnf|tgz|sha1|war|img|apk|py|cp|h"
+            + r"|thmx|mso|arff|rtf|jar|csv|bib|java|m|cc|odp|class|mexglx"
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
 
     except TypeError:
@@ -351,7 +355,7 @@ def save_data():
         # Write the statistics data to the file
         for key, value in statistics.items():
             file.write(f"{key}: {value}\n")
-    with open('data_unique_urls.txt', 'w') as file:
+    with open('data_valid_urls.txt', 'w') as file:
         # Write the statistics data to the file
         for i, url in enumerate(valid_set):
             file.write(f"{i}: {url}\n")
