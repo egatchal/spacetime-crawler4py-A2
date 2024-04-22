@@ -1,7 +1,7 @@
 import requests, re
 from bs4 import BeautifulSoup
 from simhasing import sim_hash, compute_sim_hash_similarity
-from scraper import check_for_repeating_dirs, create_absolute_url
+
 stopwords_list = set([
     "a", "about", "above", "after", "again", "against", "all", "am", "an", "and", 
     "any", "are", "aren't", "as", "at", "be", "because", "been", "before", "being", 
@@ -27,7 +27,7 @@ stopwords_list = set([
 ])
 
 def tokenize_content(resp) -> list:
-    soup = BeautifulSoup(resp.text, "html.parser")
+    soup = BeautifulSoup(resp.raw_response.content, "html.parser")
     text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
     text_content = [tag.get_text(separator = " ", strip = True) for tag in text_tags]
 
@@ -64,12 +64,9 @@ def is_alpha_num(char) -> bool:
     return re.match(pattern, char.lower()) or False
 
 if __name__ == "__main__":
-    # resp1 = requests.get("https://ics.uci.edu/2017/11/08/new-faculty-spotlight-professor-vijay-vazirani-continues-groundbreaking-research/")
-    # resp2 = requests.get("https://ics.uci.edu/2017/11/13/los-angeles-times-uci-computer-game-explores-culture-of-18th-century-ghana-el-zarki-quoted/")
-    
-    resp1 = requests.get("https://www.cs.uci.edu/new-faculty-spotlight-professor-vijay-vazirani-continues-groundbreaking-research")
-    resp2 = requests.get("https://www.cs.uci.edu/los-angeles-times-uci-computer-game-explores-culture-of-18th-century-ghana-el-z         arki-quoted")
-    
+    resp1 = requests.get("https://ics.uci.edu/2017/11/08/new-faculty-spotlight-professor-vijay-vazirani-continues-groundbreaking-research/")
+    resp2 = requests.get("https://ics.uci.edu/2017/11/13/los-angeles-times-uci-computer-game-explores-culture-of-18th-century-ghana-el-zarki-quoted/")
+
     tokens1 = tokenize_content(resp1)
     tokens2 = tokenize_content(resp2)
 
@@ -79,9 +76,4 @@ if __name__ == "__main__":
     hash1 = sim_hash(frequencies1)
     hash2 = sim_hash(frequencies2)
 
- 
     print(compute_sim_hash_similarity(hash1, hash2))
-    # http://http:www.ics.uci.edu/~jacobson/ics21/LabManual/00-LabManual.html
-    print(check_for_repeating_dirs("https://www.cs.uci.edu/path/lies/beef"))
-    print(create_absolute_url("https://www.ics.uci.edu/", "https://www.cs.uci.edu/~jacobson/ics21/LabManual/00-LabMa nual.html"))
-    

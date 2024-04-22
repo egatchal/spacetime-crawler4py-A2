@@ -2,7 +2,8 @@ import re, requests, cbor
 from urllib.parse import urlparse, urljoin
 from bs4 import BeautifulSoup
 from utils import  normalize
-
+from tokenize_words import tokenize_content, token_frequencies
+from simhasing import sim_hash, compute_sim_hash_similarity
 
 """
 Response
@@ -20,40 +21,16 @@ Methods for checking traps
 """
 valid_domains = [r".*\.ics\.uci\.edu", r".*\.cs\.uci\.edu",
                 r".*\.informatics\.uci\.edu", r".*\.stat\.uci\.edu"]
-stopwords_list = set([
-    "a", "about", "above", "after", "again", "against", "all", "am", "an", "and", 
-    "any", "are", "aren't", "as", "at", "be", "because", "been", "before", "being", 
-    "below", "between", "both", "but", "by", "can't", "cannot", "could", "couldn't", 
-    "did", "didn't", "do", "does", "doesn't", "doing", "don't", "down", "during", 
-    "each", "few", "for", "from", "further", "had", "hadn't", "has", "hasn't", 
-    "have", "haven't", "having", "he", "he'd", "he'll", "he's", "her", "here", 
-    "here's", "hers", "herself", "him", "himself", "his", "how", "how's", "i", 
-    "i'd", "i'll", "i'm", "i've", "if", "in", "into", "is", "isn't", "it", "it's", 
-    "its", "itself", "let's", "me", "more", "most", "mustn't", "my", "myself", 
-    "no", "nor", "not", "of", "off", "on", "once", "only", "or", "other", "ought", 
-    "our", "ours", "ourselves", "out", "over", "own", "same", "shan't", "she", 
-    "she'd", "she'll", "she's", "should", "shouldn't", "so", "some", "such", "than", 
-    "that", "that's", "the", "their", "theirs", "them", "themselves", "then", "there", 
-    "there's", "these", "they", "they'd", "they'll", "they're", "they've", "this", 
-    "those", "through", "to", "too", "under", "until", "up", "very", "was", "wasn't", 
-    "we", "we'd", "we'll", "we're", "we've", "were", "weren't", "what", "what's", 
-    "when", "when's", "where", "where's", "which", "while", "who", "who's", "whom", 
-    "why", "why's", "with", "won't", "would", "wouldn't", "you", "you'd", "you'll", 
-    "you're", "you've", "your", "yours", "yourself", "yourselves", "b", "c", "d", "e", 
-    "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", 
-    "w", "x", "y", "z"
-])
 
 valid_set = set()
 invalid_set = set()
 
-content_sets = set()
+content_hashes = set() 
 content = dict()
 
 ics_subdomains = dict()
-frequencies = dict()
+global_frequencies = dict()
 
-content_sets = []
 
 def scraper(url, resp):
     # robot.txt check goes here
@@ -70,27 +47,31 @@ def scraper(url, resp):
         return []
     
     if (resp.status == 200 and resp.raw_response.content):
-        valid_set.add(url)
-        ics_subdomain(url)
+        tokens = tokenize_content(resp) # get tokens
+        frequencies = token_frequencies(tokens) # compute token frequencies
+        hash_vector = sim_hash(frequencies) # compute the hash for the content
 
-        tokens = tokenize_content(resp)
-        if (not check_content(set(tokens))):
+        if not check_content(hash_vector): # check if the content is unique
             invalid_set.add(url)
             return []
         
+        valid_set.add(url)
+        ics_subdomain(url)
         content[url] = len(tokens)
-        compute_token_frequencies(tokens) # compute token frequencies and add to frequencies
+        content_hashes.add(hash_vector)
+        add_token_to_frequencies(tokens)
+    
+        links = extract_next_links(url, resp) # extract the links
         save_data()
 
-        links = extract_next_links(url, resp)
         return [link for link in links if is_valid(link, disallows)]
     elif resp.status in set([301, 302]) and resp.raw_response.url:
         location = resp.raw_response.url
         if location:
-            valid_set.add(url)
-            ics_subdomain(url)
-            redirected_url = urljoin(url, location)
-            if redirected_url not in valid_set and redirected_url not in invalid_set:
+            redirected_url = create_absolute_url(url, location)
+            if redirected_url not in valid_set and redirected_url not in invalid_set and is_valid(redirected_url):
+                valid_set.add(url)
+                ics_subdomain(url)
                 return [redirected_url]
         else:
             invalid_set.add(url)
@@ -121,41 +102,20 @@ def extract_next_links(url, resp) -> list:
 
     soup = BeautifulSoup(text, "html.parser") # gets the text
     for tag in soup.find_all('a', href=True):
-        new_url = tag['href']
-        absolute_url = urljoin(url, new_url)
-        absolute_url = absolute_url.split('#', 1)[0].strip() # defragment the url
-        absolute_url = normalize(absolute_url)
-        if absolute_url not in valid_set and absolute_url not in invalid_set:
-            new_urls.add(absolute_url)
+        if tag.get('href'):
+            new_url = tag['href']
+            absolute_url = create_absolute_url(url, new_url)
+            if absolute_url not in valid_set and absolute_url not in invalid_set and is_valid(absolute_url):
+                new_urls.add(absolute_url)
 
     return list(new_urls)
     
-
-''' MODIFIED VERSION OF extract_next_links:
-def extract_next_links(base_url, resp, disallows):
-    links = set()
-
-    # Handle 200 OK: Directly parse content
-    if resp.status == 200 and resp.raw_response.content:
-        soup = BeautifulSoup(resp.raw_response.content, "html.parser")  # Parse the HTML content
-        for link_tag in soup.find_all('a', href=True):
-            abs_url = urljoin(base_url, link_tag['href'])  # Normalize the URL
-            if is_valid(abs_url):  # Check validity using the existing function
-                links.add(abs_url)
-
-    # Handle redirections (301, 302)
-    elif resp.status in (301, 302):
-        location = resp.headers.get('Location')
-        if location:
-            redirected_url = urljoin(base_url, location)
-            if is_valid(redirected_url):  # Validate redirected URL
-                links.add(redirected_url)
-
-    # Additional status codes could be handled here if needed
-    # For example, retrying or logging failures, etc.
-
-    return list(links)
-'''
+def create_absolute_url(base_url, new_url):
+    absolute_url = urljoin(base_url, new_url, allow_fragments=False)
+    absolute_url = absolute_url.split('#', 1)[0].strip()
+    absolute_url = normalize(absolute_url)
+    return absolute_url
+    
 
 def check_robot_permission(url) -> bool:
     parsed = urlparse(url)
@@ -272,9 +232,9 @@ def is_valid(url, disallows = []) -> bool:
             re.match(valid_domains[3], parsed.netloc)): # check for valid domain
                 return False
         
-        if check_calendar(url):
+        if check_for_repeating_dirs(url) or check_for_calendars(url):
             return False
-        
+
         for disallowed_link in disallows:
             pattern = re.compile(disallowed_link, re.I)
             if re.match(pattern, parsed.path):
@@ -299,56 +259,25 @@ def is_valid(url, disallows = []) -> bool:
 #     text_file = requests.get(url).text
 
 # Tokenize contents of a .txt file using a buffer and reading by each char!
-def tokenize_content(resp) -> list:
-    soup = BeautifulSoup(resp.raw_response.content, "html.parser")
-    text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
-    text_content = [tag.get_text(separator = " ", strip = True) for tag in text_tags]
 
-    token_list = []
-    token = ''
-    for line in text_content:
-        for char in line:
-            char = char.lower()
-            if is_alpha_num(char):
-                token += char
-            else:
-                if token:
-                    if token not in stopwords_list:
-                        token_list.append(token)
-                    token = ''
-        if token:
-            if token not in stopwords_list:
-                token_list.append(token)
-            token = ''
-
-    return token_list
-
-def jaccard_similarity(set1, set2):
-    """Calculate the Jaccard Similarity between two sets."""
-    intersection = set1.intersection(set2)
-    union = set1.union(set2)
-    return len(intersection) / len(union) if union else 0
-
-def check_content(new_content_set, similarity_threshold = 0.8):
+def check_content(new_hash_vector, similarity_threshold = 0.8):
     """Check if the new content set is exact or approximately similar to existing sets."""
 
     # Check for exact match first
-    if new_content_set in content_sets:
+    if new_hash_vector in content_hashes:
         return False  # Exact match found, content is not unique
 
     # Check for approximate similarity
-    for content_set in content_sets:
-        if jaccard_similarity(new_content_set, content_set) > similarity_threshold:
+    for hash_vector in content_hashes:
+        if compute_sim_hash_similarity(new_hash_vector, hash_vector) > similarity_threshold:
             return False  # Similar content found, content is not unique
 
-    # No match or similarity found, add to the list of content sets
-    content_sets.append(new_content_set)
     return True  # Content is unique
 
 def save_data():
     num_pages = len(valid_set)
     longest_page = max(content, key=content.get)
-    top_50 = sorted(frequencies.items(), key=lambda x: (x[0])) # sort in alphabetical order
+    top_50 = sorted(global_frequencies.items(), key=lambda x: (x[0])) # sort in alphabetical order
     top_50 = sorted(top_50, key=lambda x: (x[1]), reverse=True) [:50]
     statistics = {"Unique Pages":num_pages, "Longest Page":longest_page, "Top 50":top_50, "ICS domain":ics_subdomains}
     with open('data_statistics.txt', 'w') as file:
@@ -361,7 +290,7 @@ def save_data():
             file.write(f"{i}: {url}\n")
     with open('data_frequencies.txt', 'w') as file:
         # Write the statistics data to the file
-        for k, v in frequencies.items():
+        for k, v in global_frequencies.items():
             file.write(f"{k}: {v}\n")
     with open('data_content.txt', 'w') as file:
         # Write the statistics data to the file
@@ -372,37 +301,34 @@ def save_data():
         for i, content_set in enumerate(content_sets):
             file.write(f"{i}: {content_set}\n")
 
-def compute_token_frequencies(tokens):
+def add_token_to_frequencies(tokens):
     for token in tokens:
-        if token in frequencies:
-            frequencies[token] += 1
+        if token in tokens:
+            global_frequencies[token] += 1
         else:
-            frequencies[token] = 1
+            global_frequencies[token] = 1
     # save the frequencies here
 
 # Custom alpha numeric function that includes ' using regex
 def is_alpha_num(char) -> bool:
     pattern = r"[a-z0-9']"
     return re.match(pattern, char.lower()) or False
-
-def check_calendar(url) -> bool:
-    parse = urlparse(url)
-    parts = parse.path.split("/")
-    for i in range(len(parts)-1):
-        if parts[i] == parts[i+1]:
-            return True
-    return False
     
 # JUST TEMP COUNT FUNCTION TO TEST SAME TOKENS ARE BEING COUNTED FROM PAGE TO PAGE
 def count_common_tokens(set1, set2) -> int: # TO BE DELETED WHEN DONE COUNTING
     common_tokens = set1.intersection(set2)
     return len(common_tokens)
 
-def check_for_repeating_dirs(url, visited_directories) -> bool:
+def check_for_repeating_dirs(url) -> bool:
     pattern = r"^.*?(/.+?/).*?\1.*$|^.*?/(.+?/)\2.*$"
-    for dir in visited_directories:
-        if re.match(pattern, dir):
-            return True
+    if re.match(pattern, url):
+        return True
+    return False
+
+def check_for_calendars(url) -> bool:
+    pattern  = r"^.*calendar.*$"
+    if re.match(pattern, url):
+        return True
     return False
 
 if __name__ == "__main__":
