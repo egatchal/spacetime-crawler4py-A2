@@ -45,38 +45,41 @@ def scraper(url, resp):
     if not flag: # cannot access page
         invalid_set.add(url)
         return []
-    
-    if (resp.status == 200 and resp.raw_response.content):
-        tokens = tokenize_content(resp) # get tokens
-        frequencies = token_frequencies(tokens) # compute token frequencies
-        hash_vector = sim_hash(frequencies) # compute the hash for the content
-        total_tokens = len(tokens)
-        if not check_content(hash_vector, similarity_threshold=.95) or total_tokens < 250: # check if the content is unique or does not meet thresholds
-            invalid_set.add(url)
-            return []
+    try:
+        if (resp.status == 200 and resp.raw_response and resp.raw_response.content):
+            tokens = tokenize_content(resp) # get tokens
+            frequencies = token_frequencies(tokens) # compute token frequencies
+            hash_vector = sim_hash(frequencies) # compute the hash for the content
+            total_tokens = len(tokens)
+            if not check_content(hash_vector, similarity_threshold=.95) or total_tokens < 25 or total_tokens > 10000000: # check if the content is unique or does not meet thresholds
+                invalid_set.add(url)
+                return []
+            
+            valid_set.add(url)
+            ics_subdomain(url)
+            content[url] = total_tokens
+            content_hashes.add(hash_vector)
+            add_token_to_frequencies(tokens)
         
-        valid_set.add(url)
-        ics_subdomain(url)
-        content[url] = total_tokens
-        content_hashes.add(hash_vector)
-        add_token_to_frequencies(tokens)
-    
-        links = extract_next_links(url, resp) # extract the links
-        save_data()
+            links = extract_next_links(url, resp) # extract the links
+            save_data()
 
-        return [link for link in links if is_valid(link, disallows)]
-    elif resp.status in set([301, 302]) and resp.raw_response.url:
-        location = resp.raw_response.url
-        if location:
-            redirected_url = create_absolute_url(url, location)
-            if redirected_url not in valid_set and redirected_url not in invalid_set and is_valid(redirected_url):
-                valid_set.add(url)
-                ics_subdomain(url)
-                return [redirected_url]
+            return [link for link in links if is_valid(link, disallows)]
+        elif resp.status in set([301, 302]) and resp.raw_response and resp.raw_response.url:
+            location = resp.raw_response.url
+            if location:
+                redirected_url = create_absolute_url(url, location)
+                if redirected_url not in valid_set and redirected_url not in invalid_set and is_valid(redirected_url):
+                    valid_set.add(url)
+                    ics_subdomain(url)
+                    return [redirected_url]
+            else:
+                invalid_set.add(url)
+                return []
         else:
             invalid_set.add(url)
             return []
-    else:
+    except:
         invalid_set.add(url)
         return []
 
