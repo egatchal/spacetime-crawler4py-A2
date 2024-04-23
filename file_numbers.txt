@@ -1,2 +1,0 @@
-https://www.stat.uci.edu: 1
-https://www.stat.uci.edu/chairs-message: 2

@@ -1,0 +1,14 @@
+https://mds.ics.uci.edu: 9
+http://mswe.ics.uci.edu: 1
+https://mswe.ics.uci.edu: 3
+https://www.ics.uci.edu: 72
+http://www.ics.uci.edu: 79
+http://keys.ics.uci.edu: 3
+https://support.ics.uci.edu: 11
+https://jgarcia.ics.uci.edu: 24
+http://www.informatics.ics.uci.edu: 1
+https://transformativeplay.ics.uci.edu: 32
+https://wearablegames.ics.uci.edu: 11
+http://evoke.ics.uci.edu: 1
+https://evoke.ics.uci.edu: 4
+https://ics.uci.edu: 58

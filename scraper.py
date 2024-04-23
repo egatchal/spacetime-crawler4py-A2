@@ -2,7 +2,7 @@ import re, requests, cbor
 from urllib.parse import urlparse, urljoin
 from bs4 import BeautifulSoup
 from utils import  normalize
-from tokenize_words import tokenize_content, token_frequencies, write_to_file, check_file_size
+from tokenize_words import tokenize_content, token_frequencies, write_to_file, check_file_size, check_url_ascii, check_content_ascii
 from simhasing import sim_hash, compute_sim_hash_similarity
 
 """
@@ -21,7 +21,7 @@ Methods for checking traps
 """
 valid_domains = [r"^((.*\.)*ics\.uci\.edu)$", r"^((.*\.)*cs\.uci\.edu)$",
                 r"^((.*\.)*informatics\.uci\.edu)$", r"^((.*\.)*stat\.uci\.edu)$"]
-
+traps = r"^.*calendar.*$|^.*filter.*$"
 valid_set = set()
 invalid_set = set()
 
@@ -38,7 +38,7 @@ def scraper(url, resp):
     if url in valid_set or url in invalid_set:
         return []
     
-    if not is_valid(url):
+    if not check_url_ascii(url) or not is_valid(url):
         invalid_set.add(url)
         return []
     
@@ -49,10 +49,15 @@ def scraper(url, resp):
 
     try:
         if (resp.status == 200 and resp.raw_response and resp.raw_response.content):
-            write_to_file("read_page.txt", resp.raw_response.content) # write the page to a file
-            if check_file_size("read_page.txt") > 1:
+            flag, disallows = check_robot_permission(url)
+            if not flag: # cannot access page
                 invalid_set.add(url)
                 return []
+            
+            if len(resp.raw_response.content) > 1000000 or not check_content_ascii(resp.raw_response.content):
+                invalid_set.add(url)
+                return []
+            
             tokens = tokenize_content(resp.raw_response.content) # get tokens
             frequencies = token_frequencies(tokens) # compute token frequencies
             hash_vector = sim_hash(frequencies) # compute the hash for the content
@@ -63,10 +68,10 @@ def scraper(url, resp):
             content[url] = total_tokens # [content folder num, total tokens]
 
             if check_content(hash_vector, similarity_threshold=.95): # check if the content is unique or does not meet thresholds
-                file_number = len(valid_set)
-                filename = f"content/{file_number}.txt"
-                content_file[url] = file_number
-                write_to_file(filename, resp.raw_response.content)
+                # file_number = len(valid_set)
+                # filename = f"content/{file_number}.txt"
+                # content_file[url] = file_number
+                # write_to_file(filename, resp.raw_response.content)
                 add_token_to_frequencies(tokens)
                 content_hashes.add(hash_vector)
         
@@ -75,12 +80,19 @@ def scraper(url, resp):
 
             return [link for link in links if is_valid(link, disallows)]
         elif resp.status in set([301, 302, 308, 309]) and resp.raw_response and resp.url:
+            flag, disallows = check_robot_permission(url)
+            if not flag: # cannot access page
+                invalid_set.add(url)
+                return []
+            
             location = resp.url
             redirected_url = create_absolute_url(url, location)
-            if redirected_url not in valid_set and redirected_url not in invalid_set and is_valid(redirected_url):
-                valid_set.add(url)
-                ics_subdomain(url)
-                return [redirected_url]
+            if  redirected_url not in valid_set and \
+                redirected_url not in invalid_set and \
+                is_valid(redirected_url):
+                    valid_set.add(url)
+                    ics_subdomain(url)
+                    return [redirected_url]
             else:
                 invalid_set.add(url)
                 return []
@@ -115,8 +127,11 @@ def extract_next_links(url, resp) -> list:
         if tag.get('href'):
             new_url = tag['href']
             absolute_url = create_absolute_url(url, new_url)
-            if absolute_url not in valid_set and absolute_url not in invalid_set and is_valid(absolute_url):
-                new_urls.add(absolute_url)
+            if  absolute_url not in valid_set and \
+                absolute_url not in invalid_set and \
+                check_url_ascii(absolute_url) and \
+                is_valid(absolute_url):
+                    new_urls.add(absolute_url)
             else:
                 invalid_set.add(absolute_url)
     return list(new_urls)
@@ -231,7 +246,6 @@ def is_valid(url, disallows = []) -> bool:
     # If you decide to crawl it, return True; otherwise return False.
     # There are already some conditions that return False.
     try:
-
         parsed = urlparse(url)
 
         if parsed.scheme not in set(["http", "https"]):
@@ -243,7 +257,7 @@ def is_valid(url, disallows = []) -> bool:
             re.match(valid_domains[3], parsed.netloc)): # check for valid domain
                 return False
         
-        if check_for_repeating_dirs(url) or check_for_calendars(url):
+        if check_for_repeating_dirs(url) or check_for_traps(url):
             return False
 
         for disallowed_link in disallows:
@@ -340,9 +354,8 @@ def check_for_repeating_dirs(url) -> bool:
         return True
     return False
 
-def check_for_calendars(url) -> bool:
-    pattern  = r"^.*calendar.*$"
-    if re.match(pattern, url):
+def check_for_traps(url) -> bool:
+    if re.match(traps, url):
         return True
     return False
 

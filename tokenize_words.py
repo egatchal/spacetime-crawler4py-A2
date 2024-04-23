@@ -37,7 +37,20 @@ def check_file_size(filename):
     current_directory = os.getcwd()
     current_directory = f"{current_directory}/{filename}"
     return os.path.getsize(current_directory) / 1000000
-        
+
+def check_url_ascii(text):
+    for c in text:
+        ascii_value = ord(c)
+        if ascii_value < 0 or ascii_value > 255:
+            return False
+    return True
+
+def check_content_ascii(content):
+    for byte in content:
+        if byte < 0 or byte > 255:
+            return False
+    return True
+
 def tokenize_content(text) -> list:
     soup = BeautifulSoup(text, "html.parser")
     text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
@@ -76,9 +89,12 @@ def is_alpha_num(char) -> bool:
     return re.match(pattern, char.lower()) or False
 
 if __name__ == "__main__":
+    url = "https://ja.wikipedia.org/wiki/メインページ"
+    resp = requests.get("https://www.englishpage.com/")
     # resp1 = requests.get("https://ics.uci.edu/2017/11/08/new-faculty-spotlight-professor-vijay-vazirani-continues-groundbreaking-research/")
     # resp2 = requests.get("https://ics.uci.edu/2017/11/13/los-angeles-times-uci-computer-game-explores-culture-of-18th-century-ghana-el-zarki-quoted/")
-
+    print(check_url_ascii(url))
+    print(check_content_ascii(resp.content))
     # tokens1 = tokenize_content(resp1)
     # tokens2 = tokenize_content(resp2)
 
