@@ -23,7 +23,7 @@ stopwords_list = set([
     "why", "why's", "with", "won't", "would", "wouldn't", "you", "you'd", "you'll", 
     "you're", "you've", "your", "yours", "yourself", "yourselves", "b", "c", "d", "e", 
     "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", 
-    "w", "x", "y", "z"
+    "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
 ])
 
 def tokenize_content(resp) -> list:
