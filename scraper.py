@@ -80,8 +80,10 @@ def scraper(url, resp):
                 # write_to_file(filename, resp.raw_response.content)
                 add_token_to_frequencies(tokens)
                 content_hashes.add(hash_vector)
-        
-            links = extract_next_links(url, resp) # extract the links
+                links = extract_next_links(url, resp) # extract the links
+            else:
+                return []
+            
             save_data()
 
             return [link for link in links if is_valid(link, disallows)]
