@@ -27,6 +27,7 @@ invalid_set = set()
 
 content_hashes = set() 
 content = dict()
+content_file = dict()
 
 ics_subdomains = dict()
 global_frequencies = dict()
@@ -49,25 +50,25 @@ def scraper(url, resp):
     try:
         if (resp.status == 200 and resp.raw_response and resp.raw_response.content):
             write_to_file("read_page.txt", resp.raw_response.content) # write the page to a file
-            
-            if check_file_size() > 1:
+            if check_file_size("read_page.txt") > 1:
                 invalid_set.add(url)
                 return []
-            
             tokens = tokenize_content(resp.raw_response.content) # get tokens
             frequencies = token_frequencies(tokens) # compute token frequencies
             hash_vector = sim_hash(frequencies) # compute the hash for the content
             total_tokens = len(tokens)
-            filename = f"/content/{url}.txt"
-            write_to_file(filename, resp.raw_response.content)
-
+            
             valid_set.add(url)
             ics_subdomain(url)
-            content[url] = total_tokens
-            content_hashes.add(hash_vector)
+            content[url] = total_tokens # [content folder num, total tokens]
 
             if check_content(hash_vector, similarity_threshold=.95): # check if the content is unique or does not meet thresholds
+                file_number = len(valid_set)
+                filename = f"content/{file_number}.txt"
+                content_file[url] = file_number
+                write_to_file(filename, resp.raw_response.content)
                 add_token_to_frequencies(tokens)
+                content_hashes.add(hash_vector)
         
             links = extract_next_links(url, resp) # extract the links
             save_data()
@@ -301,6 +302,10 @@ def save_data():
     with open('data_content.txt', 'w') as file:
         # Write the statistics data to the file
         for k, v in content.items():
+            file.write(f"{k}: {v}\n")
+    with open('file_numbers.txt', 'w') as file:
+        # Write the statistics data to the file
+        for k, v in content_file.items():
             file.write(f"{k}: {v}\n")
     with open('data_ics_domains.txt', 'w') as file:
         # Write the statistics data to the file

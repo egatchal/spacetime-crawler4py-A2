@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head>
+<title>David Eppstein - Publications</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll("script[type='math/tex']").forEach(function(el) {
+              el.outerHTML = "\\(" + el.textContent + "\\)";
+            });
+            document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el) {
+              el.outerHTML = "\\[" + el.textContent + "\\]";
+            });
+            var script = document.createElement('script');
+            script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
+            document.head.appendChild(script);
+        }, false);
+    </script>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<h1>David Eppstein - Publications</h1>
+<hr><p>
+<h2>
+</h2>
+<ul>
+<li><b>Reactive proximity data structures for graphs</b>.<br>
+D. Eppstein,
+<a href="https://www.ics.uci.edu/~goodrich/">M. T. Goodrich</a>, and
+N. Mamano.<br>
+<a href="https://arxiv.org/abs/1803.04555">arXiv:1803.04555</a>.<br>
+<i>Proc. 13th Latin American Theoretical Informatics Symposium (LATIN
+2018)</i>, Buenos Aires, Argentina.<br>
+<a href="https://doi.org/10.1007/978-3-319-77404-6_56">Springer, <i>Lecture Notes in
+Comp. Sci.</i> 10807 (2018), pp. 777&ndash;789</a>.
+<p>
+We develop data structures for solving nearest neighbor queries for
+dynamic subsets of vertices in a planar graph, or more generally for a
+graph in any graph class with small separators (polynomial expansion).
+<p>
+</ul>
+
+<hr><p>
+<a href="/~eppstein/pubs/">Publications</a> &ndash;
+<a href="/~eppstein/">David Eppstein</a> &ndash;
+<a href="/~theory/">Theory Group</a> &ndash;
+<a href="/">Inf. &amp; Comp. Sci.</a> &ndash;
+<a href="https://www.uci.edu/">UC Irvine</a>
+<p>
+<small>Semi-automatically <a href="filter.html">filtered</a>
+from a common source file.</small>
+</body></html>

@@ -28,12 +28,14 @@ stopwords_list = set([
 ])
 
 def write_to_file(filename, text):
-    with open(filename,"w") as file:
+    current_directory = os.getcwd()
+    current_directory = f"{current_directory}/{filename}"
+    with open(current_directory,"wb") as file:
         file.write(text)
 
 def check_file_size(filename):
     current_directory = os.getcwd()
-    current_directory = current_directory+f"/{filename}"
+    current_directory = f"{current_directory}/{filename}"
     return os.path.getsize(current_directory) / 1000000
         
 def tokenize_content(text) -> list:

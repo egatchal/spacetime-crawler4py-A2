@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<title>UCI | Academic Integrity</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!--MATERIAL BELOW TO BE INCLUDED ON ALL SITE PAGES--> 
+<link rel="stylesheet" href="https://www.ics.uci.edu/~smyth/test/localw3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"> <!--mini icons--> 
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-blue.css">  <!-- color theme -->
+<link rel="stylesheet" type="text/css" href="localstyle.css">  <!-- my own style -->
+<link rel="stylesheet" type="text/css" href="https://www.ics.uci.edu/~smyth/courses/class_style.css">  <!--  Padhraic's class style -->   
+<link rel="icon" type="image/png" href="https://news.uci.edu/wp-content/uploads/2014/12/favicon.png"/> <!-- favicon -->
+
+<body class="w3-animate-opacity">
+  
+<div style="margin-left:10%;  margin-right:10%;  margin-top:30px">  
+ 
+ 
+
+<!-- -------------------------------------------------------------------------------------------- -->
+
+<h4> <span style="font-weight: bold;"> Academic Integrity </span></h4> 
+
+<p> All students are expected to be familiar with the class policies below. Failure to adhere to these
+ policies may result in a student receiving a failing grade in the class. 
+ </p>
+<ul> 
+</li>
+<li>  It is the responsibility of each student to be familiar with 
+<a href="https://aisc.uci.edu/students/academic-integrity/index.php">UCI's Academic Integrity Policies</a>
+and
+<a href="https://aisc.uci.edu/students/academic-integrity/definitions.php"> UCI's definitions and examples of
+academic misconduct</a>.
+<li> <b>For individual assignments</b> 
+<ul>
+<li> All problem solutions and code that you submit must be material you have personally written during 
+this quarter, except for any standard publicly-available library or utility functions.  </li>
+<li> you can discuss the assignments verbally  with other class members. However, you cannot look at written material related to homework solutions: you are not allowed to look at any written material related to assignment solutions (notes, written solutions, etc) or to copy anyone else's written solutions or code.
+</ul></li>
+<li> <b> For team projects</b>
+<ul>
+<li> All the text and figures in your <b>reports</b>  must be written by you or members of your project team. If you wish to quote text or use figures from another source you need to clearly indicate this by putting the cited text in  quotation marks or in italic font and by providing a citation to the orginal source. </li>
+<li> 
+The <b>code</b> that you use for your class projects will be a combination of code written by you and your team members and publicly-available library code. You should clearly indicate in your reports and in your
+code documentation which parts of your code was written by you or your team
+and which parts of your code were imported from somewhere else. </li> 
+</ul>
+<li> For policies associated with <b> exams</b> and other aspects of taking this class, please read the linked UCI materials above
+
+</li>
+ </p>
+ 
+ 
+ <!--
+ <p> All students are expected to be familiar with the policy below. Failure to adhere to this 
+ policy can result in a student receiving a failing grade in the class. 
+ </p>
+ 
+ <p>
+Academic integrity is taken seriously. For homework problems or programming assignments you 
+are allowed to discuss the problems or assignments verbally with other class members, but 
+under no circumstances can you look at or copy anyone else's written solutions or code relating 
+to homework problems or programming assignments. All problem solutions and code submitted must 
+be material you have personally written during this quarter, except for (a) material that you
+clearly indicate and reference as coming from another source, or (b)  
+code provided to you by the  TA/reader or instructor.
+</p>
+
+</p>
+It is the responsibility of each student to be familiar with 
+<a href="https://aisc.uci.edu/students/academic-integrity/index.php">UCI's Academic Integrity Policies</a>
+and
+<a href="https://aisc.uci.edu/students/academic-integrity/definitions.php"> UCI's definitions and examples of
+academic misconduct</a>.
+</p>
+-->
+
+</body>
+<//html>

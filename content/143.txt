@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head>
+<title>David Eppstein - Publications</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll("script[type='math/tex']").forEach(function(el) {
+              el.outerHTML = "\\(" + el.textContent + "\\)";
+            });
+            document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el) {
+              el.outerHTML = "\\[" + el.textContent + "\\]";
+            });
+            var script = document.createElement('script');
+            script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
+            document.head.appendChild(script);
+        }, false);
+    </script>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<h1>David Eppstein - Publications</h1>
+<hr><p>
+<h2>
+</h2>
+<ul>
+<li><b>Defining equitable geographic districts in road networks via stable matching</b>.<br>
+D. Eppstein,
+<a href="https://www.ics.uci.edu/~goodrich/">M. T. Goodrich</a>,
+D. Korkmaz, and
+N. Mamano.<br>
+<a href="https://arxiv.org/abs/1706.09593">arXiv:1706.09593</a><br>
+<a href="https://doi.org/10.1145/3139958.3140015"><i>Proc. 25th ACM SIGSPATIAL Int. Conf. Advances
+in Geographic Information Systems (ACM SIGSPATIAL 2017)</i>,
+Redondo Beach, California, pp. 52:1&ndash;52:4</a>.<br>
+<p>
+We cluster road networks (modeled as planar graphs, or more generally as
+graphs obeying a separator theorem) with a given set of cluster centers,
+by matching graph vertices to centers stably according to distance: no
+unmatched vertex and center should have smaller distances than the
+matched pairs for the same points. We provide a separator-based data
+structure for dynamic nearest neighbor queries in planar or separated
+graphs, which allows the optimal stable clustering to be constructed in
+time <i>O</i>(<i>n</i><sup>3/2</sup>log&nbsp;<i>n</i>).
+We also experiment with heuristics for fast practical construction of
+this clustering.
+<p>
+</ul>
+
+<hr><p>
+<a href="/~eppstein/pubs/">Publications</a> &ndash;
+<a href="/~eppstein/">David Eppstein</a> &ndash;
+<a href="/~theory/">Theory Group</a> &ndash;
+<a href="/">Inf. &amp; Comp. Sci.</a> &ndash;
+<a href="https://www.uci.edu/">UC Irvine</a>
+<p>
+<small>Semi-automatically <a href="filter.html">filtered</a>
+from a common source file.</small>
+</body></html>

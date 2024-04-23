@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head>
+<title>David Eppstein - Publications</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll("script[type='math/tex']").forEach(function(el) {
+              el.outerHTML = "\\(" + el.textContent + "\\)";
+            });
+            document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el) {
+              el.outerHTML = "\\[" + el.textContent + "\\]";
+            });
+            var script = document.createElement('script');
+            script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
+            document.head.appendChild(script);
+        }, false);
+    </script>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<h1>David Eppstein - Publications</h1>
+<hr><p>
+<h2>
+</h2>
+<ul>
+<li><b>Area-universal and constrained rectangular layouts</b>.<br>
+D. Eppstein,
+E. Mumford,
+<a href="https://www.win.tue.nl/~speckman/">B. Speckmann</a>, and
+<a href="https://www.tue.nl/staff/k.a.b.verbeek">K. Verbeek</a>.<br>
+<a href="https://doi.org/10.1137/110834032"><i>SIAM J. Computing</i> 41 (3): 537&ndash;564, 2012</a>.
+<p>
+A combined journal version of
+"<a href="p-area-universal.html">Area-universal rectangular layouts</a>"
+and
+"<a href="p-orientation-constrained">Orientation-constrained
+rectangular layouts</a>".
+<p>
+(<a href="EppMumSpe-SJC-12.pdf">Local copy of article</a>)
+<p>
+</ul>
+
+<hr><p>
+<a href="/~eppstein/pubs/">Publications</a> &ndash;
+<a href="/~eppstein/">David Eppstein</a> &ndash;
+<a href="/~theory/">Theory Group</a> &ndash;
+<a href="/">Inf. &amp; Comp. Sci.</a> &ndash;
+<a href="https://www.uci.edu/">UC Irvine</a>
+<p>
+<small>Semi-automatically <a href="filter.html">filtered</a>
+from a common source file.</small>
+</body></html>

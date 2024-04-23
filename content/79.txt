@@ -1,0 +1,34 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+<title>Daniel Frishberg - University of California, Irvine School of Information and Computer Sciences</title>
+</head>
+<body>
+<h1>Daniel Frishberg</h1>
+<h3>PhD student</h3>
+<h2>About me</h2>
+<p>I am a PhD student in the <a href="https://www.ics.uci.edu/~theory/">theory group</a> of the computer science department at the University of California, Irvine (UCI). I started at UCI in Fall 2018.</p>
+<p>MS awarded Spring 2020. PhD expected Spring 2023.</p>
+<p>See my <a href="cv112021.pdf">CV</a> for professional experience.</p>
+
+<h2>Research</h2>
+My current and recent research includes rapidly mixing Markov chains; hierarchical clustering algorithms and their relationship to combinatorial optimization problems; a graph simplification problem; studying the graphs that arise from configurations in a game involving pegs and disks (Towers of Hanoi); and a problem motivated by drawing aesthetically pleasing (Lombardi) graphs.
+<h3>Publications</h3>
+<ul>
+<li>D. Eppstein, D. Frishberg, W. Maxwell.<br/><em>On the treewidth of Hanoi graphs.</em><br/>
+Proc. 10th International Conference on Fun with Algorithms (FUN), 2020.<br/>
+Preprint available at <a href="https://arxiv.org/abs/2005.00179">https://arxiv.org/abs/2005.00179</a>.</li>
+<li>D. Eppstein, D. Frishberg, E. Havvaei.<br/><em>Simplifying activity-on-edge graphs.</em><br/>
+Proc. 17th Scandinavian Symposium and Workshops on Algorithm Theory (SWAT), 2020.<br/>
+Preprint available at <a href="https://arxiv.org/abs/2002.01610">https://arxiv.org/abs/2002.01610</a>.</li>
+<li>N. Mamano, A. Efrat, D. Eppstein, D. Frishberg, M. T. Goodrich, S.G. Kobourov, P. Matias, V. Polishchuk.<br/><em>Euclidean TSP, motorcycle graphs, and other new applications of nearest-neighbor chains.</em><br/>Computational Geometry: Young Researchers Forum, 2019.<br/>
+Proc. 30th International Symposium on Algorithms and Computation (ISAAC 2019), Shanghai, China, 2019.<br/>Preprint available at <a href="https://arxiv.org/abs/1902.06875">https://arxiv.org/abs/1902.06875</a>.
+
+<h3>Other Research</h3>
+<li>David Eppstein and Daniel Frishberg.<br/><em>Rapid mixing of the hardcore Glauber dynamics and other Markov chains in bounded-treewidth graphs.</em><br/>
+arXiv preprint, 2021. Available at <a href="https://arxiv.org/abs/2111.03898">https://arxiv.org/abs/2111.03898</a>.</li>
+<li>Daniel Frishberg and William Gasarch.<br/><em>Open Problems Column: Different Ways to Prove a Language is Not Regular.</em><br/>SIGACT News, March 2018.<br/>Available at <a href="https://dl.acm.org/citation.cfm?id=3197413&dl=ACM&coll=DL">https://dl.acm.org/citation.cfm?id=3197413&dl=ACM&coll=DL
+</a>.</li>
+</ul>
+</body>
+</html>

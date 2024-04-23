@@ -1,0 +1,34 @@
+<head>
+<title> CS 161 - Design and Analysis of Algorithms </title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+
+<center>
+
+<h2> 
+CS 161 - Design and Analysis of Algorithms </h2>
+
+<p>
+Professor: 
+<a href="http://www.ics.uci.edu/~goodrich/">Michael T. Goodrich</a>
+</center>
+
+
+<ul>
+<li><h3> <a href="notes/"> Course Notes</a>.</h3>
+
+</ul>
+
+
+<P>
+<hr>
+<br>
+<ADDRESS>
+<a href="http://www.ics.uci.edu/~goodrich/">
+Michael T. Goodrich</a><BR>
+Department of Computer Science<BR>
+University of California, Irvine, CA 92697-3435 USA<BR>
+</ADDRESS>
+</BODY></HTML>

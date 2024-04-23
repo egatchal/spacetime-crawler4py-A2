@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+  <head>
+    <title>David Eppstein</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <div class="outer">
+      <h1>David Eppstein</h1>
+
+      <div class="buffer">
+        <ul id="menu" class="optional">
+          <li><a class="active" href="index.html">About</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+
+          <li><a href="research.html">Research</a></li>
+
+          <li><a href="students.html">Students</a></li>
+
+          <li><a href="teach.html">Classes</a></li>
+
+          <li><a href="software.html">Software</a></li>
+
+          <li><a href="recmath.html">Math Fun</a></li>
+        </ul>
+        <div class="inner">
+          <table cellpadding="5">
+            <tr valign="top">
+              <td><div class="optional"><img src="spim.jpg" width="320" height="400" alt="self-portrait in mirror">
+	      </div></td>
+
+              <td>
+                I am a Distinguished Professor in the
+		<a href="https://www.cs.uci.edu/">Computer
+                Science Department</a> of the University of California,
+                Irvine, director of the <a href="https://www.ics.uci.edu/~theory/">Center for
+                Algorithms and Theory of Computation</a>, and associate
+                director of
+                the <a href="https://acoi.ics.uci.edu/">Center for
+                Algorithms, Combinatorics, and Optimization</a>.
+
+		<div class="mobile"><p align="center"><img src="https://www.ics.uci.edu/~eppstein/spim.jpg" width="100%" height="auto" alt="self-portrait in mirror"></p></div>
+
+                <p>My research (see <a href="pubs/selected.html">selected publications</a>) has covered many topics in
+                computational geometry and graph algorithms, including:</p>
+
+                <ul>
+                  <li>Graph drawing and information visualization</li>
+
+		  <li>Dynamic graph algorithms and dynamic closest pair
+		  data structures</li>
+
+                  <li>Mesh generation and optimal triangulation</li>
+
+		  <li>K-shortest paths and related combinatorial
+		  enumeration algorithms</a>
+
+		  <li>Subgraph isomorphism and network statistics</li>
+
+                  <li>Data depth and robust statistics</li>
+
+                  <li>Exponential-time algorithms for NP-hard problems</li>
+                </ul>
+
+                <p>I am also an avid photographer and have many
+                photos in my <a href="pix/">web photo
+                gallery</a>.</p>
+
+		<p>This site is quite static; if you want more frequent
+		updates (or to find out what's changed here)
+		go to my
+		<a href="https://11011110.github.io/blog/">blog</a>
+		or my <a href="https://mathstodon.xyz/@11011110" rel="me">Mastodon</a>
+		account.</p>
+
+                <p>My name is not uncommon (although the spelling
+                is atypical); see my page of <a href="eppstein.html">Eppsteins on the net</a> if you
+                think you've reached the wrong me.</p>
+
+		<p>News:</p>
+		<ul>
+		<li><a href="https://www.ics.uci.edu/community/news/view_news?id=2176">Computer science researchers collaborating on $1.2M NSF grant to study geometric graphs</a>, June 16, 2022</li>
+		<li><a href="https://www.asbmb.org/asbmb-today/careers/030822/what-s-with-wikipedia-and-women">What's
+		with Wikipedia and women?</a>, <i>ASBMB Today</i>, March
+		8, 2022, mentions my efforts creating articles on women
+		in STEM and patrolling deletion discussions on
+		them.</li>
+		<li><a href="https://www.cs.uci.edu/david-eppstein-receives-2022-siam-best-paper-award/">Best paper at SOSA 2022</a>, October 21, 2021</li>
+		<li><a href="https://www.cs.uci.edu/eppstein-publishes-new-book-forbidden-patterns-in-discrete-geometry-for-mathematicians-and-computer-scientists/">New
+		book <i>Forbidden Patterns in Discrete Geometry</i></a>,
+		May 10, 2018</li>
+		<li><a href="https://www.cs.uci.edu/eppstein-shares-research-at-conferences-in-australia-canada-and-tokyo/">Invited
+		talks in Australia, Canada, and Japan</a>, December 12, 2017.</li>
+		<li><a href="https://www.cs.uci.edu/eppstein-named-aaas-fellow/">Fellow of the American Association for the Advancement of Science</a>, November 27, 2017.</li>
+		<li><a href="https://www.ics.uci.edu/community/news/view_news.php?id=1111">Two NSF grants for algorithm research</a>, August 1, 2016.</li>
+		<li><a href="https://www.ics.uci.edu/community/news/press/view_press?id=103">New Center for Algorithms and Theory of Computation</a>, March 31, 2010.</li>
+		<li><a href="https://www.ics.uci.edu/community/news/press/view_press?id=75">ONR grant to study large-scale networks</a>. September 24, 2008.</li>
+		</ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+	<div id="menu" class="mobile">
+	  <a class="active" href="index.html">About</a>&nbsp;|
+          <a href="contact.html">Contact</a>&nbsp;|
+	  <a href="research.html">Research</a>&nbsp;|
+	  <a href="students.html">Students</a>&nbsp;|
+	  <a href="teach.html">Classes</a>&nbsp;|
+	  <a href="software.html">Software</a>&nbsp;|
+	  <a href="recmath.html">Math&nbsp;Fun</a></li>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>
