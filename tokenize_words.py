@@ -1,6 +1,7 @@
 import requests, re
 from bs4 import BeautifulSoup
 from simhasing import sim_hash, compute_sim_hash_similarity
+import os
 
 stopwords_list = set([
     "a", "about", "above", "after", "again", "against", "all", "am", "an", "and", 
@@ -26,8 +27,17 @@ stopwords_list = set([
     "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
 ])
 
-def tokenize_content(resp) -> list:
-    soup = BeautifulSoup(resp.raw_response.content, "html.parser")
+def write_to_file(filename, text):
+    with open(filename,"w") as file:
+        file.write(text)
+
+def check_file_size(filename):
+    current_directory = os.getcwd()
+    current_directory = current_directory+f"/{filename}"
+    return os.path.getsize(current_directory) / 1000000
+        
+def tokenize_content(text) -> list:
+    soup = BeautifulSoup(text, "html.parser")
     text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
     text_content = [tag.get_text(separator = " ", strip = True) for tag in text_tags]
 
@@ -64,16 +74,26 @@ def is_alpha_num(char) -> bool:
     return re.match(pattern, char.lower()) or False
 
 if __name__ == "__main__":
-    resp1 = requests.get("https://ics.uci.edu/2017/11/08/new-faculty-spotlight-professor-vijay-vazirani-continues-groundbreaking-research/")
-    resp2 = requests.get("https://ics.uci.edu/2017/11/13/los-angeles-times-uci-computer-game-explores-culture-of-18th-century-ghana-el-zarki-quoted/")
+    # resp1 = requests.get("https://ics.uci.edu/2017/11/08/new-faculty-spotlight-professor-vijay-vazirani-continues-groundbreaking-research/")
+    # resp2 = requests.get("https://ics.uci.edu/2017/11/13/los-angeles-times-uci-computer-game-explores-culture-of-18th-century-ghana-el-zarki-quoted/")
 
-    tokens1 = tokenize_content(resp1)
-    tokens2 = tokenize_content(resp2)
+    # tokens1 = tokenize_content(resp1)
+    # tokens2 = tokenize_content(resp2)
 
-    frequencies1 = token_frequencies(tokens1)
-    frequencies2 = token_frequencies(tokens2)
+    # frequencies1 = token_frequencies(tokens1)
+    # frequencies2 = token_frequencies(tokens2)
 
-    hash1 = sim_hash(frequencies1)
-    hash2 = sim_hash(frequencies2)
+    # hash1 = sim_hash(frequencies1)
+    # hash2 = sim_hash(frequencies2)
 
-    print(compute_sim_hash_similarity(hash1, hash2))
+    # print(compute_sim_hash_similarity(hash1, hash2))
+    # filename = "read_page.txt.txt"
+    # resp = requests.get("http://www.ics.uci.edu/~eppstein/junkyard/all.html")
+    # write_to_file(filename, resp.text)
+    # print(check_file_size(filename))
+    # value = tuple([1,1,0,1,1,])
+    # print(value)
+    # print(str(value))
+    pass
+
+

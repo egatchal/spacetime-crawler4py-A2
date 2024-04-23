@@ -4,7 +4,7 @@ def sim_hash(frequencies):
     for key in frequencies.keys():
         hash = md5(key.encode()).digest() # byte representation
         hashes[key] = hash
-    
+
     binary_vector = []
     for bit_index in range(128):
         value = 0
