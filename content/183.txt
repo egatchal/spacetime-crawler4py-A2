@@ -1,48 +1,74 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
-<html><head>
-<title>David Eppstein - Publications</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function() {
-            document.querySelectorAll("script[type='math/tex']").forEach(function(el) {
-              el.outerHTML = "\\(" + el.textContent + "\\)";
-            });
-            document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el) {
-              el.outerHTML = "\\[" + el.textContent + "\\]";
-            });
-            var script = document.createElement('script');
-            script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
-            document.head.appendChild(script);
-        }, false);
-    </script>
-</head>
-<body bgcolor="#ffffff" text="#000000">
-<h1>David Eppstein - Publications</h1>
-<hr><p>
-<h2>
-</h2>
-<ul>
-<li><b>3-coloring in time O(1.3289^n)</b>.<br>
-<a href="https://www.cis.temple.edu/~beigel/">R. Beigel</a>
-and D. Eppstein.<br>
-<a href="https://arXiv.org/abs/cs.DS/0006046">arXiv:cs.DS/0006046</a>.<br>
-<a href="https://doi.org/10.1016/j.jalgor.2004.06.008"><i>J. Algorithms</i>
-54:2 (2005) 168-204.</a>
-<p>
-Journal paper combining <a href="graph-color.html">3-coloring algorithms</a>
-from our
-<a href="p-3color.html">FOCS '95 paper</a> with improved bounds from our
-<a href="p-3color3.html">SODA '01 paper</a>.
-<p>
-</ul>
-
-<hr><p>
-<a href="/~eppstein/pubs/">Publications</a> &ndash;
-<a href="/~eppstein/">David Eppstein</a> &ndash;
-<a href="/~theory/">Theory Group</a> &ndash;
-<a href="/">Inf. &amp; Comp. Sci.</a> &ndash;
-<a href="https://www.uci.edu/">UC Irvine</a>
-<p>
-<small>Semi-automatically <a href="filter.html">filtered</a>
-from a common source file.</small>
-</body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>FORGE/Dynamo: People</title>
+        <style type="text/css" media="screen">
+            /*<![CDATA[*/
+                @import url(css/dynamo.css);
+            /*]]>*/
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="top">
+                <center><img src="./img/dynamoheader.png" alt="homepage banner" /></center>
+            </div>
+           <div id="rightnav">
+                <ul>
+                    <li class="header">Navigation
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="docs.html">Documentation</a></li>
+                            <li><b>People</b></li>
+                            <li><a href="publication.html">Publications</a></li>
+                            <li><a href="related.html">Related Links</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="http://dynamo.ics.uci.edu">Research Homepage</a></li>
+                        </ul>
+                    </li>
+                    <li class="header">Downloads
+                        <ul>
+                          <!-- <li><b>For Internal Use Only</b></li>  -->
+                            <li><a href="files/dynamo_paapi_framework.tgz">Dynamo Framework v0.1</a></li>
+                            <li><a href="files/zImage_paapi">Power-Aware Kernel</a></li>
+                            <li><a href="files/libDynamoMiddleware.tgz">System Query Libraries</a></li>
+                            <li><a href="changelog.txt">Change log</a></li>
+                        </ul>
+                    </li>
+                    <li class="header">Distribution
+                        <ul>
+                            <!-- <li><b>For Internal Use Only</b></li> -->
+                            <li><a href="demo.html">Download Demo</a></li>
+                            <!-- <li><a href="changelog.txt">Change log</a></li>  -->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="content">
+                <h2>Students</h2>
+                <p>
+                <a href="http://www.ics.uci.edu/~mopy/" class="people">Shivajit Mohapatra</a>, University of California, Irvine<br/>
+                <a href="http://www.cs.ucsd.edu/users/cpereira/" class="people">Cristiano Pereira</a>, University of California, San Deigo<br/>
+                <a href="http://zencoding.net" class="people">Michael Philpott</a>, University of California, Irvine<br/>
+                <a href="http://www.ics.uci.edu/~radu" class="people">Radu Cornea</a>, University of California, Irvine<br/>
+                </p>
+                
+                <h2>Faculty</h2>
+                <p>
+                <a href="http://www.ics.uci.edu/~dutt" class="people">Nikil Dutt</a>, University of California, Irvine<br/>
+                <a href="http://www.cs.ucsd.edu/~gupta/" class="people">Rajesh Gupta</a>, University of California, San Diego<br/>
+                <a href="http://www.ics.uci.edu/~nicolau" class="people">Alex Nicolau</a>, University of California, Irvine<br/>
+                <a href="http://www.ics.uci.edu/~nalini" class="people">Nalini Venkatasubramanian</a>, University of California, Irvine<br/>
+                </p>
+                
+                <h2>Acknowledgements</h2>
+                <p>
+                <a href="http://www.ics.uci.edu/~hoh" class="people">Hyunok Oh</a>, University of California, Irvine<br/>
+                </p>
+            </div>
+            <div id="footer">
+                <!-- &copy; Copyright 2004 Michael Philpott. -->
+            </div>
+        </div>
+    </body>
+</html>

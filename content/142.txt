@@ -1,55 +1,88 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
-<html><head>
-<title>David Eppstein - Publications</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function() {
-            document.querySelectorAll("script[type='math/tex']").forEach(function(el) {
-              el.outerHTML = "\\(" + el.textContent + "\\)";
-            });
-            document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el) {
-              el.outerHTML = "\\[" + el.textContent + "\\]";
-            });
-            var script = document.createElement('script');
-            script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
-            document.head.appendChild(script);
-        }, false);
-    </script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>SATware</title>
+<link href="styles/rescue.css" rel="stylesheet" type="text/css" />
 </head>
-<body bgcolor="#ffffff" text="#000000">
-<h1>David Eppstein - Publications</h1>
-<hr><p>
-<h2>
-</h2>
-<ul>
-<li><b>Algorithms for stable matching and clustering in a grid</b>.<br>
-D. Eppstein,
-<a href="https://www.ics.uci.edu/~goodrich/">M. T. Goodrich</a>, and
-N. Mamano.<br>
-<a href="https://arxiv.org/abs/1704.02303">arXiv:1704.02303</a><br>
-<i>Proc. 18th International Workshop on Combinatorial Image Analysis
-(IWCIA 2017)</i>, Plovdiv, Bulgaria, 2017.<br>
-<a href="https://doi.org/10.1007/978-3-319-59108-7_10">Springer, <i>Lecture Notes in
-Comp. Sci.</i> 10256 (2017), pp. 117&ndash;131</a>.
-<p>
-Motivated by redistricting, we consider geometric variants of the stable
-matching problem in which points (such as the pixels of a discretization
-of the unit square) are to be matched to a smaller number of centers
-such that each center has the same number of matches and no match is
-unstable with respect to Euclidean distances. We show how to solve such
-problems in polylogarithmic time per matched point, experiment with
-practical heuristics for solving these problems, and test methods for
-moving the centers to improve the shape of the matched regions.
-<p>
-</ul>
 
-<hr><p>
-<a href="/~eppstein/pubs/">Publications</a> &ndash;
-<a href="/~eppstein/">David Eppstein</a> &ndash;
-<a href="/~theory/">Theory Group</a> &ndash;
-<a href="/">Inf. &amp; Comp. Sci.</a> &ndash;
-<a href="https://www.uci.edu/">UC Irvine</a>
-<p>
-<small>Semi-automatically <a href="filter.html">filtered</a>
-from a common source file.</small>
-</body></html>
+<body >
+ <!--<div id="divHeader"><a href="http://www.itr-rescue.org"><img src="http://www.itr-rescue.org/bin/img/banner900.jpg" width="900" height="100" border="0" /></a></div>-->
+<div id="divHeader2"><a href="http://www.ics.uci.edu/~projects/SATware"><img src="images/SATware_logov2.gif" height="100" width="890" border="0" /></a></div>
+
+
+
+<div id="mainNav">
+      <!--[if lte IE 6]><style>#p7PMnav a{height:1em;}#p7PMnav li{height:1em;}#p7PMnav ul li{float:left;clear:both;width:100%}</style><![endif]-->
+      <!--[if IE 6]><style>#p7PMnav ul li{clear:none;}</style><![endif]-->
+  <!-- </ul> -->
+
+</div>
+
+<div id="divFooter">
+  <a href="index.html">Home</a> | <a href="people.html">People</a> | <a href="publications.html">Publications</a> | <a href="press.html">Press</a> | <a href="all_videos_demos.html">Videos and demos</a> | <a href="intranet.html">Intranet</a>  <br />
+</div>
+
+  <div id="divContainer">
+    <div id="divSideBar" style="float: right">
+  Featured Videos and demos
+  <iframe src="videos_demos.html" width="100%" height="405px" style="background-color:rgb(230, 230, 240)"></iframe>
+
+<p align="center">
+<a href="http://www.responsphere.org" border="0"><img src="images/responsphereLogo.jpg" border="0"></a>
+	<a href="http://www.itr-rescue.org" border="0"><img src="images/rescueLogo.jpg" border="0"></a>
+	</p>
+    </div>
+
+    <div id="divContent"><div class="propcontent"></div>
+
+
+
+<!-- add your content here -->
+
+<strong><h3>Private Intranet</h3></strong>
+<h4><a href="private_downloads">Downloads</a></h4>
+Private demos, stable releases download, etc.
+
+<h4><a href="http://rescue-ibm.calit2.uci.edu:8070/forum/viewforum.php?f=2">SATware
+Forum</a></h4>
+Online discussions regarding SATware.
+
+<h4><a href="http://rescue-ibm.calit2.uci.edu:8070/wiki/SATware">SATware
+Wiki</a></h4>
+Internal documentation such as meeting agendas and summaries, conference deadlines, etc.
+
+<h4><a href="http://rescue-ibm.calit2.uci.edu:8070/wiki/ICPS">ICPS
+Wiki</a></h4>
+Internal documentation such as meeting agendas and summaries, conference deadlines, etc for ICPS project.
+
+
+<h4><a href="https://mailman.ics.uci.edu/mailman/listinfo/satware">SATware
+mailing list</a></h4>
+Subscribe, unsubscribe, and browse archived emails.
+
+
+
+<!-- end of add your content here -->
+
+
+
+    <!-- InstanceEndEditable --><div class="clearer"></div></div>
+<div class="clearer"></div>
+</div>
+
+  <div id="divFooter">
+  <a href="index.html">Home</a> | <a href="people.html">People</a> | <a href="publications.html">Publications</a> | <a href="press.html">Press</a> | <a href="all_videos_demos.html">Videos and demos</a>  | <a href="intranet.html">Intranet</a> <br />
+
+  This page was last updated on
+  <!-- #BeginDate format:fcAm1a -->June, 2007 <!-- #EndDate -->
+    <br />
+<!--<a href="mailto:rescue@ics.uci.edu">Comments or Questions </a></div>-->
+</div>
+  <p align="center" class="tightline style1">SATware is part of <a href="http://www.responsphere.org">Responsphere</a> and <a href="http://www.itr-rescue.org">Rescue</a>. <br><br>This material is based upon work supported by the<a href="http://www.nsf.gov/"> National Science Foundation</a> under
+  ward Numbers <a href="http://www.fastlane.nsf.gov/servlet/showaward?award=0331707" target="_blank">0331707</a>, <a href="http://www.fastlane.nsf.gov/servlet/showaward?award=0331690" target="_blank">0331690</a>,
+  and <a href="http://www.fastlane.nsf.gov/servlet/showaward?award=0403433" target="_blank">0403433</a>.
+  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation<br />
+
+</body>
+</html>

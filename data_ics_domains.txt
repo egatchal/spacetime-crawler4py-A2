@@ -1,5 +1,0 @@
-https://www.ics.uci.edu: 130
-http://ics.uci.edu: 1
-http://www.ics.uci.edu: 51
-https://ugradforms.ics.uci.edu: 1
-https://ics.uci.edu: 16

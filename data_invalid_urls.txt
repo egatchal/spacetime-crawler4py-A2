@@ -1,0 +1,6 @@
+0: https://www.stat.uci.edu/chairs-message
+1: https://recruit.ap.uci.edu/apply
+2: https://uci.edu/privacy
+3: https://www.stat.uci.edu
+4: mailto:communications@ics.uci.edu
+5: mailto:dgillen@uci.edu

@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-<title>honors program @ the bren school of information and computer sciences</title>
+<title>error 404 - page not found</title>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
-<script src="https://use.fontawesome.com/f443bac96a.js"></script>
-<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/><link href="../../bin/styles/stylesheet_index2018_addon.css" rel="stylesheet" type="text/css"/>
+<script src="https://use.fontawesome.com/f443bac96a.js" type="text/javascript"></script>
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<!--<link href="/ics/bin/course_info/css/datatables.css" rel="stylesheet" type="text/css"/>-->
+<link href="bin/course_info/css/stylesheet2019.css" rel="stylesheet" type="text/css"/>
+<link href="bin/styles/stylesheet_index2018_addon.css" rel="stylesheet" type="text/css"/>
 
 
-<meta content="Thu, 01 Sep 2022 15:49:51 -0380" name="date"/>
+<meta content="Thu, 23 Jan 2020 12:51:48 -0320" name="date"/>
 
 </head>
 <body>
 <!-- before breadcrumb_nav include -->
  <!-- after breadcrumb_nav include -->
-<div id="wrapper">
-<div id="header-main">
+<div id="wrapper"><div id="header-main">
     <a id="skip-nav" role="region" aria-label="Skip to main content" class="skip-nav screen-reader-text" href="#mid-section">Skip to main content</a>
     <div class="container">
         <div id="logo-container">
@@ -297,104 +299,40 @@
 </nav><section id="mid-section">
 <div class="container">
 <div class="row">
-<div class="col-md-8" id="mid-content"><!-- before breadcrumb_nav() print -->
-<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/ugrad/">Undergraduate</a> &#47; <a href="https://www.ics.uci.edu/ugrad/honors/">ICS Honors Program</a>] --><A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/ugrad/">Undergraduate</a> &#47; <a href="https://www.ics.uci.edu/ugrad/honors/">ICS Honors Program</a></div>
+<div id="mid-content"><!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu//"></a>] --><A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu//"></a></div>
 <!-- after breadcrumb_nav() print -->
 <div id="content"><a id="startcontent" name="startcontent"></a> 
-<div id="c-title">ICS Honors Program</div>
+<div id="c-title"></div>
 <blockquote>
-<div id="c-text"><p>At the Bren School, highly ambitious, talented undergraduate students succeed in preparing themselves for complex and exciting careers. Education extends from the classroom to the laboratory, studio and library; undergraduate students have amazing opportunities to join faculty in research and have their work recognized in symposia and in print before graduating with a bachelor's degree. The ICS Honors Program, in particular, provides an opportunity for students enrolled in a Bren School major to make the most of their undergraduate career at UC Irvine.</p>
-<ul>
-<li><a href="program-overview.php">Program Overview</a>
-<ul>
-<li><a href="overview/step-1-course-requirements.php">Step 1: Course Requirements</a></li>
-<li><a href="overview/step-2-honors-seminar-ics-h197.php">Step 2: Honors Seminar (ICS H197)</a></li>
-<li><a href="overview/step-3-finding-a-faculty-advisor-and-taking-cs-h198.php">Step 3: Finding A Faculty Advisor And Taking CS H198</a></li>
-<li><a href="overview/step-4-start-your-research.php">Step 4: Start Your Research</a></li>
-<li><a href="overview/step-5-completing-the-program.php">Step 5: Completing The Program</a></li>
-</ul>
-</li>
-<li><a href="apply.php">Admissions Requirements and Application</a></li>
-<li><a href="forms.php">Forms</a></li>
-<li>Additional Resources
-<ul>
-<li><a href="resources/student-testimonials.php">Student Testimonials</a></li>
-<li><a href="resources/graduate-school-resources.php">Graduate School Resources</a></li>
-<li><a href="resources/other-research-and-honors-opportunities.php">Other Research And Honors Opportunities</a></li>
-<li><a href="resources/sample-theses.php">Sample Theses</a></li>
-<li><a href="media.php">Media</a></li>
-</ul>
-</li>
-<li><a href="contact-us.php">Contact Us</a></li>
-</ul></div>
+<div id="c-text">
+    <div class="container">
+        <h3><br/> Sorry, the requested page or file does not exist.</h3>
+<style type="text/css"><!--
+  #goog-wm { }
+  #goog-wm h3.closest-match { }
+  #goog-wm h3.closest-match a { }
+  #goog-wm h3.other-things { }
+  #goog-wm ul li { }
+  #goog-wm li.search-goog { display: block; }
+--></style>
+<p>
+<script type="text/javascript">// <![CDATA[
+  var GOOG_FIXURL_LANG = 'en';
+  var GOOG_FIXURL_SITE = 'http://www.ics.uci.edu/';
+// ]]></script>
+<script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js" type="text/javascript"></script>
+</p>
+    </div>
+</div>
 </blockquote>
 </div>
 </div>
-<div class="col-md-4" id="s-bar">
-    <div id="sidebar_title">More Undergraduate</div>
-<ul>
-<li><a href="../index.php">Contact</a></li>
-<li><a href="../sao/SAO_News_and_Updates.php">News and Updates</a></li>
-<li><a href="../sao/index.php">Academic advising</a></li>
-<li><a href="../sao/Course_updates.php">Course updates</a></li>
-<li><a href="../courses/index.php">Academic year plan</a></li>
-<li><a href="../degrees/index.php">ICS majors</a>
-<ul class="s-bar-sub">
-<li><a href="../sao/GDIM_FAQ_Page.php">GDIM FAQ page</a></li>
-<li><a href="../degrees/Double_Majors.php">Double major</a></li>
-<li><a href="../degrees/Second_BA.php">2nd baccalaureate</a></li>
-</ul>
-</li>
-<li><a href="../degrees/Minors.php">ICS minors</a></li>
-<li><a href="../advising/ICS New Student Welcome.php">Newly Admitted to ICS</a></li>
-<li><a href="../QA_Petitions.php">Petitions &amp; Forms</a></li>
-<li><a href="/ugrad/policies/">Policies</a>
-<ul class="s-bar-sub">
-<li><a href="../policies/Academic_Honesty.php">Academic honesty</a></li>
-<li><a href="../policies/Academic_Standing.php">Academic standing</a></li>
-<li><a href="../policies/Add_Drop_ChangeOption.php">Add, drop, &amp; change options</a></li>
-<li><a href="../policies/Change_of_Major.php">Change of Major</a></li>
-<li><a href="../sao/Concurrent_Enrollment.php">Concurrent Enrollment</a></li>
-<li><a href="../policies/Course_Outside_UCI.php">Coursework outside UCI</a></li>
-<li><a href="../policies/CS199_IN4MATX199.php">CS 199 / IN4MATX 199</a></li>
-<li><a href="../policies/Grade_Options.php">Grade policy</a></li>
-<li><a href="../advising/ICS Credit by Exam.php">ICS Credit by Exam</a></li>
-<li><a href="../policies/Laptop_ComputerUse.php">Laptop &amp; computer use</a></li>
-<li><a href="../policies/Withdrawal_Readmission.php">Withdrawal/Readmission</a></li>
-<li><a href="../policies/ICS_192_Enrollment_CPT_OPT.php"><span>ICS 192 Enrollment/CPT&amp;OPT</span></a></li>
-</ul>
-</li>
-<li><a href="../QA_Graduation.php">Graduation</a></li>
-<li><a href="../resources/index.php">ICS student life</a></li>
-<li><a href="index.php">ICS Honors Program</a></li>
-<li><a href="../../../computing/account/new.php">Computing support</a></li>
-<li><span><a href="../resources/Title_IX_Resources.php">Title IX Resources</a></span></li>
-</ul>
-    <div class="h-gap-30"></div>
-    <style>
-.adBanner{display:none;}
-.adBanner img{
-    border-radius:5px;
-}
-.adBanner a:after{
-    display:none;
-    }
-</style>
-<div class="adBanner">
-<div class="row">
-<div class="col-12 text-center"></div>
-</div>
-</div>
-<div class="h-gap-30"></div>
-<a class="twitter-timeline" data-height="550" href="https://twitter.com/UCIbrenICS?ref_src=twsrc%5Etfw">Tweets by UCIbrenICS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<div class="h-gap-30"></div>
-<p class="social-button-sw"><a aria-pressed="true" class="btn btn-outline-primary btn-sm" href="//www.ics.uci.edu/social/" role="button">View Social Media</a></p></div>
 </div>
 </div>
 </section>
 <section id="bottom-section">
-<div class="container">
-<!--<div id="links_bottom"><system-region name="LINKS-BOTTOM"/></div>-->
+<div class="container"><!--<div id="links_bottom"><system-region name="LINKS-BOTTOM"/></div>-->
 <div id="nav-footer">
     <div class="container">
         <div class="row">
@@ -456,7 +394,6 @@
 </section>
 <!-- Back To Top Btn -->
 <div id="btt-btn"><!-- Back To Top Btn --><a href="#" id="back2Top" title="Back to top">&#10148;</a></div>
-
 <script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -469,7 +406,13 @@
 </script>
  <script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" type="text/javascript">
 </script>
-<script src="../../bin/js/btt.js" type="text/javascript">
+ <script src="bin/js/btt.js" type="text/javascript">
+</script>
+
+ <script src="bin/course_info/js/datatables.min.js" type="text/javascript">
+</script>
+
+ <script src="bin/course_info/js/insert_before.js" type="text/javascript">
 </script>
 <!-- Accessibilty - START -->
 <script type="text/javascript">

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Anne Marie Piper's UCI website">
+    <meta name="author" content="Anne Marie Piper">
+    <meta name="google-site-verification" content="NicN9Chpdy2eI22PjhIGsqhJ0DLlbbVdL1rcLuGC2RE" />
+
+    <title>Anne Marie Piper</title>
+  <link rel="icon" href="images/icon.png">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/blog/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-18782571-2']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+
+
+	<body>
+
+
+<div class="d-block py-4 my-0" style="background: #163b54">        
+    <div class="container">
+          <a href="https://www.ics.uci.edu/"><img class="m-4 p-2" src="images/UCI_Bren_ICS.png" alt="UCI Donald Bren School of Information & Computer Sciences Logo" ></a>
+
+         <h1 class="px-1 py-3 text-white">Anne Marie Piper</h1>
+      </div>
+</div>
+
+<div class="d-block py-1 my-0" style="background: #1b4968">        
+    <div class="container">
+      <div class="nav-scroller">
+        <nav class="nav d-flex py-2">
+	      <a class="pr-4 text-white"  href="index.html">About</a>
+          <a class="px-4 text-white"  href="group.html">Research Group</a>
+          <a class="px-4 text-white"  href="publications.html">Publications</a>
+          <a class="px-4 text-white" href="Piper-CV.pdf">CV</a>
+        </div>
+
+        </nav>
+      </div>
+    </div>
+</div>
+
+
+
+
+<div class="d-block p-1" style="background: #E8E8E8; box-shadow: 0px 1px 3px gray">        
+
+		<div class="container">
+
+			<div class="jumbotron vertical-center p-1 my-4" style="background: #E8E8E8">
+				<img src="images/piper-bio.jpg" alt="Bio photo of Anne Marie Piper"></img>
+				<p>
+					I am an Associate Professor in the <a href="https://www.informatics.uci.edu/">Department of Informatics</a> at <a href="https://uci.edu//">The University of California, Irvine</a>. My research in human-computer interaction and accessible computing aims to create more equitable and inclusive digital experiences for people of all ages and abilities. My prior and ongoing work focuses on designing new technologies for collaborative work among ability-diverse teams of professionals and academics; developing accessible content production tools for artists, writers, and musicians who are blind; and leveraging the arts as a form of expression and resource for designing alongside people with dementia or speech-language impairments. My research and teaching has been recognized with an NSF CAREER Award, Alumnae of Northwestern Award for Curriculum Development, Best Paper Awards and Nominations at ACM CHI, CSCW, DIS, and ASSETS, and a UC-San Diego Interdisciplinary Scholar Award. I received my PhD in Cognitive Science from the University of California, San Diego, MA in Education from Stanford University, and BS in Computer Science from Georgia Tech. Prior to joining UC-Irvine, I was a faculty member in <a href="https://www.communication.northwestern.edu/departments/communicationstudies">Communication Studies</a> at <a href="https://www.northwestern.edu/">Northwestern University</a>.
+				</p>
+			</div>
+		</div>
+</div>
+
+		<div class="container py-4 my-4" role="main">
+
+				<div class="row">
+					<div class="col-md-12">
+						<h3>Affiliations</h3>
+
+						<ul><li><a href="https://www.informatics.uci.edu/">UCI Department of Informatics</a>, Associate Professor
+							<li><a href="https://accessibility.ics.uci.edu/">UCI Accessibility Research Collective</a>, founding member</li>
+							<li><a href="https://create.ics.uci.edu/">UCI Steckler Center for Responsible, Ethical, and Accessible Technology (CREATE)</a>, Associate Director</li>
+							<li><a href="https://mhcid.ics.uci.edu/">UCI Master's in Human-Computer Interaction and Design (MHCID)</a>, Faculty Director</li>
+						</ul>
+
+						<h3>Research Highlights</h3>
+						<ul>
+						<li>A core area of my research involves studying, designing, and building new digital tools for accessible content production. We received an <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1901456">NSF Medium Award</a> to study and design the future of content production tools for people with vision impairments.</li> More details are listed on our <a href="https://inclusive-creativity.soc.northwestern.edu/">project website</a>.
+										
+						<li>I have written extensively on understanding technology and online life among older adults, including issues of ageism in technology design and what it means to age online in the context of disability.
+						<li>My work also understands participatory design methods involving people with complex communication needs (e.g., dementia, aphasia, trauma) and how co-design can be made more equiable and just.</li>
+						<li>A previous NSF-funded project explored the design and evaluation of surface haptics for young children's science learning. See our <a href="https://preschoolhaptics.soc.northwestern.edu/index.html">project website</a> for more details.</li>
+
+						</ul>
+
+						<h3>Contact</h3>
+						<p>
+							ampiper (at) uci (dot) edu
+							<br>
+						</p>
+						<p>
+							Donald Bren Hall<br>
+							Department of Informatics<br>
+							School of Information and Computer Science<br>
+							University of California, Irvine
+						</p>
+
+
+					</div>
+
+				</div>
+
+		</div>
+		<!-- /container -->
+
+
+<div class="d-block p-4" style="background: #E8E8E8">        
+
+
+<div class="well well-sm text-center py-1">
+        <p>
+              Department of Informatics<br>
+              School of Information and Computer Science<br>
+              University of California, Irvine
+        </p>
+      </div>
+
+</div>
+
+
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script>
+			window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+		</script>
+		<script src="../../dist/js/bootstrap.min.js"></script>
+		<script src="../../assets/js/docs.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+	</body>
+</html>

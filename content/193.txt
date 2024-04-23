@@ -1,53 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
-<html><head>
-<title>David Eppstein - Publications</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function() {
-            document.querySelectorAll("script[type='math/tex']").forEach(function(el) {
-              el.outerHTML = "\\(" + el.textContent + "\\)";
-            });
-            document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el) {
-              el.outerHTML = "\\[" + el.textContent + "\\]";
-            });
-            var script = document.createElement('script');
-            script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
-            document.head.appendChild(script);
-        }, false);
-    </script>
-</head>
-<body bgcolor="#ffffff" text="#000000">
-<h1>David Eppstein - Publications</h1>
-<hr><p>
-<h2>
-</h2>
-<ul>
-<li><b>Hardness of approximate compaction for nonplanar orthogonal graph
-drawings</b>.<br>
-<a href="https://michaeljbannister.com/">M. J. Bannister</a> and
-D. Eppstein.<br>
-<i>Proc. 19th Int. Symp. Graph Drawing</i>, Eindhoven, The Netherlands, 2011.<br>
-Springer, <i>Lecture Notes in Comp. Sci.</i> 7034, 2012, pp. 367&ndash;378.
-<p>
-We show that, for several variants of the problem of compacting a grid
-drawing of a graph to use the minimum number of rows or minimum area,
-no good approximation algorithm is possible. We also develop
-fixed-parameter tractable algorithms and approximation algorithms
-showing that some of our inapproximability bounds are tight.
-See the journal
-version, "<a href="p-inapprox-compact.html">Inapproximability of
-orthogonal compaction</a>",
-for some improvements and corrections.
-<p>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /~dsm/project</title>
+ </head>
+ <body>
+<h1>Index of /~dsm/project</h1>
+<ul><li><a href="/~dsm/"> Parent Directory</a></li>
+<li><a href=".DS_Store"> .DS_Store</a></li>
+<li><a href="._.DS_Store"> ._.DS_Store</a></li>
+<li><a href="signal/"> signal/</a></li>
 </ul>
-
-<hr><p>
-<a href="/~eppstein/pubs/">Publications</a> &ndash;
-<a href="/~eppstein/">David Eppstein</a> &ndash;
-<a href="/~theory/">Theory Group</a> &ndash;
-<a href="/">Inf. &amp; Comp. Sci.</a> &ndash;
-<a href="https://www.uci.edu/">UC Irvine</a>
-<p>
-<small>Semi-automatically <a href="filter.html">filtered</a>
-from a common source file.</small>
+<address>Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.7.14 Server at www.ics.uci.edu Port 80</address>
 </body></html>

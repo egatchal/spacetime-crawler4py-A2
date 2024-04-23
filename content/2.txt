@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head >
 <meta charset="UTF-8" />
-<title>M.S. &#038; Ph.D. in Statistics</title>		<meta name="robots" content="noodp,noydir" />
+<title>Chair&#8217;s Message</title>		<meta name="robots" content="noodp,noydir" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name='robots' content='max-image-preview:large' />
 
@@ -16,7 +16,7 @@
 <link rel='dns-prefetch' href='//s.w.org' />
 <link rel="alternate" type="application/rss+xml" title="Department of Statistics - Donald Bren School of Information &amp; Computer Sciences &raquo; Feed" href="https://www.stat.uci.edu/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Department of Statistics - Donald Bren School of Information &amp; Computer Sciences &raquo; Comments Feed" href="https://www.stat.uci.edu/comments/feed/" />
-<link rel="canonical" href="https://www.stat.uci.edu/m-s-ph-d-in-statistics/" />
+<link rel="canonical" href="https://www.stat.uci.edu/chairs-message/" />
 <script type="text/javascript">
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.stat.uci.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2"}};
 /*! This file is auto-generated */
@@ -51,9 +51,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <script type='text/javascript' src='https://www.stat.uci.edu/wp-content/themes/genesis/lib/js/html5shiv.min.js?ver=3.7.3' id='html5shiv-js'></script>
 <![endif]-->
 <script type='text/javascript' src='https://www.stat.uci.edu/wp-content/themes/genesis-stats-retry/js/jquery.collapse.js?ver=6.0.2' id='custom-collpase-js'></script>
-<link rel="https://api.w.org/" href="https://www.stat.uci.edu/wp-json/" /><link rel="alternate" type="application/json" href="https://www.stat.uci.edu/wp-json/wp/v2/pages/186" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.stat.uci.edu/xmlrpc.php?rsd" />
-<link rel="alternate" type="application/json+oembed" href="https://www.stat.uci.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.stat.uci.edu%2Fm-s-ph-d-in-statistics%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://www.stat.uci.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.stat.uci.edu%2Fm-s-ph-d-in-statistics%2F&#038;format=xml" />
+<link rel="https://api.w.org/" href="https://www.stat.uci.edu/wp-json/" /><link rel="alternate" type="application/json" href="https://www.stat.uci.edu/wp-json/wp/v2/pages/23" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.stat.uci.edu/xmlrpc.php?rsd" />
+<link rel="alternate" type="application/json+oembed" href="https://www.stat.uci.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.stat.uci.edu%2Fchairs-message%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.stat.uci.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.stat.uci.edu%2Fchairs-message%2F&#038;format=xml" />
 <link rel="pingback" href="https://www.stat.uci.edu/xmlrpc.php" />
 <link rel="icon" href="https://www.stat.uci.edu/wp-content/uploads/cropped-UCIlogo-32x32.jpg" sizes="32x32" />
 <link rel="icon" href="https://www.stat.uci.edu/wp-content/uploads/cropped-UCIlogo-192x192.jpg" sizes="192x192" />
@@ -99,10 +99,10 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     overflow: hidden;
 }		</style>
 		</head>
-<body class="page-template-default page page-id-186 header-image content-sidebar elementor-default elementor-kit-1805" itemscope itemtype="http://schema.org/WebPage"><div class="site-container"><header class="site-header" itemscope itemtype="http://schema.org/WPHeader"><div class="wrap"><div class="title-area"><h1 class="site-title" itemprop="headline"><a href="https://www.stat.uci.edu/">Department of Statistics - Donald Bren School of Information &amp; Computer Sciences</a></h1><h2 class="site-description" itemprop="description">Department of Statistics - Donald Bren School of Information &amp; Computer Sciences</h2></div><div class="widget-area header-widget-area"><section id="search-3" class="widget widget_search"><div class="widget-wrap"><form class="search-form" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction" method="get" action="https://www.stat.uci.edu/" role="search"><meta itemprop="target" content="https://www.stat.uci.edu/?s={s}"/><input itemprop="query-input" type="search" name="s" placeholder="Search this site..." /><input type="submit" value="Search"  /></form></div></section>
-</div></div></header><nav class="nav-primary" itemscope itemtype="http://schema.org/SiteNavigationElement"><div class="wrap"><ul id="menu-header-menu" class="menu genesis-nav-menu menu-primary"><li id="menu-item-84" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-84"><a href="#" itemprop="url"><span itemprop="name">Explore</span></a>
+<body class="page-template-default page page-id-23 header-image content-sidebar elementor-default elementor-kit-1805" itemscope itemtype="http://schema.org/WebPage"><div class="site-container"><header class="site-header" itemscope itemtype="http://schema.org/WPHeader"><div class="wrap"><div class="title-area"><h1 class="site-title" itemprop="headline"><a href="https://www.stat.uci.edu/">Department of Statistics - Donald Bren School of Information &amp; Computer Sciences</a></h1><h2 class="site-description" itemprop="description">Department of Statistics - Donald Bren School of Information &amp; Computer Sciences</h2></div><div class="widget-area header-widget-area"><section id="search-3" class="widget widget_search"><div class="widget-wrap"><form class="search-form" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction" method="get" action="https://www.stat.uci.edu/" role="search"><meta itemprop="target" content="https://www.stat.uci.edu/?s={s}"/><input itemprop="query-input" type="search" name="s" placeholder="Search this site..." /><input type="submit" value="Search"  /></form></div></section>
+</div></div></header><nav class="nav-primary" itemscope itemtype="http://schema.org/SiteNavigationElement"><div class="wrap"><ul id="menu-header-menu" class="menu genesis-nav-menu menu-primary"><li id="menu-item-84" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-84"><a href="#" itemprop="url"><span itemprop="name">Explore</span></a>
 <ul class="sub-menu">
-	<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://www.stat.uci.edu/chairs-message/" itemprop="url"><span itemprop="name">Chair&#8217;s Welcome</span></a></li>
+	<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-23 current_page_item menu-item-34"><a href="https://www.stat.uci.edu/chairs-message/" aria-current="page" itemprop="url"><span itemprop="name">Chair&#8217;s Welcome</span></a></li>
 	<li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154"><a href="https://www.stat.uci.edu/what-is-statistics/" itemprop="url"><span itemprop="name">What is Statistics?</span></a></li>
 	<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://www.stat.uci.edu/contact-the-department/" itemprop="url"><span itemprop="name">Contact the Department</span></a></li>
 	<li id="menu-item-555" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-555"><a href="https://www.stat.uci.edu/tutoring-resources/" itemprop="url"><span itemprop="name">Tutoring Resources</span></a></li>
@@ -115,9 +115,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 </ul>
 </li>
 <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="https://www.stat.uci.edu/research/" itemprop="url"><span itemprop="name">Research</span></a></li>
-<li id="menu-item-38" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-38"><a href="#" itemprop="url"><span itemprop="name">Graduate Degrees</span></a>
+<li id="menu-item-38" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-38"><a href="#" itemprop="url"><span itemprop="name">Graduate Degrees</span></a>
 <ul class="sub-menu">
-	<li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-186 current_page_item menu-item-190"><a href="https://www.stat.uci.edu/m-s-ph-d-in-statistics/" aria-current="page" itemprop="url"><span itemprop="name">M.S. &#038; Ph.D. in Statistics</span></a></li>
+	<li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190"><a href="https://www.stat.uci.edu/m-s-ph-d-in-statistics/" itemprop="url"><span itemprop="name">M.S. &#038; Ph.D. in Statistics</span></a></li>
 	<li id="menu-item-1739" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1739"><a href="https://mds.ics.uci.edu/" itemprop="url"><span itemprop="name">Master of Data Science</span></a></li>
 	<li id="menu-item-89" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-89"><a href="http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&#038;level=Graduate&#038;department=STATS&#038;program=ALL" itemprop="url"><span itemprop="name">Current Course Listings</span></a></li>
 	<li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="https://www.stat.uci.edu/grad-student-directory/" itemprop="url"><span itemprop="name">Graduate Student Directory</span></a></li>
@@ -139,18 +139,17 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 </ul>
 </li>
 <li id="menu-item-159" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-159"><a href="https://statconsulting.ics.uci.edu/" itemprop="url"><span itemprop="name">Center for Statistical Consulting</span></a></li>
-</ul></div></nav><div class="site-inner"><div class="content-sidebar-wrap"><main class="content"><article class="post-186 page type-page status-publish has-post-thumbnail entry" itemscope itemtype="http://schema.org/CreativeWork"><header class="entry-header"><h1 class="entry-title" itemprop="headline">M.S. &#038; Ph.D. in Statistics</h1> 
-</header><div class="entry-content" itemprop="text"><hr />
-<p><em><strong>* Graduate application deadline is Dec. 15, submit your <a href="https://apply.grad.uci.edu/apply/" target="_blank" rel="noopener noreferrer">online</a> application now! *</strong></em></p>
-<hr />
-<p>Individuals from a variety of backgrounds can make significant contributions to the field of statistics as long as they have sufficient background in statistics, mathematics, and computing.</p>
-<p>Undergraduate preparation in statistics, mathematics, and computing should include multivariate calculus (the equivalent of UCI courses Mathematics 2A-B, 2D-E), linear algebra (121A), elementary analysis (140A-B), introductory probability and statistics (Statistics 120A-B-C), and basic computing (ICS 21).</p>
-<p>For students with undergraduate majors outside of mathematics and statistics, it is possible to make up one or two missing courses during the first year in the program.</p>
-<p>The UCI General Catalogue is the official guide to all degree and graduation requirements. For previous calendar years, please see <a href="http://catalogue.uci.edu/previouseditions/">here</a>.</p>
-<ul>
-<li><a href="http://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofstatistics/">Current Degree Requirements</a></li>
-<li><a href="https://www.ics.uci.edu/bin/pdf/grad/F19%20Graduate%20Student%20Handbook.pdf" target="_blank" rel="noopener noreferrer">ICS Graduate Handbook</a></li>
-</ul>
+</ul></div></nav><div class="site-inner"><div class="content-sidebar-wrap"><main class="content"><article class="post-23 page type-page status-publish entry" itemscope itemtype="http://schema.org/CreativeWork"><header class="entry-header"><h1 class="entry-title" itemprop="headline">Chair&#8217;s Message</h1> 
+</header><div class="entry-content" itemprop="text"><p><img class="alignright wp-image-202 size-medium" src="http://www.stat.uci.edu//wp-content/uploads/Dan-Gillen-headdshot-231x300.jpg" alt="Dan Gillen" width="231" height="300" srcset="https://www.stat.uci.edu/wp-content/uploads/Dan-Gillen-headdshot-231x300.jpg 231w, https://www.stat.uci.edu/wp-content/uploads/Dan-Gillen-headdshot.jpg 350w" sizes="(max-width: 231px) 100vw, 231px" />Statistics is the science concerned with developing and studying methods for collecting, analyzing, interpreting and presenting empirical data.</p>
+<p>Statistical principles and methods are important for addressing questions in public policy, medicine, industry and virtually every branch of science.</p>
+<p>Interest in statistical methods has increased dramatically with the abundance of large databases in fields like computer science (internet and web traffic), business and marketing (transaction records), and biology (the human genome and related data).</p>
+<p>It is the substantial questions in the various areas of application that drive the development of new statistical methods and motivate the mathematical study of the methods&#8217; properties.</p>
+<p>UCI&#8217;s Department of Statistics was created in 2002 with an emphasis on research in statistical theory and interdisciplinary collaborations and is actively recruiting additional members.</p>
+<p>The Department also intends to capitalize on existing statistical expertise in other Bren School departments as well as other schools at UCI.</p>
+<p>Welcome to Statistics at UCI! Don&#8217;t hesitate to <a href="mailto:dgillen@uci.edu">contact me</a> if you have questions that are not addressed on this Web site.</p>
+<p><b>Dan Gillen</b><br />
+Professor and Chair<br />
+Department of Statistics</p>
 </div></article></main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="http://schema.org/WPSideBar">
 		<section id="recent-posts-3" class="widget widget_recent_entries"><div class="widget-wrap">
 		<h4 class="widget-title widgettitle">Latest News</h4>

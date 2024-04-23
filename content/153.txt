@@ -1,56 +1,105 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
-<html><head>
-<title>David Eppstein - Publications</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function() {
-            document.querySelectorAll("script[type='math/tex']").forEach(function(el) {
-              el.outerHTML = "\\(" + el.textContent + "\\)";
-            });
-            document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el) {
-              el.outerHTML = "\\[" + el.textContent + "\\]";
-            });
-            var script = document.createElement('script');
-            script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
-            document.head.appendChild(script);
-        }, false);
-    </script>
-</head>
-<body bgcolor="#ffffff" text="#000000">
-<h1>David Eppstein - Publications</h1>
-<hr><p>
-<h2>
-</h2>
-<ul>
-<li><b>Computing the depth of a flat</b>.<br>
-<a href="https://www.parc.xerox.com/csl/members/bern/">M. Bern</a>
-and D. Eppstein.<br>
-<a href="https://arXiv.org/abs/cs.CG/0009024">arXiv:cs.CG/0009024</a>.<br>
-<a href="https://portal.acm.org/citation.cfm?id=374603">
-<i>12th ACM-SIAM Symp. Discrete Algorithms,</i>
-Washington, 2001, pp. 700&ndash;701</a>.
-<p>
-We compute the <a href="geom-deep.html">regression depth</a> of a k-flat
-in a set of n d-dimensional
-points, in time O(n<sup>d-2</sup>), an order of magnitude faster than
-the best known algorithms for computing the depth of a point or of a
-hyperplane.
-The results from this conference paper have been merged into the full
-version of
-"<a href="p-multivariate.html">Multivariate Regression Depth</a>".
-<p>
-(<a href="BerEpp-SODA-01-slides.pdf">SODA talk slides</a> &ndash;
-<a href="BerEpp-SODA-01.pdf">SODA paper</a>)
-<p>
-</ul>
-
-<hr><p>
-<a href="/~eppstein/pubs/">Publications</a> &ndash;
-<a href="/~eppstein/">David Eppstein</a> &ndash;
-<a href="/~theory/">Theory Group</a> &ndash;
-<a href="/">Inf. &amp; Comp. Sci.</a> &ndash;
-<a href="https://www.uci.edu/">UC Irvine</a>
-<p>
-<small>Semi-automatically <a href="filter.html">filtered</a>
-from a common source file.</small>
-</body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>FORGE/Dynamo: Home</title>
+        <style type="text/css" media="screen">
+            /*<![CDATA[*/
+                @import url(css/dynamo.css);
+            /*]]>*/
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="top">
+                <center><img src="./img/dynamoheader.png" alt="homepage banner" /></center>
+            </div>
+           <div id="rightnav">
+                <ul>
+                    <li class="header">Navigation
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="docs.html">Documentation</a></li>
+                            <li><a href="people.html">People</a></li>
+                            <li><b>Publications</b></li>
+                            <li><a href="related.html">Related Links</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="http://dynamo.ics.uci.edu">Research Homepage</a></li>
+                        </ul>
+                    </li>
+                    <li class="header">Downloads
+                        <ul>
+                          <!-- <li><b>For Internal Use Only</b></li>  -->
+                            <li><a href="files/dynamo_paapi_framework.tgz">Dynamo Framework v0.1</a></li>
+                            <li><a href="files/zImage_paapi">Power-Aware Kernel</a></li>
+                            <li><a href="files/libDynamoMiddleware.tgz">System Query Libraries</a></li>
+                            <li><a href="changelog.txt">Change log</a></li>
+                        </ul>
+                    </li>
+                    <li class="header">Distribution
+                        <ul>
+                            <!-- <li><b>For Internal Use Only</b></li> -->
+                            <li><a href="demo.html">Download Demo</a></li>
+                            <!-- <li><a href="changelog.txt">Change log</a></li>  -->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="content">
+                <h2>Publications</h2>
+                <p>
+                    <ul>
+                        <li>
+                            <p align="justify">Shivajit Mohapatra, Nalini Venkatasubramanian, Nikil Dutt, <b>Cristiano
+                            Periera</b>, Rajesh Gupta, "Energy-Aware Adaptations for end-to-end video streaming to 
+                            mobile handheld devices", chapter 14 of the book "Ultra Low Power Electronics and Design", 
+                            Kluwer Academic Publishers, 2004. 
+                            [<a href="http://webfiles.uci.edu/smohapat/pub/chap14.pdf">book chapter</a>]</p>
+                        </li>
+                       <li> 
+                        H Van Antwerpen, Nikil Dutt, Rajesh Gupta, Shivajit Mohapatra, Cristiano Periera, 
+                        Nalini Venkatasubramanian, R Von Vignau,
+                        "<b><a href="http://webfiles.uci.edu/smohapat/pub/date04.pdf">Platforms and Tools 
+                        for Energy-Efficient Design of Multimedia Systems</a></b>", Design Automation and Test in     
+                        Europe, DATE 2004, Paris (<i>Invited Paper</i>)
+                     </li>
+                        <li class="publication">
+                            <p align="justify">Shivajit Mohapatra, Radu Cornea, Nikil Dutt, Alex Nicolau, Nalini
+                            Venkatasubramanian, "<b><a href=
+                            "http://webfiles.uci.edu/smohapat/pub/moh_ACM.pdf">Integrated Power Management for Video
+                            Streaming to Mobile Handheld Devices</a></b>", ACM Multimedia '03 (Systems Track) (<b>ACM
+                            SIGMM</b>-03), Berkeley, CA, 02-08 November 2003</p>
+                        </li>
+                        <li class="publication">
+                            <p align="justify">Shivajit Mohapatra, Nalini Venkatasubramanian. "<b><a href=
+                            "http://webfiles.uci.edu/smohapat/pub/moh_mwcn03.pdf">Proactive Energy-Aware Video
+                            Streaming to Mobile Handheld Devices</a></b>", Fifth IEEE International Conference on
+                            Mobile and Wireless Communications Networks (<b>MWCN</b> 2003), Singapore, 27-29 October
+                            2003.</p>
+                        </li>
+                        <li class="publication">
+                            <p><B>C. Pereira</B>, R. Gupta, M. Srivastava. &quot;PASA: A Software architecture
+                            for building power aware embedded systems&quot;, In the proceedings of the IEEE CAS 
+                            Workshop on Wireless Communications and Networking - Power efficient wireless 
+                            ad hoc networks, September 5-6, 2002, at Doubletree Hotel Pasadena, 
+                            California [<A NAME="tex2html1" 
+                            HREF="http://www.cs.ucsd.edu/~cpereira/papers/cas2002.pdf.gz">pdf.gz</A>]
+                            </p>
+                        </li>
+                        <li class="publication">
+                            <p align="justify"> Sudeep Pasricha, Shivajit Mohapatra, Manev Luthra, Nikil Dutt,  
+                             Nalini Venkatasubramanian. 
+                             "<b><a href="http://webfiles.uci.edu/smohapat/pub/estimedia.pdf">Reducing 
+                             Backlight Power Consumption for Streaming Video Applications on Mobile 
+                             Handheld Devices</a></b>", ACM/IEEE/IFIP Workshop on Embedded Systems for Real-Time 
+                             Multimedia (ESTIMedia, CODES-ISSS  2003),  Newport Beach,  California,  
+                             October 3-4, 2003.</p>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            <div id="footer">
+                <!-- &copy; Copyright 2004 Michael Philpott. -->
+            </div>
+        </div>
+    </body>
+</html>

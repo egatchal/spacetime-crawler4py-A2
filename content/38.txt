@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-<title>honors program - step 5 completing the program @ the bren school of information and computer sciences</title>
+<title>course updates @ the bren school of information and computer sciences</title>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
 <script src="https://use.fontawesome.com/f443bac96a.js"></script>
-<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/><link href="../../../bin/styles/stylesheet_index2018_addon.css" rel="stylesheet" type="text/css"/>
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/><link href="../bin/styles/stylesheet_index2018_addon.css" rel="stylesheet" type="text/css"/>
 
 
-<meta content="Thu, 01 Sep 2022 15:49:51 -0380" name="date"/>
+<meta content="Fri, 03 Jun 2022 09:33:56 -0380" name="date"/>
 
 </head>
 <body>
@@ -298,81 +298,146 @@
 <div class="container">
 <div class="row">
 <div class="col-md-8" id="mid-content"><!-- before breadcrumb_nav() print -->
-<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/ugrad/">Undergraduate</a> &#47; <a href="https://www.ics.uci.edu/ugrad/honors/">ICS Honors Program</a> &#47; <a href="https://www.ics.uci.edu/ugrad/honors/overview/"></a>] --><A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/ugrad/">Undergraduate</a> &#47; <a href="https://www.ics.uci.edu/ugrad/honors/">ICS Honors Program</a> &#47; <a href="https://www.ics.uci.edu/ugrad/honors/overview/"></a></div>
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/grad/">Graduate</a>] --><A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/grad/">Graduate</a></div>
 <!-- after breadcrumb_nav() print -->
 <div id="content"><a id="startcontent" name="startcontent"></a> 
-<div id="c-title">Step 5: Completing the Program</div>
+<div id="c-title">Course Updates</div>
 <blockquote>
-<div id="c-text"><p>The results of your honors work as an ICSHP participant must be certified by your faculty advisor and by the program advisor to be of honors quality.</p>
-<p>NOTE: Students in the Campus Honors Collegium (CHC) should keep in contact with CHC counselors about requirements for completion, as they may differ from ICSHP requirements.</p>
-<p>At the end of your second quarter of independent study with your faculty advisor, you should prepare a paper describing the project and the results. Again, the format may vary considerably from one project to another. For example, one student might produce a well-documented program to be used in a lab in one of our courses, and also provide a paper describing the design choices, rationale and experience with the use of the program. Another student might not do any programming, but rather do a statistical study of the use of computers in some organization, and write a careful scholarly interpretation of the results (perhaps 20 pages) with appropriate references to the literature.</p>
-<p>You can find examples of what students have done in the past on our <a href="https://drive.google.com/drive/folders/1dT091MKXjo90GUf-8dWdf5rNW2PFX0mz?usp=sharing" target="_blank">ICSHP Sample Thesis Database</a>.</p>
-<p><span style="text-decoration: underline;"><strong>&#65279;How to Submit Your Thesis</strong></span></p>
-<p data-uw-styling-context="true" dir="ltr"><span data-uw-styling-context="true">Once you have completed your thesis, you will need to submit it to the ICS Undergraduate Student Affairs Office along with the Final Project Form.&#160;</span></p>
-<p data-uw-styling-context="true"><span data-uw-styling-context="true">&#160;</span>Here are the steps to submit your Final Project Form:</p>
-<ul data-uw-styling-context="true">
-<li aria-level="1" data-uw-styling-context="true" dir="ltr">
-<p data-uw-styling-context="true" dir="ltr" role="presentation"><span data-uw-styling-context="true">Step 1: Download the&#160;</span><a data-uw-styling-context="true" href="https://www.ics.uci.edu/ugrad/honors/Remote%20Final%20Thesis%20Form.pdf">Final Project Form</a><span data-uw-styling-context="true">&#160;on our website and fill out the student portion.&#160;</span></p>
-</li>
-<li aria-level="1" data-uw-styling-context="true" dir="ltr">
-<p data-uw-styling-context="true" dir="ltr" role="presentation"><span data-uw-styling-context="true">Step 2: Have your Faculty Advisor electronically sign the&#160;</span><a data-uw-styling-context="true" href="https://www.ics.uci.edu/ugrad/honors/Remote%20Final%20Thesis%20Form.pdf">Final Project Form</a><span data-uw-styling-context="true">.</span></p>
-<ul data-uw-styling-context="true">
-<li aria-level="2" data-uw-styling-context="true" dir="ltr">
-<p data-uw-styling-context="true" dir="ltr" role="presentation"><span data-uw-styling-context="true">Note: You don't need to worry about the Honors Program Advisor signature. We will reach out to them on your behalf.</span></p>
-</li>
+<div id="c-text"><h2>Fall 2022: ICS Course Restrictions</h2>
+<p>&#65279;This timeline for ICS course restrictions updates is being provided to help students with planning during the open enrollment period.</p>
+<p><strong>It is highly recommended that students check this page periodically. </strong> The timeline will be followed for the most part, but course restrictions are subject to change<em>,</em> such as in the case of highly impacted courses where restrictions may be extended or adjusted at a time other than initially planned.</p>
+<p>ICS Student Affairs reserves the right to adjust restrictions and the timeline at any time.</p>
+<hr style="width: 100%;" width="100%"/>
+<p><strong>Important Notes:</strong></p>
+<ul>
+<li>ICS Graduate Students who wish to enroll in a restricted ICS course (e.g., a Stats M.S. or Ph.D. student wishing to take CS 284A) may contact an ICS graduate counselor for assistance.</li>
+<li>ICS&#160;<em>strictly</em>&#160;enforces the campus' Week 2 add/drop deadline. The add/drop deadline for Fall 2022 is&#160;<strong>5:00pm, Friday, October 7, 2022</strong>.</li>
+<li>Graduate students outside of the School of ICS must wait enroll in ICS courses beginning <strong>12:00pm, September 1</strong><strong>, 2022</strong>. No exceptions to this registration schedule will be made.</li>
+<li>ICS Graduate Students wishing to enroll in an ICS&#160;<span><span style="text-decoration: underline;">undergraduate</span> level</span>&#160;course may send an email requesting authorization to&#160;<em>ucounsel@uci.edu</em>&#160;beginning <strong>12:00pm, September 1</strong><strong>, 2022</strong>.</li>
+<li>ICS&#160;<span>Undergraduate Students</span>&#160;seeking to take an ICS graduate level course and receives permission from the instructor may email&#160;<em>gcounsel@ics.uci.edu</em>&#160;for assistance beginning <strong>12:00pm, September 1</strong><strong>, 2022</strong>.</li>
 </ul>
-</li>
-<li aria-level="1" data-uw-styling-context="true" dir="ltr">
-<p data-uw-styling-context="true" dir="ltr" role="presentation"><span data-uw-styling-context="true">Step 3: Once the form is completed, please submit it through the&#160;</span><a data-uw-styling-context="true" href="https://docs.google.com/forms/d/e/1FAIpQLSft8Rmm9dWiENP3ON6BIWhegNLlFCr9ol4hGwPYxI0yDG1QSw/viewform?usp=sf_link">Final Project Form Submission Google Form</a><span data-uw-styling-context="true">&#160;along with your thesis.</span></p>
-</li>
+<hr style="width: 100%;" width="100%"/>
+<p class="text"></p>
+<p class="text"><strong><span style="color: #ff8000;"><a id="GradRestrictions"></a>&#65279;School/Major restrictions on <span style="text-decoration: underline;">GRADUATE</span> courses</span> will follow the below timeline:</strong></p>
+<table border="1" cellpadding="3" cellspacing="0" dir="ltr" style="width: 100%;" summary="graduate restriction timeline">
+<tbody>
+<tr align="center" style="background-color: #a9ceef;">
+<td colspan="2" style="text-align: center;"><strong>GRADUATE&#160; COURSE&#160; UPDATES</strong></td>
+</tr>
+<tr align="center" style="background-color: #cee3f6;">
+<td style="text-align: center;" width="21%"><strong>Starting Date(s)</strong></td>
+<td style="text-align: center;" width="79%"><strong>Restriction Updates</strong></td>
+</tr>
+<tr>
+<td>
+<p><strong>5/16/22</strong><br/>Spring 2022<br/>Week 8</p>
+<p><span style="color: #007acc;"><strong>School/Major restrictions active</strong></span></p>
+</td>
+<td>
+<p><em><strong>COMPSCI: </strong></em>Restricted to CS, NS, SE, and STATS graduate students only, <strong><em>except</em></strong>:</p>
+<ul>
+<li style="margin-left: -10px;">CS 242, CS 261: CS, CmptSci, SE, NS graduate students only</li>
+<li style="margin-left: -10px;">CS 284A: CS, CmptSci, SE, MCSB graduate students only</li>
+<li style="margin-left: -10px;">All courses with suffix 'P', e.g., CS 201P: restricted to students in the MCS and/or MDS programs <em>only</em></li>
 </ul>
-<p><span data-uw-styling-context="true"><strong>The normal submission deadline is June 30.</strong> If you need more time to complete the paperwork, please make arrangements with the ICS SAO office well in advance.</span></p>
-<p><span style="text-decoration: underline;"><strong><span data-uw-styling-context="true">After You Submit Your Thesis</span></strong></span></p>
-<p data-uw-styling-context="true" dir="ltr"><span data-uw-styling-context="true">After you submit your thesis, we will forward it to the ICS Honors Program Advisor for review. We will contact you once we receive an update. Please note that this process may take a few weeks.</span></p>
-<p>Once the paper is approved by your faculty advisor and the form is signed by both the faculty and the program advisors, you are considered to have successfully completed the ICSHP. If you have any questions about this process, don&#8217;t hesitate to discuss them with the program advisor or an SAO staff member.</p></div>
+<p><em><strong>DATA</strong></em>: Restricted to students in the MDS program only.</p>
+<p><em><strong>IN4MATX</strong></em>: Restricted to INF, SE, CS, and STATS graduate students only, <strong><em>except</em></strong>:</p>
+<ul style="margin-left: -10px;">
+<li>INF 280, INF 281, INF 282: Restricted to students in the MHCID program <em>only</em></li>
+</ul>
+<p><em><strong>NET SYS: </strong></em>Restricted to NS graduate students only</p>
+<p><em><strong>STATS: </strong></em>Restricted to Stats graduate students only,<strong> </strong><em><strong>except:</strong></em></p>
+<ul>
+<li style="margin-left: -10px;">Stats 201, Stats 281A: All graduate students <span style="text-decoration: underline;">except</span> Statistics</li>
+<li style="margin-left: -10px;">All coures with suffix 'P', e.g., Stat 200AP: restricted to students in the MDS program only</li>
+</ul>
+<p><em><strong>SWE: </strong></em>Restricted to INF, SE, CS, and STATS Stats graduate students only,<strong> </strong><em><strong>except:</strong></em></p>
+<ul>
+<li style="margin-left: -10px;">All courses with suffix 'P', e.g., SWE 241P: restricted to students in the MSWE program only</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>9/1/2022</strong></p>
+<p><span style="color: #007acc;"><strong>School/Major restrictions lifted</strong></span></p>
+</td>
+<td>
+<p><strong>12:00pm: School/Major Restrictions removed from ICS graduate courses.</strong></p>
+<ul>
+<li>Undergraduate majors may begin requesting permission to enroll in open, ICS graduate level courses. Send inquiries to <em>gcounsel@uci.edu</em></li>
+<li>Graduate students may begin requesting permission to enroll in open, ICS undergraduate level courses. Send inquiries to <em><a href="mailto:ucounsel@uci.edu">ucounsel@uci.edu</a></em></li>
+<li>Non-ICS graduate students may begin to enroll in open ICS graduate courses &#65279;</li>
+</ul>
+</td>
+</tr>
+<tr style="background-color: #f2f2f2;">
+<td><em><strong>9/5/22</strong></em></td>
+<td>
+<p><em>Campus closed in observation of Labor Day.</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>9/15/22</strong></p>
+</td>
+<td>
+<p><strong>5:00pm: Fee payment deadline for the Fall 2022 quarter</strong></p>
+<ul>
+<li>Missing the fee payment deadline will result in your being dropped from Fall courses</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><strong>9/20/22</strong></td>
+<td>
+<p><strong>12:00pm: WebReg re-opens for continuing registration</strong></p>
+</td>
+</tr>
+<tr>
+<td><strong>9/22/22<br/></strong>Fall 2022<br/>Week 1</td>
+<td>
+<p><strong>First day of Fall quarter instruction.</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>10/7/22<br/></strong>Fall 2022&#65279;<br/>Week 2</p>
+</td>
+<td>
+<p><strong>5:00 pm: Add, Drop, Change Grade Option deadline</strong></p>
+<ul>
+<li>Last day to add, drop, or change grade option in WebReg for any ICS course.</li>
+<li>Check your position in any waitlisted course(s), and be sure to drop if it is no longer needed/desired.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li style="list-style-type: none;"/>
+</ul>
+<p style="text-align: right;"><em class="text">updated: 6/3/2022<br/>posted: 5/2/2022<br/></em></p></div>
 </blockquote>
 </div>
 </div>
 <div class="col-md-4" id="s-bar">
-    <div id="sidebar_title">More Undergraduate</div>
+    <div id="sidebar_title">More Graduate</div>
 <ul>
-<li><a href="../../index.php">Contact</a></li>
-<li><a href="../../sao/SAO_News_and_Updates.php">News and Updates</a></li>
-<li><a href="../../sao/index.php">Academic advising</a></li>
-<li><a href="../../sao/Course_updates.php">Course updates</a></li>
-<li><a href="../../courses/index.php">Academic year plan</a></li>
-<li><a href="../../degrees/index.php">ICS majors</a>
-<ul class="s-bar-sub">
-<li><a href="../../sao/GDIM_FAQ_Page.php">GDIM FAQ page</a></li>
-<li><a href="../../degrees/Double_Majors.php">Double major</a></li>
-<li><a href="../../degrees/Second_BA.php">2nd baccalaureate</a></li>
-</ul>
-</li>
-<li><a href="../../degrees/Minors.php">ICS minors</a></li>
-<li><a href="../../advising/ICS New Student Welcome.php">Newly Admitted to ICS</a></li>
-<li><a href="../../QA_Petitions.php">Petitions &amp; Forms</a></li>
-<li><a href="/ugrad/policies/">Policies</a>
-<ul class="s-bar-sub">
-<li><a href="../../policies/Academic_Honesty.php">Academic honesty</a></li>
-<li><a href="../../policies/Academic_Standing.php">Academic standing</a></li>
-<li><a href="../../policies/Add_Drop_ChangeOption.php">Add, drop, &amp; change options</a></li>
-<li><a href="../../policies/Change_of_Major.php">Change of Major</a></li>
-<li><a href="../../sao/Concurrent_Enrollment.php">Concurrent Enrollment</a></li>
-<li><a href="../../policies/Course_Outside_UCI.php">Coursework outside UCI</a></li>
-<li><a href="../../policies/CS199_IN4MATX199.php">CS 199 / IN4MATX 199</a></li>
-<li><a href="../../policies/Grade_Options.php">Grade policy</a></li>
-<li><a href="../../advising/ICS Credit by Exam.php">ICS Credit by Exam</a></li>
-<li><a href="../../policies/Laptop_ComputerUse.php">Laptop &amp; computer use</a></li>
-<li><a href="../../policies/Withdrawal_Readmission.php">Withdrawal/Readmission</a></li>
-<li><a href="../../policies/ICS_192_Enrollment_CPT_OPT.php"><span>ICS 192 Enrollment/CPT&amp;OPT</span></a></li>
-</ul>
-</li>
-<li><a href="../../QA_Graduation.php">Graduation</a></li>
-<li><a href="../../resources/index.php">ICS student life</a></li>
-<li><a href="../index.php">ICS Honors Program</a></li>
-<li><a href="../../../../computing/account/new.php">Computing support</a></li>
-<li><span><a href="../../resources/Title_IX_Resources.php">Title IX Resources</a></span></li>
-</ul>
+<li><a href="index.php">Contact</a></li>
+<li><a href="admissions/index-bu-20200916ff.php">Prospective students</a></li>
+<li><a href="admissions/Prospective_ApplicationProcess.php">How to Apply</a></li>
+<!--<li><a href="/ics/grad/degrees/index">Programs of study</a></li>-->
+<li><a href="courses/index-course.php">Academic year plan</a></li>
+<li><a href="Course_updates.php">Course Updates</a></li>
+<li><a href="forms_policies/index.php">Forms and Policies</a></li>
+<li><a href="admissions_faq/index.php">Admissions FAQ</a></li>
+<li><a href="funding/index.php">Funding</a></li>
+<li><a href="funding/housing.php">Housing</a></li>
+<li><a href="../../computing/account/new.php">Computing support</a></li>
+<li><a href="resources.php">Campus resources</a></li>
+<li><a href="../about/visit/index.php">Visit the Bren School</a></li>
+<!--<li><a href="/ics/bin/pdf/grad/F19%20Graduate%20Student%20Handbook.pdf" target="_blank">Graduate Student Handbook</a></li>--> <!--<li><a href="/ics/grad/qa/index">Graduate Student FAQ</a></li>--></ul>
     <div class="h-gap-30"></div>
     <style>
 .adBanner{display:none;}
@@ -472,7 +537,7 @@
 </script>
  <script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" type="text/javascript">
 </script>
-<script src="../../../bin/js/btt.js" type="text/javascript">
+<script src="../bin/js/btt.js" type="text/javascript">
 </script>
 <!-- Accessibilty - START -->
 <script type="text/javascript">

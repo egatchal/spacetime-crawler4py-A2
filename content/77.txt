@@ -1,120 +1,96 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-
 <html>
-  <head>
-    <title>David Eppstein</title>
-    <link rel="stylesheet" href="stylesheet.css" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
 
-  <body>
-    <div class="outer">
-      <h1>David Eppstein</h1>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>downloads</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta name="Microsoft Theme" content="none, default">
+<meta name="Microsoft Border" content="none, default">
+</head>
 
-      <div class="buffer">
-        <ul id="menu" class="optional">
-          <li><a class="active" href="index.html">About</a></li>
+<body>
 
-          <li><a href="contact.html">Contact</a></li>
+<div align="left" style="width: 676; height: 117">
 
-          <li><a href="research.html">Research</a></li>
+<div align="left">
+<table border="1" cellspacing="1" style="border-collapse: collapse; border: 1px solid #000080" bordercolor="#111111" width="698" id="AutoNumber6">
+  <tr>
+    <td width="699">
+    <img border="0" src="images/Architectures.jpg" width="695" height="67"></td>
+  </tr>
+</table>
+</div>
 
-          <li><a href="students.html">Students</a></li>
+<div align="left" style="width: 717; height: 44">
+  <!--webbot CLIENTSIDE 
+bot="Ws4FpEx" MODULEID="'navbars (Project)\bar1_off.xws'" PREVIEW="&lt;img src='images/navbar/bar1.gif?0F40C860' editor='Webstyle4' border='0'&gt;" startspan  --><script src="xaramenu.js"></script><script Webstyle4 src="images/navbar/bar1.js"></script><noscript><img src="images/navbar/bar1.gif?0F40C860" editor="Webstyle4"></noscript><!--webbot 
+bot="Ws4FpEx" endspan  --></div>
 
-          <li><a href="teach.html">Classes</a></li>
+</div>
 
-          <li><a href="software.html">Software</a></li>
+<table border="2" cellpadding="4" cellspacing="4" style="border:1px solid #000080; border-collapse: collapse" width="698" id="AutoNumber3">
+  <tr>
+    <td width="100%" bgcolor="#000080">
+    <p align="center"><b><font face="Arial" color="#FFCC00" size="2">Downloads</font></b></tr>
+  <tr>
+    <td width="100%">
+    <p align="left"><font face="Arial" color="#000080"><b>eCacti</b></font></p>
+    <p align="justify"><font face="Arial" style="font-size: 9pt">eCACTI is a 
+    tool used for finding an estimate of cache area, access times, and power 
+    dissipation for a given set of parameters (cache size, block size, 
+    associativity, and technology).
+    <a href="http://www.ics.uci.edu/~maheshmn/eCACTI/main.htm">[download page]</a></font></p>
+    <p align="left"><b><font face="Arial" color="#000080">
+    EXPRESSION</font></b></p>
+    <p align="justify"><font face="Arial" style="font-size: 9pt">EXPRESSION is 
+    an Architecture Description Language (ADL) as well as a retargetable 
+    compiler / simulator tool-kit for architectural design space exploration (DSE).
+    <a href="http://www.ics.uci.edu/~express/download.htm">[download page]</a></font></p>
+    <p align="left"><b><font face="Arial" color="#000080">
+    TRIMARAN Patch</font></b><p align="justify">
+    <font face="Arial" style="font-size: 9pt">Patch for the Solaris version of 
+    the <a href="http://www.trimaran.org">Trimaran</a> EPIC compilation and 
+    performance monitoring system. This patch is for making Trimaran 2.0 
+    (available for the HP-UX and Linux platforms) available for the Solaris 2.5 
+    platform.
+    <a href="http://www.ics.uci.edu/~aces/software/trimaran_solaris.diff">(shell 
+    script) </a></font>
+  </tr>
+</table>
 
-          <li><a href="recmath.html">Math Fun</a></li>
-        </ul>
-        <div class="inner">
-          <table cellpadding="5">
-            <tr valign="top">
-              <td><div class="optional"><img src="spim.jpg" width="320" height="400" alt="self-portrait in mirror">
-	      </div></td>
+<br>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="698" id="AutoNumber7">
+  <tr>
+    <td width="100%">
+    <p align="center">
+<font size="1" face="Arial"><a href="http://www.ics.uci.edu/~aces/index.htm">Home</a> | 
+<a href="http://www.ics.uci.edu/~aces/projects.htm">Projects</a> | 
+<a href="http://www.ics.uci.edu/~aces/publications.htm">Publications</a> | 
+<a href="http://www.ics.uci.edu/~aces/news.htm">News &amp; Events</a> | 
+<a href="http://www.ics.uci.edu/~aces/people.htm">People</a> | 
+<a href="http://www.ics.uci.edu/~aces/sponsors.htm">Sponsors</a> | 
+<a href="http://www.ics.uci.edu/~aces/downloads.htm">Downloads</a> | 
+<a href="http://www.ics.uci.edu/~aces/links.htm">Links</a> | 
+<a href="http://www.ics.uci.edu/~aces/joinaces.htm">Join ACES</a> | 
+<a href="http://www.ics.uci.edu/~aces/aboutus.htm">About Us</a></font></p>
+    </td>
+  </tr>
+</table>
+<br><table border="0" cellspacing="1" width="696" id="AutoNumber2" align="left">
+    <tr>
+      <td width="692" align="center">
+<address align="center">
+<span style="font-style: normal">
+<!--webbot CLIENTSIDE 
+bot="Ws4FpEx" MODULEID="'navbars (Project)\ACES.xws'" PREVIEW="&lt;img src='images/ACES.gif?1935C307' editor='Webstyle4' border='0'&gt;" startspan  --><img src="images/ACES.gif?1935C307" editor="Webstyle4" border="0"><!--webbot 
+bot="Ws4FpEx" endspan  --></span></address>
+<address align="center">
+  <font size="1">Please e-mail your comments and suggestions to Sudeep Pasricha 
+  (<a href="mailto:sudeep@ics.uci.edu">sudeep@ics.uci.edu</a>) <br>
+  © Copyright 1997-2004 ACES-UCI. All rights reserved </font></address>
+      </td>
+    </tr>
+  </table>
 
-              <td>
-                I am a Distinguished Professor in the
-		<a href="https://www.cs.uci.edu/">Computer
-                Science Department</a> of the University of California,
-                Irvine, director of the <a href="https://www.ics.uci.edu/~theory/">Center for
-                Algorithms and Theory of Computation</a>, and associate
-                director of
-                the <a href="https://acoi.ics.uci.edu/">Center for
-                Algorithms, Combinatorics, and Optimization</a>.
-
-		<div class="mobile"><p align="center"><img src="https://www.ics.uci.edu/~eppstein/spim.jpg" width="100%" height="auto" alt="self-portrait in mirror"></p></div>
-
-                <p>My research (see <a href="pubs/selected.html">selected publications</a>) has covered many topics in
-                computational geometry and graph algorithms, including:</p>
-
-                <ul>
-                  <li>Graph drawing and information visualization</li>
-
-		  <li>Dynamic graph algorithms and dynamic closest pair
-		  data structures</li>
-
-                  <li>Mesh generation and optimal triangulation</li>
-
-		  <li>K-shortest paths and related combinatorial
-		  enumeration algorithms</a>
-
-		  <li>Subgraph isomorphism and network statistics</li>
-
-                  <li>Data depth and robust statistics</li>
-
-                  <li>Exponential-time algorithms for NP-hard problems</li>
-                </ul>
-
-                <p>I am also an avid photographer and have many
-                photos in my <a href="pix/">web photo
-                gallery</a>.</p>
-
-		<p>This site is quite static; if you want more frequent
-		updates (or to find out what's changed here)
-		go to my
-		<a href="https://11011110.github.io/blog/">blog</a>
-		or my <a href="https://mathstodon.xyz/@11011110" rel="me">Mastodon</a>
-		account.</p>
-
-                <p>My name is not uncommon (although the spelling
-                is atypical); see my page of <a href="eppstein.html">Eppsteins on the net</a> if you
-                think you've reached the wrong me.</p>
-
-		<p>News:</p>
-		<ul>
-		<li><a href="https://www.ics.uci.edu/community/news/view_news?id=2176">Computer science researchers collaborating on $1.2M NSF grant to study geometric graphs</a>, June 16, 2022</li>
-		<li><a href="https://www.asbmb.org/asbmb-today/careers/030822/what-s-with-wikipedia-and-women">What's
-		with Wikipedia and women?</a>, <i>ASBMB Today</i>, March
-		8, 2022, mentions my efforts creating articles on women
-		in STEM and patrolling deletion discussions on
-		them.</li>
-		<li><a href="https://www.cs.uci.edu/david-eppstein-receives-2022-siam-best-paper-award/">Best paper at SOSA 2022</a>, October 21, 2021</li>
-		<li><a href="https://www.cs.uci.edu/eppstein-publishes-new-book-forbidden-patterns-in-discrete-geometry-for-mathematicians-and-computer-scientists/">New
-		book <i>Forbidden Patterns in Discrete Geometry</i></a>,
-		May 10, 2018</li>
-		<li><a href="https://www.cs.uci.edu/eppstein-shares-research-at-conferences-in-australia-canada-and-tokyo/">Invited
-		talks in Australia, Canada, and Japan</a>, December 12, 2017.</li>
-		<li><a href="https://www.cs.uci.edu/eppstein-named-aaas-fellow/">Fellow of the American Association for the Advancement of Science</a>, November 27, 2017.</li>
-		<li><a href="https://www.ics.uci.edu/community/news/view_news.php?id=1111">Two NSF grants for algorithm research</a>, August 1, 2016.</li>
-		<li><a href="https://www.ics.uci.edu/community/news/press/view_press?id=103">New Center for Algorithms and Theory of Computation</a>, March 31, 2010.</li>
-		<li><a href="https://www.ics.uci.edu/community/news/press/view_press?id=75">ONR grant to study large-scale networks</a>. September 24, 2008.</li>
-		</ul>
-              </td>
-            </tr>
-          </table>
-        </div>
-	<div id="menu" class="mobile">
-	  <a class="active" href="index.html">About</a>&nbsp;|
-          <a href="contact.html">Contact</a>&nbsp;|
-	  <a href="research.html">Research</a>&nbsp;|
-	  <a href="students.html">Students</a>&nbsp;|
-	  <a href="teach.html">Classes</a>&nbsp;|
-	  <a href="software.html">Software</a>&nbsp;|
-	  <a href="recmath.html">Math&nbsp;Fun</a></li>
-	</div>
-      </div>
-    </div>
-  </body>
-</html>
+&nbsp;</body></html>

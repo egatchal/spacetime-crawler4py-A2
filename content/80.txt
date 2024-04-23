@@ -1,281 +1,375 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
 <head>
-<title>Michael Shindler - home page</title>
+<title>Alex Nicolau's Home Page</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta content="Alex Nicolau Home Page" name="description" />
+<meta content="Alex Nicolau Express Forge Spark UCI Irvine" name="keywords" />
+<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+
 <body>
-<div align="center">
-<table border="1" cellpadding="15" cellspacing="1">
-<tr>
-<td valign="top">
-<h2><b>Michael Shindler</b></h2>
-I am an Assistant Professor of Teaching in the <a href="http://www.cs.uci.edu">Computer Science Department</a> at <a href="http://www.uci.edu">UC Irvine</a>.
-<br /><br />
 
-Office: DBH 4058<br /><br />
-
-If you want to meet with me, for example if you are thinking of graduate school and want to discuss it, and would otherwise drop by my office hours, but aren't in my class this term, please send me an email and I will try to find time to meet with you.
-
- <br /><br />
-
-To form my email address:
-
-<ul>
-	<li>
-For course-related topics, concatenate <tt>mikes</tt> with <tt>[at] ics [dot] uci [dot] edu</tt>
-	</li>
-	<li>
-		For all other topics, concatenate <tt>mikes</tt> with <tt>[at] uci [dot] edu</tt>
-</ul>
-My research focuses primarily on educational issues in computer science;  I am particularly interested in issues related to teaching Computer Science Theory courses, such as identifying and correcting student misconceptions in these courses and also discovering concept inventories.  I am also interested in more general issues involving the scaling of class sizes and making efficient use of resources for student learning.  
-
-<br /><br />
-In the past, my computer science research touched on computations on large datasets, machine learning, approximation algorithms, streaming algorithms, and data mining.
-
-<br /><br />
-<br />
-
-	If you are planning to ask me for a letter of recommendation, please <a href="letters.html">read this first</a>.
-
-</td>
-<td><img src="michael_shindler.jpg" width="480" alt="Picture of Michael Shindler" />
-
-
-
-
-</td>
-
-
-</tr>
-<tr>
-<td colspan="2">
-<h3>Teaching</h3>
-
-For every class I teach, <I>all students are responsible for all material and due dates in the class, even those that occur prior to their enrollment.</I>  If you are planning to add the class after day one, please contact me at the start of the quarter, preferably at the conclusion of the first lecture.  You should plan to attend every lecture starting at day one, even if you are not yet enrolled.  <!-- If the class is virtual/remote, contact me for a link.--> <br /><br />
-
-This quarter, Fall 2022, I am teaching the following courses:
-<ul>
-	<li><a href="ics46/">I&C SCI 46</a> : Data Structure Implementation and Analysis</li>
-	<li><a href="compsci260p/">CompSci 260P</a> : Algorithms </li>
-</ul>
-
-
-<!-- I <I>strongly recommend</I> anyone taking my class to have a computer with an Intel (or compatible) processor.  The Virtual Machine we use for programming assignments is designed with this in mind.  If you do not own such a machine, you may use the computers in ICS1-364.  My classes will not be providing support for computers with other processors, such as M1 Macs. <br /><br /> -->
-
-For the 2022-23 school year, I am tentatively set to teach the following courses.  These courses will be offered on-campus.  There is not currently a fully virtual option for any of these courses, nor are there plans to create one.
-
-<ul>
-	<li>Winter 2023: I&C SCI 46, CompSci 161</li>
-	<li>Spring 2023: CompSci 162, CompSci 260P</li>
-</ul>
-
-
-In both Fall and Winter quarter, when I am teaching I&C SCI 46, the current plan is for there to be two lectures.  Students are welcome to attend either one, regardless of enrollment, with the following two exceptions:
-
-<ul>
-	<li>On exam days, you are required to take the exam in your enrolled section.</li>
-	<li>If we run out of seats on non-exam days, priority for seating is for students enrolled in the section.</li>
-</ul>
-
-
-</td>
-</tr>
-
-<tr>
-<td colspan="2">
-<h4>Past Teaching</h4>
-
-<table border="1" cellpadding="15" cellspacing="1">
-<tr>
-<td>Course Number</td>
-<td>Course Title</td>
-<td>Quarters(s)</td>
-</tr>
-
-<tr>
-<td>I&C SCI 46 </td>
-<td>Data Structure Implementation and Analysis</td>
-<td>Fall 2019, Winter 2020, Fall 2020, Winter 2021, <br />
-Fall 2021 (2), Spring 2022, Fall 2022 (2)</td>
-</tr>
-<tr>
-	<td>CompSci 161</td>
-	<td>Design and Analysis of Algorithms</td>
-	<td>Fall 2019, Summer 2020, Fall 2020, Spring 2021, <br />
-	Winter 2022 (2)</td>
-</tr>
-<tr>
-	<td>CompSci 162</td>
-	<td>Formal Languages and Automata</td>
-	<td>Spring 2020, Spring 2021</td>
-</tr>
-<tr>
-	<td>CompSci 167</td>
-	<td>Applied Cryptography</td>
-	<td>Spring 2020, Winter 2021</td>
-</tr>
-<tr>
-	<td>CompSci 260P</td>
-	<td>Algorithms</td>
-	<td>Winter 2020, Spring 2022, Fall 2022</td>
-</tr>
-<tr>
-	<td>CompSci 261P</td>
-	<td>Data Structures</td>
-	<td>Spring 2021</td>
-</tr>
-
-
-</table>
-
-</td>
-</tr>
-
-<!--
-<tr>
-<td colspan="2">
-
-
-<h4>Past Teaching</h4>
-
-I have taught a variety of courses at USC in the past, both undergraduate (course numbers 0-499) and graduate (course numbers 500+): <br />
-<br />
-
-<table border="1" cellpadding="15" cellspacing="1">
-<tr>
-<td>Course Number</td>
-<td>Course Description</td>
-<td>Semester(s)</td>
-</tr>
-<tr>
-<td>CSCI 104L</td>
-<td>Data Structures and Object Oriented Design</td>
-<td>Spring 2016</td>
-</tr>
-
-<tr>
-<td>CSCI 170</td>
-<td>Discrete Methods in Computer Science</td>
-<td>Spring 2015, Fall 2015, Spring 2016, Fall 2016, <br /> Spring 2017, Fall 2017, Spring 2018, Spring 2019, Summer 2019 (upcoming)</td>
-</tr>
-
-<tr>
-<td>CSCI 270</td>
-<td>Introduction to Algorithms and Theory of Computing</td>
-<td>Fall 2014, Spring 2015, Summer 2017, Fall 2018</td>
-</tr>
-
-<tr>
-<td>CSCI 350</td>
-<td>Introduction to Operating Systems</td>
-<td>Spring 2016, Summer 2016, Fall 2016</td>
-</tr>
-
-<tr>
-<td>CSCI 356</td>
-<td>Introduction to Computer Systems</td>
-<td>Spring 2017 (as CSCI 499, special topics), Fall 2017</td>
-</tr>
-
-<tr>
-<td>CSCI 467</td>
-<td>Introduction to Machine Learning</td>
-<td>Fall 2018</td>
-</tr>
-
-
-<tr>
-<td>CSCI 499</td>
-<td>Concepts of Programming Languages</td>
-<td>Fall 2015 (as CSCI 499, special topics), Spring 2019 (as CSCI 499, special topics)</td>
-</tr>
-
-
-<tr>
-<td>CSCI 567</td>
-<td>Machine Learning</td>
-<td>Fall 2017 (discussions), Spring 2018 (lecture, discussions),<br /> Summer 2018 (lecture, discussions)</td>
-</tr>
-
-<tr>
-<td>CSCI 570</td>
-<td>Analysis of Algorithms</td>
-<td>Fall 2013 (lecture), Spring 2014 (lecture), Fall 2014 (discussions), <br />Spring 2015 (discussions), Summer 2015 (lecture), Summer 2016 (lecture)</td>
-</tr>
-
-<tr>
-<td>CSCI 585</td>
-<td>Database Systems</td>
-<td>Summer 2015</td>
-</tr>
-
-</table>
-
-
-
-</td>
-</tr>-->
-<!-- end: table of past teaching -->
-
-
-<tr>
-<td colspan="2">
-<h3>Selected Papers</h3>
-<ul>
-	<li><I>Student Misconceptions of Dynamic Programming:  A Replication Study</I>.  With Natalia Pinpin, Mia Markovic, Frederick Reiber, Jee Hoon Kim, Giles Pierre Nunez Carlos, Mine Dogucu, Mark Hong, Michael Luu, Brian Anderson, Aaron Cote, Matthew Ferland, Palak Jain, Tyler LaBonte, Leena Mathur, Ryan Moreno, and Ryan Sakuma.  <I>Journal of Computer Science Education</I>. [ <a href="papers/Student_Misconceptions_Dynamic_Programming.pdf">pdf</a> ] </li>
-	<li><I>Beyond Big O: Teaching Experimental Algorithmics</I>.  With Michael T. Goodrich, Ofek Gila, and Michael Dillencourt.  In <I>CCSC South-west</I>, 2022. [ <a href="https://www.ccsc.org/publications/journals/SW2022.pdf#page=23">pdf</a> ]
-	<li><I>Experience Report: Preemptive Final Exams for Computer Science Theory Courses</I>.  With Matthew Ferland, Aaron Cote, and Olivera Grujic.  In <I>CCSC South-west</I>, 2020.  [ <a href="papers/ER_PreemptiveExams_CCSCSW2020.pdf">pdf</a> ] [ <a href="papers/CCSC_2020_Online_Appendix.pdf">appendix pdf</a> ]
-	</li>
-	<li><I>Teaching Large Computer Science Classes</I>.  With Shahriar Shamsian, Gisele Ragusa, and Jeffrey Miller.  In <I>ASEE</I>, 2016. [ <a href="papers/Teaching_Large_CS_classes.pdf">pdf</a> ]</li>
-<li> <I>Fast and Accurate </I>k<I>-means for Large Datasets</I>.  With Adam Meyerson and Alex Wong.  In <I>NIPS</I>, 2011. [ <A HREF="papers/FastKMeans_nips11.pdf">pdf</A> ] [ <A HREF="kMeansCode/">code</A> ]
-<li> <I>Streaming </I>k<I>-means on Well-Clusterable Data</I>.  With Vladimir Braverman, Adam Meyerson, Rafail Ostrovsky, Alan Roytman, and Brian Tagiku. In <I>SODA</I>, 2011.  [ <A HREF="papers/StreamingKMeans_soda11.pdf">pdf</A> ]
-</ul>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<h3>Erdos Number</h3>
-My Erdos number is 3:
-<ul>
-  <li>I co-authored  <I>Streaming </I>k<I>-means on Well-Clusterable Data</I> (SODA 2011) with Rafail Ostrovsky (and also with Vladimir Braverman, Adam Meyerson, Alan Roytman, and Brian Tagiku)</li>
-  <li>Rafail Ostrovsky co-authored <I>The linear-array conjecture in communication complexity is false</I> (STOC 1996) with Nathan Linial (and also with Eyal Kushilevitz)</li>
-  <li>Nathan Linial co-authored <I>Extremal problems on permutations under cyclic equivalence</I> (Discrete Math, 1987) with Paul Erdos (and also with Shlomo Moran)</li>
-</ul>
-
-I would like to thank the <A HREF="http://www.ams.org/mathscinet/collaborationDistance.html">American Mathematical Society's collaboration distance</A> calculator for providing me with an easy way to determine this.
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<!--
-<h3>Tech Reports</h3>
-<ul>
-<li><I>Energy-Efficient Online Scheduling with Deadlines</I>.  With Aaron Cote, Adam Meyerson, Alan Roytman, and Brian Tagiku.  UCLA Computer Science Department Tech Report 100029, 2010. [ <a href="http://fmdb.cs.ucla.edu/Treports/TR100029.pdf">pdf</a> ]
-</ul>
-
-</td>
-
-</tr>
-<tr>
-<td colspan="2"> -->
-<h3>Educational Background</h3>
-<ul>
-<li>
-PhD in Computer Science from UCLA, 2011<br />
-Advisor: Adam Meyerson
-</li>
-<li>
-Master of Science in Computer Science from UCLA, 2008<br />
-Advisor: Adam Meyerson
-</li>
-<li>
-Bachelor of Science in Information and Computer Science from <a href="http://www.ics.uci.edu/">UC Irvine</a>, 2005.
-</li>
-</td>
-</tr>
-
-
-
-</table>
+<div class="cecslogo">
+<a href="http://www.cecs.uci.edu"><img src="logo.gif" alt="CECS logo" width="72"/></a>
 </div>
+
+<div class="cecsurl">
+<a href="http://www.uci.edu/">Center for Embedded Computer Systems</a>
+</div>
+
+<div class="uciurl">
+<a href="http://www.uci.edu/">University of California, Irvine</a>
+</div>
+
+<div class="ucilogo">
+<a href="http://www.uci.edu"><img src="anteater.gif" alt="UCI logo" width="120"/></a>
+</div>
+
+<h1>Alex Nicolau</h1>
+
+<div class="picture">
+<img src="nicolau.jpg" width="200" alt="Alex Nicolau"/>
+</div>
+
+<div class="contactbox">
+<div class="box">
+  <span class="title">Contact Info</span>
+  <ul>
+    <li><strong>Office:</strong> CECS (IERF) 204 <a href="http://www.cecs.uci.edu/%7Ewwwoffic/maps/ierf.html">(directions)</a></li>
+    <li><strong>Phone:</strong> +1 (949) 824-4079</li>
+    <li><strong>Personal Fax:</strong> +1 (949) 824-4079</li>
+    <li><strong>Alt. Fax:</strong> +1 (949) 824-8019</li>
+    <li><strong>Email:</strong> <a href="mailto:nicolau&#64;ics.uci.edu">nicolau&#64;ics.uci.edu</a></li>
+    <li><strong>Assistant:</strong> <a href="http://www.cecs.uci.edu/~msanders">Melanie
+	Sanders</a> (<a href="mailto:msanders&#64;ics.uci.edu">email</a>)</li>
+    <li>
+    <strong>Mail Address:</strong>
+      <div class="addrbox">
+	Professor Alex Nicolau<br />
+	Center for Embedded Computer Systems<br />
+	444 CS, University of California<br />
+	Irvine, CA 92697-3425, USA<br />
+      </div>
+    </li>
+  </ul>
+</div>
+</div>
+
+<div class="box">
+  <span class="title">Research Interests</span>
+  <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parallelizing
+  Compilers, High-Performance Java, Power-aware Computing, Reconfigurable Computing.</h3>
+</div>
+
+<div class="box">
+  <span class="title">Current Projects</span>
+  <div class="projects">
+  <ul>
+    <li>
+  <span class="projtitle">
+    <a href="http://cocoa-krispies.ics.uci.edu/~paolo/JuliusC">Julius C: Compiler Optimizations for Divide and Conquer Applications</a>
+  </span>
+  <p>
+  Julius C is a C compiler that determines a model for divide and
+  conquer algorithms. The model is an extension of the call graph and it
+  conceives information about the dynamic behavior of the algorithm. The
+  use of the model is twofold: at compile time, the model drives code
+  generation and code optimizations; at run time, the model offers a
+  support driving code execution, code adaptation and hardware
+  adaptation.
+  </p>
+    </li>
+    <li>
+  <span class="projtitle">
+    <a href="http://www.cecs.uci.edu/~aces">EXPRESS Retargetable Compiler</a>
+  </span>
+  <p>
+  EXPRESS is an optimizing, memory-aware, Instruction Level
+  Parallelizing (ILP) compiler. EXPRESS uses the EXPRESSION ADL to
+  retarget itself to a wide class of processor architectures and memory
+  systems. The inputs to EXPRESS are the application specified in C, and
+  the processor architecture specified in EXPRESSION. The front-end is
+  GCC-based and performs some of conventional optimizations. The core
+  transformations in EXPRESS include RDLP -- a loop pipelining
+  technique, TiPS : Trailblazing Percolation Scheduling -- a speculative
+  code motion technique, Instruction Selection, Register Allocation and
+  If-Conversion -- a technique for architectures with predicated
+  Instruction Sets. The back-end generates assembly code for the
+  processor ISA.
+  </p>
+    </li>
+    <li>
+  <span class="projtitle">
+  <a href="http://www.cecs.uci.edu/~forge">FORGE: A Framework for Optimization of Distributed Embedded Systems Software</a>
+  </span>
+  <p>
+  The FORGE project is a framework for optimization of distributed
+  embedded systems software, which integrates the middleware abstraction
+  layer with the hardware/OS abstraction layer and studies mechanisms
+  for capturing resources/architectures at these two levels and allowing
+  interactions between the levels. A resource description language
+  (RDL) specifying the composition of the system as well as
+  resource constraints can be used by a compiler for
+  automatically generating the necessary services and middleware
+  configuration and their deployment across the platform.
+  </p>
+    </li>
+    <li>
+  <span class="projtitle">
+  <a href="http://www.cecs.uci.edu/~spark">SPARK: High-Level Synthesis using Parallelizing Compiler Techniques</a>
+  </span>
+  <p>
+  SPARK is a C-to-VHDL high-level synthesis framework that employs a set of
+  innovative compiler, parallelizing compiler, and synthesis transformations
+  to improve the quality of high-level synthesis results. The compiler
+  transformations have been re-instrumented for synthesis by incorporating
+  ideas of mutual exclusivity of operations, resource sharing and hardware
+  cost models.
+  </p>
+    </li>
+    <li>
+  <span class="projtitle">
+  <a href="http://www.ics.uci.edu/~nbansal/reconfig.html">CoReComp: A
+	Compiler Framework for Mapping Applications on Mesh-Based
+	Coarse-Grain Reconfigurable Architectures</a>
+  </span>
+  <p>
+Coarse-grain reconfigurable architectures trade-off some of the configuration flexibility of fine-grain FPGAs in return for smaller delay, area and configuration time. They provide massive parallelism, high computational capability and their behavior can be configured dynamically, thus making them a better alternative to ASICs and fine-grain FPGAs in many aspects. Mapping applications to such architectures is a complex task that is a combination of the traditional operation scheduling, operation to PE binding (or mapping), and routing problems. The focus of this research is to build a compiler framework which should be capable of mapping applications on reconfigurable architectures by taking into account different architecture and application parameters.
+  </p>
+    </li>
+  </ul>
+  </div>
+</div>
+
+<div class="box">
+  <span class="title">Past Projects</span>
+  <div class="projects">
+  <ul>
+    <li>
+  <span class="projtitle">
+  <a href="http://www.cecs.uci.edu/~aazevedo/AJVMResearch.html">Annotation-Aware Java Virtual Machines</a>
+  </span>
+    </li>
+    <li>
+  <span class="projtitle">
+  <a href="http://www.cecs.uci.edu/~amrm">AMRM: Adaptive Memory Reconfiguration and Management</a>
+  </span>
+    </li>
+    <li>
+  <span class="projtitle">
+  <a href="http://www.cecs.uci.edu/~copper">COPPER: Compiler-Controlled Continuous Power-Performance Management</a>
+  </span>
+    </li>
+    <li>
+  <span class="projtitle">
+  Cache Power Optimization via Run-time Hardware Prediction
+  </span>
+    </li>
+    <li>
+  <span class="projtitle">
+  EVE Mutation Scheduling Compiler
+  </span>
+    </li>
+  </ul>
+  </div>
+</div>
+
+<div class="box">
+  <span class="title">Teaching</span>
+  <ul>
+    <li>
+	<b>ICS 144</b> - <i>High Performance Compilers and Program Optimizations (Spring '04)</i>
+    </li>
+    <li>
+	<b>ICS 249</b> - <i>Seminar in Parallel Distributed and Network Systems (Winter '04)</i>
+    </li>
+<!--
+    <li>
+	<b>ICS 144</b> - <i>High Performance Compilers and Program Optimizations (Spring '03)</i>
+    </li>
+-->
+    <li>
+	<b>ICS 245</b> - <i>High Performance Architectures and Their Compilers (Winter '03)</i>
+    </li>
+    <li>
+	<b>ICS 51</b> - <i>Introductory Computer Organization (Winter '02)</i>
+    </li>
+  </ul>
+</div>
+
+<div class="box">
+  <span class="title">Affiliated Ph.D. Students</span>
+  <div class="left">
+  <ul>
+    <li>
+	Weiyu Tang
+    </li>
+    <li>
+	<a href="http://www.cecs.uci.edu/~paolo">Paolo Nicola D'Alberto</a>
+    </li>
+    <li>
+	<a href="http://www.cecs.uci.edu/~radu">Radu Cornea</a>
+    </li>
+  </ul>
+  </div>
+  <div class="right">
+  <ul>
+    <li>
+	Arun Kejariwal
+    </li>
+    <li>
+	<a href="http://www.cecs.uci.edu/~nbansal">Nikhil Bansal</a>
+    </li>
+    <li>
+	<a href="http://www.cecs.uci.edu/~carmen">Carmen Badea</a>
+    </li>
+  </ul>
+  </div>
+</div>
+
+<div class="box">
+  <span class="title">Previous Ph.D. Students</span>
+  <div class="left">
+  <ul>
+    <li>
+	Alexander Aiken (Graduated, 1988)
+    </li>
+    <li>
+	Laurie Hendren (Graduated, 1990)
+    </li>
+    <li>
+	Roni Potasman (Graduated)
+    </li>
+    <li>
+	Ki Kim (Graduated)
+    </li>
+    <li>
+	Haigeng Wang (Graduated)
+    </li>
+  </ul>
+  </div>
+  <div class="right">
+  <ul>
+    <li>
+	Steve Novack (Graduated, 1992)
+    </li>
+    <li>
+	Srinivas Mantripagada (Graduated)
+    </li>
+    <li>
+	Joseph Hummel (Graduated, 1998)
+    </li>
+    <li>
+	<a href="http://www.cecs.uci.edu/~dkolson">David Kolson (Graduated, 1996)</a>
+    </li>
+    <li>
+	<a href="http://www.cecs.uci.edu/~aazevedo">Ana Azevedo Pazos (Graduated, 2002)</a>
+    </li>
+  </ul>
+  </div>
+</div>
+
+<div class="box">
+  <span class="title">Other Ph.D. Degrees Supervised</span>
+  <ul>
+    <div class="left">
+    <li>
+	<a href="http://www.cecs.uci.edu/~pmishra">Prabhat Mishra (Graduated, 2004)</a>
+    </li>
+    <li>
+	<a href="http://www.cecs.uci.edu/~sumitg">Sumit Gupta (Graduated, 2003)</a>
+    </li>
+    </div>
+    <div class="right">
+    <li>
+	<a href="http://www.cecs.uci.edu/~pgrun">Peter Grun (Graduated, 2001)</a>
+    </li>
+    <li>
+	Preeti Ranjan Panda (Graduated, 1997)
+    </li>
+    </div>
+  </ul>
+</div>
+
+<div class="box">
+  <span class="title">Selected Publications (most recent first)</span>
+  <ul>
+    <li>
+	<i><a href="http://www.cecs.uci.edu/~forge/papers/dac04.pdf">Proxy-based Task Partitioning of Watermarking Algorithms for Reducing Energy Consumption in Mobile Devices</a></i><br />
+	Arun Kejariwal, Sumit Gupta, Alexandru Nicolau, Nikil Dutt, Rajesh Gupta,<br />
+	Design Automation Conference (DAC), June 2004.
+    </li>
+    <li>
+	<i><a href="http://www.cecs.uci.edu/~aazevedo/papers/smartcardSO.pdf">Optimized Performance of Applets and Services in an Annotation-aware JVM for Smart Cards</a></i><br />
+	Ana Azevedo, Arun Kejariwal, Alex Veidenbaum and Alex Nicolau,<br />
+	International Workshop Construction and Analysis of Safe,
+	Secure and Interoperable Smart Devices (CASSIS), March 2004.
+    </li>
+    <li>
+	<i><a href="http://www.cecs.uci.edu/~nbansal/publications/DATE04.pdf">Network Topology Exploration of Mesh-Based Reconfigurable Architectures</a></i><br />
+	Nikhil Bansal, Sumit Gupta, Rajesh Gupta, Nikil Dutt and Alex
+	Nicolau,<br />
+	Design Automation and Test in Europe (DATE), February 2004.
+    </li>
+    <li>
+	<i><a href="http://www.cecs.uci.edu/~nbansal/publications/WASP03.pdf">Analysis of the Performance of Coarse-Grain Reconfigurable Architectures with Different Processing Element Configurations</a></i><br />
+	Nikhil Bansal, Sumit Gupta, Nikil Dutt and Alex Nicolau,<br />
+	Workshop on Architecture Specific Processors (WASP), December 2003.
+    </li>
+    <li>
+	<i><a href="http://www.cecs.uci.edu/~forge/papers/caes03.pdf">Managing Cross-Layer Constraints for Interactive Mobile Multimedia</a></i><br />
+	Radu Cornea, Shivajit Mohapatra, Nikil Dutt, Alex Nicolau and Nalini Venkatasubramanian,<br />
+	Workshop on Constraint-Aware Embedded Software (WCAS), IEEE Real-Time Systems Symposium, December 2003.
+    </li>
+    <li>
+	<i><a href="papers/ACMMM.pdf">Integrated Power Management for Video Streaming to Mobile Handheld Devices</a></i><br />
+	Shivajit Mohapatra, Radu Cornea, Nikil Dutt, Alex Nicolau and Nalini Venkatasubramanian,<br />
+	ACM Multimedia (ACMMM), November 2003.
+    </li>
+    <li>
+	<i><a
+	href="http://halps.ics.uci.edu/~paolo/LCPC/paoloNV.lcpc03.pdf.gz">A Data Cache with Dynamic Mapping</a></i><br />
+	Paolo D'Alberto, Alex Nicolau and Alex Veidenbaum,<br />
+	Workshop on Languages and Compilers for Parallel Computing (WLCPC),
+	2003.
+    </li>
+  </ul>
+</div>
+
+<div class="box">
+  <span class="title">Professional Services (abridged)</span>
+  <ul>
+    <li>
+	Editor in Chief, International Journal of Parallel Programming
+    </li>
+    <li>
+	ICS 2004 - Program Committee member
+    </li>
+    <li>
+	LCTES 2001 and 2002 - Program Committee member
+    </li>
+    <li>
+	SCOPES 2001 and 2002 - Program Committee member
+    </li>
+    <li>
+	IWACT 2001 - Program Co-Chair
+    </li>
+    <li>
+	NATO Advanced Workshop on Distributed Computing for Clusters, Grids and Embedded Systems 2003 - Co-Director
+    </li>
+  </ul>
+</div>
+
+<hr />
+<div class="footer">
+<!-- hhmts start -->
+Last modified: Wed Mar 17 15:55:59 PST 2004
+<!-- hhmts end -->
+<br />
+<a href="http://validator.w3.org/check/referer">XHTML 1.1 Checked</a>&nbsp;&nbsp;
+</div>
+
 </body>
 </html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<title>CS 175 | Fall 2022</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!--MATERIAL BELOW TO BE INCLUDED ON ALL SITE PAGES--> 
+<link rel="stylesheet" href="https://www.ics.uci.edu/~smyth/test/localw3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"> <!--mini icons--> 
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue.css">  <!-- color theme -->
+<link rel="stylesheet" type="text/css" href="https://www.ics.uci.edu/~smyth/localstyle.css">  <!-- my own style -->
+<link rel="stylesheet" type="text/css" href="https://www.ics.uci.edu/~smyth/mystyle.css">  <!-- my own style --->  
+<link rel="icon" type="image/png" href="https://news.uci.edu/wp-content/uploads/2014/12/favicon.png"/> <!-- favicon -->
+
+<body class="w3-animate-opacity"> 
+ <div style="margin-left:5%;  margin-right:10%;  margin-top:30px">  
+ 
+
+ <p>
+ <br> 
+<!-- -------------------------------------------------------------------------------------------- -->
+ 
+ 
+<h4> <span style="font-weight: bold;"> CS 175: Project in Artificial Intelligence, Fall 2022 </span></h4> 
+
+<!-- Note: the information below should be generally relevant to the Winter 2021 version of this class, but may be updated before Winter quarter starts.-->
+
+<h6> General Information </h6> 
+<ul>
+<li><b> Lecture Times: </b> Tuesday and Thursday, 2:00pm to 3:20pm </li>
+<li><b> Location: </b> Social Science Lab, SSL 228
+<!--- lectures will happen on Zoom at scheduled class times, with slides and lecture recordings available afterwards. Zoom links for lectures and office hours and discussion sections will be available on Canvas</li> --->
+<li><b> Instructor: </b>  
+<a href="http://www.ics.uci.edu/~smyth">Professor Padhraic Smyth</a>, 
+   Office Hours: Weeks 1 to 4: Wednesday, 5 to 6pm, on Zoom. For weeks 5 through 10, office hours will be in person during lecture times (2 to 3:20 on Tues/Thurs).
+   <!--- Thursdays, 5pm to 6:30pm for the first 3 weeks. For the remaining weeks, office hours will be from 3:30 to 5:30 on Mondays and Wednesdays, except for days when there is a lecture or class presentation scheduled. See the link to the weekly schedule below for complete details. --->
+ </li>
+<li><b> Teaching Assistants:</b>
+ <ul>
+ <li>  Mitra Bezhadi, Office hours: Wednesdays, 2-4pm </li>
+ <li>  Markelle Kelly,  Office hours: Thursdays, 11:30am to 1:30pm, in ICS1 458A </li>
+ </ul>
+<li><b> Discussion Sections: </b> HICF 100N, Fridays at 2pm and at 3pm </li>
+<!---9 to 11am on Fridays for the first 2-3 weeks.  In later weeks  office hours will be held during the scheduled discussion times. --->
+ </li>
+<li>   
+ <b> <a href="schedule.html">Weekly Schedule</a> </b>  </li>  
+<!-- <li><b> Software </b>: TBD
+</b> <a href="software.html"> Links to software relevant to this class </a> </li> 
+-->
+<li><b> Lecture Slides</b>:  will be  available online after each lecture  </li>
+<!--    <a href="onlineslides">   </a> </li>  -->
+<!-- <a href="onlineslides"> </a>(will be made available for each lecture)</li>
+--> 
+<li><b> Project Resources</b>
+<ul> 
+<li> <a href="reference_texts.html"> Reference Texts </a> </li>  
+<li> <a href="project_reading.html"> Ideas and Resources for Projects </a></li>
+<li> <a href="text_data_sets.html"> Examples of Datasets for Projects </a></li> 
+<li> <a href="software.html"> Software </a> </li> 
+</ul>
+<li><b> Questions? </b> Use the Ed discussion board   (accessible via Canvas) for all of your questions to the instructor or TA.  Please do not use email. Ed is your first option for asking questions outside of class or office hours. Please also feel free on Ed to answer other students' clarification questions about assignments, to initiate
+discussions on project-related topics, etc. 
+To communicate directly with only the instructor and/or TA you can send a private message to them within Ed.  </li>
+</ul>
+</p>
+ 
+ 
+ 
+ <p>
+<h5> Course Description </h5> 
+Students in this project class will work in teams to develop 
+artificial intelligence and machine learning algorithms with a particular focus on natural language and text analysis. These problems can include, for example, document classification 
+and clustering, sentiment analysis, dialog/chatbot systems, information extraction, word prediction, text synthesis, question-answering systems,
+and so on. Projects can make use of real-world publicly-available data from sources such as Twitter, Wikipedia, Reddit, news articles, 
+product and movie reviews, email data sets, the US patent database, and more. </br>
+<b>Note:</b> this offering of CS 175 will focus on text/natural-language aspects of AI. If you are interested in other topics (e.g., game-playing agents, computer vision, etc) you may want to  take a different offering of this course in Winter or Spring quarter.
+</p>
+ 
+
+ 
+<!--
+<p>
+<h6> <a href="reference_texts.html">Textbooks</a></h6>
+These online texts will provide very useful starting points and background material for your projects
+</p>
+-->
+ 
+<!--
+<li> <a href="project_reading.html">Links to Tutorial Articles for possible Projects</a> </li>
+<li> <a href="text_data_sets.html">Links to Possible Data Sets for Projects</a> </li>
+ <li> <a href="applications_and_demos.html">Links to Software and Demos for Text Analysis</a> </li> 
+--> 
+
+<p>
+<h6>Assignments </h6> 
+ There will be 2 individual assignments in the first 2 weeks of the course and then project reports and updates (by group) after that. Assignments will be posted and submitted via Canvas.
+
+<!-- 
+<ul>
+<li>  
+ <a href="assignment1_2022.html">Assignment 1</a>. Due Tuesday Jan 11th, 11:59pm.  
+</li> 
+<li>  
+ <a href="assignment2_2022.html">Assignment 2</a>. Due Tuesday Jan 18th, 11:59pm.  
+</li> 
+<li>  
+<b> Project Proposal</b>: <a href="report_templates/project_proposal_template_2022.docx">Word template</a> or <a href="report_templates/project_proposal_template_2022.pdf">PDF template</a>. <i> One team member should submit the proposal  as a PDF file to Canvas by Tuesday Jan 25th, 11:59pm</i>.  
+</li>  
+<li>  
+<b> Progress Report</b>: <a href="report_templates/TEAMNAME_progress_report.docx">Word template</a> or <a href="report_templates/TEAMNAME_progress_report.pdf">PDF template</a>. <i> One team member should submit the report  as a PDF file to Canvas by Tuesday Feb 22nd, 11:59pm</i>.  
+</li>
+<li>  
+<b> Final Report</b>: <a href="report_templates/TEAMNAME_final_report_2022.docx">Word template</a> or <a href="report_templates/TEAMNAME_final_report_2022.pdf">PDF template</a>. <i> One team member should submit the report as a PDF file.  A zipfile with code (submitted as a team) and individual contribution report (one per student) should also be submitted to Canvas. All items are due by <b> 9am Monday March 14th</b></i>.
+</li>
+</ul>
+<!-- 
+<li>  
+<b> Final Report, Code, and Individual Contribution Report: all due in Canvas by 9am Monday March 15th</b>:
+<ul>
+<li>
+ Final Report Template: <a href="report_templates/PROJECTNAME_final_report_2021.docx">Word</a>,  <a href="report_templates/PROJECTNAME_final_report_2021.pdf">PDF</a>.  One team member should submit the report for the team  as a PDF file.  </li>
+ <li> Code in the form of a Zip file, one submission per team. See the Report template above for instructions. </li>
+ <li> Individual contribution report, one submission per individual. See the Report template above for instructions. </li> 
+</ul>
+</li> 
+
+<!--
+<li>  
+<b> Final Report</b>: <a href="final_report_template.docx">Word template</a> or <a href="final_report_template.pdf">PDF template</a>. One team member should submit the final report <b>as a PDF file to Canvas, plus a Zip file with code, by Sunday March 15th, 11:59pm</b>.  Each student should also submit an individual contribution report to Canvas. More detailed instructions in the template.
+</li>
+<li>   
+ <a href="assignment2.html">Assignment 2</a>. Due Wednesday January 24th, 5pm
+</li>
+<li>   
+ <a href="project_proposals.html">Project Proposal</a>. Due Friday February 2nd, 6pm  
+</li>
+<li>  <a href="assignments/project_progress_report_template.docx"> Project Progress Report</a>. 
+Due 11:45pm Friday February 23rd
+</li>
+</li>
+<li><a href="assignments/final_report_template.docx">Project Final Report</a>.
+  Due at 12 noon
+ on  Tuesday March 20th.
+</li> 
+</ul>
+-->
+</p>
+
+
+ 
+<p>
+<h6> Grading Policy </h6>  A weighted combination of Assignments 1 and 2 (10% each, individual submission),  project proposal (20%, team-based), progress report (20%, team-based), weekly updates (10%, individual submission), in-class presentation (5%, team-based), and final report (25%, team-based).  
+<!--
+Final grades will be based on the following weighted combination:
+<ul>
+<li> 20% for Assignments 1 and 2 (10% each) </li>
+<li> 20% for Project Proposal </li>
+<li> 20% for Project Progress Report </li>
+<li> 10% for in-class Project Presentations </li>
+<li> 30% for Final Project Report </li>
+</ul>
+-->
+</p>
+
+<p>
+<h6> Academic Integrity </h6> 
+Please read the guidelines on academic integrity below. Academic integrity is taken seriously in this class.  
+<ul>
+<li> Failure to adhere to the policies below can result in a student receiving a failing grade in the class.  
+</li>
+<li> <b>For individual assignments</b> you are allowed to discuss the assignments verbally (no written communication) with other class members. You are not allowed to look at or to copy anyone else's written solutions or code. 
+All problem solutions and code submitted must be material you have personally written during 
+this quarter, except for any standard publicly-available library or utility functions. </li>
+<li> <b> For team projects</b> all the text in your <b>reports</b>  must be written by you or members of your project team. If you wish to quote text from another source you need to clearly indicate this by putting it in within quotation marks or in italic font and providing a citation to the source. 
+The <b>code</b> that you use for your class projects will be a combination of code written by you and your team members and publicly-available library code. You should clearly indicate in your reports and in your
+code documentation which parts of your code was written by you or your team
+and which parts of your code were imported from somewhere else. </li> 
+<li>  It is the responsibility of each student to be familiar with 
+<a href="https://aisc.uci.edu/students/academic-integrity/index.php">UCI's Academic Integrity Policies</a>
+and
+<a href="https://aisc.uci.edu/students/academic-integrity/definitions.php"> UCI's definitions and examples of
+academic misconduct</a>.
+</li>
+ </p>
+   
+
+ 
+
+</body>

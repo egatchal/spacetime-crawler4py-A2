@@ -1,112 +1,119 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
-<HTML><HEAD>
-<TITLE>The Geometry Junkyard: Coloring</TITLE>
-<link rel="alternate" type="application/rss+xml" title="RSS"
-href="http://www.ics.uci.edu/~eppstein/junkyard/junkyard.rss" />
-</HEAD><BODY BGCOLOR="#FFFFFF" TEXT="#000000">
-<!--#config timefmt="%d %h %Y, %T %Z" -->
-<H1>
-<A HREF="http://www.ics.uci.edu/~eppstein/junkyard/"><IMG src="junkyard.gif" WIDTH="545" HEIGHT="45" ALT="The Geometry Junkyard" BORDER=0></A>
-</H1>
-<HR><P>
-<H2>
-Coloring
-</H2>
-<UL>
-<li><a href="http://arxiv.org/abs/cs.CG/9907030">Algorithms for
-coloring quadtrees</a>.
-<p>
-<li><a href="http://www.itap.physik.uni-stuttgart.de/~gaehler/tilings_gif.html">Aperiodic
-colored tilings</a>, F. G&auml;hler.
-<a href="http://www.itap.physik.uni-stuttgart.de/~gaehler/tilings_ps.html">Also
-available in postscript</a>.
-<P>
-<LI><A HREF="plane-color.html">The chromatic number of the plane</A>.
-Gordon Royle and Ilan Vardi summarize what's known about
-the famous open problem of how many colors are needed to color
-the plane so that no two points at a unit distance apart get the same color.
-See also
-<A HREF="http://www.math.niu.edu/~rusin/known-math/95/coloring.R2">another article</A> from Dave Rusin's known math pages.
-<P>
-<DIV ALIGN=CENTER><IMG SRC="geom-color.gif" WIDTH=328 HEIGHT=269 ALT="Seven-coloring of the plane"></DIV>
-<P>
-<LI><A HREF="lacolor/">Coloring line arrangements</A>.  The graphs
-formed by overlaying a collection of lines require three, four, or five colors,
-depending on whether one allows three or more lines to meet at a point,
-and whether the lines are considered to wrap around through infinity.
-<A HREF="http://mathforum.org/wagon/fall99/p899.html">Stan Wagon
-asks similar questions for unit circle arrangements</A>.
-<P>
-<DIV ALIGN=CENTER><IMG src="lacolor/pent.gif" WIDTH=333 HEIGHT=332></DIV><P>
-<LI><A HREF="http://www.math.gatech.edu/~thomas/FC/fourcolor.html">The
-Four Color Theorem</A>.
-A new proof by Robertson, Sanders, Seymour, and Thomas.
-<P>
-<li><a href="geom-color.html">Geometric graph coloring problems</a>
-from "Graph Coloring Problems" by Jensen and Toft.
-<p>
-<div align=center><a href="tangencies/"><img src="tangencies/ringel.gif"
-width=373 height=330 border=0 alt="Five-chromatic tangent
-circles"></a></div>
-<p>
-<LI><A HREF="http://glinda.lrsm.upenn.edu/~weeks/infect.html">Infect</A>.
-Eric Weeks generates interesting colorings of aperiodic tilings.
-<P>
-<LI><A HREF="http://mathforum.org/wagon/fall00/p920.html">Plane
-color</A>.  How big can the difference between the numbers of black and
-white regions in a two-colored line arrangement?
-From Stan Wagon's
-<A HREF="http://mathforum.org/wagon/">PotW archive</A>.
-<P>
-<li><a href="http://www.ericharshbarger.org/puzzles/puzzles.html">Puzzles
-by Eric Harshbarger</a>, mostly involving colors of and mazes on
-polyhedra and polyominoes.
-<p>
-<LI><A HREF="http://xraysgi.ims.uconn.edu:8080/rpa-output/geometry/coloring/">Rec.puzzles archive: coloring problems</A>.
-<P>
-<LI><A HREF="http://tph.tuwien.ac.at/~svozil/publ/blatter.htm">Solution
-to problem 10769</A>.  Apparently problems of coloring the points of a
-sphere so that orthogonal points have different colors (or so that each
-set of coordinate basis vectors has multiple colors) has some relevance
-to quantum mechanics; see also papers
-<A HREF="http://arXiv.org/abs/quant-ph/9905080">quant-ph/9905080</A> and
-<A HREF="http://arXiv.org/abs/quant-ph/9911040">quant-ph/9911040</A>
-(on coloring just the rational points on a sphere), as well as this
-<A HREF="http://plato.stanford.edu/entries/kochen-specker/#quick">four-dimensional construction</A>
-of an odd number of basis sets in which each vector appears an even
-number of times, showing that one can't color the points on a
-four-sphere so that each basis set has exactly one black point.
-<P>
-<LI><A HREF="penrose-3X.html">Three-color the Penrose tiling?</A>
-Mark Bickford asks if this tiling is always three-colorable.
-<A HREF="http://www.sciencenews.org/sn_arc99/5_15_99/mathland.htm">Ivars
-Peterson reports on a new proof</A> by Tom Sibley and Stan Wagon
-that the rhomb version of the tiling is 3-colorable;
-A proof of 3-colorability for kites and darts
-was recently published by Robert Babilon 
-[Discrete Mathematics 235(1-3):137-143, May 2001].
-This is closely related to my page on <A HREF="lacolor/">line
-arrangement coloring</A>, since every Penrose tiling is dual to
-a "multigrid", which is just an arrangement of lines in parallel families.
-But my page only deals with finite arrangements, while Penrose tilings are
-infinite.
-<P>
-<li><a href="http://xprt.net/~munizao/mathrec/pentcol.html">Three
-nice pentomino coloring problems</a>, Owen Muniz.
-<p>
-</UL>
+<html>
 
-<HR><P>
-From the <A HREF="/~eppstein/junkyard/">Geometry Junkyard</A>,
-computational
-and recreational geometry pointers.<BR>
-<A HREF="mailto:eppstein@ics.uci.edu">Send email</A> if you
-know of an appropriate page not listed here.<BR>
-<A HREF="http://www.ics.uci.edu/~eppstein/">David Eppstein</A>,
-<A HREF="http://www.ics.uci.edu/~theory/">Theory Group</A>,
-<A HREF="http://www.ics.uci.edu/">ICS</A>,
-<A HREF="http://www.uci.edu/">UC Irvine</A>.<BR>
-<SMALL>Semi-automatically
-<A HREF="http://www.ics.uci.edu/~eppstein/pubs/filter.html">filtered</A>
-from a common source file.</SMALL>
-</BODY></HTML>
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Hojjat Jafarpour's Homepage</title>
+</head>
+
+<body bgcolor="#CCCCCC">
+
+<table border="0" width="113%" height="242">
+  <tr>
+    <td width="101%" height="19" colspan="4">
+      <p align="center"><img border="0" src="images/besmellah.gif" width="96" height="45"></td>
+    <td width="2%" height="380" rowspan="5"></td>
+  </tr>
+  <tr>
+    <td width="31%" height="338" rowspan="3">
+      <p align="center">
+      <img border="0" src="images/Hojjat_SMP.JPG" width="312" height="435"></td>
+    <td width="70%" height="41" colspan="3">
+      <p align="center"></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="17%" height="59" valign="middle">
+      <p align="right"><font size="2" face="Arial">Welcome to</font></td>
+    <td width="23%" height="59" valign="middle">
+      <p align="center"><font color="#800000" size="6">Hojjat Jafarpour</font></td>
+    <td width="30%" height="59" valign="middle">
+      <p align="left"><font size="2" face="Arial">'s home page!</font></td>
+  </tr>
+  <tr>
+    <td width="70%" height="229" valign="top" colspan="3">
+      <font color="#800000">&nbsp;</font><p><font face="Arial">
+          <img border="0" src="images/new.gif" width="25" height="9"> </font>
+      <font size="4" color="#FF0000">I finished my PhD at UCI and joined
+      <a href="http://www.nec-labs.com/research/information/info_dbmgt/main/index.php">
+      data management</a> department at <a href="http://www.nec-labs.com">NEC 
+      Labs</a>. </font><font face="Arial">
+          <img border="0" src="images/new.gif" width="25" height="9"></font></p>
+      <p align="left"><font face="Arial">You can reach my new homepage through 
+      the following URL: <a href="http://www.nec-labs.com/~hojjat/">
+      http://www.nec-labs.com/~hojjat/</a></font></p>
+      <p><font face="Arial"><font size="3">I am a PhD 
+      candidate in <a href="http://isg.ics.uci.edu/">Information Systems Group</a> 
+      of&nbsp; <a href="http://www.ics.uci.edu">Donald Bren School of 
+      Information &amp; Computer Science</a> at the <a href="http://www.uci.edu">University of
+      California, Irvine</a>.&nbsp;</font> My advisor is Professor
+      <a href="http://www.ics.uci.edu/~sharad/">Sharad Mehrotra</a><font size="3"> 
+      and&nbsp;I am a member of <a href="http://www.ics.uci.edu/~projects/dissemination/"> Information Dissemination</a> group
+      in <a href="http://www.itr-rescue.org/">RESCUE project</a>  at <a href="http://www.calit2.net">Cal(IT)<sup>2</sup></a><sup>
+      </sup>. I am also affiliated with </font>
+      <a href="http://www.ics.uci.edu/~projects/SATware/index.html">SATWare 
+      group</a> and <a href="http://www.ics.uci.edu/~dsm/index.html">Distributed 
+      Systems Middleware</a> group.  </font></p>
+      <p><font size="3" face="Arial">I am 
+      interested in distributed systems, scalable data management and computer networks. 
+      Specifically my recent research work have been focused on:</font></p>
+      <ul>
+        <li><font face="Arial">Continuous analytics over massively parallel 
+        architectures</font></li>
+        <li><font size="3" face="Arial">Large scale and high performance 
+        distributed Publish/Subscribe middleware 
+        for customized information dissemination</font></li>
+        <li><font face="Arial">Stream and Event Processing Systems</font></li>
+      </ul>
+      &nbsp;</td>
+  </tr>
+  <tr>
+    <td width="31%" height="47" valign="top">
+          <p align="left" style="line-height: 100%">&nbsp;<ul>
+        <li>
+          <p align="left" style="line-height: 100%"><font face="Arial"><a href="publications.htm">
+          Publications</a>
+          <img border="0" src="images/new.gif" width="25" height="9"></font></li>
+        <li>
+          <p align="left" style="line-height: 100%"><font face="Arial">
+          <a href="CV.html">Academic Resume</a></font></li>
+        <li>
+          <p align="left" style="line-height: 100%"><font face="Arial">
+          <a href="Contact.html">Contact information</a></font></li>
+      </ul>
+          </td>
+    <td width="70%" height="47" colspan="3">
+          &nbsp;</td>
+  </tr>
+  <tr>
+    <td width="31%" height="142" valign="top">
+          &nbsp;</td>
+    <td width="70%" height="142" colspan="3">
+    
+    &nbsp;</td>
+    <td width="2%" height="188" rowspan="2"></td>
+  </tr>
+  <tr>
+    <td width="31%" height="139">
+   
+
+<b></b> 
+
+
+<!-- Site Meter -->
+<script type="text/javascript" src="http://s33.sitemeter.com/js/counter.js?site=s33hojjat">
+</script>
+<noscript>
+<a href="http://s33.sitemeter.com/stats.asp?site=s33hojjat" target="_top">
+<img src="http://s33.sitemeter.com/meter.asp?site=s33hojjat" alt="Site Meter" border="0"/></a></noscript>
+<!-- Copyright (c)2009 Site Meter -->
+
+    
+</td>
+
+  </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-<title>Undergrad News and Updates</title>
+<title>Graduate Programs @ the bren school of information and computer sciences</title>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
-<script src="https://use.fontawesome.com/f443bac96a.js"></script>
-<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/><link href="../../bin/styles/stylesheet_index2018_addon.css" rel="stylesheet" type="text/css"/>
+<script src="https://use.fontawesome.com/f443bac96a.js" type="text/javascript"></script>
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/>
+<!--<link href="/ics/bin/course_info/css/datatables.css" rel="stylesheet" type="text/css"/>-->
+<link href="../../bin/course_info/css/stylesheet2019.css" rel="stylesheet" type="text/css"/>
+<link href="../../bin/styles/stylesheet_index2018_addon.css" rel="stylesheet" type="text/css"/>
 
 
-<meta content="Thu, 01 Sep 2022 15:48:46 -0380" name="date"/>
+<meta content="Mon, 26 Sep 2022 14:47:02 -0380" name="date"/>
 
 </head>
 <body>
 <!-- before breadcrumb_nav include -->
  <!-- after breadcrumb_nav include -->
-<div id="wrapper">
-<div id="header-main">
+<div id="wrapper"><div id="header-main">
     <a id="skip-nav" role="region" aria-label="Skip to main content" class="skip-nav screen-reader-text" href="#mid-section">Skip to main content</a>
     <div class="container">
         <div id="logo-container">
@@ -297,229 +299,127 @@
 </nav><section id="mid-section">
 <div class="container">
 <div class="row">
-<div class="col-md-8" id="mid-content"><!-- before breadcrumb_nav() print -->
-<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/ugrad/">Undergraduate</a> &#47; <a href="https://www.ics.uci.edu/ugrad/sao/">Academic advising</a>] --><A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/ugrad/">Undergraduate</a> &#47; <a href="https://www.ics.uci.edu/ugrad/sao/">Academic advising</a></div>
+<div id="mid-content"><!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/grad/">Graduate</a> &#47; <a href="https://www.ics.uci.edu/grad/admissions/">Admissions</a>] --><A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/grad/">Graduate</a> &#47; <a href="https://www.ics.uci.edu/grad/admissions/">Admissions</a></div>
 <!-- after breadcrumb_nav() print -->
 <div id="content"><a id="startcontent" name="startcontent"></a> 
-<div id="c-title">News and Updates</div>
+<div id="c-title">Graduate Programs</div>
 <blockquote>
-<div id="c-text"><section id="sao-newsupdates">
-<div style="text-align: center;"></div>
-<iframe allowfullscreen="true" frameborder="0" height="240" mozallowfullscreen="true" src="https://docs.google.com/presentation/d/1t8NXAw49hx1KUAOuCa5UGiev1F6BJt0PfdqR8t7kXW0/embed?start=true&amp;loop=true&amp;delayms=5000" webkitallowfullscreen="true" width="100%"></iframe> <br/> <br/><hr/>
-<h2><span>Blog Updates</span></h2>
-Latest posts from the <a href="https://sites.uci.edu/icsucounsel/" target="_blank">ICS Undergraduate Student Affairs Academic Advising Blog</a>: 
-<!--  $numberOfPostsToShow =  5 -->
-
-	<div class='post card my-3'>
-		<div class='card-body'>
-			<div class='card-title'>
-				<div class='float-right text-muted'>Tue, 04 Oct 2022</div>
-				<h3><a href='https://sites.uci.edu/icsucounsel/2022/10/04/add-drop-change-option-deadline-10-7-5pm/' target='_blank'>Add/Drop/Change Option Deadline 10/7 @5pm</a></h3>
-			</div>
-
-			<div class='card-text ml-2'>
-
-				<!-- The Deadline to Add/Drop/Change a Course through Webreg is Friday October 7 @ 5pm *ICS will not approve Adds/Drops after October 7th. Exceptions after this date will only be approved for extenuating circumstances and documentation will be required.&#160; Course Enrollment Deadlines Drop a course by end of week 2 Add a course by end of [&#8230;] -->
-
-				
-<p><strong>The Deadline to Add/Drop/Change a Course through Webreg is Friday October 7 @ 5pm</strong></p>
-
-
-
-<p><strong>*<u>ICS will not approve Adds/Drops after October 7th</u>. Exceptions after this date will only be approved for extenuating circumstances and documentation will be required.&nbsp;</strong></p>
-
-
-
-<p>Course Enrollment Deadlines</p>
-
-
-
-<ul><li>Drop a course by end of week 2</li><li>Add a course by end of week 2</li><li>Change a grading option by the end of week 10&nbsp; (After October 7th @ 5pm all grade change options will need to be submitted through an Enrollment Exception. Enrollment Exceptions can be submitted through your Student Access &gt; Applications &gt; Enrollment Exceptions).&nbsp;</li></ul>
-
-
-
-<p>The Deadline to submit an Enrollment Exception for review is Friday December 2nd, @5pm</p>
-			</div>
-
-		</div>
-	</div>
-
-
-
-
-	<div class='post card my-3'>
-		<div class='card-body'>
-			<div class='card-title'>
-				<div class='float-right text-muted'>Thu, 04 Aug 2022</div>
-				<h3><a href='https://sites.uci.edu/icsucounsel/2022/08/04/check-out-our-course-updates-page/' target='_blank'>Check out our Course Updates Page!</a></h3>
-			</div>
-
-			<div class='card-text ml-2'>
-
-				<!-- The course updates page is where you can find a timeline of ICS course restrictions. This updated for every quarter and is subject to change. We suggest you bookmark it and check it regularly! Check it out here. -->
-
-				
-<p>The <a href="https://www.ics.uci.edu/ugrad/sao/Course_updates" data-type="URL" data-id="https://www.ics.uci.edu/ugrad/sao/Course_updates" target="_blank" rel="noreferrer noopener">course updates page</a> is where you can find a timeline of ICS course restrictions. This updated for every quarter and is subject to change. We suggest you bookmark it and check it regularly!</p>
-
-
-
-<p>Check it out <a href="https://www.ics.uci.edu/ugrad/sao/Course_updates" data-type="URL" data-id="https://www.ics.uci.edu/ugrad/sao/Course_updates" target="_blank" rel="noreferrer noopener">here</a>.</p>
-			</div>
-
-		</div>
-	</div>
-
-
-
-
-	<div class='post card my-3'>
-		<div class='card-body'>
-			<div class='card-title'>
-				<div class='float-right text-muted'>Tue, 24 May 2022</div>
-				<h3><a href='https://sites.uci.edu/icsucounsel/2022/05/24/ics-honors-applications-deadline-may-27-2022-2/' target='_blank'>ICS Honors Applications | Deadline: May 27, 2022</a></h3>
-			</div>
-
-			<div class='card-text ml-2'>
-
-				<!-- Dear ICS Students, There is still time to apply for the ICS Honors Program! As a reminder, the deadline to submit the online application is on Friday, May 27th at 5pm. Faculty References are due the following week on Friday, June 3rd at 5pm. You can find the application requirements as well as the link to the application on our Admissions [&#8230;] -->
-
-				
-<p>Dear ICS Students, <br>There is still time to apply for the ICS Honors Program! As a reminder, the deadline to submit the <a rel="noreferrer noopener" href="https://docs.google.com/forms/d/e/1FAIpQLScbr1zejtvb6oD35f8ITox0xJgUZ61B5AsSK_ehpQ7T0zahtQ/viewform?usp=sf_link" target="_blank">online application</a> is on Friday, May 27th at 5pm. <a rel="noreferrer noopener" href="https://docs.google.com/forms/d/e/1FAIpQLScSN0eMW6QMR0kSQNpSMUFLCHUddY3ZewKP8T30r7E3BoF3lw/viewform?usp=sf_link" target="_blank">Faculty References</a> are due the following week on Friday, June 3rd at 5pm. <br>You can find the application requirements as well as the link to the application on our <a rel="noreferrer noopener" href="https://www.ics.uci.edu/ugrad/honors/apply.php" target="_blank">Admissions Requirements and Application page</a>.</p>
-
-
-
-<p>Please note that decisions will be sent out after Spring grades have been posted. <br>If you have any questions, please feel free to reach out. </p>
-			</div>
-
-		</div>
-	</div>
-
-
-
-
-	<div class='post card my-3'>
-		<div class='card-body'>
-			<div class='card-title'>
-				<div class='float-right text-muted'>Tue, 10 May 2022</div>
-				<h3><a href='https://sites.uci.edu/icsucounsel/2022/05/10/writing-course-number-changes/' target='_blank'>Writing Course Number Changes</a></h3>
-			</div>
-
-			<div class='card-text ml-2'>
-
-				<!--  -->
-
-				
-<div class="wp-container-3 wp-block-group"><div class="wp-block-group__inner-container">
-<div class="wp-container-2 wp-block-columns">
-<div class="wp-container-1 wp-block-column" style="flex-basis:100%">
-<div class="wp-block-image"><figure class="alignleft size-full is-resized"><img src="https://sites.uci.edu/icsucounsel/files/2022/05/image.jpg" alt="" class="wp-image-599" width="657" height="370" srcset="https://sites.uci.edu/icsucounsel/files/2022/05/image.jpg 800w, https://sites.uci.edu/icsucounsel/files/2022/05/image-300x169.jpg 300w, https://sites.uci.edu/icsucounsel/files/2022/05/image-768x432.jpg 768w" sizes="(max-width: 657px) 100vw, 657px" /></figure></div>
+<div id="c-text">
+    <div class="container">
+        <link href="//www.ics.uci.edu/grad/admissions/styles/styles.css " rel="stylesheet"/>
+<div id="section-pro_programs">
+<div class="container"><img alt="UCI ICS logo - Graduate Programs" class="header-img img-fluid w-100 d-none d-md-block" src="https://www.ics.uci.edu/grad/admissions/imgs/2018_11_13_UCI_day1-18-3840x1418.jpg"/> <img alt="UCI ICS logo - Graduate Programs" class="header-img img-fluid d-block w-100 d-md-none" src="https://www.ics.uci.edu/grad/admissions/imgs/2018_11_13_UCI_day1-18-800x533.jpg"/>
+<div class="h-gap-25"></div>
+<div class="col text-center">
+<h2 class="header">Your Success Starts at ICS</h2>
+</div>
+<div class="row">
+<div class="col">
+<p>Join more than 800 graduate students studying virtually every area within the fields of Computer Science, Informatics, Networked Systems, Software Engineering and Statistics, as well as many new interdisciplinary topics. With more than 100 faculty members spanning three departments&#8212;Computer Science, Informatics and Statistics&#8212;this is a very exciting time to be a part of the Donald Bren School.</p>
+<p>Almost all of our Ph.D. students receive financial aid in the form of teaching assistantships or research assistantships during their time at UC Irvine. Many of them also receive fellowships from the Bren School's corporate partners and private supporters.</p>
+<p>You can still apply to ICS if your undergraduate degree is not in the same area as the graduate degree in which you are interested. However, it is helpful if you have taken courses in computer science and math, and/or have some related work experience.</p>
+<p>A complete list of our graduate programs is below so you can explore which one is right for you.&#160;<span>You can also visit the&#160;</span><a href="http://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/#graduatetext" target="_blank">UCI Course Catalogue</a><span> for more in-depth information about each ICS graduate program.</span></p>
 </div>
 </div>
-</div></div>
-			</div>
-
-		</div>
-	</div>
-
-
-
-
-	<div class='post card my-3'>
-		<div class='card-body'>
-			<div class='card-title'>
-				<div class='float-right text-muted'>Tue, 03 May 2022</div>
-				<h3><a href='https://sites.uci.edu/icsucounsel/2022/05/03/research-opportunity/' target='_blank'>Research Opportunity</a></h3>
-			</div>
-
-			<div class='card-text ml-2'>
-
-				<!-- CEE Prof. Olivares has a great environmental contamination research opportunity for students during this summer 2022 and the next academic year, 2022-23.  Motivated applicants are encouraged to directly email the project team leader ASAP. Please submit a one-page resume, along with an unofficial transcript to the Olivares Lab PhD student, Jialin Dong (jialind2@uci.edu) and cc [&#8230;] -->
-
-				
-<p>CEE Prof. Olivares has a great environmental contamination research opportunity for students during this summer 2022 and the next academic year, 2022-23. </p>
-
-
-
-<p><br>Motivated applicants are encouraged to directly email the project team leader ASAP. Please submit a one-page resume, along with an unofficial transcript to the Olivares Lab PhD student, Jialin Dong (<a rel="noreferrer noopener" href="mailto:jialind2@uci.edu" target="_blank">jialind2@uci.edu</a>) and cc Prof. Olivares (<a rel="noreferrer noopener" href="mailto:chris.olivares@uci.edu" target="_blank">chris.olivares@uci.edu</a>). Full application details can be found in the attached. </p>
-
-
-
-<div class="wp-block-file"><object class="wp-block-file__embed" data="https://sites.uci.edu/icsucounsel/files/2022/05/Olivares-Lab-Research-opportunity.pdf" type="application/pdf" style="width:100%;height:600px" aria-label="Embed of Olivares-Lab-Research-opportunity."></object><a href="https://sites.uci.edu/icsucounsel/files/2022/05/Olivares-Lab-Research-opportunity.pdf">Olivares-Lab-Research-opportunity</a><a href="https://sites.uci.edu/icsucounsel/files/2022/05/Olivares-Lab-Research-opportunity.pdf" class="wp-block-file__button" download>Download</a></div>
-			</div>
-
-		</div>
-	</div>
-
-
-</section></div>
+<div class="h-gap-25"></div>
+<div class="row">
+<div class="col-md-6">
+<div class="card bg-dark text-white"><img alt="Card image" class="card-img" src="https://www.ics.uci.edu/grad/admissions/imgs/res-programs.jpg"/>
+<div class="card-img-overlay d-flex flex-column">
+<div class="mt-auto font-weight-bold">
+<h3 class="card-title">Research Programs</h3>
+</div>
+</div>
+</div>
+<ul>
+<li><span class="dept-title">Computer Science</span> &#8211; <a class="btn btn-outline-primary" href="http://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofcomputerscience/computerscience_phd/" role="button" target="_blank">Ph.D.</a> <a class="btn btn-outline-primary" href="http://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofcomputerscience/computerscience_ms/" role="button" target="_blank">M.S.</a></li>
+<li><span class="dept-title">Informatics</span> &#8211; <a class="btn btn-outline-primary" href="http://www.informatics.uci.edu/phd-informatics/" role="button" target="_blank">Ph.D.</a> <a class="btn btn-outline-primary" href="http://www.informatics.uci.edu/grad/ms-informatics/" role="button">M.S.</a></li>
+<li><span class="dept-title">Networked Systems</span> &#8211; <a class="btn btn-outline-primary" href="http://www.networkedsystems.uci.edu/requirements09.html" role="button" target="_blank">Ph.D.</a> <a class="btn btn-outline-primary" href="http://www.networkedsystems.uci.edu/requirements09.html" role="button" target="_blank">M.S.</a></li>
+<li><span class="dept-title">Software Engineering</span> &#8211; <a class="btn btn-outline-primary" href="http://www.informatics.uci.edu/grad/phd-software-engineering/" role="button" target="_blank">Ph.D.</a> <a class="btn btn-outline-primary" href="http://www.informatics.uci.edu/grad/ms-software-engineering/" role="button" target="_blank">M.S.</a></li>
+<li><span class="dept-title">Statistics</span> &#8211; <a class="btn btn-outline-primary" href="https://www.stat.uci.edu/m-s-ph-d-in-statistics/" role="button" target="_blank">Ph.D.</a> <a class="btn btn-outline-primary" href="https://www.stat.uci.edu/m-s-ph-d-in-statistics/" role="button" target="_blank">M.S.</a></li>
+</ul>
+</div>
+<div class="col-md-6">
+<div class="card bg-dark text-white"><img alt="Card image" class="card-img" src="https://www.ics.uci.edu/grad/admissions/imgs/pro-programs.jpg"/>
+<div class="card-img-overlay d-flex flex-column">
+<div class="mt-auto font-weight-bold">
+<h3 class="card-title">Professional Programs</h3>
+</div>
+</div>
+</div>
+<ul>
+<li><a class="btn btn-outline-primary btn-block" href="http://mcs.ics.uci.edu" role="button" target="_blank">Master of Computer Science (MCS)</a></li>
+<li><a class="btn btn-outline-primary btn-block" href="https://mswe.ics.uci.edu/" role="button" target="_blank">Master of Software Engineering (MSWE)</a></li>
+<li><a class="btn btn-outline-primary btn-block" href="http://mhcid.ics.uci.edu/" role="button" target="_blank">Master of Human-Computer Interaction<br/>and Design (MHCID)</a></li>
+<li><a class="btn btn-outline-primary btn-block" href="http://www.mecps.uci.edu/" role="button" target="_blank">Master of Embedded<br/>&amp; Cyber-physical Systems (MECPS)&#8224;</a></li>
+<li><a class="btn btn-outline-primary btn-block" href="https://mds.ics.uci.edu/" role="button" target="_blank">Master of Data Science (MDS)</a></li>
+</ul>
+</div>
+</div>
+<div class="h-gap-15"></div>
+<div class="row">
+<div class="col text-center"><a aria-pressed="true" class="btn btn-outline-secondary btn-block" href="//www.ics.uci.edu/grad/admissions/comparison_chart_masters" role="button" target="_blank">Compare Programs</a></div>
+</div>
+<div class="h-gap-15"></div>
+<div class="text-center"><em>&#8224;This is a joint program between the School of Engineering and ICS</em></div>
+<div class="h-gap-25"></div>
+<!-- start-->
+<div class="jumbotron jumbotron-fluid text-center">
+<p class="lead"><span class="dept-title">Learn more about how to apply to one or multiple graduate programs.</span></p>
+<p class="lead"><a aria-pressed="true" class="btn btn-warning btn-lg" href="Prospective_ApplicationProcess.php" role="button">Apply Now</a></p>
+</div>
+<!-- end-->
+<div class="h-gap-15"></div>
+</div>
+</div>
+<table border="1" cellpadding="4" cellspacing="2" style="width: 100%;" summary="Staff Counselors">
+<tbody>
+<tr>
+<td colspan="3" style="text-align: center; background-color: #fefad6;"><strong>GRADUATE STUDENT AFFAIRS STAFF</strong></td>
+</tr>
+<tr>
+<td><strong>Madhu Reddy</strong></td>
+<td>Associate Dean, Graduate Student Programs</td>
+<td><a href="mailto:gadsa@ics.uci.edu">gadsa@ics.uci.edu</a></td>
+</tr>
+<tr>
+<td><strong>Kris Bolcer</strong></td>
+<td>Senior Director, Graduate Student Affairs</td>
+<td><a href="mailto:kris@ics.uci.edu">kris@ics.uci.edu</a></td>
+</tr>
+<tr>
+<td><strong>Leslie Escalante</strong></td>
+<td>Graduate Counselor</td>
+<td><a href="mailto:gcounsel@ics.uci.edu">gcounsel@ics.uci.edu</a></td>
+</tr>
+<tr>
+<td><strong>Majde Issa Al Salibi</strong></td>
+<td>Graduate Counselor</td>
+<td><a href="mailto:gcounsel@ics.uci.edu">gcounsel@ics.uci.edu</a><a href="mailto:kris@ics.uci.edu"><br/></a></td>
+</tr>
+<tr>
+<td><strong>Geraldine Duenas</strong></td>
+<td>Graduate Counselor, Professional Programs</td>
+<td>
+<p><a href="mailto:mcs@ics.uci.edu">mcs@ics.uci.edu<br/></a><a href="mailto:mds@ics.uci.edu">mds@ics.uci.edu<br/></a><a href="mailto:mhcid@ics.uci.edu">mhcid@ics.uci.edu<br/></a><a href="mailto:mswe@ics.uci.edu">mswe@ics.uci.edu<br/></a></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="text-align: center; background-color: #fefad6;"><strong>&#160;</strong></td>
+</tr>
+</tbody>
+</table>
+    </div>
+</div>
 </blockquote>
 </div>
 </div>
-<div class="col-md-4" id="s-bar">
-    <div id="sidebar_title">More Undergraduate</div>
-<ul>
-<li><a href="../index.php">Contact</a></li>
-<li><a href="SAO_News_and_Updates.php">News and Updates</a></li>
-<li><a href="index.php">Academic advising</a></li>
-<li><a href="Course_updates.php">Course updates</a></li>
-<li><a href="../courses/index.php">Academic year plan</a></li>
-<li><a href="../degrees/index.php">ICS majors</a>
-<ul class="s-bar-sub">
-<li><a href="GDIM_FAQ_Page.php">GDIM FAQ page</a></li>
-<li><a href="../degrees/Double_Majors.php">Double major</a></li>
-<li><a href="../degrees/Second_BA.php">2nd baccalaureate</a></li>
-</ul>
-</li>
-<li><a href="../degrees/Minors.php">ICS minors</a></li>
-<li><a href="../advising/ICS New Student Welcome.php">Newly Admitted to ICS</a></li>
-<li><a href="../QA_Petitions.php">Petitions &amp; Forms</a></li>
-<li><a href="/ugrad/policies/">Policies</a>
-<ul class="s-bar-sub">
-<li><a href="../policies/Academic_Honesty.php">Academic honesty</a></li>
-<li><a href="../policies/Academic_Standing.php">Academic standing</a></li>
-<li><a href="../policies/Add_Drop_ChangeOption.php">Add, drop, &amp; change options</a></li>
-<li><a href="../policies/Change_of_Major.php">Change of Major</a></li>
-<li><a href="Concurrent_Enrollment.php">Concurrent Enrollment</a></li>
-<li><a href="../policies/Course_Outside_UCI.php">Coursework outside UCI</a></li>
-<li><a href="../policies/CS199_IN4MATX199.php">CS 199 / IN4MATX 199</a></li>
-<li><a href="../policies/Grade_Options.php">Grade policy</a></li>
-<li><a href="../advising/ICS Credit by Exam.php">ICS Credit by Exam</a></li>
-<li><a href="../policies/Laptop_ComputerUse.php">Laptop &amp; computer use</a></li>
-<li><a href="../policies/Withdrawal_Readmission.php">Withdrawal/Readmission</a></li>
-<li><a href="../policies/ICS_192_Enrollment_CPT_OPT.php"><span>ICS 192 Enrollment/CPT&amp;OPT</span></a></li>
-</ul>
-</li>
-<li><a href="../QA_Graduation.php">Graduation</a></li>
-<li><a href="../resources/index.php">ICS student life</a></li>
-<li><a href="../honors/index.php">ICS Honors Program</a></li>
-<li><a href="../../../computing/account/new.php">Computing support</a></li>
-<li><span><a href="../resources/Title_IX_Resources.php">Title IX Resources</a></span></li>
-</ul>
-    <div class="h-gap-30"></div>
-    <style>
-.adBanner{display:none;}
-.adBanner img{
-    border-radius:5px;
-}
-.adBanner a:after{
-    display:none;
-    }
-</style>
-<div class="adBanner">
-<div class="row">
-<div class="col-12 text-center"></div>
-</div>
-</div>
-<div class="h-gap-30"></div>
-<a class="twitter-timeline" data-height="550" href="https://twitter.com/UCIbrenICS?ref_src=twsrc%5Etfw">Tweets by UCIbrenICS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<div class="h-gap-30"></div>
-<p class="social-button-sw"><a aria-pressed="true" class="btn btn-outline-primary btn-sm" href="//www.ics.uci.edu/social/" role="button">View Social Media</a></p></div>
 </div>
 </div>
 </section>
 <section id="bottom-section">
-<div class="container">
-<!--<div id="links_bottom"><system-region name="LINKS-BOTTOM"/></div>-->
+<div class="container"><!--<div id="links_bottom"><system-region name="LINKS-BOTTOM"/></div>-->
 <div id="nav-footer">
     <div class="container">
         <div class="row">
@@ -581,7 +481,6 @@ Latest posts from the <a href="https://sites.uci.edu/icsucounsel/" target="_blan
 </section>
 <!-- Back To Top Btn -->
 <div id="btt-btn"><!-- Back To Top Btn --><a href="#" id="back2Top" title="Back to top">&#10148;</a></div>
-
 <script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -594,7 +493,13 @@ Latest posts from the <a href="https://sites.uci.edu/icsucounsel/" target="_blan
 </script>
  <script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" type="text/javascript">
 </script>
-<script src="../../bin/js/btt.js" type="text/javascript">
+ <script src="../../bin/js/btt.js" type="text/javascript">
+</script>
+
+ <script src="../../bin/course_info/js/datatables.min.js" type="text/javascript">
+</script>
+
+ <script src="../../bin/course_info/js/insert_before.js" type="text/javascript">
 </script>
 <!-- Accessibilty - START -->
 <script type="text/javascript">

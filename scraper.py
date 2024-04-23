@@ -295,6 +295,10 @@ def save_data():
         # Write the statistics data to the file
         for i, url in enumerate(valid_set):
             file.write(f"{i}: {url}\n")
+    with open('data_invalid_urls.txt', 'w') as file:
+        # Write the statistics data to the file
+        for i, url in enumerate(invalid_set):
+            file.write(f"{i}: {url}\n")
     with open('data_frequencies.txt', 'w') as file:
         # Write the statistics data to the file
         for k, v in global_frequencies.items():
@@ -311,7 +315,6 @@ def save_data():
         # Write the statistics data to the file
         for k, v in ics_subdomains.items():
             file.write(f"{k}: {v}\n")
-    
 
 def add_token_to_frequencies(tokens):
     for token in tokens:

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+	<html lang="en-US">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Lost Password &lsaquo; UCI’s Steckler Center for Responsible, Ethical, and Accessible Technology &#8212; WordPress</title>
+	<meta name='robots' content='max-image-preview:large, noindex, noarchive' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='dashicons-css'  href='https://create.ics.uci.edu/wp-includes/css/dashicons.min.css?ver=1be4f1d64aa0efd89b9c2f3324714e42' media='all' />
+<link rel='stylesheet' id='buttons-css'  href='https://create.ics.uci.edu/wp-includes/css/buttons.min.css?ver=1be4f1d64aa0efd89b9c2f3324714e42' media='all' />
+<link rel='stylesheet' id='forms-css'  href='https://create.ics.uci.edu/wp-admin/css/forms.min.css?ver=1be4f1d64aa0efd89b9c2f3324714e42' media='all' />
+<link rel='stylesheet' id='l10n-css'  href='https://create.ics.uci.edu/wp-admin/css/l10n.min.css?ver=1be4f1d64aa0efd89b9c2f3324714e42' media='all' />
+<link rel='stylesheet' id='login-css'  href='https://create.ics.uci.edu/wp-admin/css/login.min.css?ver=1be4f1d64aa0efd89b9c2f3324714e42' media='all' />
+	<meta name='referrer' content='strict-origin-when-cross-origin' />
+		<meta name="viewport" content="width=device-width" />
+	<link rel="icon" href="https://create.ics.uci.edu/wp-content/uploads/2020/11/cropped-uciics-icon-1-1-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://create.ics.uci.edu/wp-content/uploads/2020/11/cropped-uciics-icon-1-1-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://create.ics.uci.edu/wp-content/uploads/2020/11/cropped-uciics-icon-1-1-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://create.ics.uci.edu/wp-content/uploads/2020/11/cropped-uciics-icon-1-1-270x270.jpg" />
+	</head>
+	<body class="login no-js login-action-lostpassword wp-core-ui  locale-en-us">
+	<script type="text/javascript">
+		document.body.className = document.body.className.replace('no-js','js');
+	</script>
+		<div id="login">
+		<h1><a href="https://wordpress.org/">Powered by WordPress</a></h1>
+	<p class="message">Please enter your username or email address. You will receive an email message with instructions on how to reset your password.</p>
+
+		<form name="lostpasswordform" id="lostpasswordform" action="https://create.ics.uci.edu/wp-login.php?action=lostpassword" method="post">
+			<p>
+				<label for="user_login">Username or Email Address</label>
+				<input type="text" name="user_login" id="user_login" class="input" value="" size="20" autocapitalize="off" autocomplete="username" />
+			</p>
+						<input type="hidden" name="redirect_to" value="" />
+			<p class="submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Get New Password" />
+			</p>
+		</form>
+
+		<p id="nav">
+			<a href="https://create.ics.uci.edu/wp-login.php">Log in</a>
+					</p>
+				<p id="backtoblog">
+			<a href="https://create.ics.uci.edu/">&larr; Go to UCI’s Steckler Center for Responsible, Ethical, and Accessible Technology</a>		</p>
+			</div>
+					<script type="text/javascript">
+		try{document.getElementById('user_login').focus();}catch(e){}
+		if(typeof wpOnload==='function')wpOnload();
+		</script>
+			<script>
+	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+	</script>
+		<div class="clear"></div>
+	</body>
+	</html>
+	

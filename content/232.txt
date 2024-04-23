@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head>
+<title>David Eppstein - Publications</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll("script[type='math/tex']").forEach(function(el) {
+              el.outerHTML = "\\(" + el.textContent + "\\)";
+            });
+            document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el) {
+              el.outerHTML = "\\[" + el.textContent + "\\]";
+            });
+            var script = document.createElement('script');
+            script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
+            document.head.appendChild(script);
+        }, false);
+    </script>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<h1>David Eppstein - Publications</h1>
+<hr><p>
+<h2>
+</h2>
+<ul>
+<li><b>Listing all maximal cliques in large sparse real-world graphs in
+near-optimal time</b>.<br>
+D. Eppstein,
+<a href="https://www.ics.uci.edu/~mloffler/">M. L&ouml;ffler</a>, and
+<a href="https://www.ics.uci.edu/~dstrash/">D. Strash</a>.<br>
+<i><a href="https://doi.org/10.1145/2543629">J. Experimental
+Algorithmics</i> 18 (3): 3.1, 2013</a> (special issue for SEA).
+<p>
+This paper combines our theoretical results on clique-finding algorithms
+from ISAAC 2010 with our experimental results on the same algorithms
+from SEA 2011. We show how to list all maximal cliques in graphs of bounded degeneracy
+in time that is linear in the size of the graph and near-optimal in the degeneracy,
+and we show that low degeneracy explains the good behavior of the algorithm
+in our experiments on large real-world social networks.
+<p>
+</ul>
+
+<hr><p>
+<a href="/~eppstein/pubs/">Publications</a> &ndash;
+<a href="/~eppstein/">David Eppstein</a> &ndash;
+<a href="/~theory/">Theory Group</a> &ndash;
+<a href="/">Inf. &amp; Comp. Sci.</a> &ndash;
+<a href="https://www.uci.edu/">UC Irvine</a>
+<p>
+<small>Semi-automatically <a href="filter.html">filtered</a>
+from a common source file.</small>
+</body></html>

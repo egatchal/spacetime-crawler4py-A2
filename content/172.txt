@@ -1,1365 +1,1494 @@
-<html xmlns:v="urn:schemas-microsoft-com:vml"
-xmlns:o="urn:schemas-microsoft-com:office:office"
-xmlns:w="urn:schemas-microsoft-com:office:word"
-xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
-xmlns="http://www.w3.org/TR/REC-html40">
-
-<head>
-<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
-<meta name=ProgId content=Word.Document>
-<meta name=Generator content="Microsoft Word 15">
-<meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="vispercep-2021_files/filelist.xml">
-<title>Visual Perception</title>
-<!--[if gte mso 9]><xml>
- <o:DocumentProperties>
-  <o:Author>Aditi Majumder</o:Author>
-  <o:Template>Normal</o:Template>
-  <o:LastAuthor>19494</o:LastAuthor>
-  <o:Revision>60</o:Revision>
-  <o:TotalTime>5506</o:TotalTime>
-  <o:Created>2022-01-26T23:29:00Z</o:Created>
-  <o:LastSaved>2022-02-17T00:49:00Z</o:LastSaved>
-  <o:Pages>2</o:Pages>
-  <o:Words>476</o:Words>
-  <o:Characters>4997</o:Characters>
-  <o:Company>University of California, Irvine</o:Company>
-  <o:Lines>41</o:Lines>
-  <o:Paragraphs>10</o:Paragraphs>
-  <o:CharactersWithSpaces>5463</o:CharactersWithSpaces>
-  <o:Version>16.00</o:Version>
- </o:DocumentProperties>
-</xml><![endif]-->
-<link rel=themeData href="vispercep-2021_files/themedata.thmx">
-<link rel=colorSchemeMapping href="vispercep-2021_files/colorschememapping.xml">
-<!--[if gte mso 9]><xml>
- <w:WordDocument>
-  <w:View>Print</w:View>
-  <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
-  <w:TrackMoves/>
-  <w:TrackFormatting/>
-  <w:ValidateAgainstSchemas/>
-  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
-  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
-  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
-  <w:DoNotPromoteQF/>
-  <w:LidThemeOther>EN-US</w:LidThemeOther>
-  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
-  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
-  <w:Compatibility>
-   <w:BreakWrappedTables/>
-   <w:SnapToGridInCell/>
-   <w:WrapTextWithPunct/>
-   <w:UseAsianBreakRules/>
-   <w:DontGrowAutofit/>
-   <w:SplitPgBreakAndParaMark/>
-   <w:DontVertAlignCellWithSp/>
-   <w:DontBreakConstrainedForcedTables/>
-   <w:DontVertAlignInTxbx/>
-   <w:Word11KerningPairs/>
-   <w:CachedColBalance/>
-  </w:Compatibility>
-  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
-  <m:mathPr>
-   <m:mathFont m:val="Cambria Math"/>
-   <m:brkBin m:val="before"/>
-   <m:brkBinSub m:val="&#45;-"/>
-   <m:smallFrac m:val="off"/>
-   <m:dispDef/>
-   <m:lMargin m:val="0"/>
-   <m:rMargin m:val="0"/>
-   <m:defJc m:val="centerGroup"/>
-   <m:wrapIndent m:val="1440"/>
-   <m:intLim m:val="subSup"/>
-   <m:naryLim m:val="undOvr"/>
-  </m:mathPr></w:WordDocument>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
-  DefSemiHidden="false" DefQFormat="false" LatentStyleCount="375">
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   QFormat="true" Name="heading 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="heading 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="heading 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="heading 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="heading 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="heading 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="heading 9"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 9"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="toc 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="toc 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="toc 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="toc 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="toc 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="toc 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="toc 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="toc 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="toc 9"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Normal Indent"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="footnote text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="annotation text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="header"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="footer"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index heading"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="caption"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="table of figures"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="envelope address"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="envelope return"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="footnote reference"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="annotation reference"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="line number"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="page number"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="endnote reference"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="endnote text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="table of authorities"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="toa heading"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Closing"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Signature"/>
-  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
-   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text Indent"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Salutation"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Date"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text First Indent"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text First Indent 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Note Heading"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text Indent 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text Indent 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Block Text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Hyperlink"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="FollowedHyperlink"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Document Map"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Plain Text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="E-mail Signature"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Top of Form"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Bottom of Form"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Normal (Web)"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Acronym"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Address"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Cite"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Code"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Definition"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Keyboard"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Preformatted"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Sample"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Typewriter"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Variable"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Normal Table"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="annotation subject"/>
-  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
-   UnhideWhenUsed="true" Name="No List"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Outline List 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Outline List 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Outline List 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Simple 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Simple 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Simple 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Colorful 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Colorful 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Colorful 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table 3D effects 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table 3D effects 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table 3D effects 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Contemporary"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Elegant"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Professional"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Subtle 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Subtle 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Web 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Web 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Web 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Theme"/>
-  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
-   Name="Placeholder Text"/>
-  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="99" SemiHidden="true" Name="Revision"/>
-  <w:LsdException Locked="false" Priority="34" QFormat="true"
-   Name="List Paragraph"/>
-  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
-  <w:LsdException Locked="false" Priority="30" QFormat="true"
-   Name="Intense Quote"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="19" QFormat="true"
-   Name="Subtle Emphasis"/>
-  <w:LsdException Locked="false" Priority="21" QFormat="true"
-   Name="Intense Emphasis"/>
-  <w:LsdException Locked="false" Priority="31" QFormat="true"
-   Name="Subtle Reference"/>
-  <w:LsdException Locked="false" Priority="32" QFormat="true"
-   Name="Intense Reference"/>
-  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
-  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
-   UnhideWhenUsed="true" Name="Bibliography"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
-  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
-  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
-  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
-  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
-  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
-  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
-  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
-  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
-  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 1"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 2"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 3"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 4"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 5"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 6"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 6"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 6"/>
-  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
-  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
-  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 1"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 2"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 3"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 4"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 5"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 6"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 6"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 6"/>
-  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
-   UnhideWhenUsed="true" Name="Mention"/>
-  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
-   UnhideWhenUsed="true" Name="Smart Hyperlink"/>
-  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
-   UnhideWhenUsed="true" Name="Hashtag"/>
-  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
-   UnhideWhenUsed="true" Name="Unresolved Mention"/>
- </w:LatentStyles>
-</xml><![endif]-->
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;
-	mso-font-charset:2;
-	mso-generic-font-family:auto;
-	mso-font-pitch:variable;
-	mso-font-signature:0 268435456 0 0 -2147483648 0;}
-@font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:3 0 0 0 1 0;}
-@font-face
-	{font-family:Cambria;
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
-	margin:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
-h1
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 1 Char";
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	mso-outline-level:1;
-	font-size:24.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
-h3
-	{mso-style-noshow:yes;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 3 Char";
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	mso-outline-level:3;
-	font-size:13.5pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
-a:link, span.MsoHyperlink
-	{mso-style-noshow:yes;
-	color:blue;
-	text-decoration:underline;
-	text-underline:single;}
-a:visited, span.MsoHyperlinkFollowed
-	{mso-style-noshow:yes;
-	color:blue;
-	text-decoration:underline;
-	text-underline:single;}
-p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
-p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-type:export-only;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
-p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-type:export-only;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
-p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-type:export-only;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";}
-span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 1";
-	mso-ansi-font-size:14.0pt;
-	mso-bidi-font-size:14.0pt;
-	font-family:"Cambria",serif;
-	mso-ascii-font-family:Cambria;
-	mso-fareast-font-family:"Times New Roman";
-	mso-hansi-font-family:Cambria;
-	mso-bidi-font-family:"Times New Roman";
-	color:#365F91;
-	font-weight:bold;}
-span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-noshow:yes;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 3";
-	mso-ansi-font-size:12.0pt;
-	mso-bidi-font-size:12.0pt;
-	font-family:"Cambria",serif;
-	mso-ascii-font-family:Cambria;
-	mso-fareast-font-family:"Times New Roman";
-	mso-hansi-font-family:Cambria;
-	mso-bidi-font-family:"Times New Roman";
-	color:#4F81BD;
-	font-weight:bold;}
-p.msonormal0, li.msonormal0, div.msonormal0
-	{mso-style-name:msonormal;
-	mso-style-unhide:no;
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
-.MsoChpDefault
-	{mso-style-type:export-only;
-	mso-default-props:yes;
-	font-size:10.0pt;
-	mso-ansi-font-size:10.0pt;
-	mso-bidi-font-size:10.0pt;}
-@page WordSection1
-	{size:8.5in 11.0in;
-	margin:1.0in 1.25in 1.0in 1.25in;
-	mso-header-margin:.5in;
-	mso-footer-margin:.5in;
-	mso-paper-source:0;}
-div.WordSection1
-	{page:WordSection1;}
- /* List Definitions */
- @list l0
-	{mso-list-id:727340346;
-	mso-list-template-ids:-1741920220;}
-@list l0:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Symbol;}
-@list l0:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:1.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Symbol;}
-@list l0:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:1.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Symbol;}
-@list l0:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:2.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Symbol;}
-@list l0:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:2.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Symbol;}
-@list l0:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:3.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Symbol;}
-@list l0:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:3.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Symbol;}
-@list l0:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:4.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Symbol;}
-@list l0:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:4.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Symbol;}
-@list l1
-	{mso-list-id:1539929158;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-652439782 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
-@list l1:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Symbol;}
-@list l1:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:"Courier New";}
-@list l1:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Wingdings;}
-@list l1:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Symbol;}
-@list l1:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:"Courier New";}
-@list l1:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Wingdings;}
-@list l1:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Symbol;}
-@list l1:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:"Courier New";}
-@list l1:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Wingdings;}
-@list l2
-	{mso-list-id:1834098671;
-	mso-list-template-ids:-1182871980;}
-@list l2:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Symbol;}
-@list l2:level2
-	{mso-level-tab-stop:1.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level3
-	{mso-level-tab-stop:1.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level4
-	{mso-level-tab-stop:2.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level5
-	{mso-level-tab-stop:2.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level6
-	{mso-level-tab-stop:3.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level7
-	{mso-level-tab-stop:3.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level8
-	{mso-level-tab-stop:4.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level9
-	{mso-level-tab-stop:4.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
--->
-</style>
-<!--[if gte mso 10]>
-<style>
- /* Style Definitions */
- table.MsoNormalTable
-	{mso-style-name:"Table Normal";
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-parent:"";
-	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-para-margin:0in;
-	mso-para-margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Times New Roman",serif;}
-</style>
-<![endif]--><!--[if gte mso 9]><xml>
- <o:shapedefaults v:ext="edit" spidmax="1026"/>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <o:shapelayout v:ext="edit">
-  <o:idmap v:ext="edit" data="1"/>
- </o:shapelayout></xml><![endif]-->
-</head>
-
-<body lang=EN-US link=blue vlink=blue style='tab-interval:.5in'>
-
-<div class=WordSection1>
-
-<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt'><b>Visual
-Perception (Winter 2022)<o:p></o:p></b></p>
-
-<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt'><b>Oral
-Presentation Topics<o:p></o:p></b></p>
-
-<p class=MsoListParagraphCxSpFirst style='mso-margin-top-alt:auto;margin-bottom:
-12.0pt;mso-add-space:auto;text-indent:-.25in;mso-list:l1 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>Perception
-in VR/AR<o:p></o:p></b></p>
-
-<p class=MsoListParagraphCxSpMiddle>Virtual Memory Places - <a
-href="Krokos2019_Article_VirtualMemoryPalacesImmersionA.pdf">Paper</a> <span
-style='color:red'>&#8211; Tiffany <span class=SpellE>Raber</span> (3/9)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Perception Time in Far Peripheral Vision - <a
-href="Peripheral_Vision_ACMSAP_2018_final_acmart153_font.pdf">Paper</a> &#8211;
-<span class=SpellE><span style='color:red'>Sanqi</span></span><span
-style='color:red'> Wang (3/2)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Kinetic Depth Images - <a
-href="KDIPrePrint.pdf">Paper</a><span style='color:red'> - <span class=SpellE><span
-style='mso-bidi-font-weight:bold'>Seyed</span></span><span style='mso-bidi-font-weight:
-bold'> <span class=SpellE>Amirhosein</span> <span class=SpellE>Mohaddesi</span>
-(2/16)<o:p></o:p></span></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Perceptual Rasterization for HMD Image
-Synthesis - <a href="steed.pdf">Paper</a></p>
-
-<p class=MsoListParagraphCxSpMiddle>Cognitive Event Segmentation - <a
-href="cogeventseg.pdf">Paper</a></p>
-
-<p class=MsoListParagraphCxSpMiddle>Impact of Gestures on Personality
-Perceptions - <a href="gesturepersonality.pdf">Paper</a> &#8211; <span
-class=SpellE><span style='color:red'>Zhongqi</span></span><span
-style='color:red'> Yang (3/9)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Gaze Contingent Rendering &#8211; <a
-href="gazecontingent1.pdf">Paper1</a>, <a href="gazecontingent2.pdf">Paper2</a></p>
-
-<p class=MsoListParagraphCxSpMiddle>Visual factors impacting movement in VR
-&#8211; <a href="anatole-walking.pdf">Paper </a><span style='color:red'>&#8211;
-<span class=SpellE>Leming</span> Cheng (2/16)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Visual factors impacting size in VR - <a
-href="luox_vr07.pdf">Paper</a> &#8211; <span class=SpellE><span
-style='color:red'>Yitian</span></span><span style='color:red'> Zhang (2/23)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Visual factors impacting distance in VR - <a
-href="spatialVR.pdf">Paper</a> &#8211; <span class=SpellE><span
-style='color:red'>Yitian</span></span><span style='color:red'> Zhang (3/2) <o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;margin-bottom:
-12.0pt;mso-add-space:auto'><o:p>&nbsp;</o:p></p>
-
-<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;margin-bottom:
-12.0pt;mso-add-space:auto;text-indent:-.25in;mso-list:l1 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>Perception
-in Animation<o:p></o:p></b></p>
-
-<p class=MsoListParagraphCxSpMiddle>Collisions and Perceptions - <a
-href="Collisions_and_perception.pdf">Paper</a> &#8211; <span class=SpellE><span
-style='color:red'>Leming</span></span><span style='color:red'> Cheng (2/23)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Realism of Animated Facial Expressions
-&#8211; <a href="Wallraven_Stylization_TAP2007.pdf">Paper1</a>, <a
-href="wallraven_eprafe.pdf">Paper2</a></p>
-
-<p class=MsoListParagraphCxSpMiddle>Perception of Body Motions in Conversing
-Groups - <a
-href="Seeing%20is%20Believing_%20Body%20Motion%20Dominates%20in%20Multisensory%20Conver.pdf">Paper</a>
-- <span class=SpellE><span style='color:red;mso-bidi-font-weight:bold'>Siraphob</span></span><span
-style='color:red;mso-bidi-font-weight:bold'> <span class=SpellE>Limprapaipong</span>
-(2/16)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Voice Synchronization in Animation - <a
-href="voicesynch.pdf">Paper</a> &#8211;<span style='color:red'> Xuan Long Vu
-(2/23)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;margin-bottom:
-12.0pt;mso-add-space:auto'><o:p>&nbsp;</o:p></p>
-
-<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;margin-bottom:
-12.0pt;mso-add-space:auto;text-indent:-.25in;mso-list:l1 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>Perception
-in Rendering<o:p></o:p></b></p>
-
-<p class=MsoListParagraphCxSpMiddle>Interactive Shading -<a
-href="p425-peercy.pdf"> Paper</a> - <span class=SpellE><span style='color:red;
-mso-bidi-font-weight:bold'>Siraphob</span></span><span style='color:red;
-mso-bidi-font-weight:bold'> <span class=SpellE>Limprapaipong</span> (3/2)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Shader Level of Detail - <a href="aslod.pdf">Paper</a>
-&#8211;<span style='color:red'> Tiffany <span class=SpellE>Raber</span> (3/2)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Foveated Rendering - <a
-href="Meng_KernelFoveatedRendering_I3D2018.pdf">Paper1</a>, <a
-href="luminancecontrastfoveated.pdf">Paper2</a></p>
-
-<p class=MsoListParagraphCxSpMiddle>Phase function in Translucent Appearance - <a
-href="translucency.pdf">Paper</a> - <span style='color:red'>- <span
-class=SpellE><span style='mso-bidi-font-weight:bold'>Seyed</span></span><span
-style='mso-bidi-font-weight:bold'> <span class=SpellE>Amirhosein</span> <span
-class=SpellE>Mohaddesi</span> (3/9)</span></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Perception of Translucency and Lighting
-Direction - <a href="JOV14Translucency.pdf">Paper</a></p>
-
-<p class=MsoListParagraphCxSpMiddle>Visual Equivalence - <a href="VEP_SIG07.pdf">Paper</a>
-&#8211;<span style='color:red'> Xuan Long Vu (2/16)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Saliency in Rendering - <a
-href="sig99-saliency.pdf">Paper</a> &#8211; <span class=SpellE><span
-style='color:red'>Zhongqi</span></span><span style='color:red'> Yang (2/23)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;margin-bottom:
-12.0pt;mso-add-space:auto'><o:p>&nbsp;</o:p></p>
-
-<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;margin-bottom:
-12.0pt;mso-add-space:auto;text-indent:-.25in;mso-list:l1 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>Perception
-in Stylized Rendering<o:p></o:p></b></p>
-
-<p class=MsoListParagraphCxSpMiddle>Black and white abstraction of 3D shapes - <a
-href="bwAbstraction_sig18.pdf">Paper</a> <span style='color:red'>- <span
-class=SpellE><span style='mso-bidi-font-weight:bold'>Siraphob</span></span><span
-style='mso-bidi-font-weight:bold'> <span class=SpellE>Limprapaipong</span>
-(3/9)<o:p></o:p></span></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Perception Driven Vectorization - <a
-href="perception-driven-vectorization.pdf">Paper</a> - <span style='color:red'>-
-<span class=SpellE><span style='mso-bidi-font-weight:bold'>Seyed</span></span><span
-style='mso-bidi-font-weight:bold'> <span class=SpellE>Amirhosein</span> <span
-class=SpellE>Mohaddesi</span> (2/23)</span></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Drawing of Lines - <a
-href="cole_2008_wdp.pdf">Paper1</a>, <a
-href="Mimicking_Hand-Drawn_Pencil_Lines.pdf">Paper2</a> &#8211; <span
-class=SpellE><span style='color:red'>Zhongqi</span></span><span
-style='color:red'> Yang (3/2)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Color Harmonization - <a
-href="harmonization.pdf">Paper</a> &#8211; <span style='color:red'>Tiffany <span
-class=SpellE>Raber</span> (2/23)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;margin-bottom:
-12.0pt;mso-add-space:auto'><o:p>&nbsp;</o:p></p>
-
-<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;margin-bottom:
-12.0pt;mso-add-space:auto;text-indent:-.25in;mso-list:l1 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>Perception
-in Visualization<o:p></o:p></b></p>
-
-<p class=MsoListParagraphCxSpMiddle>Perceptual Interaction Quantification in
-Visualization - <a href="Acevedo-2006-SQP.pdf">Paper</a> &#8211; <span
-class=SpellE><span style='color:red'>Leming</span></span><span
-style='color:red'> Cheng (3/2)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Perceptually Optimized Textures in Layered
-Surfaces - <a href="bair-house-ware05.pdf">Paper1</a>, <a
-href="House_06_VCG_Perceptual_optimization_of_complex_visualizations.pdf">Paper2</a>
-&#8211; <span class=SpellE><span style='color:red'>Sanqi</span></span><span
-style='color:red'> Wang (2/23)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Perceptually Driven Volume Visualization
-&#8211; <a href="vicinityshades.pdf">Paper1</a>, <a href="interrantesig97.pdf">Paper2</a></p>
-
-<p class=MsoListParagraphCxSpMiddle>Perceptually Driven Medical Visualization
-&#8211; <a href="Tietjen_2005_CSS.pdf">Paper1</a>, <a href="vascular.pdf">Paper2</a>
--<span style='color:red'>Tiffany <span class=SpellE>Raber</span> (2/16)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;margin-bottom:
-12.0pt;mso-add-space:auto'><b style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></p>
-
-<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;margin-bottom:
-12.0pt;mso-add-space:auto;text-indent:-.25in;mso-list:l1 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>Perception
-in Imaging<o:p></o:p></b></p>
-
-<p class=MsoListParagraphCxSpMiddle>Perceptually driven contrast enhancement - <a
-href="imagecontrastP.pdf">Paper1</a>, <a href="majcontract.pdf">Paper2</a></p>
-
-<p class=MsoListParagraphCxSpMiddle><span class=SpellE>Retinex</span> Based
-Image Enhancement - <a href="retinexenhancement.pdf">Paper1</a>, <a
-href="retinexenhancement2.pdf">Paper2</a> &#8211; <span class=SpellE><span
-style='color:red'>Sanqi</span></span><span style='color:red'> Wang (2/16)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;margin-bottom:
-12.0pt;mso-add-space:auto'><o:p>&nbsp;</o:p></p>
-
-<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;margin-bottom:
-12.0pt;mso-add-space:auto;text-indent:-.25in;mso-list:l1 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>Perception
-and Haptics<o:p></o:p></b></p>
-
-<p class=MsoListParagraphCxSpMiddle>Visual Rhythm and Beat - <a
-href="visualrhythm.pdf">Paper</a> -<span class=SpellE><span style='color:red'>Zhongqi</span></span><span
-style='color:red'> Yang (2/16)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Perception Aware Digital Drawing Tools
-&#8211; <a href="Piovarci2018.pdf">Paper</a> &#8211; <span style='color:red'>Xuan
-Long Vu (3/9)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Perceptual Model for Tactile Roughness - <a
-href="tymms2018quantitative.pdf">Paper</a> &#8211; <span style='color:red'>- <span
-class=SpellE><span style='mso-bidi-font-weight:bold'>Seyed</span></span><span
-style='mso-bidi-font-weight:bold'> <span class=SpellE>Amirhosein</span> <span
-class=SpellE>Mohaddesi</span> (3/2)</span></span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;margin-bottom:
-12.0pt;mso-add-space:auto'><o:p>&nbsp;</o:p></p>
-
-<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;margin-bottom:
-12.0pt;mso-add-space:auto;text-indent:-.25in;mso-list:l1 level1 lfo2'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>Delving
-Deeper in Perception <o:p></o:p></b></p>
-
-<p class=MsoListParagraphCxSpMiddle>Video Ergo Sum - <a href="videoergosum.pdf">Paper</a>
-&#8211; <span class=SpellE><span style='color:red'>Yitian</span></span><span
-style='color:red'> Zhang (3/9)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>2D Geometric Transformations and Visual
-Memory - <a href="LRM-APGV.pdf">Paper</a> &#8211; <span style='color:red'>Xuan
-Long Vu (3/2)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle><span class=SpellE>Focus+Context</span>
-Studies - <a href="Perceptual_invariance_of_nonlinear_focuscontext_tr.pdf">Paper</a>
-&#8211; <span class=SpellE><span style='color:red'>Leming</span></span><span
-style='color:red'> Cheng (3/9)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Shape and Reflectance -<a
-href="shapeandreflectance.pdf"> Paper1</a>, <a href="s2006.pdf">Paper2</a></p>
-
-<p class=MsoListParagraphCxSpMiddle>Facial Expressions and their meaning - <a
-href="facialvideo.pdf">Paper</a> - <span class=SpellE><span style='color:red;
-mso-bidi-font-weight:bold'>Siraphob</span></span><span style='color:red;
-mso-bidi-font-weight:bold'> <span class=SpellE>Limprapaipong</span> (2/23)<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle>Crowding &#8211; <a
-href="crowdperception1.pdf">Paper1</a>, <a href="crowdperception2.pdf">Paper2</a></p>
-
-<p class=MsoListParagraphCxSpLast>Body Shapes and Perception - <a
-href="bodyshape.pdf">Paper</a> &#8211; <span class=SpellE><span
-style='color:red'>Yitian</span></span><span style='color:red'> Zhang (2/16)<o:p></o:p></span></p>
-
-<h3><span style='mso-fareast-font-family:"Times New Roman"'>Order of Presentation<o:p></o:p></span></h3>
-
-<h3><span style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman"'>2/16
-&#8211; </span><span style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";
-font-weight:normal;mso-bidi-font-weight:bold'>Tiffany, <span class=SpellE>Sanqi</span>,
-Xuan, Sayeed, <span class=SpellE>Leming</span>, <span class=SpellE>Siraphob</span>,
-<span class=SpellE>Yitian</span>, <span class=SpellE>Zhongqi</span><o:p></o:p></span></h3>
-
-<h3><span style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman"'>2/23
-&#8211; </span><span class=SpellE><span style='font-size:12.0pt;mso-fareast-font-family:
-"Times New Roman";font-weight:normal;mso-bidi-font-weight:bold'>Zhongqi</span></span><span
-style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";font-weight:
-normal;mso-bidi-font-weight:bold'>, <span class=SpellE>Siraphob</span>, <span
-class=SpellE>Yitian</span>, Xuan, Tiffany, <span class=SpellE>Sanqi</span>, <span
-class=SpellE>Leming</span>, Sayeed<o:p></o:p></span></h3>
-
-<h3><span style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman"'>3/2
-&#8211; </span><span style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";
-font-weight:normal;mso-bidi-font-weight:bold'>Xuan, Sayeed, <span class=SpellE>Leming</span>,
-<span class=SpellE>Zhongqi</span>, <span class=SpellE>Sanqi</span>, <span
-class=SpellE>Siraphob</span>, <span class=SpellE>Yitian</span>, Tiffany<o:p></o:p></span></h3>
-
-<h3><span style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman"'>3/7
-&#8211; </span><span class=SpellE><span style='font-size:12.0pt;mso-fareast-font-family:
-"Times New Roman";font-weight:normal;mso-bidi-font-weight:bold'>Siraphob</span></span><span
-style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";font-weight:
-normal;mso-bidi-font-weight:bold'>, Tiffany, <span class=SpellE>Sanqi</span>,
-Sayeed, <span class=SpellE>Yitian</span>, <span class=SpellE>Leming</span>, <span
-class=SpellE>Zhongqi</span>, Xuan<o:p></o:p></span></h3>
-
-<h3><span style='mso-fareast-font-family:"Times New Roman"'>References<o:p></o:p></span></h3>
-
-<ul type=disc>
- <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-     mso-list:l2 level1 lfo5;tab-stops:list .5in'>Sensation and Perception, E.
-     Bruce Goldstein</li>
- <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-     mso-list:l2 level1 lfo5;tab-stops:list .5in'>Vision Science: Photons and
-     Phenomenology, Stephen E. Palmer</li>
- <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-     mso-list:l2 level1 lfo5;tab-stops:list .5in'>Theories of Visual
-     Perception, Ian E. Gordon</li>
- <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-     mso-list:l2 level1 lfo5;tab-stops:list .5in'>Color Appearance Models, Mark
-     D. Fairchild</li>
- <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-     mso-list:l2 level1 lfo5;tab-stops:list .5in'><span lang=FR
-     style='mso-ansi-language:FR'>Spatial Vision, Russell L. <span
-     class=SpellE>DeValois</span>, Karen K. <span class=SpellE>DeValois</span><o:p></o:p></span></li>
-</ul>
-
-<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt'><o:p>&nbsp;</o:p></p>
-
-<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
-margin-left:.25in'><o:p>&nbsp;</o:p></p>
-
-<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
-margin-left:.75in'><span lang=FR style='mso-ansi-language:FR'><o:p>&nbsp;</o:p></span></p>
-
-</div>
-
-</body>
-
+<html>
+	<head>
+		<title>Dynamo Middleware: FnQ</title>
+		<style type="text/css" media="screen">
+			/*<![CDATA[*/
+				@import url(../css/dynamo.css);
+				@import url(doxygen.css);
+			/*]]>*/
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="top">
+				<h1>Dynamo Middleware</h1>
+			</div>
+			<div id="rightnav">
+				<ul>
+					<li class="header">Navigation
+						<ul>
+							<li><a href="../index.html">Home</a></li>
+							<li><a href="../docs.html">Documentation</a></li> 
+							<li><a href="../people.html">People</a></li>
+							<li><a href="../publication.html">Publications</a></li>
+							<li><a href="../related.html">Related Links</a></li>
+							<li><a href="../faq.html">FAQ</a></li>
+						</ul>
+					</li>
+					<li class="header">Downloads
+						<ul>
+							<li><b>For Internal Use Only</b></li>
+							<li><a href="files/dynamo_mw_0.1.tgz">Dynamo Middleware v0.1</a></li>
+							<li><a href="files/zImage_paapi">DVS Kernel</a></li>
+							<li><a href="files/libDynamoMiddleware.tgz">Dynamo Libraries</a></li>
+							<li><a href="changelog.txt">Change log</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div id="content">
+<!-- Generated by Doxygen 1.3.8 -->
+<div class="qindex"><a class="qindex" href="index.html">Main&nbsp;Page</a> | <a class="qindex" href="annotated.html">Data&nbsp;Structures</a> | <a class="qindex" href="files.html">File&nbsp;List</a> | <a class="qindex" href="functions.html">Data&nbsp;Fields</a> | <a class="qindex" href="globals.html">Globals</a></div>
+<h1>libDynamoMiddlewareARM.h File Reference</h1>ARM Middleware Libraries. <a href="#_details">More...</a>
+<p>
+<table border=0 cellpadding=0 cellspacing=0>
+<tr><td></td></tr>
+<tr><td colspan=2><br><h2>Data Structures</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>struct &nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="structdynamo__backlight.html">dynamo_backlight</a></td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Contains Backlight information.  <a href="structdynamo__backlight.html#_details">More...</a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>struct &nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="structdynamo__battery.html">dynamo_battery</a></td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Contains Battery information.  <a href="structdynamo__battery.html#_details">More...</a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>struct &nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="structdynamo__cpu.html">dynamo_cpu</a></td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Contains CPU Information.  <a href="structdynamo__cpu.html#_details">More...</a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>struct &nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="structdynamo__memory.html">dynamo_memory</a></td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Contains Memory Information.  <a href="structdynamo__memory.html#_details">More...</a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>struct &nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="structdynamo__network.html">dynamo_network</a></td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Contains Network Information.  <a href="structdynamo__network.html#_details">More...</a><br></td></tr>
+<tr><td colspan=2><br><h2>Functions</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a0">get_backlight_level</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gets the backlight level.  <a href="#a0"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a1">set_backlight_level</a> (int lvl)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Sets the backlight to level Allows the caller to set the backlight intensity.  <a href="#a1"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a2">get_backlight_status</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gets the backlights status [on|off].  <a href="#a2"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a3">set_backlight_status</a> (int status)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Sets the backlight [on 1|off 0] Allows the caller to set the status of the backlight 1 for on 0 for off.  <a href="#a3"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a4">get_battery_ac_status</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Checks if the Device is plugged in.  <a href="#a4"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a5">get_battery_power_level</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gets devices battery level.  <a href="#a5"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a6">get_battery_min_remaining</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gets the amount of power in minutes remaining.  <a href="#a6"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>char *&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a7">get_cpu_model</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gets the CPU model string.  <a href="#a7"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>float&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a8">get_cpu_load</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">returns the average load of the device  <a href="#a8"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a9">get_cpu_total_process</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gets the amount of total processes on the device.  <a href="#a9"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a10">get_cpu_running_process</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gets the current number of active processes on the device.  <a href="#a10"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a11">get_mem_total</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gets the total amount of memory.  <a href="#a11"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a12">get_mem_free</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gets the amount of free memory.  <a href="#a12"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a13">get_mem_total_swap</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gets the total amount of swap.  <a href="#a13"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a14">get_mem_free_swap</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gets the amount of free swap.  <a href="#a14"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a15">get_net_is_connected</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gets the current network connection status.  <a href="#a15"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a16">get_net_is_wireless</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gets the current wireless network connection status.  <a href="#a16"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a17">get_net_link_quality</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gets the link quality of the wireless network.  <a href="#a17"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a18">get_net_sig_strength</a> ()</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gets the signal strength of the wireless network.  <a href="#a18"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a19">get_backlight_info</a> (struct <a class="el" href="structdynamo__backlight.html">dynamo_backlight</a> *backlight)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Collects the devices backlight information.  <a href="#a19"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a20">get_battery_info</a> (struct <a class="el" href="structdynamo__battery.html">dynamo_battery</a> *battery)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Collects the devices battery information.  <a href="#a20"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a21">get_cpu_info</a> (struct <a class="el" href="structdynamo__cpu.html">dynamo_cpu</a> *cpu)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Collects the devices cpu information.  <a href="#a21"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a22">get_memory_info</a> (struct <a class="el" href="structdynamo__memory.html">dynamo_memory</a> *memory)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Collects the devices memory information.  <a href="#a22"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a23">get_network_info</a> (struct <a class="el" href="structdynamo__network.html">dynamo_network</a> *network)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Collects the devices network information.  <a href="#a23"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a24">createSharedMemory</a> (int key, int size)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">creates a chunk of shared memory  <a href="#a24"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a25">readSharedMemory</a> (int shmid, void *data, int size)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">reads from the shared memory into a structuer  <a href="#a25"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a26">writeSharedMemory</a> (int shmid, void *data, int size)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">writes data to the shared memory  <a href="#a26"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a27">freeSharedMemory</a> (int shmid)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">releases the memory with id of shmid  <a href="#a27"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a28">createSemaphore</a> (int key)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">translate semaphore key to an ID  <a href="#a28"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a29">freeSemaphore</a> (int sem_id)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">free specified Semaphore  <a href="#a29"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a30">P</a> (int sid)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">acquire semaphore  <a href="#a30"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a31">V</a> (int sid)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">release semaphore  <a href="#a31"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a32">SendDatagram</a> (char *targetIP, int targetPort, int localPort, void *buf, int bufsiz)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Sends a Datagram to a remote computer.  <a href="#a32"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a33">CreateUDPSocket</a> (char *localIP, int localPort)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">creates a UPD socket  <a href="#a33"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a34">UDP_Recv</a> (int sockfd, void *buf, int size)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Recives a datagram a remote computer.  <a href="#a34"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a35">UDP_Send</a> (int sockfd, char *targetIP, int targetPort, int localPort, void *buf, int bufsiz)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Sends a Datagram to a remote computer.  <a href="#a35"></a><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+ARM Middleware Libraries. 
+<p>
+Dynamo Middleware libraries, provide a easy to use interface for querying system information, utilizing shared memory, and communication framework<p>
+Copyright (C) 2004 Dynamo Middleware Group<p>
+version 0.5<p>
+Authors: Michael Philpott, Shivajit Mohapatra<hr><h2>Function Documentation</h2>
+<a class="anchor" name="a28" doxytag="libDynamoMiddlewareARM.h::createSemaphore" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int createSemaphore           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">int&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap> <em>key</em>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+translate semaphore key to an ID 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td></td><td valign=top><em>key</em>&nbsp;</td><td>the Key that the semaphore should be created with </td></tr>
+  </table>
+</dl>
+<dl compact><dt><b>Returns:</b></dt><dd>the ID to the shared memory </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a24" doxytag="libDynamoMiddlewareARM.h::createSharedMemory" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int createSharedMemory           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">int&nbsp;</td>
+          <td class="mdname" nowrap> <em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>int&nbsp;</td>
+          <td class="mdname" nowrap> <em>size</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="md">)&nbsp;</td>
+          <td class="md" colspan="2"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+creates a chunk of shared memory 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td></td><td valign=top><em>key</em>&nbsp;</td><td>the Key to the shared memory </td></tr>
+    <tr><td></td><td valign=top><em>size</em>&nbsp;</td><td>the size that the shaed memory should be </td></tr>
+  </table>
+</dl>
+<dl compact><dt><b>Returns:</b></dt><dd>The ID to the shared memory </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a33" doxytag="libDynamoMiddlewareARM.h::CreateUDPSocket" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int CreateUDPSocket           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">char *&nbsp;</td>
+          <td class="mdname" nowrap> <em>localIP</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>int&nbsp;</td>
+          <td class="mdname" nowrap> <em>localPort</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="md">)&nbsp;</td>
+          <td class="md" colspan="2"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+creates a UPD socket 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td></td><td valign=top><em>*localIP</em>&nbsp;</td><td>character array of the local IP address </td></tr>
+    <tr><td></td><td valign=top><em>localPort</em>&nbsp;</td><td>a port number </td></tr>
+  </table>
+</dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a29" doxytag="libDynamoMiddlewareARM.h::freeSemaphore" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int freeSemaphore           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">int&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap> <em>sem_id</em>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+free specified Semaphore 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td></td><td valign=top><em>sem_id</em>&nbsp;</td><td>the ID of the semaphore to free </td></tr>
+  </table>
+</dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a27" doxytag="libDynamoMiddlewareARM.h::freeSharedMemory" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int freeSharedMemory           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">int&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap> <em>shmid</em>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+releases the memory with id of shmid 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td></td><td valign=top><em>shmid</em>&nbsp;</td><td>the id of the shared memory that is being freed </td></tr>
+  </table>
+</dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a19" doxytag="libDynamoMiddlewareARM.h::get_backlight_info" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_backlight_info           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">struct <a class="el" href="structdynamo__backlight.html">dynamo_backlight</a> *&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap> <em>backlight</em>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Collects the devices backlight information. 
+<p>
+<dl compact><dt><b>See also:</b></dt><dd><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a0">get_backlight_level()</a> <p>
+<a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a2">get_backlight_status()</a> </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a0" doxytag="libDynamoMiddlewareARM.h::get_backlight_level" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_backlight_level           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Gets the backlight level. 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>the backlight level 0 - 255 or -1 if an error </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a2" doxytag="libDynamoMiddlewareARM.h::get_backlight_status" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_backlight_status           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Gets the backlights status [on|off]. 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>0 (off) 1 (on) or -1 (error reading backlight) </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a4" doxytag="libDynamoMiddlewareARM.h::get_battery_ac_status" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_battery_ac_status           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Checks if the Device is plugged in. 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>0 or 1 </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a20" doxytag="libDynamoMiddlewareARM.h::get_battery_info" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_battery_info           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">struct <a class="el" href="structdynamo__battery.html">dynamo_battery</a> *&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap> <em>battery</em>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Collects the devices battery information. 
+<p>
+<dl compact><dt><b>See also:</b></dt><dd><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a4">get_battery_ac_status()</a> <p>
+<a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a5">get_battery_power_level()</a> <p>
+<a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a6">get_battery_min_remaining()</a> </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a6" doxytag="libDynamoMiddlewareARM.h::get_battery_min_remaining" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_battery_min_remaining           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Gets the amount of power in minutes remaining. 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>the amount of minutes that the system will have power for Note: need to implament to return -1 if its pluged in </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a5" doxytag="libDynamoMiddlewareARM.h::get_battery_power_level" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_battery_power_level           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Gets devices battery level. 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>the systems power level in percentage 0(empty) - 100(full) </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a21" doxytag="libDynamoMiddlewareARM.h::get_cpu_info" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_cpu_info           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">struct <a class="el" href="structdynamo__cpu.html">dynamo_cpu</a> *&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap> <em>cpu</em>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Collects the devices cpu information. 
+<p>
+<dl compact><dt><b>See also:</b></dt><dd><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a7">get_cpu_model()</a> <p>
+<a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a8">get_cpu_load()</a> <p>
+<a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a9">get_cpu_total_process()</a> <p>
+<a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a10">get_cpu_running_process()</a> </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a8" doxytag="libDynamoMiddlewareARM.h::get_cpu_load" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> float get_cpu_load           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+returns the average load of the device 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>the average load of the cpu over the past minute </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a7" doxytag="libDynamoMiddlewareARM.h::get_cpu_model" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> char* get_cpu_model           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Gets the CPU model string. 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>a char* of the processors model information this will have to be freed by the caller </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a10" doxytag="libDynamoMiddlewareARM.h::get_cpu_running_process" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_cpu_running_process           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Gets the current number of active processes on the device. 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>the amount of active tasks on the device </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a9" doxytag="libDynamoMiddlewareARM.h::get_cpu_total_process" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_cpu_total_process           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Gets the amount of total processes on the device. 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>the amount of processes that have been started (active or passive) </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a12" doxytag="libDynamoMiddlewareARM.h::get_mem_free" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_mem_free           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Gets the amount of free memory. 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>the amount of free memory available on your system </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a14" doxytag="libDynamoMiddlewareARM.h::get_mem_free_swap" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_mem_free_swap           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Gets the amount of free swap. 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>the free swap amount of the system </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a11" doxytag="libDynamoMiddlewareARM.h::get_mem_total" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_mem_total           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Gets the total amount of memory. 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>the full amount of memory (ie your system has 512 megs of ram) </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a13" doxytag="libDynamoMiddlewareARM.h::get_mem_total_swap" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_mem_total_swap           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Gets the total amount of swap. 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>the total swap amount avaiable to your system </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a22" doxytag="libDynamoMiddlewareARM.h::get_memory_info" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_memory_info           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">struct <a class="el" href="structdynamo__memory.html">dynamo_memory</a> *&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap> <em>memory</em>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Collects the devices memory information. 
+<p>
+<dl compact><dt><b>See also:</b></dt><dd><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a11">get_mem_total()</a> <p>
+<a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a12">get_mem_free()</a> <p>
+<a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a13">get_mem_total_swap()</a> <p>
+<a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a14">get_mem_free_swap()</a> </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a15" doxytag="libDynamoMiddlewareARM.h::get_net_is_connected" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_net_is_connected           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Gets the current network connection status. 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>1 if the device is connected or 0 if no network is present </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a16" doxytag="libDynamoMiddlewareARM.h::get_net_is_wireless" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_net_is_wireless           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Gets the current wireless network connection status. 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>1 if the device has a wireless connection or 0 if no wireless connection</dd></dl>
+need to test when the card is in but not connected     </td>
+  </tr>
+</table>
+<a class="anchor" name="a17" doxytag="libDynamoMiddlewareARM.h::get_net_link_quality" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_net_link_quality           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Gets the link quality of the wireless network. 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>the link quality of the wireless network or -1 if nothing is present </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a18" doxytag="libDynamoMiddlewareARM.h::get_net_sig_strength" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_net_sig_strength           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Gets the signal strength of the wireless network. 
+<p>
+<dl compact><dt><b>Returns:</b></dt><dd>the signal quality of the wireless network or -1 nothing is present </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a23" doxytag="libDynamoMiddlewareARM.h::get_network_info" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int get_network_info           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">struct <a class="el" href="structdynamo__network.html">dynamo_network</a> *&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap> <em>network</em>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Collects the devices network information. 
+<p>
+<dl compact><dt><b>See also:</b></dt><dd><a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a15">get_net_is_connected()</a> <p>
+<a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a16">get_net_is_wireless()</a> <p>
+<a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a17">get_net_link_quality()</a> <p>
+<a class="el" href="lib_dynamo_middleware_a_r_m_8h.html#a18">get_net_sig_strength()</a> </dd></dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a30" doxytag="libDynamoMiddlewareARM.h::P" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> void P           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">int&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap> <em>sid</em>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+acquire semaphore 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td></td><td valign=top><em>sid</em>&nbsp;</td><td>the ID of the semaphore to obtain </td></tr>
+  </table>
+</dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a25" doxytag="libDynamoMiddlewareARM.h::readSharedMemory" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int readSharedMemory           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">int&nbsp;</td>
+          <td class="mdname" nowrap> <em>shmid</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>void *&nbsp;</td>
+          <td class="mdname" nowrap> <em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>int&nbsp;</td>
+          <td class="mdname" nowrap> <em>size</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="md">)&nbsp;</td>
+          <td class="md" colspan="2"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+reads from the shared memory into a structuer 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td></td><td valign=top><em>shmid</em>&nbsp;</td><td>the ID of the shared memory </td></tr>
+    <tr><td></td><td valign=top><em>*data</em>&nbsp;</td><td>the structure that will be read </td></tr>
+    <tr><td></td><td valign=top><em>size</em>&nbsp;</td><td>the size of the item that will be read </td></tr>
+  </table>
+</dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a32" doxytag="libDynamoMiddlewareARM.h::SendDatagram" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int SendDatagram           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">char *&nbsp;</td>
+          <td class="mdname" nowrap> <em>targetIP</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>int&nbsp;</td>
+          <td class="mdname" nowrap> <em>targetPort</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>int&nbsp;</td>
+          <td class="mdname" nowrap> <em>localPort</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>void *&nbsp;</td>
+          <td class="mdname" nowrap> <em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>int&nbsp;</td>
+          <td class="mdname" nowrap> <em>bufsiz</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="md">)&nbsp;</td>
+          <td class="md" colspan="2"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sends a Datagram to a remote computer. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td></td><td valign=top><em>*targetIP</em>&nbsp;</td><td>character array of target computers IP Address </td></tr>
+    <tr><td></td><td valign=top><em>localPort</em>&nbsp;</td><td>local port of the UPD socket </td></tr>
+    <tr><td></td><td valign=top><em>targetPort</em>&nbsp;</td><td>the remote hosts port </td></tr>
+    <tr><td></td><td valign=top><em>*buf</em>&nbsp;</td><td>the information to be sent </td></tr>
+    <tr><td></td><td valign=top><em>bufsiz</em>&nbsp;</td><td>the size of the item to be sent </td></tr>
+  </table>
+</dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a1" doxytag="libDynamoMiddlewareARM.h::set_backlight_level" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int set_backlight_level           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">int&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap> <em>lvl</em>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the backlight to level Allows the caller to set the backlight intensity. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td></td><td valign=top><em>lvl</em>&nbsp;</td><td>integer 0-255 with 255 being the highest level </td></tr>
+  </table>
+</dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a3" doxytag="libDynamoMiddlewareARM.h::set_backlight_status" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int set_backlight_status           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">int&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap> <em>status</em>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the backlight [on 1|off 0] Allows the caller to set the status of the backlight 1 for on 0 for off. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td></td><td valign=top><em>status</em>&nbsp;</td><td>0 or 1 </td></tr>
+  </table>
+</dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a34" doxytag="libDynamoMiddlewareARM.h::UDP_Recv" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int UDP_Recv           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">int&nbsp;</td>
+          <td class="mdname" nowrap> <em>sockfd</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>void *&nbsp;</td>
+          <td class="mdname" nowrap> <em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>int&nbsp;</td>
+          <td class="mdname" nowrap> <em>size</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="md">)&nbsp;</td>
+          <td class="md" colspan="2"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Recives a datagram a remote computer. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td></td><td valign=top><em>sockfd</em>&nbsp;</td><td>pointer to the UDP socket </td></tr>
+    <tr><td></td><td valign=top><em>*buf</em>&nbsp;</td><td>address of the structure to fill </td></tr>
+    <tr><td></td><td valign=top><em>size</em>&nbsp;</td><td>size of the structure to fill </td></tr>
+  </table>
+</dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a35" doxytag="libDynamoMiddlewareARM.h::UDP_Send" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int UDP_Send           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">int&nbsp;</td>
+          <td class="mdname" nowrap> <em>sockfd</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>char *&nbsp;</td>
+          <td class="mdname" nowrap> <em>targetIP</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>int&nbsp;</td>
+          <td class="mdname" nowrap> <em>targetPort</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>int&nbsp;</td>
+          <td class="mdname" nowrap> <em>localPort</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>void *&nbsp;</td>
+          <td class="mdname" nowrap> <em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>int&nbsp;</td>
+          <td class="mdname" nowrap> <em>bufsiz</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="md">)&nbsp;</td>
+          <td class="md" colspan="2"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sends a Datagram to a remote computer. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td></td><td valign=top><em>sockfd</em>&nbsp;</td><td>pointer to the upd socket </td></tr>
+    <tr><td></td><td valign=top><em>*targetIP</em>&nbsp;</td><td>character array of target computers IP Address </td></tr>
+    <tr><td></td><td valign=top><em>targetPort</em>&nbsp;</td><td>the remote hosts port </td></tr>
+    <tr><td></td><td valign=top><em>localPort</em>&nbsp;</td><td>local port of the UPD socket </td></tr>
+    <tr><td></td><td valign=top><em>*buf</em>&nbsp;</td><td>the information to be sent </td></tr>
+    <tr><td></td><td valign=top><em>bufsiz</em>&nbsp;</td><td>the size of the item to be sent </td></tr>
+  </table>
+</dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a31" doxytag="libDynamoMiddlewareARM.h::V" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> void V           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">int&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap> <em>sid</em>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+release semaphore 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td></td><td valign=top><em>sid</em>&nbsp;</td><td>the ID of the semaphore to release </td></tr>
+  </table>
+</dl>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a26" doxytag="libDynamoMiddlewareARM.h::writeSharedMemory" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> int writeSharedMemory           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">int&nbsp;</td>
+          <td class="mdname" nowrap> <em>shmid</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>void *&nbsp;</td>
+          <td class="mdname" nowrap> <em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>int&nbsp;</td>
+          <td class="mdname" nowrap> <em>size</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="md">)&nbsp;</td>
+          <td class="md" colspan="2"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+writes data to the shared memory 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td></td><td valign=top><em>shmid</em>&nbsp;</td><td>the ID of the shared memory to write to </td></tr>
+    <tr><td></td><td valign=top><em>*data</em>&nbsp;</td><td>the information to write inot the shared memory </td></tr>
+    <tr><td></td><td valign=top><em>size</em>&nbsp;</td><td>the size of the item that will be written </td></tr>
+  </table>
+</dl>
+    </td>
+  </tr>
+</table>
+			</div>
+			<div id="footer">
+				<!-- &copy; Copyright 2004 Michael Philpott. -->
+			</div>
+		</div>
+	</body>
 </html>

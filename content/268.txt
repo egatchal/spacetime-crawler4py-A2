@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html class="html" lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>Speakers &#8211; UCI ICS Industry Showcase</title>
+<meta name='robots' content='max-image-preview:large' />
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="UCI ICS Industry Showcase &raquo; Feed" href="https://industryshowcase.ics.uci.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="UCI ICS Industry Showcase &raquo; Comments Feed" href="https://industryshowcase.ics.uci.edu/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/industryshowcase.ics.uci.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://industryshowcase.ics.uci.edu/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2' media='all' />
+<style id='wp-block-library-theme-inline-css'>
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}
+</style>
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='font-awesome-css'  href='https://industryshowcase.ics.uci.edu/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=5.15.1' media='all' />
+<link rel='stylesheet' id='simple-line-icons-css'  href='https://industryshowcase.ics.uci.edu/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0' media='all' />
+<link rel='stylesheet' id='oceanwp-style-css'  href='https://industryshowcase.ics.uci.edu/wp-content/themes/oceanwp/assets/css/style.min.css?ver=1.7.1.1567789198' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.14.0' media='all' />
+<link rel='stylesheet' id='elementor-frontend-legacy-css'  href='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.5.6' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.5.6' media='all' />
+<link rel='stylesheet' id='elementor-post-792-css'  href='https://industryshowcase.ics.uci.edu/wp-content/uploads/elementor/css/post-792.css?ver=1661049060' media='all' />
+<link rel='stylesheet' id='elementor-pro-css'  href='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.6.2' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='https://industryshowcase.ics.uci.edu/wp-content/uploads/elementor/css/global.css?ver=1661049061' media='all' />
+<link rel='stylesheet' id='elementor-post-21-css'  href='https://industryshowcase.ics.uci.edu/wp-content/uploads/elementor/css/post-21.css?ver=1661085424' media='all' />
+<link rel='stylesheet' id='elementor-post-13-css'  href='https://industryshowcase.ics.uci.edu/wp-content/uploads/elementor/css/post-13.css?ver=1661049061' media='all' />
+<link rel='stylesheet' id='elementor-post-92-css'  href='https://industryshowcase.ics.uci.edu/wp-content/uploads/elementor/css/post-92.css?ver=1663865531' media='all' />
+<link rel='stylesheet' id='pojo-a11y-css'  href='https://industryshowcase.ics.uci.edu/wp-content/plugins/pojo-accessibility/assets/css/style.min.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://industryshowcase.ics.uci.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.14' media='all' />
+<link rel='stylesheet' id='tablepress-responsive-tables-css'  href='https://industryshowcase.ics.uci.edu/wp-content/plugins/tablepress-responsive-tables/css/tablepress-responsive.min.css?ver=1.8' media='all' />
+<link rel='stylesheet' id='oe-widgets-style-css'  href='https://industryshowcase.ics.uci.edu/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=6.0.2' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.0.2' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css'  href='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' />
+<script src='https://industryshowcase.ics.uci.edu/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+
+<!-- Google Analytics snippet added by Site Kit -->
+<script src='https://www.googletagmanager.com/gtag/js?id=UA-177786171-1' id='google_gtagjs-js' async></script>
+<script id='google_gtagjs-js-after'>
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('set', 'linker', {"domains":["industryshowcase.ics.uci.edu"]} );
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "UA-177786171-1", {"anonymize_ip":true});
+</script>
+
+<!-- End Google Analytics snippet added by Site Kit -->
+<link rel="https://api.w.org/" href="https://industryshowcase.ics.uci.edu/wp-json/" /><link rel="alternate" type="application/json" href="https://industryshowcase.ics.uci.edu/wp-json/wp/v2/pages/21" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://industryshowcase.ics.uci.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://industryshowcase.ics.uci.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 6.0.2" />
+<link rel="canonical" href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/speakers-2019/" />
+<link rel='shortlink' href='https://industryshowcase.ics.uci.edu/?p=21' />
+<link rel="alternate" type="application/json+oembed" href="https://industryshowcase.ics.uci.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Findustryshowcase.ics.uci.edu%2F2019-industryshowcase%2Fspeakers-2019%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://industryshowcase.ics.uci.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Findustryshowcase.ics.uci.edu%2F2019-industryshowcase%2Fspeakers-2019%2F&#038;format=xml" />
+<meta name="generator" content="Site Kit by Google 1.78.0" />		<script>
+			document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
+		</script>
+				<style>
+			.no-js img.lazyload { display: none; }
+			figure.wp-block-image img.lazyloading { min-width: 150px; }
+							.lazyload, .lazyloading { opacity: 0; }
+				.lazyloaded {
+					opacity: 1;
+					transition: opacity 400ms;
+					transition-delay: 0ms;
+				}
+					</style>
+		<style type="text/css">
+#pojo-a11y-toolbar .pojo-a11y-toolbar-toggle a{ background-color: #ffffff;	color: #275bdd;}
+#pojo-a11y-toolbar .pojo-a11y-toolbar-overlay, #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay ul.pojo-a11y-toolbar-items.pojo-a11y-links{ border-color: #ffffff;}
+body.pojo-a11y-focusable a:focus{ outline-style: solid !important;	outline-width: 1px !important;	outline-color: #FF0000 !important;}
+#pojo-a11y-toolbar{ top: 100px !important;}
+#pojo-a11y-toolbar .pojo-a11y-toolbar-overlay{ background-color: #ffffff;}
+#pojo-a11y-toolbar .pojo-a11y-toolbar-overlay ul.pojo-a11y-toolbar-items li.pojo-a11y-toolbar-item a, #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay p.pojo-a11y-toolbar-title{ color: #333333;}
+#pojo-a11y-toolbar .pojo-a11y-toolbar-overlay ul.pojo-a11y-toolbar-items li.pojo-a11y-toolbar-item a.active{ background-color: #dddddd;	color: #275bdd;}
+@media (max-width: 767px) { #pojo-a11y-toolbar { top: 50px !important; } }</style><link rel="icon" href="https://industryshowcase.ics.uci.edu/wp-content/uploads/2020/09/cropped-icon-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://industryshowcase.ics.uci.edu/wp-content/uploads/2020/09/cropped-icon-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://industryshowcase.ics.uci.edu/wp-content/uploads/2020/09/cropped-icon-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://industryshowcase.ics.uci.edu/wp-content/uploads/2020/09/cropped-icon-1-270x270.png" />
+		<style id="wp-custom-css">
+			.menu-item-662{color:#fff;background-color:#ffd200}.menu-item-462 a{color:#000}.tablepress .column-1,.tablepress .column-2{padding-left:20px!important}.tablepress .column-1{font-weight:700;width:20%}.tablepress .column-2{width:60%}.tablepress .column-3{width:20%}.tablepress{border:1px solid #ddd}.tablepress td{border:1px solid #ddd}.tablepress thead th{color:#fff;background-color:#1e77b8}#tablepress-Companies-001,#tablepress-Companies-002,#tablepress-Companies-001 td,#tablepress-Companies-002 td{border:0}#tablepress-Companies-001 .column-1{font-weight:inherit;width:25%}#tablepress-Companies-001 .column-2{width:35%}#tablepress-Companies-001 .column-3{width:40%}#tablepress-Companies-002 .column-1{font-weight:inherit;width:33%}#tablepress-Companies-002 .column-2{width:33%}#tablepress-Companies-002 .column-3{width:33%}		</style>
+		<!-- OceanWP CSS -->
+<style type="text/css">
+/* General CSS */a{color:#dd9933}a .owp-icon use{stroke:#dd9933}/* Header CSS */#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5)}
+</style></head>
+
+<body class="page-template page-template-elementor_header_footer page page-id-21 page-child parent-pageid-374 wp-custom-logo wp-embed-responsive oceanwp-theme dropdown-mobile no-header-border default-breakpoint has-sidebar content-right-sidebar page-header-disabled has-breadcrumbs elementor-default elementor-template-full-width elementor-kit-792 elementor-page elementor-page-21" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.498039215686" /><feFuncG type="table" tableValues="0 0.498039215686" /><feFuncB type="table" tableValues="0 0.498039215686" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.549019607843 0.988235294118" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.717647058824 0.254901960784" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.278431372549" /><feFuncB type="table" tableValues="0.592156862745 0.278431372549" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.647058823529" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.780392156863 1" /><feFuncG type="table" tableValues="0 0.949019607843" /><feFuncB type="table" tableValues="0.352941176471 0.470588235294" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.650980392157 0.403921568627" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.447058823529 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.0980392156863 1" /><feFuncG type="table" tableValues="0 0.662745098039" /><feFuncB type="table" tableValues="0.847058823529 0.419607843137" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+	
+	<div id="outer-wrap" class="site clr">
+
+		<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+		
+		<div id="wrap" class="clr">
+
+			
+			
+<header id="site-header" class="clr" data-height="74" itemscope="itemscope" itemtype="https://schema.org/WPHeader" role="banner">
+
+			<div data-elementor-type="header" data-elementor-id="13" class="elementor elementor-13 elementor-location-header" data-elementor-settings="[]">
+					<div class="elementor-section-wrap">
+								<section class="elementor-section elementor-top-section elementor-element elementor-element-f81a67e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f81a67e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e450c04" data-id="e450c04" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-15f5040 elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="15f5040" data-element_type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+													<a href="https://industryshowcase.ics.uci.edu">
+							<img width="1024" height="146"   alt="" data-srcset="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCIICS-indsutryShowcase-logo-wht.png 1024w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCIICS-indsutryShowcase-logo-wht-300x43.png 300w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCIICS-indsutryShowcase-logo-wht-768x110.png 768w"  data-src="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCIICS-indsutryShowcase-logo-wht.png" data-sizes="(max-width: 1024px) 100vw, 1024px" class="attachment-full size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="1024" height="146" src="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCIICS-indsutryShowcase-logo-wht.png" class="attachment-full size-full" alt="" srcset="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCIICS-indsutryShowcase-logo-wht.png 1024w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCIICS-indsutryShowcase-logo-wht-300x43.png 300w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCIICS-indsutryShowcase-logo-wht-768x110.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></noscript>								</a>
+														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-eee4ae5 elementor-hidden-phone" data-id="eee4ae5" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-26d8bb9 elementor-search-form--skin-minimal elementor-widget elementor-widget-search-form" data-id="26d8bb9" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;minimal&quot;}" data-widget_type="search-form.default">
+				<div class="elementor-widget-container">
+					<form class="elementor-search-form" role="search" action="https://industryshowcase.ics.uci.edu" method="get">
+									<div class="elementor-search-form__container">
+									<div class="elementor-search-form__icon">
+						<i aria-hidden="true" class="fas fa-search"></i>						<span class="elementor-screen-only">Search</span>
+					</div>
+								<input placeholder="Search..." class="elementor-search-form__input" type="search" name="s" title="Search" value="">
+															</div>
+		</form>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-9335ab0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9335ab0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-29910bf" data-id="29910bf" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-0bd67f6 elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="0bd67f6" data-element_type="widget" data-settings="{&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;&quot;},&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-background e--animation-fade">
+				<ul id="menu-1-0bd67f6" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-17"><a href="https://industryshowcase.ics.uci.edu/" class="elementor-item">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1274"><a target="_blank" rel="noopener" href="https://forms.gle/FtkmpJupL7teJDij8" class="elementor-item">Register Now</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-377"><a href="#" class="elementor-item elementor-item-anchor">Past Events</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1214"><a href="https://industryshowcase.ics.uci.edu/2021-industryshowcase/" class="elementor-sub-item">2021</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-826"><a href="https://industryshowcase.ics.uci.edu/2020-industryshowcase/" class="elementor-sub-item">2020</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-385"><a href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/" class="elementor-sub-item">2019</a></li>
+</ul>
+</li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
+		</div>
+			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
+				<ul id="menu-2-0bd67f6" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-17"><a href="https://industryshowcase.ics.uci.edu/" class="elementor-item" tabindex="-1">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1274"><a target="_blank" rel="noopener" href="https://forms.gle/FtkmpJupL7teJDij8" class="elementor-item" tabindex="-1">Register Now</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-377"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">Past Events</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1214"><a href="https://industryshowcase.ics.uci.edu/2021-industryshowcase/" class="elementor-sub-item" tabindex="-1">2021</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-826"><a href="https://industryshowcase.ics.uci.edu/2020-industryshowcase/" class="elementor-sub-item" tabindex="-1">2020</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-385"><a href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/" class="elementor-sub-item" tabindex="-1">2019</a></li>
+</ul>
+</li>
+</ul>			</nav>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+							</div>
+				</div>
+		
+</header><!-- #site-header -->
+
+
+			
+			<main id="main" class="site-main clr"  role="main">
+
+						<div data-elementor-type="wp-post" data-elementor-id="21" class="elementor elementor-21" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-b93e6df elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="b93e6df" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-217f85f" data-id="217f85f" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-f549d4d elementor-hidden-phone elementor-widget elementor-widget-image" data-id="f549d4d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="3804" height="750"   alt="" data-srcset="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-bg.jpg 3804w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-bg-300x59.jpg 300w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-bg-768x151.jpg 768w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-bg-1024x202.jpg 1024w"  data-src="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-bg.jpg" data-sizes="(max-width: 3804px) 100vw, 3804px" class="attachment-full size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="3804" height="750" src="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-bg.jpg" class="attachment-full size-full" alt="" srcset="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-bg.jpg 3804w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-bg-300x59.jpg 300w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-bg-768x151.jpg 768w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-bg-1024x202.jpg 1024w" sizes="(max-width: 3804px) 100vw, 3804px" /></noscript>														</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-5e67e71 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-image" data-id="5e67e71" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="1024" height="578"   alt="indShowcaseBanner-webheader-sm" data-srcset="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-sm-1024x578.jpg 1024w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-sm-300x169.jpg 300w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-sm-768x433.jpg 768w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-sm.jpg 1329w"  data-src="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-sm-1024x578.jpg" data-sizes="(max-width: 1024px) 100vw, 1024px" class="attachment-large size-large lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="1024" height="578" src="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-sm-1024x578.jpg" class="attachment-large size-large" alt="indShowcaseBanner-webheader-sm" srcset="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-sm-1024x578.jpg 1024w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-sm-300x169.jpg 300w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-sm-768x433.jpg 768w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/indShowcaseBanner-webheader-sm.jpg 1329w" sizes="(max-width: 1024px) 100vw, 1024px" /></noscript>														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-6887312 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6887312" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e906f7c" data-id="e906f7c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-02db7ce elementor-nav-menu__align-center elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="02db7ce" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-02db7ce" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent menu-item-378"><a href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/" class="elementor-item">2019 – Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-379"><a href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/agenda/" class="elementor-item">Agenda</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380"><a href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/corporate-partners-info-sessions/" class="elementor-item">Corporate Partners Info Sessions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/directions-and-parking/" class="elementor-item">Directions and Parking</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-382"><a href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/fair-boothing-instructions/" class="elementor-item">Fair Boothing Instructions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-21 current_page_item menu-item-383"><a href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/speakers-2019/" aria-current="page" class="elementor-item elementor-item-active">Speakers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"><a href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/student-preparation/" class="elementor-item">Student Preparation</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
+		</div>
+			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
+				<ul id="menu-2-02db7ce" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent menu-item-378"><a href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/" class="elementor-item" tabindex="-1">2019 – Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-379"><a href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/agenda/" class="elementor-item" tabindex="-1">Agenda</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380"><a href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/corporate-partners-info-sessions/" class="elementor-item" tabindex="-1">Corporate Partners Info Sessions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/directions-and-parking/" class="elementor-item" tabindex="-1">Directions and Parking</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-382"><a href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/fair-boothing-instructions/" class="elementor-item" tabindex="-1">Fair Boothing Instructions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-21 current_page_item menu-item-383"><a href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/speakers-2019/" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Speakers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"><a href="https://industryshowcase.ics.uci.edu/2019-industryshowcase/student-preparation/" class="elementor-item" tabindex="-1">Student Preparation</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e5e47cc elementor-widget elementor-widget-heading" data-id="e5e47cc" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Speakers</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9fd61c6 elementor-widget elementor-widget-spacer" data-id="9fd61c6" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-af367db elementor-widget elementor-widget-heading" data-id="af367db" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">AI and ML Solutions: From research to practice</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-71eb08c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="71eb08c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9bdfd86" data-id="9bdfd86" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-622c0d3 elementor-widget elementor-widget-image" data-id="622c0d3" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="778" height="778"   alt="erik_sudderth" data-srcset="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/eriksudderth.png 778w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/eriksudderth-150x150.png 150w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/eriksudderth-300x300.png 300w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/eriksudderth-768x768.png 768w"  data-src="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/eriksudderth.png" data-sizes="(max-width: 778px) 100vw, 778px" class="attachment-large size-large lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="778" height="778" src="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/eriksudderth.png" class="attachment-large size-large" alt="erik_sudderth" srcset="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/eriksudderth.png 778w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/eriksudderth-150x150.png 150w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/eriksudderth-300x300.png 300w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/eriksudderth-768x768.png 768w" sizes="(max-width: 778px) 100vw, 778px" /></noscript>														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8a9fbe3" data-id="8a9fbe3" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-306815c elementor-widget elementor-widget-heading" data-id="306815c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Erik Sudderth</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ea5b76f elementor-widget elementor-widget-text-editor" data-id="ea5b76f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p>Director of the Center for Machine Learning<br />Associate Professor, Computer Science and Statistics</p>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-e1e4afe elementor-widget elementor-widget-text-editor" data-id="e1e4afe" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p>Erik previously spent seven great years on the faculty at <a href="http://www.brown.edu/">Brown University</a>, where he remains an <a href="http://cs.brown.edu/">Adjunct Associate Professor of Computer Science</a>. His <a href="https://www.ics.uci.edu/~sudderth/group/">Learning, Inference, &amp; Vision Group</a> develops statistical methods for scalable machine learning, with applications in artificial intelligence, vision, and the natural and social sciences. His areas of expertise include:</p><ul><li>Machine Learning: graphical models, Bayesian nonparametrics, approximate inference</li><li>Computer Vision: object recognition &amp; scene understanding, segmentation, motion &amp; tracking</li><li>Signal Processing: nonlinear dynamical systems, image &amp; video analysis, multiscale models</li></ul><p>In his current role as Director of the Center for Machine Learning, he works with ICS’s growing bench of over a dozen researchers in the fields of machine learning and intelligent systems to addresses the myriad ways we can develop computer algorithms to harness the vast amounts of digital data available in the 21st century. Erik plays a critical role in ICS’s vision by bringing together the interdisciplinary expertise across the campus and community to develop data-based solutions to address globally unprecedented issues of our increasingly digital age.</p><p>Visit Erik’s full <a href="https://www.ics.uci.edu/~sudderth/">bio</a> for additional background.</p>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-b434642 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b434642" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-41e9704" data-id="41e9704" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-39c5e39 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="39c5e39" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-13eaaee elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="13eaaee" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-afb3bb6" data-id="afb3bb6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-531bebd elementor-widget elementor-widget-image" data-id="531bebd" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="778" height="778"   alt="" data-srcset="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/mr-singh-778x778.jpg 778w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/mr-singh-778x778-150x150.jpg 150w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/mr-singh-778x778-300x300.jpg 300w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/mr-singh-778x778-768x768.jpg 768w"  data-src="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/mr-singh-778x778.jpg" data-sizes="(max-width: 778px) 100vw, 778px" class="attachment-large size-large lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="778" height="778" src="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/mr-singh-778x778.jpg" class="attachment-large size-large" alt="" srcset="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/mr-singh-778x778.jpg 778w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/mr-singh-778x778-150x150.jpg 150w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/mr-singh-778x778-300x300.jpg 300w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/mr-singh-778x778-768x768.jpg 768w" sizes="(max-width: 778px) 100vw, 778px" /></noscript>														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6473eb3" data-id="6473eb3" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a93b933 elementor-widget elementor-widget-heading" data-id="a93b933" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Sameer Singh</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-0cdbc18 elementor-widget elementor-widget-text-editor" data-id="0cdbc18" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p>Assistant Professor of Computer Science</p>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-b23f7c2 elementor-widget elementor-widget-text-editor" data-id="b23f7c2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p>Sameer is working on robustness and interpretability of machine learning algorithms, along with models that reason with text and structure for natural language processing. Sameer was a postdoctoral researcher at the University of Washington and received his PhD from the University of Massachusetts, Amherst, during which he also worked at Microsoft Research, Google Research, and Yahoo! Labs. His group has received funding from Allen Institute for AI, NSF, DARPA, Adobe Research, and FICO, and published extensively at top-tier machine learning and NLP venues.</p>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-abb5c15 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="abb5c15" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-391c261" data-id="391c261" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d5aa7c8 elementor-widget elementor-widget-spacer" data-id="d5aa7c8" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		
+	</main><!-- #main -->
+
+	
+	
+			<div data-elementor-type="footer" data-elementor-id="92" class="elementor elementor-92 elementor-location-footer" data-elementor-settings="[]">
+					<div class="elementor-section-wrap">
+								<section class="elementor-section elementor-top-section elementor-element elementor-element-df1d87c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="df1d87c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b34ff5a" data-id="b34ff5a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-adf742b elementor-widget elementor-widget-spacer" data-id="adf742b" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-226af6f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="226af6f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0e1385a" data-id="0e1385a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-0157620 elementor-widget elementor-widget-image" data-id="0157620" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+													<a href="https://www.ics.uci.edu">
+							<img width="1024" height="98"   alt="UCI17_Bren_ICS_2L_white" data-srcset="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCI17_Bren_ICS_2L_white-1024x98.png 1024w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCI17_Bren_ICS_2L_white-300x29.png 300w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCI17_Bren_ICS_2L_white-768x73.png 768w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCI17_Bren_ICS_2L_white.png 1952w"  data-src="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCI17_Bren_ICS_2L_white-1024x98.png" data-sizes="(max-width: 1024px) 100vw, 1024px" class="attachment-large size-large lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="1024" height="98" src="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCI17_Bren_ICS_2L_white-1024x98.png" class="attachment-large size-large" alt="UCI17_Bren_ICS_2L_white" srcset="https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCI17_Bren_ICS_2L_white-1024x98.png 1024w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCI17_Bren_ICS_2L_white-300x29.png 300w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCI17_Bren_ICS_2L_white-768x73.png 768w, https://industryshowcase.ics.uci.edu/wp-content/uploads/2019/09/UCI17_Bren_ICS_2L_white.png 1952w" sizes="(max-width: 1024px) 100vw, 1024px" /></noscript>								</a>
+														</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-14aa04b elementor-widget elementor-widget-text-editor" data-id="14aa04b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p>University of California, Irvine<br />6210 Donald Bren Hall<br />Irvine, CA 92697-3425</p>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2f5a636" data-id="2f5a636" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-aef0f99 elementor-widget elementor-widget-text-editor" data-id="aef0f99" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p>For more information, contact Emily Sumpf at <a title="mailto:esumpf@uci.edu" contenteditable="false" href="mailto:esumpf@uci.edu">esumpf@uci.edu</a>.</p><p><strong>ICS Corporate Partners:</strong> <br />for additional questions, please contact Associate Director of Corporate Relations, Jason King, at <a href="mailto:jason.king@uci.edu">jason.king@uci.edu</a>.</p>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-5da98c2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5da98c2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-66c008e" data-id="66c008e" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-aa86bf8 elementor-widget elementor-widget-text-editor" data-id="aa86bf8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p class="p2"><a href="https://uci.edu/copyright/">©  UCI Donald Bren School of Information &amp; Computer Sciences</a></p>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+							</div>
+				</div>
+		
+	
+</div><!-- #wrap -->
+
+
+</div><!-- #outer-wrap -->
+
+
+
+<a aria-label="Scroll to the top of the page" href="#" id="scroll-top" class="scroll-top-right"><i class=" fa fa-angle-up" aria-hidden="true" role="img"></i></a>
+
+
+
+
+<link rel='stylesheet' id='e-animations-css'  href='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.5.6' media='all' />
+<script src='https://industryshowcase.ics.uci.edu/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script id='oceanwp-main-js-extra'>
+var oceanwpLocalize = {"nonce":"84f1b5241b","isRTL":"","menuSearchStyle":"drop_down","mobileMenuSearchStyle":"disabled","sidrSource":null,"sidrDisplace":"1","sidrSide":"left","sidrDropdownTarget":"link","verticalHeaderTarget":"link","customSelects":".woocommerce-ordering .orderby, #dropdown_product_cat, .widget_categories select, .widget_archive select, .single-product .variations_form .variations select","ajax_url":"https:\/\/industryshowcase.ics.uci.edu\/wp-admin\/admin-ajax.php"};
+</script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/themes/oceanwp/assets/js/theme.min.js?ver=1.7.1.1567789198' id='oceanwp-main-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/themes/oceanwp/assets/js/drop-down-mobile-menu.min.js?ver=1.7.1.1567789198' id='oceanwp-drop-down-mobile-menu-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/themes/oceanwp/assets/js/drop-down-search.min.js?ver=1.7.1.1567789198' id='oceanwp-drop-down-search-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/themes/oceanwp/assets/js/vendors/magnific-popup.min.js?ver=1.7.1.1567789198' id='ow-magnific-popup-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/themes/oceanwp/assets/js/ow-lightbox.min.js?ver=1.7.1.1567789198' id='oceanwp-lightbox-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/themes/oceanwp/assets/js/vendors/flickity.pkgd.min.js?ver=1.7.1.1567789198' id='ow-flickity-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/themes/oceanwp/assets/js/ow-slider.min.js?ver=1.7.1.1567789198' id='oceanwp-slider-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/themes/oceanwp/assets/js/scroll-effect.min.js?ver=1.7.1.1567789198' id='oceanwp-scroll-effect-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/themes/oceanwp/assets/js/scroll-top.min.js?ver=1.7.1.1567789198' id='oceanwp-scroll-top-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/themes/oceanwp/assets/js/select.min.js?ver=1.7.1.1567789198' id='oceanwp-select-js'></script>
+<script id='pojo-a11y-js-extra'>
+var PojoA11yOptions = {"focusable":"","remove_link_target":"","add_role_links":"","enable_save":"","save_expiration":""};
+</script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/plugins/pojo-accessibility/assets/js/app.min.js?ver=1.0.0' id='pojo-a11y-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.10.2' id='smush-lazy-load-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1' id='smartmenus-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.6.2' id='elementor-pro-webpack-runtime-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.5.6' id='elementor-webpack-runtime-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.5.6' id='elementor-frontend-modules-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-includes/js/dist/hooks.min.js?ver=c6d64f2cb8f5c6bb49caca37f8828ce3' id='wp-hooks-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-includes/js/dist/i18n.min.js?ver=ebee46757c6a411e38fd079a7ac71d94' id='wp-i18n-js'></script>
+<script id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id='elementor-pro-frontend-js-before'>
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/industryshowcase.ics.uci.edu\/wp-admin\/admin-ajax.php","nonce":"06446fc37d","urls":{"assets":"https:\/\/industryshowcase.ics.uci.edu\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/industryshowcase.ics.uci.edu\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/industryshowcase.ics.uci.edu\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.6.2' id='elementor-pro-frontend-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1' id='jquery-ui-core-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6' id='swiper-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.5.6' id='share-link-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0' id='elementor-dialog-js'></script>
+<script id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.5.6","is_static":false,"experimentalFeatures":{"e_import_export":true,"e_hidden_wordpress_widgets":true,"theme_builder_v2":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true,"page-transitions":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/industryshowcase.ics.uci.edu\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":21,"title":"Speakers%20%E2%80%93%20UCI%20ICS%20Industry%20Showcase","excerpt":"","featuredImage":false}};
+</script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.5.6' id='elementor-frontend-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.6.2' id='pro-preloaded-elements-handlers-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.5.6' id='preloaded-modules-js'></script>
+<script src='https://industryshowcase.ics.uci.edu/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.6.2' id='e-sticky-js'></script>
+		<a id="pojo-a11y-skip-content" class="pojo-skip-link pojo-skip-content" tabindex="1" accesskey="s" href="#content">Skip to content</a>
+				<nav id="pojo-a11y-toolbar" class="pojo-a11y-toolbar-right pojo-a11y-" role="navigation">
+			<div class="pojo-a11y-toolbar-toggle">
+				<a class="pojo-a11y-toolbar-link pojo-a11y-toolbar-toggle-link" href="javascript:void(0);" title="Accessibility Tools">
+					<span class="pojo-sr-only sr-only">Open toolbar</span>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="currentColor" width="1em">
+						<path d="M50 8.1c23.2 0 41.9 18.8 41.9 41.9 0 23.2-18.8 41.9-41.9 41.9C26.8 91.9 8.1 73.2 8.1 50S26.8 8.1 50 8.1M50 0C22.4 0 0 22.4 0 50s22.4 50 50 50 50-22.4 50-50S77.6 0 50 0zm0 11.3c-21.4 0-38.7 17.3-38.7 38.7S28.6 88.7 50 88.7 88.7 71.4 88.7 50 71.4 11.3 50 11.3zm0 8.9c4 0 7.3 3.2 7.3 7.3S54 34.7 50 34.7s-7.3-3.2-7.3-7.3 3.3-7.2 7.3-7.2zm23.7 19.7c-5.8 1.4-11.2 2.6-16.6 3.2.2 20.4 2.5 24.8 5 31.4.7 1.9-.2 4-2.1 4.7-1.9.7-4-.2-4.7-2.1-1.8-4.5-3.4-8.2-4.5-15.8h-2c-1 7.6-2.7 11.3-4.5 15.8-.7 1.9-2.8 2.8-4.7 2.1-1.9-.7-2.8-2.8-2.1-4.7 2.6-6.6 4.9-11 5-31.4-5.4-.6-10.8-1.8-16.6-3.2-1.7-.4-2.8-2.1-2.4-3.9.4-1.7 2.1-2.8 3.9-2.4 19.5 4.6 25.1 4.6 44.5 0 1.7-.4 3.5.7 3.9 2.4.7 1.8-.3 3.5-2.1 3.9z"/>					</svg>
+				</a>
+			</div>
+			<div class="pojo-a11y-toolbar-overlay">
+				<div class="pojo-a11y-toolbar-inner">
+					<p class="pojo-a11y-toolbar-title">Accessibility Tools</p>
+					
+					<ul class="pojo-a11y-toolbar-items pojo-a11y-tools">
+																			<li class="pojo-a11y-toolbar-item">
+								<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-plus" data-action="resize-plus" data-action-group="resize" tabindex="-1">
+									<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M256 200v16c0 4.25-3.75 8-8 8h-56v56c0 4.25-3.75 8-8 8h-16c-4.25 0-8-3.75-8-8v-56h-56c-4.25 0-8-3.75-8-8v-16c0-4.25 3.75-8 8-8h56v-56c0-4.25 3.75-8 8-8h16c4.25 0 8 3.75 8 8v56h56c4.25 0 8 3.75 8 8zM288 208c0-61.75-50.25-112-112-112s-112 50.25-112 112 50.25 112 112 112 112-50.25 112-112zM416 416c0 17.75-14.25 32-32 32-8.5 0-16.75-3.5-22.5-9.5l-85.75-85.5c-29.25 20.25-64.25 31-99.75 31-97.25 0-176-78.75-176-176s78.75-176 176-176 176 78.75 176 176c0 35.5-10.75 70.5-31 99.75l85.75 85.75c5.75 5.75 9.25 14 9.25 22.5z""></path></svg></span><span class="pojo-a11y-toolbar-text">Increase Text</span>								</a>
+							</li>
+							
+							<li class="pojo-a11y-toolbar-item">
+								<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-minus" data-action="resize-minus" data-action-group="resize" tabindex="-1">
+									<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M256 200v16c0 4.25-3.75 8-8 8h-144c-4.25 0-8-3.75-8-8v-16c0-4.25 3.75-8 8-8h144c4.25 0 8 3.75 8 8zM288 208c0-61.75-50.25-112-112-112s-112 50.25-112 112 50.25 112 112 112 112-50.25 112-112zM416 416c0 17.75-14.25 32-32 32-8.5 0-16.75-3.5-22.5-9.5l-85.75-85.5c-29.25 20.25-64.25 31-99.75 31-97.25 0-176-78.75-176-176s78.75-176 176-176 176 78.75 176 176c0 35.5-10.75 70.5-31 99.75l85.75 85.75c5.75 5.75 9.25 14 9.25 22.5z"></path></svg></span><span class="pojo-a11y-toolbar-text">Decrease Text</span>								</a>
+							</li>
+						
+													<li class="pojo-a11y-toolbar-item">
+								<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-grayscale" data-action="grayscale" data-action-group="schema" tabindex="-1">
+									<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M15.75 384h-15.75v-352h15.75v352zM31.5 383.75h-8v-351.75h8v351.75zM55 383.75h-7.75v-351.75h7.75v351.75zM94.25 383.75h-7.75v-351.75h7.75v351.75zM133.5 383.75h-15.5v-351.75h15.5v351.75zM165 383.75h-7.75v-351.75h7.75v351.75zM180.75 383.75h-7.75v-351.75h7.75v351.75zM196.5 383.75h-7.75v-351.75h7.75v351.75zM235.75 383.75h-15.75v-351.75h15.75v351.75zM275 383.75h-15.75v-351.75h15.75v351.75zM306.5 383.75h-15.75v-351.75h15.75v351.75zM338 383.75h-15.75v-351.75h15.75v351.75zM361.5 383.75h-15.75v-351.75h15.75v351.75zM408.75 383.75h-23.5v-351.75h23.5v351.75zM424.5 383.75h-8v-351.75h8v351.75zM448 384h-15.75v-352h15.75v352z"></path></svg></span><span class="pojo-a11y-toolbar-text">Grayscale</span>								</a>
+							</li>
+						
+													<li class="pojo-a11y-toolbar-item">
+								<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-high-contrast" data-action="high-contrast" data-action-group="schema" tabindex="-1">
+									<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M192 360v-272c-75 0-136 61-136 136s61 136 136 136zM384 224c0 106-86 192-192 192s-192-86-192-192 86-192 192-192 192 86 192 192z""></path></svg></span><span class="pojo-a11y-toolbar-text">High Contrast</span>								</a>
+							</li>
+						
+						<li class="pojo-a11y-toolbar-item">
+							<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-negative-contrast" data-action="negative-contrast" data-action-group="schema" tabindex="-1">
+
+								<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M416 240c-23.75-36.75-56.25-68.25-95.25-88.25 10 17 15.25 36.5 15.25 56.25 0 61.75-50.25 112-112 112s-112-50.25-112-112c0-19.75 5.25-39.25 15.25-56.25-39 20-71.5 51.5-95.25 88.25 42.75 66 111.75 112 192 112s149.25-46 192-112zM236 144c0-6.5-5.5-12-12-12-41.75 0-76 34.25-76 76 0 6.5 5.5 12 12 12s12-5.5 12-12c0-28.5 23.5-52 52-52 6.5 0 12-5.5 12-12zM448 240c0 6.25-2 12-5 17.25-46 75.75-130.25 126.75-219 126.75s-173-51.25-219-126.75c-3-5.25-5-11-5-17.25s2-12 5-17.25c46-75.5 130.25-126.75 219-126.75s173 51.25 219 126.75c3 5.25 5 11 5 17.25z"></path></svg></span><span class="pojo-a11y-toolbar-text">Negative Contrast</span>							</a>
+						</li>
+
+													<li class="pojo-a11y-toolbar-item">
+								<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-light-background" data-action="light-background" data-action-group="schema" tabindex="-1">
+									<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M184 144c0 4.25-3.75 8-8 8s-8-3.75-8-8c0-17.25-26.75-24-40-24-4.25 0-8-3.75-8-8s3.75-8 8-8c23.25 0 56 12.25 56 40zM224 144c0-50-50.75-80-96-80s-96 30-96 80c0 16 6.5 32.75 17 45 4.75 5.5 10.25 10.75 15.25 16.5 17.75 21.25 32.75 46.25 35.25 74.5h57c2.5-28.25 17.5-53.25 35.25-74.5 5-5.75 10.5-11 15.25-16.5 10.5-12.25 17-29 17-45zM256 144c0 25.75-8.5 48-25.75 67s-40 45.75-42 72.5c7.25 4.25 11.75 12.25 11.75 20.5 0 6-2.25 11.75-6.25 16 4 4.25 6.25 10 6.25 16 0 8.25-4.25 15.75-11.25 20.25 2 3.5 3.25 7.75 3.25 11.75 0 16.25-12.75 24-27.25 24-6.5 14.5-21 24-36.75 24s-30.25-9.5-36.75-24c-14.5 0-27.25-7.75-27.25-24 0-4 1.25-8.25 3.25-11.75-7-4.5-11.25-12-11.25-20.25 0-6 2.25-11.75 6.25-16-4-4.25-6.25-10-6.25-16 0-8.25 4.5-16.25 11.75-20.5-2-26.75-24.75-53.5-42-72.5s-25.75-41.25-25.75-67c0-68 64.75-112 128-112s128 44 128 112z"></path></svg></span><span class="pojo-a11y-toolbar-text">Light Background</span>								</a>
+							</li>
+						
+													<li class="pojo-a11y-toolbar-item">
+								<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-links-underline" data-action="links-underline" data-action-group="toggle" tabindex="-1">
+									<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M364 304c0-6.5-2.5-12.5-7-17l-52-52c-4.5-4.5-10.75-7-17-7-7.25 0-13 2.75-18 8 8.25 8.25 18 15.25 18 28 0 13.25-10.75 24-24 24-12.75 0-19.75-9.75-28-18-5.25 5-8.25 10.75-8.25 18.25 0 6.25 2.5 12.5 7 17l51.5 51.75c4.5 4.5 10.75 6.75 17 6.75s12.5-2.25 17-6.5l36.75-36.5c4.5-4.5 7-10.5 7-16.75zM188.25 127.75c0-6.25-2.5-12.5-7-17l-51.5-51.75c-4.5-4.5-10.75-7-17-7s-12.5 2.5-17 6.75l-36.75 36.5c-4.5 4.5-7 10.5-7 16.75 0 6.5 2.5 12.5 7 17l52 52c4.5 4.5 10.75 6.75 17 6.75 7.25 0 13-2.5 18-7.75-8.25-8.25-18-15.25-18-28 0-13.25 10.75-24 24-24 12.75 0 19.75 9.75 28 18 5.25-5 8.25-10.75 8.25-18.25zM412 304c0 19-7.75 37.5-21.25 50.75l-36.75 36.5c-13.5 13.5-31.75 20.75-50.75 20.75-19.25 0-37.5-7.5-51-21.25l-51.5-51.75c-13.5-13.5-20.75-31.75-20.75-50.75 0-19.75 8-38.5 22-52.25l-22-22c-13.75 14-32.25 22-52 22-19 0-37.5-7.5-51-21l-52-52c-13.75-13.75-21-31.75-21-51 0-19 7.75-37.5 21.25-50.75l36.75-36.5c13.5-13.5 31.75-20.75 50.75-20.75 19.25 0 37.5 7.5 51 21.25l51.5 51.75c13.5 13.5 20.75 31.75 20.75 50.75 0 19.75-8 38.5-22 52.25l22 22c13.75-14 32.25-22 52-22 19 0 37.5 7.5 51 21l52 52c13.75 13.75 21 31.75 21 51z"></path></svg></span><span class="pojo-a11y-toolbar-text">Links Underline</span>								</a>
+							</li>
+						
+													<li class="pojo-a11y-toolbar-item">
+								<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-readable-font" data-action="readable-font" data-action-group="toggle" tabindex="-1">
+									<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M181.25 139.75l-42.5 112.5c24.75 0.25 49.5 1 74.25 1 4.75 0 9.5-0.25 14.25-0.5-13-38-28.25-76.75-46-113zM0 416l0.5-19.75c23.5-7.25 49-2.25 59.5-29.25l59.25-154 70-181h32c1 1.75 2 3.5 2.75 5.25l51.25 120c18.75 44.25 36 89 55 133 11.25 26 20 52.75 32.5 78.25 1.75 4 5.25 11.5 8.75 14.25 8.25 6.5 31.25 8 43 12.5 0.75 4.75 1.5 9.5 1.5 14.25 0 2.25-0.25 4.25-0.25 6.5-31.75 0-63.5-4-95.25-4-32.75 0-65.5 2.75-98.25 3.75 0-6.5 0.25-13 1-19.5l32.75-7c6.75-1.5 20-3.25 20-12.5 0-9-32.25-83.25-36.25-93.5l-112.5-0.5c-6.5 14.5-31.75 80-31.75 89.5 0 19.25 36.75 20 51 22 0.25 4.75 0.25 9.5 0.25 14.5 0 2.25-0.25 4.5-0.5 6.75-29 0-58.25-5-87.25-5-3.5 0-8.5 1.5-12 2-15.75 2.75-31.25 3.5-47 3.5z"></path></svg></span><span class="pojo-a11y-toolbar-text">Readable Font</span>								</a>
+							</li>
+																		<li class="pojo-a11y-toolbar-item">
+							<a href="#" class="pojo-a11y-toolbar-link pojo-a11y-btn-reset" data-action="reset" tabindex="-1">
+								<span class="pojo-a11y-toolbar-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 448 448"><path fill="currentColor" d="M384 224c0 105.75-86.25 192-192 192-57.25 0-111.25-25.25-147.75-69.25-2.5-3.25-2.25-8 0.5-10.75l34.25-34.5c1.75-1.5 4-2.25 6.25-2.25 2.25 0.25 4.5 1.25 5.75 3 24.5 31.75 61.25 49.75 101 49.75 70.5 0 128-57.5 128-128s-57.5-128-128-128c-32.75 0-63.75 12.5-87 34.25l34.25 34.5c4.75 4.5 6 11.5 3.5 17.25-2.5 6-8.25 10-14.75 10h-112c-8.75 0-16-7.25-16-16v-112c0-6.5 4-12.25 10-14.75 5.75-2.5 12.75-1.25 17.25 3.5l32.5 32.25c35.25-33.25 83-53 132.25-53 105.75 0 192 86.25 192 192z"></path></svg></span>
+								<span class="pojo-a11y-toolbar-text">Reset</span>
+							</a>
+						</li>
+					</ul>
+									</div>
+			</div>
+		</nav>
+		</body>
+</html>

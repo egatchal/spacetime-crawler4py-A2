@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>CompSci 143A</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1894.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 12.0px 0.0px; text-align: center; font: 14.0px Helvetica; color: #00006d; -webkit-text-stroke: #00006d}
+    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; text-align: center; font: 12.0px Helvetica; color: #00006d; -webkit-text-stroke: #00006d}
+    p.p3 {margin: 0.0px 0.0px 10.0px 0.0px; text-align: center; font: 10.0px Helvetica; color: #000000; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 10.0px 0.0px; font: 10.0px Helvetica; color: #000053; -webkit-text-stroke: #000053}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 18.0px Verdana; color: #0000c0; -webkit-text-stroke: #0000c0}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Arial; color: #000000; -webkit-text-stroke: #000000}
+    p.p8 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p9 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font: 12.0px Times; font-kerning: none; color: #000053; -webkit-text-stroke: 0px #000053}
+    span.s2 {text-decoration: underline ; font-kerning: none}
+    span.s3 {font: 12.0px Times; font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s4 {font-kerning: none}
+    span.s5 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s6 {text-decoration: underline ; font-kerning: none; color: #000053; -webkit-text-stroke: 0px #000053}
+    span.s7 {font: 12.0px Times; text-decoration: underline ; font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s8 {font: 12.0px Times; text-decoration: underline ; font-kerning: none; color: #000053; -webkit-text-stroke: 0px #000053}
+    span.s9 {font: 12.0px Times; font-kerning: none}
+    table.t1 {width: 802.0px}
+    td.td1 {width: 170.8px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td2 {width: 796.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td3 {width: 796.0px; background-color: #fec254; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td4 {width: 796.0px; background-color: #fec254; margin: 20.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+  </style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><span class="s1"><a href="file:///Volumes/ics143/public_html/classes.html"><img src="file:///anteater.jpg" alt="anteater.jpg"><span class="s2"> </span></a></span><span class="s3"><br>
+</span><span class="s4"><b>CompSci 143A</b><span class="Apple-converted-space"> </span></span></p>
+        <p class="p2"><span class="s4">Principles of Operating Systems<span class="Apple-converted-space"> </span></span></p>
+        <p class="p2"><span class="s4">Spring 2020</span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
+        <p class="p3"><span class="s4"> </span></p>
+        <p class="p4"><span class="s5"><b>Administration</b> <br>
+- <a href="file:///Volumes/ics143/public_html/classes.html"><span class="s6">Classes (homepage)</span></a> <br>
+- <a href="file:///Volumes/ics143/public_html/logistics.html"><span class="s6">Logistics/Syllabus</span></a> <br>
+- <a href="file:///Volumes/ics143/public_html/staff.html"><span class="s6">Staff</span></a><span class="Apple-converted-space"> </span></span></p>
+        <p class="p4"><span class="s5"><b>Work</b> <br>
+- <a href="file:///Volumes/ics143/public_html/lectures.html"><span class="s6">Lecture Notes</span></a> <br>
+- <a href="file:///Volumes/ics143/public_html/reading.html"><span class="s6">Reading Assignments</span></a> <br>
+- <a href="file:///Volumes/ics143/public_html/homework.html"><span class="s6">Homework</span></a> <br>
+- <a href="file:///Volumes/ics143/public_html/discussion.html"><span class="s6">Discussions</span></a><span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p5"><span class="s4"> </span></p>
+<table width="802.0" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td colspan="2" valign="middle" class="td2">
+        <p class="p6"><span class="s2">CompSci 143A Principles of Operating Systems</span><span class="s7"><span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" valign="middle" class="td3">
+        <p class="p7"><span class="s4"><b>Announcements</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" valign="middle" class="td2">
+        <p class="p5"><span class="s4">Announcements will be made via Canvas, which should deliver them to your email address. It is your responsibility to ensure you receive these announcements!</span></p>
+        <p class="p8"><span class="s4"></span><br></p>
+        <p class="p9"><span class="s4"><b>2020-06-07</b>: HW4 Solutions are released. Please submit regrade requests as soon as possible.</span></p>
+        <p class="p9"><span class="s4"><b>2020-06-04</b>: Sample Final and solutions are out. Sorry for the delay!</span></p>
+        <p class="p9"><span class="s4"><b>2020-05-31</b>: HW 3 is graded. Regrade requests are due (via Gradescope) in 1 week (Jun 7th)<span class="Apple-converted-space"> </span></span></p>
+        <p class="p9"><span class="s4"><b>2020-05-28</b>: Homework 4 is released and will be due Friday, June 5, 2020 at 11:59pm on Gradescope.</span></p>
+        <p class="p9"><span class="s4"><b>2020-05-27</b>: Homework 3 solutions released</span></p>
+        <p class="p9"><span class="s4"><b>2020-05-15</b>: Homework 3 is released and will be due Monday May 25, 2020 at 11:59pm on Gradescope.</span></p>
+        <p class="p9"><span class="s4"><b>2020-05-12</b>: HW 2 is graded. Regrade requests are due (via Gradescope) in 1 week (May 19th)<span class="Apple-converted-space"> </span></span></p>
+        <p class="p9"><span class="s4"><b>2020-05-05</b>: Midterm review slides updated for s2020. Please note that this is not comprehensive.<span class="Apple-converted-space"> </span></span></p>
+        <p class="p9"><span class="s4"><b>2020-05-04</b>: Homework 2 solutions released</span></p>
+        <p class="p9"><span class="s4"><b>2020-05-01</b>: Sample midterm and its solution are released</span></p>
+        <p class="p9"><span class="s4"><b>2020-05-01</b>: HW 2 deadline is extended (May 3rd) and Q6 is optional</span></p>
+        <p class="p9"><span class="s4"><b>2020-04-28</b>: HW 1 is graded. Regrade requests are due (via Gradescope) in 1 week (May 5th)<span class="Apple-converted-space"> </span></span></p>
+        <p class="p9"><span class="s4"><b>2020-04-24</b>: Midterm is scheduled to be on May 8th (Week 6 Friday)</span></p>
+        <p class="p9"><span class="s4"><b>2020-04-22</b>: HW 1's solutions are released.</span></p>
+        <p class="p9"><span class="s4"><b>2020-04-19</b>: Homework 2 scores for each problem have been adjusted..(nothing changed content-wise)<span class="Apple-converted-space"> </span></span></p>
+        <p class="p9"><span class="s4"><b>2020-04-17</b>: Homework 2 is released and will be due on May 2 at 11:59pm (two weeks!) For GANTT chart, please use provided image box in the homework2. If that doesnâ€™t work, open MS Word or Google Docs, put your image file and save as a PDF file. Two options for merging PDFs: 1) <a href="file:///Volumes/ics143/public_html/homework/merge-pdfs.py.txt"><span class="s8">python script</span></a>(preferred) 2) Search for online pdf merge service</span></p>
+        <p class="p9"><span class="s4">pip3 install --user pypdf2 <br>
+python3 merge-pdfs.py hw2.pdf gantt.pdf <br>
+--&gt; it will create output.pdf</span></p>
+        <p class="p9"><span class="s4"><b>2020-04-16</b>: "Pop" quiz 1 will be during the last 15 minutes of Monday lecture (April 20).<span class="Apple-converted-space"> </span></span></p>
+        <p class="p9"><span class="s4"><b>2020-04-15</b>: Homework 1 due date extension; Homework 1 will now be due Sunday April 19, 2020 at 11:59 pm</span></p>
+        <p class="p9"><span class="s4"><b>2020-04-10</b>: A small error in entering the solution for Question 3b was found and fixed. Image upload version added.<span class="Apple-converted-space"> </span></span></p>
+        <p class="p9"><span class="s4"><b>2020-04-09</b>: Homework 1 is released and will be due Saturday April 18, 2020 at 11:59pm on Gradescope.</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" valign="middle" class="td4">
+        <p class="p7"><span class="s4"><b>Classes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" valign="middle" class="td2">
+        <p class="p5"><span class="s4">MWF: 11:00-11:50AM ONLINE via <a href="https://uci.zoom.us/j/568633190"><span class="s8">Zoom</span></a></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" valign="middle" class="td4">
+        <p class="p7"><span class="s4"><b>Discussion sessions</b></span><span class="s9"><span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" valign="middle" class="td2">
+        <p class="p5"><span class="s4">Discussion sessions:</span></p>
+        <p class="p5"><span class="s4">Tu: 5:00-5:50PM ONLINE via <a href="https://uci.zoom.us/j/556715006"><span class="s8">Zoom</span></a><span class="Apple-converted-space"> </span></span></p>
+        <p class="p5"><span class="s4">Tu: 7:00-7:50PM ONLINE via <a href="https://uci.zoom.us/j/563851913"><span class="s8">Zoom</span></a><span class="Apple-converted-space"> </span></span></p>
+        <p class="p10"><span class="s4"></span><br></p>
+        <p class="p5"><span class="s4">For your convenience, <a href="file:///Volumes/ics143/public_html/piazza.com/uci/spring2020/cs143"><span class="s8">here</span></a> is the Piazza page for the course.<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" valign="middle" class="td4">
+        <p class="p7"><span class="s4"><b>Office hours</b></span><span class="s9"><span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" valign="middle" class="td2">
+        <p class="p5"><span class="s4">See <a href="file:///Volumes/ics143/public_html/staff.html"><span class="s8">staff info page</span></a> for instructor, assistants, and office hours.<span class="Apple-converted-space"> </span></span></p>
+        <p class="p5"><span class="s4">(Updated 5.26 with new link): For your convenience, <a href="https://uci.zoom.us/j/97096032945"><span class="s8">here</span></a> is the office hours zoom link (for all staff).<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p10"><span class="s4"></span><br></p>
+</body>
+</html>

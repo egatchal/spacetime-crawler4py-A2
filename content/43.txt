@@ -1,93 +1,92 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html>
 
 <head>
-<!-- 80-80 -->
-
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-    <title>UCI Shibboleth IDP - Loading Session Information</title>
-    <link rel="stylesheet" type="text/css" href="/idp/css/style.css">
-    <script>
-    <!--
-"use strict";
-function readLocalStorage(key) {
-    var success;
-    try {
-        var value = localStorage.getItem(key);
-        if (value != null) {
-            document.form1["shib_idp_ls_value." + key].value = value;
-        }
-        success = "true";
-    } catch (e) {
-        success = "false";
-        document.form1["shib_idp_ls_exception." + key].value = e;
-    }
-    document.form1["shib_idp_ls_success." + key].value = success;
-}
-
-function isLocalStorageSupported() {
-    try {
-        localStorage.setItem("shib_idp_ls_test", "shib_idp_ls_test");
-        localStorage.removeItem("shib_idp_ls_test");
-        return true;
-    } catch (e) {
-        return false;
-    }
-}
-     //-->
-    </script>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>sponsors</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta name="Microsoft Theme" content="pixel 011">
+<meta name="Microsoft Border" content="none, default">
 </head>
 
-<body onload="doLoad()">
+<body background="_themes/pixel/pixbkgnd.gif" bgcolor="#FFFFFF" text="#000000" link="#6666CC" vlink="#999999" alink="#663333"><!--mstheme--><font face="arial, Arial, Helvetica">
 
-    <div class="webauth-login">
-        <a class="wordmark-link" href="https://uci.edu" tabindex="-1">
-            <img src="/idp/images/uci-stacked-wordmark-blue.svg" class="wordmark-logo" alt="UCI Logo">
-        </a>
-        <div class="flex-container webauth">
-            <div class="login-form">
-                <h1 class="h3 login-form-title">UCI Shibboleth IDP - Loading Session Information</h1> 
-                <p class="content"> Loading login session information from the browser... </p>
-                <noscript>
-                    <p class="content"> 
-                        Since your browser does not support JavaScript, you must press the Continue button once to proceed. 
-                    </p>
-                </noscript>
-<form name="form1" action="/idp/profile/SAML2/Redirect/SSO;jsessionid=0EFDA58F4EC9863ED280F1ED0AEEE340?execution=e1s1" method="post">
-        <input name="shib_idp_ls_exception.shib_idp_session_ss" type="hidden" />
-        <input name="shib_idp_ls_success.shib_idp_session_ss" type="hidden" value="false" />
-        <input name="shib_idp_ls_value.shib_idp_session_ss" type="hidden" />
-        <input name="shib_idp_ls_exception.shib_idp_persistent_ss" type="hidden" />
-        <input name="shib_idp_ls_success.shib_idp_persistent_ss" type="hidden" value="false" />
-        <input name="shib_idp_ls_value.shib_idp_persistent_ss" type="hidden" />
-    <input name="shib_idp_ls_supported" type="hidden" />
-    <input name="_eventId_proceed" type="hidden" />
-    <noscript>
-        <input type="submit" value="Continue" />
-    </noscript>
-</form>
+<center>
 
-<script>
-<!--
-function doLoad() {
-    var localStorageSupported = isLocalStorageSupported();
-    document.form1["shib_idp_ls_supported"].value = localStorageSupported;
-    if (localStorageSupported) {
-        readLocalStorage("shib_idp_session_ss");
-        readLocalStorage("shib_idp_persistent_ss");
-    }
-    document.form1.submit();
-}
-// -->
-</script>            </div>
-        </div>
-<p class="footer small webauth-links" style="text-align: center">
-    <a href="http://www.policies.uci.edu/policies/pols/714-18.php">Privacy Policy</a>
-    &nbsp;&nbsp;â€¢&nbsp;&nbsp;
-    <a href="https://www.oit.uci.edu/">OIT</a>
-</p>    </div>
+<div align="left">
 
-</body>
-</html>
+<div align="left">
+<!--mstheme--></font><table border="1" cellspacing="1" style="border-style:solid; border-color:#000080; border-collapse: collapse; " width="698" id="AutoNumber6" bordercolordark="#999999" bordercolorlight="#CCCCCC">
+  <tr>
+    <td width="699"><!--mstheme--><font face="arial, Arial, Helvetica">
+    <img border="0" src="images/Architectures.jpg" width="695" height="67"><!--mstheme--></font></td>
+  </tr>
+</table><!--mstheme--><font face="arial, Arial, Helvetica">
+</div>
+
+<div align="left" style="width: 717; height: 44">
+  <!--webbot CLIENTSIDE 
+bot="Ws4FpEx" MODULEID="'navbars (Project)\bar1_off.xws'" PREVIEW="&lt;img src='images/navbar/bar1.gif?0F40C860' editor='Webstyle4' border='0'&gt;" startspan  --><script src="xaramenu.js"></script><script Webstyle4 src="images/navbar/bar1.js"></script><noscript><img src="images/navbar/bar1.gif?0F40C860" editor="Webstyle4"></noscript><!--webbot 
+bot="Ws4FpEx" endspan  --></div>
+
+</div>
+</center>
+<!--mstheme--></font><table border="2" cellspacing="1" style="border:1px solid #000080; border-collapse: collapse" width="698" id="AutoNumber1" bordercolordark="#999999" bordercolorlight="#CCCCCC">
+  <tr>
+    <td width="100%" bgcolor="#000080"><!--mstheme--><font face="arial, Arial, Helvetica">
+    <center><b>
+    <font size="2" color="#FFCC00" face="Arial">Sponsors</font></b><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td width="100%"><!--mstheme--><font face="arial, Arial, Helvetica">
+    <p align="center"><font color="#000080"><b>&nbsp;</b></font></p>
+    <p align="center"><font color="#000080"><b><font size="2">ACES would 
+    like to acknowledge our sponsors</font></b></font></p>
+    <p align="center"><b><font color="#CC6666">
+    <a href="http://www.conexant.com">CONEXANT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="http://www.cpcc.uci.edu">CPCC</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></b><font color="#CC6666"><b> 
+    <a href="http://www.darpa.mil">DARPA</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <a href="http://www.hitachi.com">HITACHI</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <a href="http://www.intel.com">INTEL</a></b></font></p>
+    <p align="center"><font color="#CC6666"><b> 
+    <a href="http://www.ucop.edu/research/micro/home.html">MICRO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <a href="http://www.motorola.com/">MOTOROLA</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="http://www.nsf.gov/">NSF</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="http://www.src.org/">SRC</a></b></font></p>
+    <p>&nbsp;<!--mstheme--></font></td>
+  </tr>
+</table><!--mstheme--><font face="arial, Arial, Helvetica">
+
+<br>
+<!--mstheme--></font><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="698" id="AutoNumber7">
+  <tr>
+    <td width="100%"><!--mstheme--><font face="arial, Arial, Helvetica">
+    <p align="center">
+<font size="1" face="Arial"><a href="http://www.ics.uci.edu/~aces/index.htm">Home</a> | 
+<a href="http://www.ics.uci.edu/~aces/projects.htm">Projects</a> | 
+<a href="http://www.ics.uci.edu/~aces/publications.htm">Publications</a> | 
+<a href="http://www.ics.uci.edu/~aces/news.htm">News &amp; Events</a> | 
+<a href="http://www.ics.uci.edu/~aces/people.htm">People</a> | 
+<a href="http://www.ics.uci.edu/~aces/sponsors.htm">Sponsors</a> | 
+<a href="http://www.ics.uci.edu/~aces/downloads.htm">Downloads</a> | 
+<a href="http://www.ics.uci.edu/~aces/links.htm">Links</a> | 
+<a href="http://www.ics.uci.edu/~aces/joinaces.htm">Join ACES</a> | 
+<a href="http://www.ics.uci.edu/~aces/aboutus.htm">About Us</a></font></p>
+    <!--mstheme--></font></td>
+  </tr>
+</table><!--mstheme--><font face="arial, Arial, Helvetica">
+<br><!--mstheme--></font><table border="0" cellspacing="1" width="696" id="AutoNumber2" align="left">
+    <tr>
+      <td width="692" align="center"><!--mstheme--><font face="arial, Arial, Helvetica">
+<address align="center">
+<span style="font-style: normal">
+<!--webbot CLIENTSIDE 
+bot="Ws4FpEx" MODULEID="'navbars (Project)\ACES.xws'" PREVIEW="&lt;img src='images/ACES.gif?1935C307' editor='Webstyle4' border='0'&gt;" startspan  --><img src="images/ACES.gif?1935C307" editor="Webstyle4" border="0"><!--webbot 
+bot="Ws4FpEx" endspan  --></span></address>
+<address align="center">
+  <font size="1">Please e-mail your comments and suggestions to Sudeep Pasricha 
+  (<a href="mailto:sudeep@ics.uci.edu">sudeep@ics.uci.edu</a>)<br>
+  © Copyright 1997-2004 ACES-UCI. All rights reserved</font></address>
+      <!--mstheme--></font></td>
+    </tr>
+  </table><!--mstheme--><font face="arial, Arial, Helvetica">&nbsp;<!--mstheme--></font></body></html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Knight's Tour</title>
+<meta charset="utf-8">
+<meta name="author" content="Nil Mamano">
+<meta name="description" content="knightstour">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<style>
+
+body {
+  padding-top: 0px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+
+.controls {
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+}
+
+.w3-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+input{
+  &::-webkit-inner-spin-button{
+    opacity:1; // magic!
+  }
+}
+
+input[type=number]:hover::-webkit-inner-spin-button,
+input[type=number]:hover::-webkit-outer-spin-button {
+   opacity: 1;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+   opacity: 1;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-card">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Taming the Knight's Tour</b> Minimizing Turns and Crossings</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+    </div>
+  </div>
+</div>
+
+<div class="flex-container">
+  <div><canvas id="canvas1" style="border: none;" width="702" height="702" align="center">Your browser does not support HTML5 canvas.</canvas></div>
+  <div><div class='col-xs-2 controls'>
+
+      <div class="control">
+      <form>
+        <label>Width: </label>
+    <input type="number"
+           min="16"
+           max="120"
+           step="2"
+           value="30"
+           id="newwidth"
+           onchange="changeBoardSize()"
+           onclick="changeBoardSize()">
+  </form>
+</div>
+<div class="control">
+      <form>
+        <label>Height: </label>
+    <input type="number"
+           min="12"
+           max="120"
+           step="1"
+           value="30"
+           id="newheight"
+           onchange="changeBoardSize()"
+           onclick="changeBoardSize()">
+  </form>
+  </div>
+        <div class="control">
+      <label id='turncount'>Number of turns: </label>
+    </div>
+    <div class="control">
+      <label id='crossingcount'>Number of crossings: </label>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<script src="board.js"></script>
+
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>The <a href="https://en.wikipedia.org/wiki/Knight%27s_tour">knight's tour problem</a> is a popular puzzle. The goal is to find a cycle going through every cell in a rectangular board using only knight moves. We propose a new method with a special property: compared to previous methods, it has a small number of <i>turns</i> and <i>crossings</i>. A turn is a triplet of consecutive squares in the tour with non-collinear coordinates. A crossing occurs when the two line segments corresponding to moves in the tour intersect. For details about the algorithm, see <a href="https://arxiv.org/pdf/1904.02824.pdf">the preprint available online</a>.
+    </p>
+
+    <p>Developed by UCI grad students Juan Jose Besa Vidal, Timothy Johnson, Nil Mamano, and Martha Osegueda. Requires HTML5. Works (at least) on latest Chrome for desktop. Maintained by/Contact: <a href="https://www.ics.uci.edu/~nmamano/">Nil Mamano.</a></p>
+
+  </div>
+
+
+<!-- End page content -->
+
+
+
+</body>
+</html>

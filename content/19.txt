@@ -1,539 +1,416 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-<head>
-<title>press release @ the bren school of information and computer sciences</title>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/><script src="https://use.fontawesome.com/f443bac96a.js"></script>
-<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/><link href="../../../bin/styles/stylesheet_index2018_addon.css" rel="stylesheet" type="text/css"/>
+<html lang="en-US">
+<head >
+<meta charset="UTF-8" />
+<title>Seminar Series 2019-2020</title>		<meta name="robots" content="noodp,noydir" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='max-image-preview:large' />
 
-
-<meta content="Mon, 22 Jul 2019 09:12:07 -0380" name="date"/>
-
-</head>
-<body>
-<!-- before breadcrumb_nav include -->
- <!-- after breadcrumb_nav include -->
-<div id="wrapper">
-<div id="header-main">
-    <a id="skip-nav" role="region" aria-label="Skip to main content" class="skip-nav screen-reader-text" href="#mid-section">Skip to main content</a>
-    <div class="container">
-        <div id="logo-container">
-            <a title="UCI - Donald Bren School of Information and Computer Sciences Logo" href="/">
-                <div class="header-logo01 w-100 d-none d-md-block">
-                    <img src="/bin/img/logos/UCI17_Bren_ICS_2L_white-1200.png" alt="UCI Donald Bren School of Information and Computer Sciences - logo" />
-                </div>
-                <div class="header-logo02 d-block w-100 d-md-none text-center">
-                    <img src="/bin/img/logos/UCI17_Bren_ICS_2L_white-1200.png" alt="UCI Donald Bren School of Information and Computer Sciences - logo" />
-                </div>
-            </a>
-        </div>
-    </div>
-</div>
-<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-ics-yellow" aria-label="Main menu">
-    <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-link nav-link-home d-block w-100 d-md-none">
-                    <a href='/'>HOME</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="/about/" id="navbarDropdownMenuLink-about" aria-haspopup="true" aria-expanded="false">ABOUT</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-about">
-                        <li>
-                            <a class="dropdown-item" href='/about/'>About the School</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/about/about_deanmsg.php'>Dean's Welcome</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/about/about_factsfigures.php'>Facts and Figures</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/about/brenhall/index.php'>Donald Bren Hall</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/about/visit/index.php'>Visit the Bren School</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/about/equity/'>Equity & Diversity
-                            </A>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/about/about_contact.php'>Contact Us</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="/dept/" id="navbarDropdownMenuLink-departments" aria-haspopup="true" aria-expanded="false">DEPARTMENTS</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-research">
-                        <li>
-                            <a class="dropdown-item" href='//www.cs.uci.edu'>Computer Science</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='//www.informatics.uci.edu'>Informatics</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='//www.stat.uci.edu'>Statistics</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="/faculty/area/" id="navbarDropdownMenuLink-research" aria-haspopup="true" aria-expanded="false">RESEARCH</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-faculty">
-                        <li>
-                            <a class="dropdown-item" href='/faculty/area/'>Research Areas</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/faculty/centers/'>Research Centers</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/faculty/highlights/'>Research Highlights</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-students" aria-haspopup="true" aria-expanded="false">STUDENTS</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-students">
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-item dropdown-toggle" href="/grad/admissions/index">Graduate &#x25B8;</a>
-                            <ul class="dropdown-menu dropdown-menu-color">
-                                <li>
-                                    <a class='dropdown-item' href='/grad/admissions/index-orientationbackupOct12'>Orientation</a>
-                                </li>
-                                <li>
-                                    <a class='dropdown-item' href='/grad/admissions/index'>Prospective Students</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/grad/admissions/Prospective_ApplicationProcess.php'>How to Apply</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/grad/degrees/index'>Programs of Study</a>
-                                </LI>
-                                <li>
-                                    <a class="dropdown-item" href='/grad/courses/index-course'>Academic Year Plan</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/grad/Course_updates'>Course Updates</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/grad/forms_policies/index'>Forms And Policies</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/grad/admissions_faq/index'>Admissions FAQ</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/grad/funding/index'>Funding</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/grad/funding/housing'>Housing</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='//swiki.ics.uci.edu/doku.php'>Computing Support</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/grad/resources'>Campus Resources</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/about/visit/index'>Visit the Bren School</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/grad/index'>Contact</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-item dropdown-toggle" href="/ugrad/">Undergraduate &#x25B8;</a>
-                            <ul class="dropdown-menu dropdown-menu-color">
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/index'>Contact</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/sao/index'>Academic Advising</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/sao/Course_updates'>Course Updates</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/courses/index-course'>Academic Year Plan</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/QA_Petitions'>Petitions</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/degrees/index.php'>ICS Majors</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/degrees/Minors'>ICS Minors</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/policies/Academic_Honesty'>Policies: Academic Integrity</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/policies/Academic_Standing'>Policies: Academic Standing</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/policies/Add_Drop_ChangeOption'>Policies: Add, drop, &amp; change options</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/policies/Course_Outside_UCI'>Policies: Coursework outside UCI</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/policies/Grade_Options'>Policies: Grade policy</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/policies/Laptop_ComputerUse'>Policies: Laptop &amp; computer use</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/policies/Withdrawal_Readmission'>Policies: Withdrawal/Readmission</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/policies/CS199_IN4MATX199'>Policies: CS 199 / IN4MATX 199 Courses</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/QA_Graduation'>Graduation</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/resources/index'>ICS Student Life</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='/ugrad/sao/SAO_Events.php'>Upcoming Events</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href='//swiki.ics.uci.edu/doku.php'>Computing Support</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/community/scholarships/index'>Scholarships & Fellowships</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='//uci.joinhandshake.com/login'>Student Jobs & Internships</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="/about/search/" id="navbarDropdownMenuLink-people" aria-haspopup="true" aria-expanded="false">PEOPLE</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-people">
-                        <li>
-                            <a class="dropdown-item" href='/faculty/'>Faculty</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/about/search/index.php'>Staff</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/about/search/search_graduate_all.php'>Graduate Students</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-news_events" aria-haspopup="true" aria-expanded="false">NEWS & EVENTS</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-news_events">
-                        <li>
-                            <a class="dropdown-item" href='/community/news/'>Newsroom</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='//campusgroups.uci.edu/ics/events/'>Events</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/social/'>Social Media</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/about/annualreport/'>Publications</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="/involved/" id="navbarDropdownMenuLink-get_involved" aria-haspopup="true" aria-expanded="false">GET INVOLVED</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-get_involved">
-                        <li>
-                            <a class="dropdown-item" href='https://secure.give.uci.edu/give-to-uci-donald-bren-school-of-information-computer-sciences/'>Make a Gift
-                                <i class="fas fa-gift"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/involved/leadership_council'>Leadership Council</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/involved/corporate_partner'>Corporate Partners</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='//www.ics.uci.edu/involved/project_sponsor' target='_blank' rel='nofollow noopener'>Sponsor Projects</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/community/events/competition/'>Product Development Competition</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href='/community/alumni/'>Alumni</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="float-right">
-            <form class="form-inline my-2 my-md-0" name="searchform" action="//search.uci.edu/" method="get" id="searchform">
-                <input type="hidden" name="client" value="uci_full">
-                <input type="hidden" name="site" value="uci_full">
-                <input type="hidden" name="proxystylesheet" value="uci_full">
-                <input type="hidden" name="ie" value="UTF-8">
-                <input type="hidden" name="oe" value="UTF-8">
-                <input type="hidden" name="num" value="10">
-                <input type="hidden" name="btnG" value="Search+UC+Irvine">
-                <input type="hidden" name="as_occt" value="any">
-                <input type="hidden" name="as_dt" value="i">
-                <input type="hidden" name="as_sitesearch" value="ics.uci.edu">
-                <input name="collection" type="hidden" value="37" />
-                <input title="Search ICS Website" id="query" class="form-control" onfocus="clear_textbox()" name="q" size="9" maxlength="300" placeholder="Search ICS" autocomplete="off" type="text">
-                <div class="auto_complete" id="results" align="center" size="100" maxlength="500" height="500"></div>
-                <input type="hidden" id="results_selected" name="sel">
-                <input type="hidden" name="start_pb" value="1">
-            </form>
-        </div>
-    </div>
-</nav><section id="mid-section">
-<div class="container">
-<div class="row">
-<div class="col-md-8" id="mid-content"><!-- before breadcrumb_nav() print -->
-<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/community/">Community</a> &#47; <a href="https://www.ics.uci.edu/community/news/">News</a> &#47; <a href="https://www.ics.uci.edu/community/news/press/">Press releases</a>] --><A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/community/">Community</a> &#47; <a href="https://www.ics.uci.edu/community/news/">News</a> &#47; <a href="https://www.ics.uci.edu/community/news/press/">Press releases</a></div>
-<!-- after breadcrumb_nav() print -->
-<div id="content"><a id="startcontent" name="startcontent"></a> 
-<div id="c-title">Press release</div>
-<blockquote>
-<div id="c-text">
-
-<!-- inc publications_db -->
-
- <strong>January 30,  2013</strong><p><strong>UCI team finds new target for treating wide spectrum of cancers</strong><p>
-<DIV STYLE='margin-bottom: 2em; '>
-
-<iframe width="475" height="267" src="http://www.youtube.com/embed/P9t_oqY8-Fw" frameborder="0" allowfullscreen></iframe>
-
-<SMALL>UC Irvine researchers Peter Kaiser and Richard Lathrop discuss p53 and the implications it has for cancer research.</SMALL>
-
-</DIV>
-
-
-
-
-
-<P>
-<STRONG>Irvine, Calif., Jan. 30, 2013</STRONG> &mdash; UC Irvine biologists, chemists and computer scientists have identified an elusive pocket on the surface of the p53 protein that can be targeted by cancer-fighting drugs. The finding heralds a new treatment approach, as mutant forms of this protein are implicated in nearly 40 percent of diagnosed cases of cancer, which kills more than half a million Americans each year.
-
-<P>
-In an open-source study 
-<A HREF="http://www.nature.com/ncomms/journal/v4/n1/full/ncomms2361.html">published online</A> 
-this week in <I>Nature Communications</I>, the UC Irvine researchers describe how they employed a computational method to capture the various shapes of the p53 protein. In its regular form, p53 helps repair damaged DNA in cells or triggers cell death if the damage is too great; it has been called the &ldquo;guardian of the genome.&rdquo;
-
-<P>
-Mutant p53, however, does not function properly, allowing the cancer cells it normally would target to slip through control mechanisms and proliferate. For this reason, the protein is a key target of research on cancer therapeutics.
-
-
-
-<P>
-<img src="http://www.ics.uci.edu/bin/img/graphics/press_2013_01_30_p53_protein.jpg" 
-   STYLE='height: 150px; float: right; margin-left: 1em; '>
-
-
-
-<P>
-Within cells, p53 proteins undulate constantly, much like a seaweed bed in the ocean, making binding sites for potential drug compounds difficult to locate. But through a computational method called molecular dynamics, the UC Irvine team created a computer simulation of these physical movements and identified an elusive binding pocket that&rsquo;s open only 5 percent of the time.
-
-<P>
-After using a computer to screen a library of 2,298 small molecules, the researchers selected the 45 most promising to undergo biological assays. Among these 45 compounds, they found one, called stictic acid, that fits into the protein pocket and triggers tumor-suppressing abilities in mutant p53s.
-
-<P>
-While stictic acid cannot be developed into a viable drug, noted study co-leader Peter Kaiser, professor of biological chemistry, the work suggests that a comprehensive screening of small molecules with similar traits may uncover a usable compound that binds to this specific p53 pocket.
-
-<P>
-&ldquo;The discovery and pharmaceutical development of such a compound could have a profound impact on cancer treatments,&rdquo; Kaiser said. &ldquo;Instead of focusing on a specific form of the disease, oncologists could treat a wide spectrum of cancers, including those of the lung and breast.&rdquo; He added that there is currently one group of experimental drugs &ndash; called Nutlins &ndash; that stop p53 degradation, but they don&rsquo;t target protein mutations as would a drug binding to the newly discovered pocket.
-
-<P>
-The results are the culmination of years of labor by researchers with UC Irvine&rsquo;s Institute for Genomics & Bioinformatics and the Chao Family Comprehensive Cancer Center.
-
-<P>
-&ldquo;It&rsquo;s been a large and complex multidisciplinary effort,&rdquo; said Richard Lathrop, professor of computer science and co-leader of the study. &ldquo;We&rsquo;re working on the leading edge of what&rsquo;s possible, and a variety of skills and expertise is required to make progress. Hopefully, our research eventually will lead to drugs that target many different forms of cancer.&rdquo;
-
-<P>
-Hartmut Luecke, UC Irvine professor of molecular biology & biochemistry and physiology & biophysics, and Rommie Amaro, an assistant professor of computer science and pharmaceutical sciences who is now at UC San Diego, were other study co-leaders.
-
-<P>
-Additional UC Irvine team members included:
-<UL>
-   <LI>Laboratory assistant Faezeh Salehi with the Department of Computer Science;
-   <LI>Postdoctoral scholar Roberta Baronio, staff research associate Linda Hall, graduate student researcher Da-Wei Lin and undergraduate student Benjamin Chung with the Department of Biological Chemistry;
-   <LI>Graduate student Brad Wallentine and postdoctoral scholar Chiung-Kuang Chen with the Department of Molecular Biology & Biochemistry;
-   <LI>Richard Chamberlin, professor and chair of pharmaceutical sciences and professor of chemistry; and
-   <LI>G. Wesley Hatfield, professor of microbiology & molecular genetics and chemical engineering & materials science.
-</UL>
-
-<P>
-Former UC Irvine postdoctoral researcher Christopher Wassman and &Ouml;zlem Demir, a former UC Irvine postdoctoral scholar now at UC San Diego, also contributed.
-
-
-
-<P>
-This work was funded in part by the National Cancer Institute (grants R01CA112560 and T32CA009054), the National Institutes of Health (grants DP2-OD007237 and R01AI78000), the National Science Foundation (grants LRAC CHE060073N, CHE-0840513 and IIS-0326037) and the UC Irvine School of Medicine Dean&rsquo;s Triumvirate Grant.
-
-
-<P>
-<STRONG>About the University of California, Irvine</STRONG>: Founded in 1965, UCI is a top-ranked university dedicated to research, scholarship and community service. Led by Chancellor Michael Drake since 2005, UCI is among the most dynamic campuses in the University of California system, with more than 28,000 undergraduate and graduate students, 1,100 faculty and 9,400 staff. Orange County&rsquo;s second-largest employer, UCI contributes an annual economic impact of $4.3 billion. For more UCI news, visit http://news.uci.edu.
-
-<P>
-<STRONG>News Radio</STRONG>: UCI maintains on campus an ISDN line for conducting interviews with its faculty and experts. Use of this line is available for a fee to radio news programs/stations that wish to interview UCI faculty and experts. Use of the ISDN line is subject to availability and approval by the university.
-
-
-<p>
-
-
-<b>CONTACT:</b><br>	
-Tom Vasich <BR>
-Phone: (949) 824-6455 <BR>
-<A HREF="mailto:tmvasich@uci.edu">tmvasich@uci.edu</A>
-
-
-
-
-<br></div>
-</blockquote>
-</div>
-</div>
-<div class="col-md-4" id="s-bar">
-    <div>
-<div id="sidebar_title">More news and events</div>
-<ul>
-<li><a href="../index.php">News Stories</a></li>
-<li><a href="index.php">Press releases</a></li>
-<li><a href="http://www.youtube.com/UCIBrenICS">Video highlights</a></li>
-<li><a href="../../../about/annualreport/index.php">Annual reports</a></li>
-<li><a href="http://calendar.ics.uci.edu/calendar.php">Calendar of events</a></li>
-</ul>
-</div>
-<p style="margin: 2em 1em; font-size: 80%;">Media interested in interviewing ICS faculty, students or alumni should contact Matt Miller at <nobr>(949) 824-1562</nobr> or via email at <a href="mailto:matt.miller@uci.edu">matt.miller@uci.edu</a>.</p>
-    <div class="h-gap-30"></div>
-    <style>
-.adBanner{display:none;}
-.adBanner img{
-    border-radius:5px;
+			<style type="text/css">
+				.slide-excerpt { width: 50%; }
+				.slide-excerpt { bottom: 0; }
+				.slide-excerpt { left: 0; }
+				.flexslider { max-width: 1180px; max-height: 340px; }
+				.slide-image { max-height: 340px; }
+			</style><link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Department of Statistics - Donald Bren School of Information &amp; Computer Sciences &raquo; Feed" href="https://www.stat.uci.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Department of Statistics - Donald Bren School of Information &amp; Computer Sciences &raquo; Comments Feed" href="https://www.stat.uci.edu/comments/feed/" />
+<link rel="canonical" href="https://www.stat.uci.edu/seminar-series/seminar-series-2019-2020/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.stat.uci.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
 }
-.adBanner a:after{
-    display:none;
-    }
 </style>
-<div class="adBanner">
-<div class="row">
-<div class="col-12 text-center"></div>
-</div>
-</div>
-<div class="h-gap-30"></div>
-<a class="twitter-timeline" data-height="550" href="https://twitter.com/UCIbrenICS?ref_src=twsrc%5Etfw">Tweets by UCIbrenICS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<div class="h-gap-30"></div>
-<p class="social-button-sw"><a aria-pressed="true" class="btn btn-outline-primary btn-sm" href="//www.ics.uci.edu/social/" role="button">View Social Media</a></p></div>
-</div>
-</div>
-</section>
-<section id="bottom-section">
-<div class="container">
-<!--<div id="links_bottom"><system-region name="LINKS-BOTTOM"/></div>-->
-<div id="nav-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 soc-cons foot-col1">
-                <div class="row row-ics_address">
-            		<p>
-                        Donald Bren School of Information and Computer Sciences<br>
-                		University of California, Irvine<br>
-    					6210 Donald Bren Hall<br>
-    					Irvine, CA 92697-3425
-                    </p>	 
-                </div>
-                <div class="row">
-                    <ul>
-<li><a title="Facebook" alt="Facebook" href="http://facebook.com/UCIBrenICS" target="_blank"> <i class="fab fa-facebook-square" alt="facebook"></i> </a></li>
-<li><a title="Instagram" href="http://instagram.com/ucibrenics/" target="_blank"> <i class="fab fa-instagram" alt="instagram"></i> </a></li>
-<li><a title="Twitter" href="http://twitter.com/UCIbrenICS" target="_blank"> <i class="fab fa-twitter-square" alt="twitter"></i> </a></li>
-<li><a title="LinkedIn" href="https://www.linkedin.com/company/uc-irvine-information-and-computer-sciences" target="_blank"> <i class="fab fa-linkedin" alt="linkedin"></i> </a></li>
-<li><a title="Youtube" href="http://youtube.com/UCIBrenICS" target="_blank"> <i class="fab fa-youtube-square" alt="square"></i> </a></li>
-</ul>                </div>
-            </div>
-            <div class="col-md-2 quk-links foot-col2">
-                <ul>
-    				<li><a href="https://uci.edu/">UCI Homepage</a></li>
-					<li><a href="https://directory.uci.edu/">UCI Directory</a></li>
-					<li><a href="https://www.ics.uci.edu/about/search/index.php">Faculty & Staff</a></li>
-                    <li><a href="https://www.ics.uci.edu/employment/">Employment</a></li>
-                    <li><a href="https://intranet.ics.uci.edu/">ICS Intranet</a></li>
-                    <li><a href="https://www.ics.uci.edu/resources/researchdevelopment/">Research Development</a></li>
-                    <li><a href="https://www.ics.uci.edu/about/kfflab/index.php">Kay Family Foundation Lab</a></li>
-                    <li><a href="https://www.ics.uci.edu/about/facilities/index.php">Facilities</a></li>
-            	</ul>
-            </div>
-            <div class="col-md-2 quk-links foot-col3">
-                <ul>
-					<li><a href="https://www.ics.uci.edu/community/news/">News</a></li>
-                    <li><a href="https://campusgroups.uci.edu/events?group_ids=54818">Events</a></li>
-					<li><a href="https://www.ics.uci.edu/about/visit/index.php">Map & Directions</a></li>
-					<li><a href="https://www.ics.uci.edu/accessibility/">Accessibility Statement</a></li>
-                    <li><a href="https://www.ics.uci.edu/about/about_safety.php">Safety Procedures</a></li>
-					<li><a href="https://uci.edu/privacy/index.php">Privacy Policy</a></li>
-                    <li><a href="https://www.ics.uci.edu/resources/coronavirus/">Coronavirus Resources</a></li>
-            	</ul>
-            </div>
-            <div class="col-md-2 quk-links foot-col4">
-                <ul>
-    				<li><a href="https://apply.grad.uci.edu/apply/">Apply</a></li>
-					<li><a href="https://www.ics.uci.edu/about/about_contact.php">Contact</a></li>
-					<li><a href="https://secure.connect.uci.edu/s/1735/interior-1col.aspx?sid=1735&gid=3&pgid=801&dids=79">Gift <i class="fas fa-gift"></i></a></li>
-            	</ul>
-            </div>
-        </div>
-        <div class="row copyrt-txt hr-top">
-            <div class="container"><p class="text-center"><a href="https://uci.edu/copyright/">&#169;&#160; UCI Donald Bren School of Information & Computer Sciences</a></p></div>
-        </div>
-    </div>
-</div><!--<div id="footer"><system-region name="FOOTER"/></div>-->
-</div>
-</section>
-<!-- Back To Top Btn -->
-<div id="btt-btn"><!-- Back To Top Btn --><a href="#" id="back2Top" title="Back to top">&#10148;</a></div>
+	<link rel='stylesheet' id='genesis-sample-theme-css'  href='https://www.stat.uci.edu/wp-content/themes/genesis-stats-retry/style.css?ver=2.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.stat.uci.edu/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='feedzy-rss-feeds-css'  href='https://www.stat.uci.edu/wp-content/plugins/feedzy-rss-feeds/css/feedzy-rss-feeds.css?ver=3.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='collapseomatic-css-css'  href='https://www.stat.uci.edu/wp-content/plugins/jquery-collapse-o-matic/light_style.css?ver=1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700&#038;ver=2.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='slider_styles-css'  href='https://www.stat.uci.edu/wp-content/plugins/genesis-responsive-slider/assets/style.css?ver=1.0.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.stat.uci.edu/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.stat.uci.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://www.stat.uci.edu/wp-content/themes/genesis/lib/js/html5shiv.min.js?ver=3.7.3' id='html5shiv-js'></script>
+<![endif]-->
+<script type='text/javascript' src='https://www.stat.uci.edu/wp-content/themes/genesis-stats-retry/js/jquery.collapse.js?ver=6.0.2' id='custom-collpase-js'></script>
+<link rel="https://api.w.org/" href="https://www.stat.uci.edu/wp-json/" /><link rel="alternate" type="application/json" href="https://www.stat.uci.edu/wp-json/wp/v2/pages/1644" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.stat.uci.edu/xmlrpc.php?rsd" />
+<link rel="alternate" type="application/json+oembed" href="https://www.stat.uci.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.stat.uci.edu%2Fseminar-series%2Fseminar-series-2019-2020%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.stat.uci.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.stat.uci.edu%2Fseminar-series%2Fseminar-series-2019-2020%2F&#038;format=xml" />
+<link rel="pingback" href="https://www.stat.uci.edu/xmlrpc.php" />
+<link rel="icon" href="https://www.stat.uci.edu/wp-content/uploads/cropped-UCIlogo-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://www.stat.uci.edu/wp-content/uploads/cropped-UCIlogo-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.stat.uci.edu/wp-content/uploads/cropped-UCIlogo-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://www.stat.uci.edu/wp-content/uploads/cropped-UCIlogo-270x270.jpg" />
+		<style type="text/css" id="wp-custom-css">
+			.rss_header { display: none;}
 
-<script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-        </script>
- <script type="text/javascript">
-        var pageTracker = _gat._getTracker("UA-605898-1");
-        pageTracker._trackPageview();
-        </script>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript">
-</script>
- <script crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" type="text/javascript">
-</script>
- <script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" type="text/javascript">
-</script>
-<script src="../../../bin/js/btt.js" type="text/javascript">
-</script>
-<!-- Accessibilty - START -->
-<script type="text/javascript">
-var _userway_config = {
-/* uncomment the following line to override default position*/
-/* position: '2', */
-/* uncomment the following line to override default size (values: small, large)*/
-/* size: 'small', */
-/* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
-/* language: 'en-US', */
-/* uncomment the following line to override color set via widget (e.g., #053f67)*/
-/* color: '#0064a4', */
-/* uncomment the following line to override type set via widget(1=person, 2=chair, 3=eye)*/
-/* type: '1', */
-/* uncomment the following line to override support on mobile devices*/
-/* mobile: true, */
-account: 'GTYOD4aROB'
-};
-</script>
-<script src="https://cdn.userway.org/widget.js" type="text/javascript"></script>
-<!-- Accessibilty - END -->
+/*faculty images*/
+.people_table img{
+	width:150px;
+}
+
+.home_boxes_wrap {
+    width: 100%;
+}
+.home_boxes_wrap, .project-boxes_wrap {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 24px;
+}
+.profile_boxes_single, .project-box_single {
+    float: left;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+.District-Book {
+    font-family: District-Book;
+    font-weight: normal;
+    font-style: normal;
+}
+.profile_boxes_blurb {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background: url(/wp-content/themes/informatics/i/black70.png);
+    width: 100%;
+    overflow: hidden;
+}		</style>
+		</head>
+<body class="page-template-default page page-id-1644 page-child parent-pageid-132 header-image content-sidebar elementor-default elementor-kit-1805" itemscope itemtype="http://schema.org/WebPage"><div class="site-container"><header class="site-header" itemscope itemtype="http://schema.org/WPHeader"><div class="wrap"><div class="title-area"><h1 class="site-title" itemprop="headline"><a href="https://www.stat.uci.edu/">Department of Statistics - Donald Bren School of Information &amp; Computer Sciences</a></h1><h2 class="site-description" itemprop="description">Department of Statistics - Donald Bren School of Information &amp; Computer Sciences</h2></div><div class="widget-area header-widget-area"><section id="search-3" class="widget widget_search"><div class="widget-wrap"><form class="search-form" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction" method="get" action="https://www.stat.uci.edu/" role="search"><meta itemprop="target" content="https://www.stat.uci.edu/?s={s}"/><input itemprop="query-input" type="search" name="s" placeholder="Search this site..." /><input type="submit" value="Search"  /></form></div></section>
+</div></div></header><nav class="nav-primary" itemscope itemtype="http://schema.org/SiteNavigationElement"><div class="wrap"><ul id="menu-header-menu" class="menu genesis-nav-menu menu-primary"><li id="menu-item-84" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-84"><a href="#" itemprop="url"><span itemprop="name">Explore</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://www.stat.uci.edu/chairs-message/" itemprop="url"><span itemprop="name">Chair&#8217;s Welcome</span></a></li>
+	<li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154"><a href="https://www.stat.uci.edu/what-is-statistics/" itemprop="url"><span itemprop="name">What is Statistics?</span></a></li>
+	<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://www.stat.uci.edu/contact-the-department/" itemprop="url"><span itemprop="name">Contact the Department</span></a></li>
+	<li id="menu-item-555" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-555"><a href="https://www.stat.uci.edu/tutoring-resources/" itemprop="url"><span itemprop="name">Tutoring Resources</span></a></li>
+</ul>
+</li>
+<li id="menu-item-86" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-86"><a href="#" itemprop="url"><span itemprop="name">Faculty</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2306"><a href="https://www.stat.uci.edu/faculty/" itemprop="url"><span itemprop="name">Faculty Directory</span></a></li>
+	<li id="menu-item-87" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-87"><a href="https://recruit.ap.uci.edu/apply#donald-bren-school-of-information-and-computer-sciences" itemprop="url"><span itemprop="name">Job Opportunities</span></a></li>
+</ul>
+</li>
+<li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="https://www.stat.uci.edu/research/" itemprop="url"><span itemprop="name">Research</span></a></li>
+<li id="menu-item-38" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-38"><a href="#" itemprop="url"><span itemprop="name">Graduate Degrees</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190"><a href="https://www.stat.uci.edu/m-s-ph-d-in-statistics/" itemprop="url"><span itemprop="name">M.S. &#038; Ph.D. in Statistics</span></a></li>
+	<li id="menu-item-1739" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1739"><a href="https://mds.ics.uci.edu/" itemprop="url"><span itemprop="name">Master of Data Science</span></a></li>
+	<li id="menu-item-89" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-89"><a href="http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&#038;level=Graduate&#038;department=STATS&#038;program=ALL" itemprop="url"><span itemprop="name">Current Course Listings</span></a></li>
+	<li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="https://www.stat.uci.edu/grad-student-directory/" itemprop="url"><span itemprop="name">Graduate Student Directory</span></a></li>
+	<li id="menu-item-942" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-942"><a href="https://www.stat.uci.edu/statistics-internships-employment-opportunities/" itemprop="url"><span itemprop="name">Internships &#038; Employment Opportunities</span></a></li>
+	<li id="menu-item-964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-964"><a href="https://www.stat.uci.edu/employers-of-statistics-grad-students/" itemprop="url"><span itemprop="name">Employers of UCI Statistics Students</span></a></li>
+</ul>
+</li>
+<li id="menu-item-39" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-39"><a href="#" itemprop="url"><span itemprop="name">Undergraduate Degrees</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191"><a href="https://www.stat.uci.edu/slider/b-s-in-data-science/" itemprop="url"><span itemprop="name">B.S. in Data Science</span></a></li>
+	<li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100"><a href="https://www.stat.uci.edu/minor-in-statistics/" itemprop="url"><span itemprop="name">Minor in Statistics</span></a></li>
+	<li id="menu-item-88" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-88"><a href="http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&#038;level=Lower-Division&#038;department=STATS&#038;program=ALL" itemprop="url"><span itemprop="name">Current Course Listings</span></a></li>
+</ul>
+</li>
+<li id="menu-item-884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-884"><a href="#" itemprop="url"><span itemprop="name">News &#038; Seminars</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-883" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-883"><a href="http://www.stat.uci.edu/news/" itemprop="url"><span itemprop="name">News</span></a></li>
+	<li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-139"><a href="https://www.stat.uci.edu/seminar-series/" itemprop="url"><span itemprop="name">Seminars</span></a></li>
+</ul>
+</li>
+<li id="menu-item-159" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-159"><a href="https://statconsulting.ics.uci.edu/" itemprop="url"><span itemprop="name">Center for Statistical Consulting</span></a></li>
+</ul></div></nav><div class="site-inner"><div class="content-sidebar-wrap"><main class="content"><article class="post-1644 page type-page status-publish entry" itemscope itemtype="http://schema.org/CreativeWork"><header class="entry-header"><h1 class="entry-title" itemprop="headline">Seminar Series 2019-2020</h1> 
+</header><div class="entry-content" itemprop="text">
+<!--
+<p>For the Spring 2020 Seminar Series, all talks will take place at 4 p.m. on Thursdays from April 9-May 7 and 4 p.m. on Tuesdays from May 12-June 2 live on <a href="https://uci.zoom.us/j/700695554" target="_blank" rel="noopener noreferrer">Zoom</a>.</p>
+-->
+
+
+
+<p>For additional information, please contact Seminar Administrative Coordinator: Lisa Stieler at <a title="E-mail Lisa Stieler" href="mailto:lstieler@uci.edu">lstieler@uci.edu</a> or (949) 824-3806.</p>
+<p>Past Statistics Seminar Series:<br>
+<a href="http://www.stat.uci.edu/seminar-series/seminar-series-2018-2019/">2018-19</a><span class="date-dot"> • </span><a href="http://www.stat.uci.edu/seminar-series/seminar-series-2017-2018/">2017-18</a><span class="date-dot"> • </span><a href="http://www.stat.uci.edu/seminar-series/seminar-series-2016-2017/">2016-17</a><span class="date-dot"> • </span><a href="http://www.stat.uci.edu/seminar-series/seminar-series-2015-2016/">2015-16</a><span class="date-dot"> • </span><a href="http://www.stat.uci.edu/seminar-series/seminar-series-2014-2015">2014-15</a><span class="date-dot"> •<br></span><a href="seminar-series-2013-2014">2013-14</a><span class="date-dot"> • </span><a href="seminar-series-2012-2013">2012-13</a><span class="date-dot"> • </span><a href="seminar-series-2011-2012">2011-12</a><span class="date-dot"> • </span><a href="seminar-series-2010-2011">2010-11</a></p>
+
+
+
+
+
+<h3>Spring 2020</h3>
+
+
+<div class="seminar-list">
+
+
+<div class="row">
+	<img src="" align="right">April 9<br>
+	<strong>Annie Qu</strong><br>
+	UC Irvine<br>
+	<b><a href="https://www.stat.uci.edu/wp-content/uploads/AnnieQuAbstract4-19-20-1.pdf" target="_blank" rel="noopener noreferrer">“Integrating Multi-source Block-wise Missing Data in Model Selection”</a></b><br>
+        Join seminar via <a href="https://uci.zoom.us/j/700695554" target="_blank" rel="noopener noreferrer">Zoom</a>.
 </div>
-</body>
-</html>
+
+<div class="row">
+	<img src="" align="right">April 16<br>
+	<strong>Fabrizio Ruggeri</strong><br>
+	Italian National Research Council in Milano<br>
+	<b><a href="https://www.stat.uci.edu/wp-content/uploads/FabrizioRuggeriAbstract4-16-20-1.pdf" target="_blank" rel="noopener noreferrer">“New Classes of Priors Based on Stochastic Orders: Theory and Applications in Reliability”</a></b><br>
+        Join seminar via <a href="https://uci.zoom.us/j/700695554" target="_blank" rel="noopener noreferrer">Zoom</a>.
+</div>
+
+
+<div class="row">
+	<img src="" align="right">April 23<br>
+	<strong>Krishna Balasubramanian</strong><br>
+	UC Davis<br>
+	<b><a href="https://www.stat.uci.edu/wp-content/uploads/KrishnaBalasubramanian4-23-20-1.pdf" target="_blank" rel="noopener noreferrer">“Normal Approximations for Stochastic Iterative Estimators (and Martingales)”</a></b><br>
+        Join seminar via <a href="https://uci.zoom.us/j/700695554" target="_blank" rel="noopener noreferrer">Zoom</a>.
+</div>
+
+
+<div class="row">
+	<img src="" align="right">April 30<br>
+	<strong>Jessica Utts</strong><br>
+	UC Irvine<br>
+        <b><a href="https://www.stat.uci.edu/wp-content/uploads/JessicaUttsAbstract4-30-20-1.pdf" target="_blank" rel="noopener noreferrer">“Enhancing Data Science Ethics through  Statistical Education and Practice”</a></b><br>
+        View the <a href="https://uci.zoom.us/rec/share/9_NFDuiq5GhOZrf911_TCpI-N5zGX6a82nRM_6FbnxyCP_dNIrHAcAk_eBn_NAju" target="_blank" rel="noopener noreferrer">seminar video</a>.<br>
+        Download the <a href="https://www.stat.uci.edu/wp-content/uploads/Enhancing-Data-Science-Ethics-through-Statistical-Education-To-Post.pdf" target="_blank" rel="noopener noreferrer">seminar slides (PDF)</a>.
+
+
+       
+</div>
+
+
+
+<div class="row">
+	<img src="" align="right">May 7<br>
+	<strong>Mengyang Gu</strong><br>
+	UC Santa Barbara<br>
+	<b><a href="https://www.stat.uci.edu/wp-content/uploads/MengyangGuAbstract5-7-20-1.pdf" target="_blank" rel="noopener noreferrer">“Orthogonality Meets Marginalization: Fast and Flexible Gaussian Processes for Large Correlated Data”</a></b><br>
+        Join seminar via <a href="https://uci.zoom.us/j/700695554" target="_blank" rel="noopener noreferrer">Zoom</a>.
+</div>
+
+ 
+<div class="row">
+	<img src="" align="right">May 12<br>
+	<strong>Mine Dogucu</strong><br>
+	UC Irvine<br>
+	<b><a href="https://www.stat.uci.edu/wp-content/uploads/MineDogucuAbstract5-12-20-1.pdf" target="_blank" rel="noopener noreferrer">“Strategies and Tools for Fair and Efficient Grading”</a></b><br>
+        Join seminar via <a href="https://uci.zoom.us/j/700695554" target="_blank" rel="noopener noreferrer">Zoom</a>.
+</div>
+
+
+<div class="row">
+	<img src="" align="right">May 19<br>
+	<strong>Aurore Delaigle</strong><br>
+	University of Melbourne<br>
+        <b><a href="https://www.stat.uci.edu/wp-content/uploads/AuroreDelaigleAbstract5-19-20-1.pdf" target="_blank" rel="noopener noreferrer">“Estimating a Covariance Function from Fragments of Functional Data”</a></b><br>
+        Join seminar via <a href="https://uci.zoom.us/j/700695554" target="_blank" rel="noopener noreferrer">Zoom</a>.
+</div>
+
+
+<div class="row">
+	<img src="" align="right">May 26<br>
+	<strong>Wes Johnson</strong><br>
+	UC Irvine<br>
+        <b><a href="https://www.stat.uci.edu/wp-content/uploads/WesJohnsonAbstract5-26-2020.pdf" target="_blank" rel="noopener noreferrer">“Bayesian Disease Diagnosis and Diagnostic Testing”</a></b><br>
+        Join seminar via <a href="https://uci.zoom.us/j/700695554" target="_blank" rel="noopener noreferrer">Zoom</a>.
+</div>
+
+
+<div class="row">
+	<img src="" align="right">June 2<br>
+	<strong>Xiwei Tang</strong><br>
+	University of Virginia<br>
+        <b><a href="https://www.stat.uci.edu/wp-content/uploads/XiweiTangAbstract6-2-20-1.pdf" target="_blank" rel="noopener noreferrer">“Multivariate Temporal Point Process Regression”</a></b><br>
+        Join seminar via <a href="https://uci.zoom.us/j/700695554" target="_blank" rel="noopener noreferrer">Zoom</a>.
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+<h3>Fall 2019</h3>
+
+
+<div class="seminar-list">
+
+
+<div class="row">
+	<img src="http://www.stat.uci.edu/wp-content/uploads/VeronicaBerrocal.jpg" align="right">October 3<br>
+	<strong>Veronica Berrocal</strong><br>
+	UCI<br>
+	<b><a href="//www.stat.uci.edu/wp-content/uploads/BerrocalAbstract10-3-19.pdf" target="_blank" rel="noopener noreferrer">“Bayesian Spatio-temporal Disaggregation of Survey-based Estimates of Areal Proportions Accounting for Survey Design Effect”</a></b><br>
+</div>
+
+
+<div class="row">
+	<img src="http://www.stat.uci.edu/wp-content/uploads/SoniaPetrone.jpg" align="right">October 10<br>
+	<strong>Sonia Petrone</strong><br>
+	Bocconi University, Milan<br>
+	<b><a href="//www.stat.uci.edu/wp-content/uploads/SoniaPetroneAbstract10-10-19.pdf" target="_blank" rel="noopener noreferrer">“On a Quasi-Bayes Procedure for Recursive Learning in Mixture Models”</a></b><br>
+</div>
+
+
+<div class="row">
+	<img src="http://www.stat.uci.edu/wp-content/uploads/ShiweiLan.png" align="right">October 17<br>
+	<strong>Shiwei Lan</strong><br>
+	Arizona State University<br>
+	<b><a href="//www.stat.uci.edu/wp-content/uploads/ShiweiLanAbstract10-17-19docx.pdf" target="_blank" rel="noopener noreferrer">“Learning Temporal Evolution of Spatial Dependence”</a></b><br>
+</div>
+
+
+<div class="row">
+	<img src="http://www.stat.uci.edu/wp-content/uploads/JeffRouder.jpg" align="right">October 31<br>
+	<strong>Jeff Rouder</strong><br>
+	UCI<br>
+	<b><a href="//www.stat.uci.edu/wp-content/uploads/JeffRouderAbstract10-31-19.pdf" target="_blank" rel="noopener noreferrer">“Who Does That?  Using Order-Restricted Inference to Understand Qualitative and Quantitative Individual Differences in Cognition”</a></b><br>
+</div>
+
+
+<div class="row">
+	<img src="http://www.stat.uci.edu/wp-content/uploads/AlanGelfand.jpg" align="right">November 7<br>
+	<strong>Alan Gelfand</strong><br>
+	Duke University<br>
+	<b><a href="//www.stat.uci.edu/wp-content/uploads/AlanGelfandAbstract11-7-19.pdf" target="_blank" rel="noopener noreferrer">“Bayesian Analysis of Spatial Point Patterns”</a></b><br>
+</div>
+
+
+<div class="row">
+	<img src="http://www.stat.uci.edu/wp-content/uploads/SuryaTokdar.jpg" align="right">November 14<br>
+	<strong>Surya Tokdar</strong><br>
+	Duke University<br>
+	<b><a href="//www.stat.uci.edu/wp-content/uploads/SuryaTokdarAbstract11-14-19.pdf" target="_blank" rel="noopener noreferrer">“Joint Quantile Regression under Spatial Dependency”</a></b><br>
+</div>
+
+
+
+
+
+<div class="row">
+	November 19<br>
+	<strong>Marina Meila</strong><br>
+	University of Washington<br>
+	<b><a href="//www.stat.uci.edu/wp-content/uploads/MarinaMeilaAbstract_11-19-19.pdf" target="_blank" rel="noopener noreferrer">“Unsupervised Validation for Unsupervised Learning
+”</a></b><br>
+</div>
+
+
+
+
+<div class="row">
+	<img src="http://www.stat.uci.edu/wp-content/uploads/PeterMueller.jpg" align="right">November 21<br>
+	<strong>Peter Mueller</strong><br>
+	University of Texas, Austin<br>
+	<b><a href="//www.stat.uci.edu/wp-content/uploads/PeterMuellerAbstract11-21-19.pdf" target="_blank" rel="noopener noreferrer">“Bayesian Categorical Matrix Factorization via Double Feature Allocation”</a></b><br>
+	<em>OBSIDIAN SECURITY LECTURE</em>
+</div>
+
+
+<div class="row">
+	<img src="http://www.stat.uci.edu/wp-content/uploads/HepingZhang.jpg" align="right">December 5<br>
+	<strong>Heping Zhang</strong><br>
+	Yale University<br>
+	<b><a href="//www.stat.uci.edu/wp-content/uploads/HepingZhangAbstract12-5-19.pdf" target="_blank" rel="noopener noreferrer">“Back to the Basics: Residuals and Diagnostics for Generalized Linear Models”</a></b><br>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+<style> .seminar-list DIV { vertical-align: top; margin-bottom: 2em; } div.seminar-list .row { background: #FAFAFB; } div.seminar-list DIV { border-color: #ddd; border-style: solid; border-width: 0 0 1px 0; } div.seminar-list DIV { padding: 0.5em } .seminar-list IMG { height: 100px; margin: 0 0 1em 1em; } .date-dot { color: #888; margin: 0.5em; } </style>
+</div></article></main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+		<section id="recent-posts-3" class="widget widget_recent_entries"><div class="widget-wrap">
+		<h4 class="widget-title widgettitle">Latest News</h4>
+
+		<ul>
+											<li>
+					<a href="https://www.stat.uci.edu/ucis-master-of-data-science-to-launch-part-time-program-in-fall-2023/">UCI’s Master of Data Science to Launch Part-Time Program in Fall 2023</a>
+											<span class="post-date">October 10, 2022</span>
+									</li>
+											<li>
+					<a href="https://www.stat.uci.edu/new-faculty-spotlight-statistics-professor-hengrui-cai-strives-for-real-world-impact/">New Faculty Spotlight: Statistics Professor Hengrui Cai Strives for Real-World Impact</a>
+											<span class="post-date">September 22, 2022</span>
+									</li>
+											<li>
+					<a href="https://www.stat.uci.edu/socal-data-science-program-off-to-a-strong-start/">SoCal Data Science Program Off to a Strong Start</a>
+											<span class="post-date">September 21, 2022</span>
+									</li>
+											<li>
+					<a href="https://www.stat.uci.edu/undergraduates-conduct-biostatistics-research-at-new-summer-institute-at-uci/">Undergraduates Conduct Biostatistics Research at New Summer Institute at UCI</a>
+											<span class="post-date">September 13, 2022</span>
+									</li>
+											<li>
+					<a href="https://www.stat.uci.edu/professors-nan-and-gillen-receive-1-8m-grant-to-study-statistical-methods-for-alzheimers-research/">Professors Nan and Gillen Receive $1.8M Grant to Study Statistical Methods for Alzheimer’s Research</a>
+											<span class="post-date">August 29, 2022</span>
+									</li>
+					</ul>
+
+		</div></section>
+<section id="text-2" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget"><p><a href="//www.stat.uci.edu/news/">News Archive</a></p>
+</div>
+		</div></section>
+</aside></div></div><footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter"><div class="wrap">			<div class="group">
+
+				<div id="bren">
+						<a href="https://www.ics.uci.edu/"><img src="//www.cs.uci.edu/wp-content/uploads/DBren_InfoCompSc_logo-UPDATED.png"></a>
+				</div>
+
+				<div class="footer-info">
+					<UL>
+					   <LI>&copy; 2022 UC Regents</LI>
+					   <LI><A HREF="mailto:communications@ics.uci.edu">Feedback</A></LI>
+					   <LI><A HREF="https://uci.edu/privacy/">Privacy Policy</A></LI>
+					</UL>
+				</div><!-- .footer-info -->
+
+			</div>
+	</div></footer></div><script type='text/javascript'>
+var colomatduration = 'fast';
+var colomatslideEffect = 'slideFade';
+var colomatpauseInit = '';
+var colomattouchstart = '';
+</script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-605898-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type='text/javascript'>jQuery(document).ready(function($) {$(".flexslider").flexslider({controlsContainer: "#genesis-responsive-slider",animation: "fade",directionNav: 0,controlNav: 1,animationDuration: 1000,slideshowSpeed: 10000    });  });</script><script type='text/javascript' src='https://www.stat.uci.edu/wp-content/plugins/jquery-collapse-o-matic/js/collapse.js?ver=1.6.23' id='collapseomatic-js-js'></script>
+<script type='text/javascript' src='https://www.stat.uci.edu/wp-content/plugins/genesis-responsive-slider/assets/js/jquery.flexslider.js?ver=1.0.1' id='flexslider-js'></script>
+</body></html>

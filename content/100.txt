@@ -1,83 +1,80 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-
 <html>
-  <head>
-    <title>David Eppstein</title>
-    <link rel="stylesheet" href="stylesheet.css" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
 
-  <body>
-    <div class="outer">
-      <h1>David Eppstein</h1>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>aboutus</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta name="Microsoft Theme" content="none, default">
+<meta name="Microsoft Border" content="none, default">
+</head>
 
-      <div class="buffer">
-        <ul id="menu" class="optional">
-          <li><a href="index.html">About</a></li>
+<body>
 
-          <li><a href="contact.html">Contact</a></li>
+<div align="left">
+<table border="1" cellspacing="1" style="border-collapse: collapse; border: 1px solid #000080" width="701" id="AutoNumber6">
+  <tr>
+    <td width="699">
+    <img border="0" src="images/Architectures.jpg" width="695" height="67"></td>
+  </tr>
+</table>
+</div>
 
-          <li><a href="research.html">Research</a></li>
+<div align="left" style="width: 717; height: 44">
+  <!--webbot CLIENTSIDE 
+bot="Ws4FpEx" MODULEID="'navbars (Project)\bar1_off.xws'" PREVIEW="&lt;img src='images/navbar/bar1.gif?1907A073' editor='Webstyle4' border='0'&gt;" startspan  --><script src="xaramenu.js"></script><script Webstyle4 src="images/navbar/bar1.js"></script><noscript><img src="images/navbar/bar1.gif?1907A073" editor="Webstyle4"></noscript><!--webbot 
+bot="Ws4FpEx" endspan  --></div>
 
-          <li><a href="students.html">Students</a></li>
+<table border="2" cellpadding="4" cellspacing="4" style="border:1px solid #000080; border-collapse: collapse" width="698" id="AutoNumber3">
+  <tr>
+    <td width="100%" bgcolor="#000080">
+    <p align="center"><b><font face="Arial" size="2" color="#FFCC00">About Us</font></b></tr>
+  <tr>
+    <td width="100%">
+    <p align="center"><img border="0" src="event_pics/fqlunch04/4.jpg" width="640" height="480"></p>
+    <p align="center"><font face="Arial" color="#FF0000"><b>[Under Construction]</b></font><br>
+    </p>
+  </tr>
+</table>
 
-          <li><a href="teach.html">Classes</a></li>
+<br>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="698" id="AutoNumber7">
+  <tr>
+    <td width="100%">
+    <p align="center">
+<font size="1" face="Arial"><a href="http://www.ics.uci.edu/~aces/index.htm">Home</a> | 
+<a href="http://www.ics.uci.edu/~aces/projects.htm">Projects</a> | 
+<a href="http://www.ics.uci.edu/~aces/publications.htm">Publications</a> | 
+<a href="http://www.ics.uci.edu/~aces/news.htm">News &amp; Events</a> | 
+<a href="http://www.ics.uci.edu/~aces/people.htm">People</a> | 
+<a href="http://www.ics.uci.edu/~aces/sponsors.htm">Sponsors</a> | 
+<a href="http://www.ics.uci.edu/~aces/downloads.htm">Downloads</a> | 
+<a href="http://www.ics.uci.edu/~aces/links.htm">Links</a> | 
+<a href="http://www.ics.uci.edu/~aces/joinaces.htm">Join ACES</a> | 
+<a href="http://www.ics.uci.edu/~aces/aboutus.htm">About Us</a></font></p>
+    </td>
+  </tr>
+</table>
+<br><div align="center">
+  <center>
+  <table border="0" cellspacing="1" width="696" id="AutoNumber2" align="left">
+    <tr>
+      <td width="692" align="center">
+<address align="center">
+<span style="font-style: normal">
+<!--webbot CLIENTSIDE 
+bot="Ws4FpEx" MODULEID="'navbars (Project)\ACES.xws'" PREVIEW="&lt;img src='images/ACES.gif?1935C307' editor='Webstyle4' border='0'&gt;" startspan  --><img src="images/ACES.gif?1935C307" editor="Webstyle4" border="0"><!--webbot 
+bot="Ws4FpEx" endspan  --></span></address>
+<address align="center">
+  <font size="1">Please e-mail your comments and suggestions to Sudeep Pasricha 
+  (<a href="mailto:sudeep@ics.uci.edu">sudeep@ics.uci.edu</a>) <br>
+  © Copyright 1997-2004 ACES-UCI. All rights reserved</font></address>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
 
-          <li><a href="software.html">Software</a></li>
+</body>
 
-          <li><a class="active" href="recmath.html">Math Fun</a></li>
-        </ul>
-
-        <div class="inner">
-          <table cellpadding="5">
-            <tr valign="top">
-              <td><div class="optional"><img src="delicious.jpg"
-              width="320" height="400" alt="math is delicious">
-	      </div></td>
-
-              <td>
-                Like many, I was inspired early on by Martin Gardner's <i>Mathematical
-                Games</i> column, which included a mixture of puzzles, silliness,
-                curious/useless math, and quite serious (but not overly technical)
-                math. In that spirit, I've collected many pages and links of
-                recreational math web sites.
-                
-                <ul>
-                    <li><a href="http://www.ics.uci.edu/~eppstein/pubs/rec.html">My
-                    recreational math publications</a>.</li>
-                    
-                    <li><a href="numth/">Number Theory</a>. Implementations
-                    of some simple number-theoretic algorithms along with pointers to
-                    other number theory web pages.</li>
-                    
-                    <li><a href="cgt/">Combinatorial Game Theory</a>. Mathematical
-                    strategies for games like chess, go, and nim.</li>
-                    
-                    <li><a href="junkyard/">The Geometry Junkyard</a>.
-                    Many links to recreational geometry web pages, open problem lists,
-                    lecture notes, usenet postings, and
-                    brief blurbs from my own papers.  For more serious geometry links,
-                    see my <a href="geom.html">Geometry in Action</a> pages.</li>
-                    
-                    <li><a href="ca/">Gliders in "Life"-like cellular automaton
-                    rules</a>.</li>
-                </ul>
-              </td>
-            </tr>
-          </table>
-        </div>
-	<div id="menu" class="mobile">
-	  <a href="index.html">About</a>&nbsp;|
-          <a href="contact.html">Contact</a>&nbsp;|
-	  <a href="research.html">Research</a>&nbsp;|
-	  <a href="students.html">Students</a>&nbsp;|
-	  <a href="teach.html">Classes</a>&nbsp;|
-	  <a href="software.html">Software</a>&nbsp;|
-	  <a class="active" href="recmath.html">Math&nbsp;Fun</a></li>
-	</div>
-      </div>
-    </div>
-  </body>
 </html>
-

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<title>CS 274A | Winter 2022</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!--MATERIAL BELOW TO BE INCLUDED ON ALL SITE PAGES--> 
+<link rel="stylesheet" href="https://www.ics.uci.edu/~smyth/test/localw3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"> <!--mini icons--> 
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue.css">  <!-- color theme -->
+<link rel="stylesheet" type="text/css" href="https://www.ics.uci.edu/~smyth/localstyle.css">  <!-- my own style -->
+<link rel="stylesheet" type="text/css" href="https://www.ics.uci.edu/~smyth/mystyle.css">  <!-- my own style --->  
+<link rel="icon" type="image/png" href="https://news.uci.edu/wp-content/uploads/2014/12/favicon.png"/> <!-- favicon -->
+
+<body class="w3-animate-opacity">
+<!-- <div class="w3-main" style="margin-left:20px"> -->
+ <div style="margin-left:5%;  margin-right:10%;  margin-top:30px">  
+ 
+
+<!-- -------------------------------------------------------------------------------------------- -->
+
+ <p>
+ <br> 
+ 
+<h4> <span style="font-weight: bold;"> CS 274A: Probabilistic Learning: Theory and Algorithms, Winter 2022 </span></h4> 
+
+<h5> General Information </h5> 
+<ul>
+<li> Lectures on Monday and Wednesday, 9:30 to 10:50am. This will be a <b>remote course</b> for all 10 weeks in Winter 2022. Lectures will be on Zoom  at scheduled times with the Zoom link available via Canvas. Recordings of lectures will be available later for review.</li>  
+<li><b> Instructor: </b>  
+<a href="http://www.ics.uci.edu/~smyth">Professor Padhraic Smyth</a>: Office Hours (on Zoom), Thursdays 5:30 to 6:30</li> 
+<li>  <b> TA:</b>  Kun Han: Office Hours (on Zoom), Monday and Thursday afternoons, 4:30 to 5:30pm   </li> 
+<li><b>  
+<a href="syllabus.html">Syllabus and Schedule</a></b>  </li>
+<li> <b> Class Notes, Background Reading, Textbooks</a></b>: 
+ <ul>
+  <li> <a href="notes.html"> Class Notes and links to additional reading</a> </li>
+  <li> <a href="books.html"> Relevant Textbooks for additional reading</a>  </li> 
+  </ul>
+<li><b> Questions? </b> please use the Ed Discussion platform (accessible via Canvas) for all questions to the instructor and TA. You can post your questions publicly to the class (e.g., lecture or homework related clarification questions) or privately to the instructor or TA. Feel free to answer questions that other students post (e.g., clarification questions about lectures or homeworks). Please do not use email unless EdD does not work for some reason.</li>
+</ul>
+</p>
+
+<p>
+<h6> Background knowledge for taking this class </h6>
+Knowledge of basic concepts in probability, multivariate calculus, and linear algebra are important for this course. 
+A good understanding of basic concepts in probability is particularly important.  <br>
+<b> NOTE:</b> if you are not sure whether you have the relevant background or not, please read Chapters 5.1 to 5.5 and 6.1 to 6.5 in   <a href="https://mml-book.github.io/"><b> Mathematics for Machine Learning</b></a>: you should be comfortable with this material to take this class. 
+Alternatively, if you have already taken some ML and/or statistics courses, its possible that this course might mostly cover material you already know: please read the <a href="syllabus.html">course syllabus</a> to make sure this course is matched to your interests.
+</p>  
+
+
+<p>
+<h6>Homeworks</h6>
+<ul>
+<li> Approximately 5 or 6 homeworks during the quarter. Homeworks and deadlines will be posted here as they become available. Homeworks will be submitted and graded via Gradescope.
+
+<li>   <a href="homeworks/hw1_2022.pdf"><b>Homework 1</b></a>.   
+Due by 11:59pm Tuesday January 11th. 
+</li>
+<li> 
+<a href="homeworks/hw2_2022.pdf"><b> Homework 2</b></a>.   
+Due by 11:59pm Sunday Jan 23rd.
+</li> 
+<li> 
+<a href="homeworks/hw3_2022.pdf"><b> Homework 3</b></a>.   
+Due by 11:59pm Thursday Feb 3rd.
+</li> 
+<li> 
+<a href="homeworks/hw4_2022.pdf"><b> Homework 4</b></a>.   
+Due by 11:59pm Wednesday Feb 16th.
+</li> 
+<li>
+<a href="homeworks/hw5_2022.pdf"><b> Homework 5</b></a> with 
+<a href="homeworks/hw5.zip"><b> data and Python code</b></a>.   
+Due by 11:59pm Monday Feb 28th.
+</li> 
+<li>
+<a href="homeworks/hw6_2022.pdf"><b> Homework 6</b></a> with 
+<a href="homeworks/hw6_materials.zip"><b> datasets and Python templates</b></a>.   
+Due by 11:59pm Friday March 11th.
+</li> 
+<!--
+ | <a href="homeworks/hw2_2021.tex">LaTeX</a> |
+<li> <b> Homework 3 </b>  
+ | <a href="homeworks/hw3_2021.pdf">PDF</a> | <a href="homeworks/hw3_2021.tex">LaTeX</a> |  
+Due by 11:59pm Monday February 1st.
+</li> 
+<li> <b> Homework 4 </b>  
+ | <a href="homeworks/hw4_2021.pdf">PDF</a> | <a href="homeworks/hw4_2021.tex">LaTeX</a> |  
+  <a href="data/mnist_2s_and_6s.zip">data</a> |   
+Due by noon Sunday February 21st (extended from original deadline of 6pm Friday February 19th).
+</li> 
+<li> <b> Homework 5 </b>  
+ | <a href="homeworks/hw5_2021.pdf">PDF</a> | <a href="homeworks/hw5_2021.tex">LaTeX</a> |  
+Due by 11:59pm Monday March 1st.
+</li> 
+<li> <b> Homework 6 </b>  
+ | <a href="homeworks/hw6_2021_mixtures.pdf">PDF</a> | 
+ <a href="homeworks/hw6_2021_mixtures.tex">LaTeX</a> |  
+  <a href="homeworks/hw6_materials/">Data and Sample Code</a> |  
+Due by 11:59pm Friday March 12th.  Submit PDF report to Gradescope. Submit code to Canvas as a Zip file.
+</li> 
+-->
+ 
+</ul>
+</p>
+ 
+
+<p>
+<h6> Course Goals </h6>
+Students will develop a comprehensive understanding of probabilistic approaches to machine learning. 
+Probabilistic learning is a key component in many areas within modern computer science, 
+including artificial intelligence, data mining, speech recognition, computer vision, bioinformatics, and so forth. 
+The course will provide a tutorial introduction to the basic principles of probabilistic modeling and then 
+demonstrate the application of these principles to the analysis, development, and practical 
+use of machine learning algorithms.  Topics covered will include probabilistic modeling, 
+defining likelihoods, parameter estimation using likelihood and Bayesian techniques, 
+probabilistic approaches to classification, clustering, and regression, and related topics 
+such as model selection and bias/variance tradeoffs. References to approaches such as deep learning will be mentioned where appropriate, but be aware that this is not a course that goes into depth on deep learning methods.
+</p>
+
+<p>
+<h6> Grading Policy </h6>
+Final grades will be based on a combination of homework assignments and exams: 50% homeworks, 20% midterm, and 30% final. 
+Your lowest scoring homework will be dropped and not included in your score. No credit for late homeworks.  
+</p>
+
+<p>
+<h6> Academic Integrity </h6>
+Students are expected to be read and be familiar with the <a href="http://www.ics.uci.edu/~smyth/courses/academic_integrity">Academic
+Integrity Policy</a> for this class. 
+Failure to adhere to this policy can result in a student receiving a failing grade in the class.  
+</p>
+
+<!--- <p>
+<h6> UCI Catalogue Description </h6>
+Probabilistic Learning: Theory and Algorithms: A unified probabilistic framework for learning algorithms. 
+Classical pattern recognition algorithms, probabilistic mixture models, kernel methods, 
+hidden Markov models, among others. Multivariate data analysis concepts for classification and clustering. 
+Methodologies such as cross-validation and bootstrap. Prerequisites: basic calculus and linear algebra.  
+</p>
+--->
+  
+
+</body>

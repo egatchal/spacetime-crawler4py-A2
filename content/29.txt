@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-<title>honors program - apply @ the bren school of information and computer sciences</title>
+<title>Donald Bren School of Information and Computer Sciences </title>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
 <script src="https://use.fontawesome.com/f443bac96a.js"></script>
 <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/><link href="../../bin/styles/stylesheet_index2018_addon.css" rel="stylesheet" type="text/css"/>
 
-
-<meta content="Thu, 01 Sep 2022 15:49:50 -0380" name="date"/>
+<meta content="admission, student affairs" name="keywords"/>
+<meta content="Thu, 24 Jun 2021 15:14:27 -0380" name="date"/>
 
 </head>
 <body>
@@ -298,89 +298,104 @@
 <div class="container">
 <div class="row">
 <div class="col-md-8" id="mid-content"><!-- before breadcrumb_nav() print -->
-<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/ugrad/">Undergraduate</a> &#47; <a href="https://www.ics.uci.edu/ugrad/honors/">ICS Honors Program</a>] --><A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/ugrad/">Undergraduate</a> &#47; <a href="https://www.ics.uci.edu/ugrad/honors/">ICS Honors Program</a></div>
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/resources/">Student resources</a> &#47; <a href="https://www.ics.uci.edu/resources/researchdevelopment/"></a>] --><A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/resources/">Student resources</a> &#47; <a href="https://www.ics.uci.edu/resources/researchdevelopment/"></a></div>
 <!-- after breadcrumb_nav() print -->
 <div id="content"><a id="startcontent" name="startcontent"></a> 
-<div id="c-title">Apply</div>
+<div id="c-title">Research Development Resources</div>
 <blockquote>
-<div id="c-text"><p><span><strong>For a step-by-step summary of the ICS Honors Program process, please visit the&#160;<a href="program-overview.php">Program Overview Page</a>.</strong></span></p>
-<p><span><strong><br/>Requirements</strong></span></p>
-<p>Please be sure you have reviewed the program details and eligibility requirements listed below before applying. You are eligible to apply if you complete the following conditions by the end of the quarter in which you plan to apply.</p>
-<ul>
-<li>An overall GPA of at least 3.2</li>
-</ul>
-<ul>
-<li>A GPA of at least 3.5 in the courses listed below:
-<ul>
-<li>Group 1 courses &#8211; Computing (for any major, one of the following):<br/>
-<ul>
-<li>ICS 31, 32, 33, 45J (BIM or INF ONLY) &#8211; OR &#8211;</li>
-<li>ICS 31, 32, 33, 45C, 46 (CGS, CS, CSE, DS, SE)&#160;&#8211; OR &#8211;</li>
-<li>GDIM 31, 32, 33, 25, 27 (GDIM ONLY)</li>
-</ul>
-</li>
-<li>Group 2 courses &#8211; Math (for any major, one of the following):
-<ul>
-<li>Math 2A-B (BIM, CGS, CS, CSE, DS, SE)&#160;&#8211; OR &#8211;</li>
-<li>Stats 7 and ICS 6B (INF ONLY)&#160;&#8211; OR &#8211;</li>
-<li>Stats 6 (GDIM ONLY)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><span><strong>Application<br/></strong></span></p>
-<p>The application has two parts:</p>
-<ol>
-<li>The deadline to submit an application for 2022-2023 Honors Program was&#160;<strong>Friday, May 27, 2022 at 5 pm</strong>. The&#160;Online Application will ask for your GPA in a set of required courses, the names of two faculty references, and a one-page statement about yourself and your intellectual achievements, accomplishments and goals. You may wish to indicate any research projects (e.g. CS 199, INF 199, or STATS 199) in which you have been actively involved.</li>
-<li>As part of your application, you will need two faculty references. Please direct them to the&#160;Faculty References form so they may answer a few short questions about their experience with you.&#160; The deadline to submit faculty references was <strong>Friday, June 3, 2022 at 5 pm.</strong>&#160;<strong>Faculty references must be from the Bren School of ICS.</strong></li>
-</ol>
+<div id="c-text"><style><!--
+#breadcrumbs {
+    display: none;
+    visibility: hidden;
+}
 
-<p><strong>After You Apply</strong></p>
-<p>Decisions will be sent out via email after Spring grades are released. If you are admitted into the program, your decision email will contain an authorization code to enroll in ICS H197 in the Fall.</p></div>
+iframe#twitter-widget-0,
+.twitter-timeline,
+.social-button-sw,
+#s-bar a:after {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.pri_ul {
+    list-style-type: none;
+}
+
+.sec_ul {
+    list-style-type: disc;
+}
+--></style>
+<h2>Pre-award documents</h2>
+<strong>Proposal Boilerplate Text</strong>
+<div class="boilerplatetext">
+<ul class="pri_ul">
+<li><strong>Facilities, Equipment and Other Resources</strong>
+<ul class="sec_ul">
+<li><a href="https://docs.google.com/document/u/0/d/1s7bASJwTnQkLG4RZsSAuAu1JiiRGDRspGT9Ituo3QNk/edit" rel="noopener nofollow" target="_blank">UCI General Facilities</a></li>
+<li><a href="https://docs.google.com/document/d/1B9FFcgLqipuTnSCObK9-Mja8TY6JW5iUzfVGnqWEC08/edit?usp=sharing" rel="noopener nofollow" target="_blank">ICS related facilities, Equipment and other resources</a></li>
+<li><a href="https://docs.google.com/document/u/0/d/11dW1Z-5Nzb8uJdkCTfT6oIpb9_ETo8Q8h0MdZIsVruE/edit" rel="noopener nofollow" target="_blank">Other UCI Resources</a></li>
+<li><a href="https://docs.google.com/document/u/0/d/1gJchc8SQ7t7v5mfy6iaCccWVY89Ub1QDgvcQo182HgI/edit" rel="noopener nofollow" target="_blank">UCI Research Cyberinfrastructure Center</a></li>
+</ul>
+</li>
+<li><strong>UCI Graduate Division Text</strong>
+<ul class="sec_ul">
+<li><a href="https://drive.google.com/file/d/1Wljuzc37TdEduKRdKB-uvaB05q77C9Ef/view?usp=sharing" rel="noopener nofollow" target="_blank">Postdoc resource Boilerplate text</a></li>
+<li><a href="https://drive.google.com/file/d/10wgsLso4aiUTPzfH2Vn20PYM5fap8B4B/view?usp=sharing" rel="noopener nofollow" target="_blank">Campus Resources for Graduate Students</a></li>
+<li><a href="https://drive.google.com/file/d/1EPQ9lHI0hR-nd7EeoXkMbTwBrsCl8_Ha/view?usp=sharing" rel="noopener nofollow" target="_blank">Graduate Division Recruitment and Retention Activities</a>&#160;</li>
+</ul>
+</li>
+<li><strong>Data Management Plan</strong>
+<ul class="sec_ul">
+<li><a href="https://dmptool.org" rel="noopener nofollow" target="_blank">DMPTool</a>: Use a click-through wizard (AD integrated) to create a data management plan that complies with funder requirements.</li>
+<li><a href="http://datasharing.sparcopen.org/data" rel="noopener nofollow" target="_blank">SPARC Open Data </a>(Federal): Browse Data Sharing Requirements by Federal Agency.</li>
+<li><a href="https://dmptool.org/public_templates" rel="noopener nofollow" target="_blank">DMPTool</a>: See templates by funder data requirements.</li>
+<li><a href="https://fairsharing.org" rel="noopener nofollow" target="_blank">FAIRsharing</a>: Search data and metadata standards inter-related to databases and data policies by discipline.</li>
+<li><a href="https://www.loc.gov/preservation/resources/rfs/" rel="noopener nofollow" target="_blank">Library of Congress</a>: Learn about recommended file formats for data sharing and preservation.</li>
+<li><a href="https://gatesopenresearch.org/documents/5-47" rel="noopener nofollow" target="_blank">Data Sharing Toolkit</a>: See the Gates Foundation&#8217;s guide on data management plan.</li>
+</ul>
+</li>
+<li><strong>SciEncv Resources</strong>
+<ul class="sec_ul">
+<li><a href="https://researchdata.princeton.edu/research-lifecycle-guide/sciencv-biosketches-and-orcid-id" rel="noopener nofollow" target="_blank">SciENcv Biosketches and ORCID iD instructions</a> (from Princeton Research Data Services)</li>
+<li><a href="https://www.youtube.com/watch?v=G_cKSRr7TJ4" rel="noopener nofollow" target="_blank">SciENcv: Integrating with ORCID &#8211; video</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="nsfResources"><strong>NSF Resources</strong>
+<ul class="pri_ul">
+<li><a href="https://drive.google.com/file/d/12wL2XU--yGQlYmnw8664Gmsl3OzLpOLh/view?usp=sharing" rel="noopener nofollow" target="_blank">Checklist</a></li>
+<li><a href="https://docs.google.com/document/d/1cnSvKTdPftvSrauIa2vdtts263YPfCvBBksVkCcWZhQ/edit?usp=sharing" rel="noopener nofollow" target="_blank">Broader impact</a></li>
+<li><a href="https://docs.google.com/document/u/0/d/1M2eclBE8QOq8qrsMo7OUjyDuJ85PnRNLRFNhgYQGIM0/edit" rel="noopener nofollow" target="_blank">Data management plan guidelines and template</a></li>
+<li><a href="https://docs.google.com/document/u/0/d/15iMw3LlArAnGIwf-lzDfaiRG9JAoa0FZvzNxaa1t8wE/edit" rel="noopener nofollow" target="_blank">Facilities, Equipment and Other Resources Template</a></li>
+<li><strong>Postdoctoral mentoring plan</strong>
+<ul class="sec_ul">
+<li><a href="https://docs.google.com/document/u/0/d/1vglqCSAhCW9Faehk_c6jh7drQ-WFTdqaJdOTPo_qJIw/edit" rel="noopener nofollow" target="_blank">PMP guidelines and template</a></li>
+<li><a href="https://docs.google.com/document/d/1cYLuakm_hFDTrPcfRVJDsWlL4VvsJ6wSwpsm9RK6d4k/edit?usp=sharing" rel="noopener nofollow" target="_blank">PMP example</a></li>
+</ul>
+</li>
+<li><strong>Bio Sketch and Current and Pending Support</strong>
+<ul class="sec_ul">
+<li><a href="https://docs.google.com/document/u/0/d/1w0yK9LZ8YSmTXA7QhNzJx8Z40Dxh7VQh6GkWYDZ7SxU/edit" rel="noopener nofollow" target="_blank">Bio Sketch and CPS instructions</a></li>
+<li><a href="https://www.nsf.gov/bfa/dias/policy/nsfapprovedformats/biosketch.pdf" rel="noopener nofollow" target="_blank">Approved NSF fillable pdf Bio Sketch form</a></li>
+<li><a href="https://www.nsf.gov/bfa/dias/policy/nsfapprovedformats/cps.pdf" rel="noopener nofollow" target="_blank">Approved NSF fillable pdf Current and Pending Support form</a></li>
+<li><a href="https://www.youtube.com/watch?v=nk7qlbele0k" rel="noopener nofollow" target="_blank">SciENcv for NSF Users: Biographical Sketches</a></li>
+<li><a href="https://youtu.be/sYk_5dC3lbA" rel="noopener nofollow" target="_blank">SciENcv Tutorial for Creating NSF-Compliant Biographical Sketches and Current and Pending Support</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<strong>NIH Resources</strong>
+<p>(Coming late July)</p>
+<strong><a href="https://drive.google.com/file/d/1gxhUp6Gkvs8VV2eJsvE_011-lCEXsYuc/view?usp=sharing" rel="noopener nofollow" target="_blank">Early Career Funding Opportunities</a></strong></div>
 </blockquote>
 </div>
 </div>
 <div class="col-md-4" id="s-bar">
-    <div id="sidebar_title">More Undergraduate</div>
-<ul>
-<li><a href="../index.php">Contact</a></li>
-<li><a href="../sao/SAO_News_and_Updates.php">News and Updates</a></li>
-<li><a href="../sao/index.php">Academic advising</a></li>
-<li><a href="../sao/Course_updates.php">Course updates</a></li>
-<li><a href="../courses/index.php">Academic year plan</a></li>
-<li><a href="../degrees/index.php">ICS majors</a>
-<ul class="s-bar-sub">
-<li><a href="../sao/GDIM_FAQ_Page.php">GDIM FAQ page</a></li>
-<li><a href="../degrees/Double_Majors.php">Double major</a></li>
-<li><a href="../degrees/Second_BA.php">2nd baccalaureate</a></li>
-</ul>
-</li>
-<li><a href="../degrees/Minors.php">ICS minors</a></li>
-<li><a href="../advising/ICS New Student Welcome.php">Newly Admitted to ICS</a></li>
-<li><a href="../QA_Petitions.php">Petitions &amp; Forms</a></li>
-<li><a href="/ugrad/policies/">Policies</a>
-<ul class="s-bar-sub">
-<li><a href="../policies/Academic_Honesty.php">Academic honesty</a></li>
-<li><a href="../policies/Academic_Standing.php">Academic standing</a></li>
-<li><a href="../policies/Add_Drop_ChangeOption.php">Add, drop, &amp; change options</a></li>
-<li><a href="../policies/Change_of_Major.php">Change of Major</a></li>
-<li><a href="../sao/Concurrent_Enrollment.php">Concurrent Enrollment</a></li>
-<li><a href="../policies/Course_Outside_UCI.php">Coursework outside UCI</a></li>
-<li><a href="../policies/CS199_IN4MATX199.php">CS 199 / IN4MATX 199</a></li>
-<li><a href="../policies/Grade_Options.php">Grade policy</a></li>
-<li><a href="../advising/ICS Credit by Exam.php">ICS Credit by Exam</a></li>
-<li><a href="../policies/Laptop_ComputerUse.php">Laptop &amp; computer use</a></li>
-<li><a href="../policies/Withdrawal_Readmission.php">Withdrawal/Readmission</a></li>
-<li><a href="../policies/ICS_192_Enrollment_CPT_OPT.php"><span>ICS 192 Enrollment/CPT&amp;OPT</span></a></li>
-</ul>
-</li>
-<li><a href="../QA_Graduation.php">Graduation</a></li>
-<li><a href="../resources/index.php">ICS student life</a></li>
-<li><a href="index.php">ICS Honors Program</a></li>
-<li><a href="../../../computing/account/new.php">Computing support</a></li>
-<li><span><a href="../resources/Title_IX_Resources.php">Title IX Resources</a></span></li>
-</ul>
+    <!-- start right hand side bar -->
+<p>Use your @ics.uci.edu google account to access these resources.</p>
+<div id="sidebar_title">Contact:</div>
+<strong>Director of Research Development</strong><br/> Darine Zaatari<br/> Email: <a href="mailto:dzaatari@uci.edu">dzaatari@uci.edu</a><br/> Ph: (949) 824-7068
     <div class="h-gap-30"></div>
     <style>
 .adBanner{display:none;}
