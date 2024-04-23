@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+    <TITLE>Yunan Chen MBBS, PhD, UCI</TITLE>
+	<STYLE>A:link {color:Blue; text-decoration: none;} A:visited{color:Blue;} A:hover{color:Red;}</STYLE>
+</HEAD>
+<BODY style='margin:0;background-color:Black;font-family:Arial;font-size:14px'>
+	
+    <TABLE cellpadding='0' cellspacing='0' style='z-index:-1;position:fixed;width:100%;height:100%'><TR><TD style="background-image:url('./bk.jpg');background-size:100% 100%;background-repeat:no-repeat;opacity:0.9"></TD></TR></TABLE>	
+
+    <TABLE cellspacing='0' cellpadding='0' style='position:fixed;width:100%;height:100%'>
+        <TR>
+            <TD align='center'>
+				<TABLE cellspacing='0' cellpadding='0' style='width:350px;background-color:White;opacity:0.9'>
+					<TR><TD align='center' style='padding-top:30px;background-color:Darkgrey;font-weight:bold;font-size:35px'>Yunan Chen</TD></TR>
+					<TR><TD align='center' style='padding-top:20px;padding-bottom:10px;background-color:Darkgrey;font-size:15px'>Associate Professor of Informatics</TD></TR>
+					<TR><TD align='center' style='padding-bottom:20px;background-color:Darkgrey;font-size:15px'>University of California, Irvine</TD></TR>
+					
+					<TR><TD style='padding:35px 20px 20px 20px'>						
+
+					<DIV id='I' style='text-align:center'>
+						<A href=javascript:__showTargetPage('B') style='font-size:15px'>Bio</A><DIV style='padding-bottom:20px'></DIV>
+						<A href=javascript:__showTargetPage('R') style='font-size:15px'>Research</A><DIV style='padding-bottom:20px'></DIV>
+						<A href=javascript:__showTargetPage('S') style='font-size:15px'>Students</A><DIV style='padding-bottom:20px'></DIV>
+						<A href=javascript:__showTargetPage('C') style='font-size:15px'>Contact</A><DIV style='padding-bottom:20px'></DIV>
+					</DIV>
+					
+					<DIV id='B' style='display:none'>
+					I am Associate Professor of <A href='https://www.informatics.uci.edu' target='_blank'>Informatics</A> in the Donald Bren School of Information and Computer Sciences</A> at the University of California, Irvine.<P>
+						
+					My research interests lie at the intersection of human&ndash;computer interaction (HCI), computer supported cooperative work (CSCW), and health informatics.<P>
+						
+					I received my Bachelor of Medicine degree (MBBS) from the <A href='https://www.cmu.edu.cn/en/' target='_blank'>China Medical University</A>, and PhD from the <A href='https://drexel.edu/cci/academics/information-science-department/' target='_blank'>iSchool at Drexel University</A>.<P>
+					Currently, I serve as Director of the Undergraduate Minor Program in Health Informatics, Vice Chair of Undergraduate Affairs at Department of Informatics, and Co-Director for the <A href='https://hai.ics.uci.edu' target='_blank'>Health and Information Lab</A>.<P>
+						
+					Download high resolution headshot <A href='https://www.ics.uci.edu/~yunanc/ICS_2013.jpg' target='_blank'>here</A>.
+					
+					<DIV style='padding-top:20px;padding-bottom:20px;text-align:center'><A href="javascript:__showIndex('B');">Back</A></DIV>
+					</DIV>
+					
+					<DIV id='R' style='display:none'>
+					Inspired by my own experience and training, I am interested in the interplay bewteen information, people, organization, and technology in healthcare. <P>
+					I study how different stakeholders in healthcare access, document, share, and make sense of complex health data and information in their personal, professional, and social contexts. I am particularly interested in how these activities are mediated, communicated, coordinated and supported through technlogical tools from the sociotechnical perspective.<P>
+
+					<!--I continue to learn and explore new topics. My students and I have studied the data and information practices in clinical settings, at home, on social media, and in many other digital spaces. We design and evaluate technologies such as  electronic health records, patient portal, mobile apps, wearables, online health communities, and more recently AI health applications. All these proejcts aim to taclke important issues including heath navigation, public health crisis, women's health, chronic care management, and digital documentation.<P>-->
+					
+					Check out my <A href='https://scholar.google.com/citations?user=QjbgoY8AAAAJ&hl=en' target='_blank'>Google Scholar</A> page for recent and complete publications.
+					
+					<DIV style='padding-top:20px;padding-bottom:20px;text-align:center'><A href="javascript:__showIndex('R');">Back</A></DIV>
+					</DIV>
+					
+					<DIV id='S' style='display:none'>
+					Students are the best inspirations and most important part of my work, please support these awesome researchers by reading their papers and collaborating with them :)
+					
+					<DIV style='line-height:2'>
+						<UL>
+							<LI><A href='http://nicksu.me/' target='_blank'>Zhaoyuan (Nick) Su</A></LI>
+							<LI><A href='https://www.ics.uci.edu/~mcostafi/' target='_blank'>Mayara Costa Figueiredo</A></LI>
+							<LI><A href='https://www.ics.uci.edu/~claram/' target='_blank'>Clara Marques Caldeira</A> (now a Computing Innovation Fellow)</LI>
+							<LI><A href='https://www.xinninggui.com/' target='_blank'>Xinning Gui</A> (now assistant professor at the Penn State University)</LI>
+							<LI><A href='http://sunyoungpark.weebly.com/' target='_blank'>Sunyoung Park</A> (now assistant professor at the University Michigan)</LI>
+						</UL>
+					</DIV>
+					
+					<DIV style='padding-top:20px;padding-bottom:20px;text-align:center'><A href="javascript:__showIndex('S');">Back</A></DIV>			
+					</DIV>
+					
+					<DIV id='C' style='display:none'>
+					Like many others, these days I am busy working from home with my <A href='./IMG_7839.jpeg' target='_blank'>two lovely co-workers</A>, trying to figure out remote learning and teaching at the same time. The best way to contact me is at: yunanc [at] ics.uci.edu. <P>
+					If you are interested in applying to study as a graduate student in the UC Irvine Department of Informatics, click <A href='https://www.informatics.uci.edu/grad/phd-informatics/' target='_blank'>here</A>.<P>
+
+					If you have questions about the undergraduate programs at informatics department, you can contact the ICS student affairs office <A href='https://www.ics.uci.edu/ugrad/' target='_blank'>here</A>.
+					
+					<DIV style='padding-top:20px;padding-bottom:20px;text-align:center'><A href="javascript:__showIndex('C');">Back</A></DIV>										
+					</DIV>
+					
+					</TD></TR>
+				</TABLE>
+            </TD>
+        </TR>
+    </TABLE>
+	
+</BODY>
+
+<SCRIPT>
+	function __showTargetPage(PageToShow) {document.getElementById('I').style.display = 'none'; document.getElementById(PageToShow).style.display = 'block';}
+	function __showIndex(ThisPage) {document.getElementById('I').style.display = 'block'; document.getElementById(ThisPage).style.display = 'none';}
+</SCRIPT>
+</HTML>
+

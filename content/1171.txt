@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>In the News @ Donald Bren School of Information and Computer Sciences</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="https://use.fontawesome.com/f443bac96a.js"></script>
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/><link href="../../bin/styles/stylesheet_index2018_addon.css" rel="stylesheet" type="text/css"/>
+
+
+<meta content="Mon, 21 Jun 2021 06:43:37 -0380" name="date"/>
+
+</head>
+<body>
+<!-- before breadcrumb_nav include -->
+ <!-- after breadcrumb_nav include -->
+<div id="wrapper">
+<div id="header-main">
+    <a id="skip-nav" role="region" aria-label="Skip to main content" class="skip-nav screen-reader-text" href="#mid-section">Skip to main content</a>
+    <div class="container">
+        <div id="logo-container">
+            <a title="UCI - Donald Bren School of Information and Computer Sciences Logo" href="/">
+                <div class="header-logo01 w-100 d-none d-md-block">
+                    <img src="/bin/img/logos/UCI17_Bren_ICS_2L_white-1200.png" alt="UCI Donald Bren School of Information and Computer Sciences - logo" />
+                </div>
+                <div class="header-logo02 d-block w-100 d-md-none text-center">
+                    <img src="/bin/img/logos/UCI17_Bren_ICS_2L_white-1200.png" alt="UCI Donald Bren School of Information and Computer Sciences - logo" />
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-ics-yellow" aria-label="Main menu">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-link nav-link-home d-block w-100 d-md-none">
+                    <a href='/'>HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/about/" id="navbarDropdownMenuLink-about" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-about">
+                        <li>
+                            <a class="dropdown-item" href='/about/'>About the School</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_deanmsg.php'>Dean's Welcome</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_factsfigures.php'>Facts and Figures</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/brenhall/index.php'>Donald Bren Hall</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/visit/index.php'>Visit the Bren School</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/equity/'>Equity & Diversity
+                            </A>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_contact.php'>Contact Us</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/dept/" id="navbarDropdownMenuLink-departments" aria-haspopup="true" aria-expanded="false">DEPARTMENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-research">
+                        <li>
+                            <a class="dropdown-item" href='//www.cs.uci.edu'>Computer Science</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.informatics.uci.edu'>Informatics</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.stat.uci.edu'>Statistics</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/faculty/area/" id="navbarDropdownMenuLink-research" aria-haspopup="true" aria-expanded="false">RESEARCH</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-faculty">
+                        <li>
+                            <a class="dropdown-item" href='/faculty/area/'>Research Areas</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/faculty/centers/'>Research Centers</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/faculty/highlights/'>Research Highlights</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-students" aria-haspopup="true" aria-expanded="false">STUDENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-students">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="/grad/admissions/index">Graduate &#x25B8;</a>
+                            <ul class="dropdown-menu dropdown-menu-color">
+                                <li>
+                                    <a class='dropdown-item' href='/grad/admissions/index-orientationbackupOct12'>Orientation</a>
+                                </li>
+                                <li>
+                                    <a class='dropdown-item' href='/grad/admissions/index'>Prospective Students</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/admissions/Prospective_ApplicationProcess.php'>How to Apply</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/degrees/index'>Programs of Study</a>
+                                </LI>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/courses/index-course'>Academic Year Plan</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/Course_updates'>Course Updates</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/forms_policies/index'>Forms And Policies</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/admissions_faq/index'>Admissions FAQ</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/funding/index'>Funding</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/funding/housing'>Housing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='//swiki.ics.uci.edu/doku.php'>Computing Support</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/resources'>Campus Resources</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/about/visit/index'>Visit the Bren School</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/index'>Contact</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="/ugrad/">Undergraduate &#x25B8;</a>
+                            <ul class="dropdown-menu dropdown-menu-color">
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/index'>Contact</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/index'>Academic Advising</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/Course_updates'>Course Updates</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/courses/index-course'>Academic Year Plan</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/QA_Petitions'>Petitions</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/degrees/index.php'>ICS Majors</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/degrees/Minors'>ICS Minors</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Academic_Honesty'>Policies: Academic Integrity</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Academic_Standing'>Policies: Academic Standing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Add_Drop_ChangeOption'>Policies: Add, drop, &amp; change options</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Course_Outside_UCI'>Policies: Coursework outside UCI</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Grade_Options'>Policies: Grade policy</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Laptop_ComputerUse'>Policies: Laptop &amp; computer use</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Withdrawal_Readmission'>Policies: Withdrawal/Readmission</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/CS199_IN4MATX199'>Policies: CS 199 / IN4MATX 199 Courses</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/QA_Graduation'>Graduation</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/resources/index'>ICS Student Life</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/SAO_Events.php'>Upcoming Events</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='//swiki.ics.uci.edu/doku.php'>Computing Support</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/scholarships/index'>Scholarships & Fellowships</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//uci.joinhandshake.com/login'>Student Jobs & Internships</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/about/search/" id="navbarDropdownMenuLink-people" aria-haspopup="true" aria-expanded="false">PEOPLE</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-people">
+                        <li>
+                            <a class="dropdown-item" href='/faculty/'>Faculty</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/search/index.php'>Staff</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/search/search_graduate_all.php'>Graduate Students</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-news_events" aria-haspopup="true" aria-expanded="false">NEWS & EVENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-news_events">
+                        <li>
+                            <a class="dropdown-item" href='/community/news/'>Newsroom</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//campusgroups.uci.edu/ics/events/'>Events</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/social/'>Social Media</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/annualreport/'>Publications</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/involved/" id="navbarDropdownMenuLink-get_involved" aria-haspopup="true" aria-expanded="false">GET INVOLVED</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-get_involved">
+                        <li>
+                            <a class="dropdown-item" href='https://secure.give.uci.edu/give-to-uci-donald-bren-school-of-information-computer-sciences/'>Make a Gift
+                                <i class="fas fa-gift"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/involved/leadership_council'>Leadership Council</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/involved/corporate_partner'>Corporate Partners</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.ics.uci.edu/involved/project_sponsor' target='_blank' rel='nofollow noopener'>Sponsor Projects</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/events/competition/'>Product Development Competition</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/alumni/'>Alumni</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="float-right">
+            <form class="form-inline my-2 my-md-0" name="searchform" action="//search.uci.edu/" method="get" id="searchform">
+                <input type="hidden" name="client" value="uci_full">
+                <input type="hidden" name="site" value="uci_full">
+                <input type="hidden" name="proxystylesheet" value="uci_full">
+                <input type="hidden" name="ie" value="UTF-8">
+                <input type="hidden" name="oe" value="UTF-8">
+                <input type="hidden" name="num" value="10">
+                <input type="hidden" name="btnG" value="Search+UC+Irvine">
+                <input type="hidden" name="as_occt" value="any">
+                <input type="hidden" name="as_dt" value="i">
+                <input type="hidden" name="as_sitesearch" value="ics.uci.edu">
+                <input name="collection" type="hidden" value="37" />
+                <input title="Search ICS Website" id="query" class="form-control" onfocus="clear_textbox()" name="q" size="9" maxlength="300" placeholder="Search ICS" autocomplete="off" type="text">
+                <div class="auto_complete" id="results" align="center" size="100" maxlength="500" height="500"></div>
+                <input type="hidden" id="results_selected" name="sel">
+                <input type="hidden" name="start_pb" value="1">
+            </form>
+        </div>
+    </div>
+</nav><section id="mid-section">
+<div class="container">
+<div class="row">
+<div class="col-md-8" id="mid-content"><!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/community/">Community</a> &#47; <a href="https://www.ics.uci.edu/community/news/">News</a>] --><A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/community/">Community</a> &#47; <a href="https://www.ics.uci.edu/community/news/">News</a></div>
+<!-- after breadcrumb_nav() print -->
+<div id="content"><a id="startcontent" name="startcontent"></a> 
+<div id="c-title">In the News</div>
+<blockquote>
+<div id="c-text"><br/>
+
+<!-- inc publications_db -->
+
+ 
+<strong>July 15,  2019
+</strong>
+<p>
+    <i></i><h3>Renewed Funding Lets Hal Stern Continue Research of Early-Life Adversity, Brain Development with the UCI Conte Center</h3>
+        <p>
+                <p><div class="wp-block-image"><figure class="alignright"><img src="https://www.stat.uci.edu/wp-content/uploads/HalStern-headshot003-2010-240x300.jpg" alt="" class="wp-image-1277" srcset="https://www.stat.uci.edu/wp-content/uploads/HalStern-headshot003-2010-240x300.jpg 240w, https://www.stat.uci.edu/wp-content/uploads/HalStern-headshot003-2010-768x960.jpg 768w, https://www.stat.uci.edu/wp-content/uploads/HalStern-headshot003-2010-819x1024.jpg 819w" sizes="(max-width: 240px) 100vw, 240px" /></figure></div>
+
+
+
+<p>In 2013, with a grant from the National Institute of Mental Health (<a href="https://www.nimh.nih.gov/index.shtml" target="_blank" rel="noreferrer noopener">NIMH</a>), UCI established the <a href="https://contecenter.uci.edu/" target="_blank" rel="noreferrer noopener">Conte Center</a> to explore how early-life experiences influence brain programming, which can in turn affect mental resilience or vulnerability. The original five-year award funded a series of <a href="https://contecenter.uci.edu/projects-and-cores/" target="_blank" rel="noreferrer noopener">projects</a> focused on the connection between childhood adversity (in particular, fragmented and unpredictable signals from caretakers) and adolescent emotional and cognitive outcomes. The Conte Center includes two research cores — one for neuroimaging and one for biostatistics, computation and data management (BCDM) — that develop innovative methods and support the research projects.</p>
+
+
+
+<span id="more-1274"></span>
+
+
+
+<p>“The computational core helps the projects with their study design and data analysis needs, and also develops novel statistical methods to assist with the analyses,” says Chancellor’s Professor of Statistics <a href="https://www.ics.uci.edu/~sternh/" target="_blank" rel="noreferrer noopener">Hal Stern</a>, who heads the BCDM core. With the <a href="https://news.uci.edu/2019/07/10/uci-child-neurologist-dr-tallie-z-baram-is-awarded-15-million-conte-center-grant/" target="_blank" rel="noreferrer noopener">recent announcement</a> that the center has secured $15M through another five-year NIMH award, Stern is eager to build on the center’s preliminary findings.</p>
+
+
+
+<p><strong>Measuring Unpredictability</strong><br>The center’s initial projects focused on the effects of early-life maternal signals to the infant and child on mental and cognitive outcomes in the developing child. The projects involved both controlled experiments in rodents and observational studies of two human cohorts — one recruited and followed during the last five years and the other a previously recruited cohort of children who reached adolescence during the recent funding period.</p>
+
+
+
+<p>“Our main contribution in the first round of the Conte Center was the development of a measure of unpredictability of a mother’s behaviors toward her child that would work with both rodents and humans,” says Stern. He and his group created the measure based on videos from the projects — some showed mothers playing with their infants and others showed mother rats and their offspring interacting in environments with and without sufficient resources. While watching the videos, undergraduate and graduate students recorded various behaviors. The computational group then used these observations to create a measure, known as the <a href="https://contecenter.uci.edu/wp-content/uploads/2018/09/Calculating-Mood-Entropy-Final.pdf" target="_blank" rel="noreferrer noopener">entropy rate</a>, that assesses the unpredictability of the mother’s behavior. The key finding of the center is that greater unpredictability (higher entropy) was associated with weaker cognitive outcomes and greater vulnerability to emotional challenges.</p>
+
+
+
+<p>“It is still a bit surprising to me that this measure of unpredictability, based on a 10-minute video of mothers playing with their children, correlates with important outcomes, like the child’s memory at seven years of age,” says Stern. “It’s not deterministic,” he emphasizes. “You can have an unpredictable mother and still have a great memory, but <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5625898/" target="_blank" rel="noreferrer noopener">there’s an association</a> that’s pretty strong.” A strength of the Conte Center is the use of the rodent model to help provide insight about the mechanisms that might explain the associations being observed.</p>
+
+
+
+<p><strong>Validating a Recall-Based Approach</strong><br>The renewal of the Conte Center adds an additional project that is a collaboration with the department of psychiatry at UCSD involving a study of Marines immediately before and after deployment, and again six months after deployment ends with the aim of identifying Marines vulnerable to post-traumatic stress disorder (PTSD).</p>
+
+
+
+<p>The Conte Center collaboration is investigating the role of early-life experiences in determining vulnerability to PTSD. However, as Stern points out, “we don’t have videos of the Marines playing with their mothers, so we need alternative measures of early-life experience.” The BCDM group worked with Conte Center psychologists to develop a recall-based approach to assessing their childhood experiences. “Part of what we did at the tail end of the initial Conte Center grant was to develop a questionnaire.” It asks questions such as “did your parents generally pick you up from school on time” and “did you regularly have dinner together?” Stern and his group used the cohort of adolescents for which they had earlier videos of mother-child interaction (from prior studies conducted at UCI) to validate the effectiveness of the questionnaire. The questionnaire was <a href="https://www.nature.com/articles/s41386-018-0280-9" target="_blank" rel="noreferrer noopener">recently published</a> in a peer-reviewed journal and is being used by other researchers outside the Conte Center.</p>
+
+
+
+<p><strong>Studying Epigenetics</strong><br>While the center’s imaging core focuses on helping to elucidate the neurobiological factors associated with early-life unpredictability, Stern and neurobiology collaborators are exploring the role of epigenetics. “Where your genetic code is not changeable,” says Stern, “experiences do modify the genes that are regulated by the code through a number of epigenetic processes, including one called <a rel="noreferrer noopener" href="https://www.nature.com/scitable/topicpage/the-role-of-methylation-in-gene-expression-1070" target="_blank">methylation</a>.” During this process, the letters of the code don’t change, but changes occur that impact the way the genes express themselves.</p>
+
+
+
+<p>A recent <a href="http://dx.doi.org/10.26508/lsa.201800204" target="_blank" rel="noreferrer noopener">paper</a> that Stern coauthored discusses a small study conducted with rodents that looked at the epigenetic methylation profile both at birth and after exposure to unpredictability. Results indicate that changes occurred in the epigenetic profile. “Now we have collected samples from the children at birth and after their first year of life to explore their epigenetics,” he says. “Epigenetic changes may serve as a biological marker of whether you were exposed to unpredictability and potentially could identify those at risk for mental illness.” He hopes this research can help with future strategies for mitigation.</p>
+
+
+
+<p><strong>Developing Novel Tools</strong><br>Over the next five years, using his $750,000 portion of the grant, Stern will collaborate with graduate students in statistics as well as with UCI’s <a rel="noreferrer noopener" href="http://statconsulting.uci.edu/" target="_blank">Center for Statistical Consulting</a> to “elucidate the mechanism by which unpredictable maternal behavior turns out to have these cognitive and emotional consequences.”</p>
+
+
+
+<p>At the same time, his work will help advance the field of statistics and support other projects in need of statistical analyses. As outlined in a <a href="https://contecenter.uci.edu/from-the-director/" target="_blank" rel="noreferrer noopener">message</a> from Tallie Z. Baram, director of the Conte Center, in addition to understanding how unpredictable signals influence the developing brain, “we develop novel and useful tools for other people around the world [including] ways to mathematically quantify parental care signals, to easily assess unpredictability via questionnaires, to image and analyze brain organization in a powerful manner and across both humans and rodents, and to analyze and parse the big data that these studies generate.”</p>
+
+
+
+<p>— <em>Shani Murray</em><br></p>
+                    <br>
+                                <TITLE>Renewed Funding Lets Hal Stern Continue Research of Early-Life Adversity, Brain Development with the UCI Conte Center</TITLE><DIV STYLE='clear: both; '></DIV><HR><DIV STYLE='float: left; border: 0px dotted orange; margin: 0; padding: 1em; text-align: left; max-width: 40%; font-size: 90%; '>
+               <A HREF='/community/news/view_news.php?id=1579'>&lt; Previous</A>
+               <BR> UCI researchers’ deep learning algorithm solves Rubik’s Cube faster than any human
+            </DIV><DIV STYLE='float: right; border: 0px dotted purple; margin: 0; padding: 1em; text-align: right; max-width: 40%; font-size: 90%; '>
+               <A HREF='/community/news/view_news.php?id=1581'>Next &gt;</A>
+               <BR> This AI Can Solve A Rubik's Cube Super Fast
+            </DIV>
+
+
+<link rel="stylesheet" href="/bin/styles/stylesheet_news_view.css">
+
+
+</div>
+</blockquote>
+</div>
+</div>
+<div class="col-md-4" id="s-bar">
+    <div>
+<div id="sidebar_title">More news and events</div>
+<ul>
+<li><a href="index.php">News Stories</a></li>
+<li><a href="http://www.youtube.com/UCIBrenICS">Video highlights</a></li>
+<li><a href="../../about/annualreport/index.php">Annual reports</a></li>
+<li><a href="//campusgroups.uci.edu/events?group_ids=54818">Calendar of events</a></li>
+</ul>
+</div>
+<p style="margin: 2em 1em; font-size: 100%;"><strong>Media Inquiries</strong> <br/>Media interested in interviewing ICS faculty, students or alumni should contact Matt Miller at&#160;(949) 824-1562 or&#160;<a href="mailto:matt.miller@uci.edu">matt.miller@uci.edu</a></p>
+    <div class="h-gap-30"></div>
+    <style>
+.adBanner{display:none;}
+.adBanner img{
+    border-radius:5px;
+}
+.adBanner a:after{
+    display:none;
+    }
+</style>
+<div class="adBanner">
+<div class="row">
+<div class="col-12 text-center"></div>
+</div>
+</div>
+<div class="h-gap-30"></div>
+<a class="twitter-timeline" data-height="550" href="https://twitter.com/UCIbrenICS?ref_src=twsrc%5Etfw">Tweets by UCIbrenICS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="h-gap-30"></div>
+<p class="social-button-sw"><a aria-pressed="true" class="btn btn-outline-primary btn-sm" href="//www.ics.uci.edu/social/" role="button">View Social Media</a></p></div>
+</div>
+</div>
+</section>
+<section id="bottom-section">
+<div class="container">
+<!--<div id="links_bottom"><system-region name="LINKS-BOTTOM"/></div>-->
+<div id="nav-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 soc-cons foot-col1">
+                <div class="row row-ics_address">
+            		<p>
+                        Donald Bren School of Information and Computer Sciences<br>
+                		University of California, Irvine<br>
+    					6210 Donald Bren Hall<br>
+    					Irvine, CA 92697-3425
+                    </p>	 
+                </div>
+                <div class="row">
+                    <ul>
+<li><a title="Facebook" alt="Facebook" href="http://facebook.com/UCIBrenICS" target="_blank"> <i class="fab fa-facebook-square" alt="facebook"></i> </a></li>
+<li><a title="Instagram" href="http://instagram.com/ucibrenics/" target="_blank"> <i class="fab fa-instagram" alt="instagram"></i> </a></li>
+<li><a title="Twitter" href="http://twitter.com/UCIbrenICS" target="_blank"> <i class="fab fa-twitter-square" alt="twitter"></i> </a></li>
+<li><a title="LinkedIn" href="https://www.linkedin.com/company/uc-irvine-information-and-computer-sciences" target="_blank"> <i class="fab fa-linkedin" alt="linkedin"></i> </a></li>
+<li><a title="Youtube" href="http://youtube.com/UCIBrenICS" target="_blank"> <i class="fab fa-youtube-square" alt="square"></i> </a></li>
+</ul>                </div>
+            </div>
+            <div class="col-md-2 quk-links foot-col2">
+                <ul>
+    				<li><a href="https://uci.edu/">UCI Homepage</a></li>
+					<li><a href="https://directory.uci.edu/">UCI Directory</a></li>
+					<li><a href="https://www.ics.uci.edu/about/search/index.php">Faculty & Staff</a></li>
+                    <li><a href="https://www.ics.uci.edu/employment/">Employment</a></li>
+                    <li><a href="https://intranet.ics.uci.edu/">ICS Intranet</a></li>
+                    <li><a href="https://www.ics.uci.edu/resources/researchdevelopment/">Research Development</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/kfflab/index.php">Kay Family Foundation Lab</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/facilities/index.php">Facilities</a></li>
+            	</ul>
+            </div>
+            <div class="col-md-2 quk-links foot-col3">
+                <ul>
+					<li><a href="https://www.ics.uci.edu/community/news/">News</a></li>
+                    <li><a href="https://campusgroups.uci.edu/events?group_ids=54818">Events</a></li>
+					<li><a href="https://www.ics.uci.edu/about/visit/index.php">Map & Directions</a></li>
+					<li><a href="https://www.ics.uci.edu/accessibility/">Accessibility Statement</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/about_safety.php">Safety Procedures</a></li>
+					<li><a href="https://uci.edu/privacy/index.php">Privacy Policy</a></li>
+                    <li><a href="https://www.ics.uci.edu/resources/coronavirus/">Coronavirus Resources</a></li>
+            	</ul>
+            </div>
+            <div class="col-md-2 quk-links foot-col4">
+                <ul>
+    				<li><a href="https://apply.grad.uci.edu/apply/">Apply</a></li>
+					<li><a href="https://www.ics.uci.edu/about/about_contact.php">Contact</a></li>
+					<li><a href="https://secure.connect.uci.edu/s/1735/interior-1col.aspx?sid=1735&gid=3&pgid=801&dids=79">Gift <i class="fas fa-gift"></i></a></li>
+            	</ul>
+            </div>
+        </div>
+        <div class="row copyrt-txt hr-top">
+            <div class="container"><p class="text-center"><a href="https://uci.edu/copyright/">&#169;&#160; UCI Donald Bren School of Information & Computer Sciences</a></p></div>
+        </div>
+    </div>
+</div><!--<div id="footer"><system-region name="FOOTER"/></div>-->
+</div>
+</section>
+<!-- Back To Top Btn -->
+<div id="btt-btn"><!-- Back To Top Btn --><a href="#" id="back2Top" title="Back to top">&#10148;</a></div>
+
+<script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+ <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-605898-1");
+        pageTracker._trackPageview();
+        </script>
+ <script crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" type="text/javascript">
+</script>
+ <script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" type="text/javascript">
+</script>
+<script src="../../bin/js/btt.js" type="text/javascript">
+</script>
+<!-- Accessibilty - START -->
+<script type="text/javascript">
+var _userway_config = {
+/* uncomment the following line to override default position*/
+/* position: '2', */
+/* uncomment the following line to override default size (values: small, large)*/
+/* size: 'small', */
+/* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
+/* language: 'en-US', */
+/* uncomment the following line to override color set via widget (e.g., #053f67)*/
+/* color: '#0064a4', */
+/* uncomment the following line to override type set via widget(1=person, 2=chair, 3=eye)*/
+/* type: '1', */
+/* uncomment the following line to override support on mobile devices*/
+/* mobile: true, */
+account: 'GTYOD4aROB'
+};
+</script>
+<script src="https://cdn.userway.org/widget.js" type="text/javascript"></script>
+<!-- Accessibilty - END -->
+</div>
+</body>
+</html>

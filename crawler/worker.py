@@ -5,6 +5,7 @@ from utils.download import download
 from utils import get_logger
 import scraper
 import time
+import pickle_storing
 
 
 class Worker(Thread):
@@ -25,7 +26,12 @@ class Worker(Thread):
             if not tbd_url:
                 self.logger.info("Frontier is empty. Stopping Crawler.")
                 break
-            resp = download(tbd_url, self.config, self.logger)
+            try:
+                resp = download(tbd_url, self.config, self.logger)
+            except:
+                pass # remove this and test a reconnection and load of the data we already have in crawl_data
+                # call function to retry repeatedly?
+
             self.logger.info(
                 f"Downloaded {tbd_url}, status <{resp.status}>, "
                 f"using cache {self.config.cache_server}.")

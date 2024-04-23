@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83301040-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<head>
+<title>SEAL - COALA</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Reply-to" content="malek at uci dot edu">
+<meta http-equiv="Owner" content="Sam Malek">
+<meta name="Author" content="Sam Malek">
+<meta name="Generator" content="Emacs">
+<link rev="MADE" href="mailto:malek at uci dot edu">
+<link href="../../seal.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="wrapper">
+
+  <div class="menu">
+      <p>
+          <a href="/index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="/members.html">Members</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="/publications.html">Publications</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="/projects.html">Projects</a>
+      </p>
+  </div>
+<!-- *************** Beginning of content ****************** -->
+
+<h2>Data-Driven Accessibility Repair Revisited: On the Effectiveness of Generating Labels for Icons in Android Apps</h2>
+
+<p>
+  Mobile apps are playing an increasingly important role in our daily lives, including the lives of approximately 304 million users worldwide that are either completely blind or suffer from some form of visual impairment. These users rely on screen readers to interact with apps. Screen readers, however, cannot describe the image icons that appear on the screen, unless those icons are accompanied with developer-provided textual labels. A prior study of over 5,000 Android apps found that in around 50% of the apps, less than 10% of the icons are labeled. To address this problem, a recent award-winning approach, called LabelDroid, employed deep-learning techniques to train a model on a dataset of existing icons with labels to automatically generate labels for visually similar, unlabeled icons.
+In this work, we empirically study the nature of icon labels in terms of distribution and their dependency on different sources of information. We then assess the effectiveness of LabelDroid in predicting labels for unlabeled icons. We find that icon images are insufficient in representing icon labels, while other sources of information from the icon usage context can enrich images in determining proper tokens for labels. We propose the first context-aware label generation approach, called COALA, that incorporates several sources of information from the icon in generating accurate labels. Our experiments show that although COALA significantly outperforms LabelDroid in both user study and automatic evaluation, further research is needed. We suggest that future studies should be more cautious when basing their approach on automatically extracted labeled data.
+</p>
+
+<h3>Video Presentation:</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2aBsqlAofyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!-- <h3>Methdology</h3>
+<p>
+Figure below depicts the flow of data collection and analysis in our study. This study consisted of the following steps: (1) we first collected a large list of GitHub repositories from the GHTorrent database; (2) we set filtering criteria to identify the repositories representing non-trivial Android apps; (3) we further analyzed the identified repositories to collect their meta-data and information about automated tests and popularity; (4) we evaluated the collected dataset to answer research questions about the test automation culture prevalent among mobile app developers; and finally (5) we conducted a survey with the developers of the subject apps to get a deeper understanding of the underlying reasons for our observations from the dataset.
+</p> -->
+
+<img style="margin:10" ALT="[Approach picture]" height="250" src=./IMG_Approach.png><br>
+
+<h3>Artifacts</h3>
+
+<p>
+The artifacts are available for download from <a href="https://github.com/fmehralian/COALA">here</a>.
+
+<h3>Publications</h3>
+
+More details about this project can be found in our publication below:
+<br>
+<ul class="paperlist">
+    <li><b>Data-Driven Accessibility Repair Revisited: On the Effectiveness of Generating Labels for Icons in Android Apps</b><br>
+    Forough Mehralian, Navid Salehnamadi, and Sam Malek<br>
+    <i>ACM joint meeting of the European Software Engineering Conference and ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE 2021), Athens, Greece, August 2021. (24.5% acceptance rate)</i>
+	<br>[<a href="./2021_FSE_COALA.pdf">PDF</a>]
+    </li>
+</ul>
+
+<!-- ***************** End of content ****************** -->
+<br><br>
+<div style="float:left">
+            <a href="http://www.ics.uci.edu/~seal/"><img ALT="[seal's logo]" height="200" src=../../seal.png></a>
+</div>
+<div style="float:right">
+            <a href="http://www.ics.uci.edu"><img ALT="[uci's logo]" style="padding-top: 40px" height="100" src=../../uci.jpg></a>
+</div>
+</div>
+</body>

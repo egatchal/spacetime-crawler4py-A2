@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>In the News @ Donald Bren School of Information and Computer Sciences</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="https://use.fontawesome.com/f443bac96a.js"></script>
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/><link href="../../bin/styles/stylesheet_index2018_addon.css" rel="stylesheet" type="text/css"/>
+
+
+<meta content="Mon, 21 Jun 2021 06:43:37 -0380" name="date"/>
+
+</head>
+<body>
+<!-- before breadcrumb_nav include -->
+ <!-- after breadcrumb_nav include -->
+<div id="wrapper">
+<div id="header-main">
+    <a id="skip-nav" role="region" aria-label="Skip to main content" class="skip-nav screen-reader-text" href="#mid-section">Skip to main content</a>
+    <div class="container">
+        <div id="logo-container">
+            <a title="UCI - Donald Bren School of Information and Computer Sciences Logo" href="/">
+                <div class="header-logo01 w-100 d-none d-md-block">
+                    <img src="/bin/img/logos/UCI17_Bren_ICS_2L_white-1200.png" alt="UCI Donald Bren School of Information and Computer Sciences - logo" />
+                </div>
+                <div class="header-logo02 d-block w-100 d-md-none text-center">
+                    <img src="/bin/img/logos/UCI17_Bren_ICS_2L_white-1200.png" alt="UCI Donald Bren School of Information and Computer Sciences - logo" />
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-ics-yellow" aria-label="Main menu">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-link nav-link-home d-block w-100 d-md-none">
+                    <a href='/'>HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/about/" id="navbarDropdownMenuLink-about" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-about">
+                        <li>
+                            <a class="dropdown-item" href='/about/'>About the School</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_deanmsg.php'>Dean's Welcome</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_factsfigures.php'>Facts and Figures</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/brenhall/index.php'>Donald Bren Hall</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/visit/index.php'>Visit the Bren School</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/equity/'>Equity & Diversity
+                            </A>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_contact.php'>Contact Us</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/dept/" id="navbarDropdownMenuLink-departments" aria-haspopup="true" aria-expanded="false">DEPARTMENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-research">
+                        <li>
+                            <a class="dropdown-item" href='//www.cs.uci.edu'>Computer Science</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.informatics.uci.edu'>Informatics</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.stat.uci.edu'>Statistics</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/faculty/area/" id="navbarDropdownMenuLink-research" aria-haspopup="true" aria-expanded="false">RESEARCH</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-faculty">
+                        <li>
+                            <a class="dropdown-item" href='/faculty/area/'>Research Areas</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/faculty/centers/'>Research Centers</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/faculty/highlights/'>Research Highlights</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-students" aria-haspopup="true" aria-expanded="false">STUDENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-students">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="/grad/admissions/index">Graduate &#x25B8;</a>
+                            <ul class="dropdown-menu dropdown-menu-color">
+                                <li>
+                                    <a class='dropdown-item' href='/grad/admissions/index-orientationbackupOct12'>Orientation</a>
+                                </li>
+                                <li>
+                                    <a class='dropdown-item' href='/grad/admissions/index'>Prospective Students</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/admissions/Prospective_ApplicationProcess.php'>How to Apply</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/degrees/index'>Programs of Study</a>
+                                </LI>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/courses/index-course'>Academic Year Plan</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/Course_updates'>Course Updates</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/forms_policies/index'>Forms And Policies</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/admissions_faq/index'>Admissions FAQ</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/funding/index'>Funding</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/funding/housing'>Housing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='//swiki.ics.uci.edu/doku.php'>Computing Support</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/resources'>Campus Resources</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/about/visit/index'>Visit the Bren School</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/index'>Contact</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="/ugrad/">Undergraduate &#x25B8;</a>
+                            <ul class="dropdown-menu dropdown-menu-color">
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/index'>Contact</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/index'>Academic Advising</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/Course_updates'>Course Updates</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/courses/index-course'>Academic Year Plan</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/QA_Petitions'>Petitions</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/degrees/index.php'>ICS Majors</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/degrees/Minors'>ICS Minors</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Academic_Honesty'>Policies: Academic Integrity</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Academic_Standing'>Policies: Academic Standing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Add_Drop_ChangeOption'>Policies: Add, drop, &amp; change options</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Course_Outside_UCI'>Policies: Coursework outside UCI</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Grade_Options'>Policies: Grade policy</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Laptop_ComputerUse'>Policies: Laptop &amp; computer use</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Withdrawal_Readmission'>Policies: Withdrawal/Readmission</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/CS199_IN4MATX199'>Policies: CS 199 / IN4MATX 199 Courses</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/QA_Graduation'>Graduation</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/resources/index'>ICS Student Life</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/SAO_Events.php'>Upcoming Events</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='//swiki.ics.uci.edu/doku.php'>Computing Support</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/scholarships/index'>Scholarships & Fellowships</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//uci.joinhandshake.com/login'>Student Jobs & Internships</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/about/search/" id="navbarDropdownMenuLink-people" aria-haspopup="true" aria-expanded="false">PEOPLE</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-people">
+                        <li>
+                            <a class="dropdown-item" href='/faculty/'>Faculty</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/search/index.php'>Staff</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/search/search_graduate_all.php'>Graduate Students</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-news_events" aria-haspopup="true" aria-expanded="false">NEWS & EVENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-news_events">
+                        <li>
+                            <a class="dropdown-item" href='/community/news/'>Newsroom</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//campusgroups.uci.edu/ics/events/'>Events</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/social/'>Social Media</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/annualreport/'>Publications</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/involved/" id="navbarDropdownMenuLink-get_involved" aria-haspopup="true" aria-expanded="false">GET INVOLVED</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-get_involved">
+                        <li>
+                            <a class="dropdown-item" href='https://secure.give.uci.edu/give-to-uci-donald-bren-school-of-information-computer-sciences/'>Make a Gift
+                                <i class="fas fa-gift"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/involved/leadership_council'>Leadership Council</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/involved/corporate_partner'>Corporate Partners</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.ics.uci.edu/involved/project_sponsor' target='_blank' rel='nofollow noopener'>Sponsor Projects</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/events/competition/'>Product Development Competition</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/alumni/'>Alumni</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="float-right">
+            <form class="form-inline my-2 my-md-0" name="searchform" action="//search.uci.edu/" method="get" id="searchform">
+                <input type="hidden" name="client" value="uci_full">
+                <input type="hidden" name="site" value="uci_full">
+                <input type="hidden" name="proxystylesheet" value="uci_full">
+                <input type="hidden" name="ie" value="UTF-8">
+                <input type="hidden" name="oe" value="UTF-8">
+                <input type="hidden" name="num" value="10">
+                <input type="hidden" name="btnG" value="Search+UC+Irvine">
+                <input type="hidden" name="as_occt" value="any">
+                <input type="hidden" name="as_dt" value="i">
+                <input type="hidden" name="as_sitesearch" value="ics.uci.edu">
+                <input name="collection" type="hidden" value="37" />
+                <input title="Search ICS Website" id="query" class="form-control" onfocus="clear_textbox()" name="q" size="9" maxlength="300" placeholder="Search ICS" autocomplete="off" type="text">
+                <div class="auto_complete" id="results" align="center" size="100" maxlength="500" height="500"></div>
+                <input type="hidden" id="results_selected" name="sel">
+                <input type="hidden" name="start_pb" value="1">
+            </form>
+        </div>
+    </div>
+</nav><section id="mid-section">
+<div class="container">
+<div class="row">
+<div class="col-md-8" id="mid-content"><!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/community/">Community</a> &#47; <a href="https://www.ics.uci.edu/community/news/">News</a>] --><A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/community/">Community</a> &#47; <a href="https://www.ics.uci.edu/community/news/">News</a></div>
+<!-- after breadcrumb_nav() print -->
+<div id="content"><a id="startcontent" name="startcontent"></a> 
+<div id="c-title">In the News</div>
+<blockquote>
+<div id="c-text"><br/>
+
+<!-- inc publications_db -->
+
+ 
+<strong>May 11,  2020
+</strong>
+<p>
+    <i></i><h3>Professor Roderic Crooks Talks Technology and Racial Inequality in the Context of COVID-19</h3>
+        <p>
+                <p><div class="wp-block-image"><figure class="alignright is-resized"  style='max-width: 40%; '  ><img src="//www.informatics.uci.edu/wp-content/uploads/RodericCrooks.jpg" /></figure></div>
+
+
+
+<p><em>On April 15, 2020, </em><a href="https://www.rncrooks.info/"><em>Roderic Crooks</em></a><em>, assistant professor of Informatics in the Donald Bren School of Information and Computer Sciences (</em><a href="https://www.ics.uci.edu/"><em>ICS</em></a><em>), participated in an interdisciplinary virtual workshop on “Racial Violence and Restorative Engagement in a Time of Pandemic.” Hosted by the </em><a href="https://newkirkcenter.uci.edu/"><em>Newkirk Center</em></a><em> for Sciences and Society, the workshop featured five panelists and opened with </em><a href="https://faculty.sites.uci.edu/wmmaurer/"><em>Bill Maurer</em></a><em>, dean of the School of Social Sciences, explaining the motivation behind the discussion. “First, there are obvious disparities in the way that the pandemic is impacting various communities in our country and around the world,” he explained. “But second, on March 31, at UC Irvine, we held a forum on the US census [and] that event was </em><a href="https://en.wikipedia.org/wiki/Zoombombing"><em>Zoombombed</em></a><em>.”</em></p>
+
+
+
+<span id="more-6285"></span>
+
+
+
+<p><em>In talking about the racist, misogynistic and antisemitic attack that occurred during the March forum, Maurer noted that “this kind of violence and intimidation and extremism is not new, even if the technology is new.” He then handed the discussion over to the workshop moderator, </em><a href="https://www.faculty.uci.edu/profile.cfm?faculty_id=2755"><em>Douglas Haynes</em></a><em>, vice chancellor of UCI’s Office of Inclusive Excellence (</em><a href="https://inclusion.uci.edu/"><em>OIE</em></a><em>). Haynes introduced the diverse group of panelists, which, along with Professor Crooks, included </em><a href="https://www.linkedin.com/in/alison-edwards-ma-469a676/"><em>Alison Edwards</em></a><em>, CEO of </em><a href="https://www.ochumanrelations.org/"><em>OC Human Relations</em></a><em>, a nonprofit violence prevention and conflict resolution program; Professor </em><a href="https://www.law.uci.edu/faculty/full-time/gustafson/"><em>Kaaryn Gustafson</em></a><em> from the UCI School of Law; </em><a href="https://www.linkedin.com/in/debbielacy/"><em>Debbie Lacy</em></a><em>, founder/CEO of </em><a href="https://eastsideforall.org/"><em>Eastside for All</em></a><em>, a nonprofit advocacy organization in East King County, Washington; and Professor </em><a href="http://www.epi.uci.edu/Bio-Tanjasiri.asp"><em>Sora Park Tanjasiri</em></a><em> from the UCI School of Medicine.</em></p>
+
+
+
+<p><em>You can watch a </em><a href="https://www.youtube.com/watch?v=EJ0ntfqnl0M&amp;feature=youtu.be"><em>recording</em></a><em> of the hourlong event, which references UCI resources such as the </em><a href="https://basicneeds.uci.edu/get-resources/food-pantry.php"><em>Food Pantry</em></a><em>, the </em><a href="https://counseling.uci.edu"><em>Counseling Center</em></a><em>, four different Confronting Digital Extremism </em><a href="http://open.uci.edu/courses/confronting_digital_extremism.html"><em>courses</em></a><em>, and OIE messages on </em><a href="https://inclusion.uci.edu/2020/02/18/inclusivity-during-difficult-times/"><em>inclusivity</em></a><em> during difficult times and </em><a href="https://inclusion.uci.edu/confronting-extremism/advancing-equity-covid-19/3"><em>advancing equity</em></a><em> in the age of COVID-19. Also referenced during the workshop are external resources related to COVID-19 and the disproportionate </em><a href="https://www.embracerace.org/resources/disproportionate-racial-impacts-of-covid"><em>racial impacts</em></a><em>, </em><a href="https://naacp.org/wp-content/uploads/2020/03/Ten-Equity-Considerations-of-the-Coronavirus-COVID-19-Outbreak-in-the-United-States_Version-2.pdf"><em>equity implications</em></a><em> and </em><a href="https://www.racialequitytools.org/fundamentals/resource-lists/resources-addressing-covid-19-with-racial-equity-lens"><em>racial equity tools</em></a><em>. As the panelists covered these topics, highlighting the need for increased awareness about intolerance and continued investments in equity and diversity in everything from healthcare to education, they also touched on technology’s outsized role during the pandemic.</em></p>
+
+
+
+<p><em>When Haynes asked about the digital divide, Crooks, who has studied access to technology in minoritized communities, stressed that this isn’t a binary configuration. “Inequality is really the ground on which the figure of access is standing in the first place.” Here, Crooks continues that discussion, providing his perspective on how disparities play out in technological and data-driven spaces and sharing his vision for moving forward.</em></p>
+
+
+
+<p><strong>Debbie Lacy acknowledged during the workshop that “we’re behind in having accurate data to reflect the disparities.” What are the challenges in obtaining, presenting and disseminating accurate data? </strong>There is fairly clear <a href="https://www.npr.org/sections/health-shots/2020/04/18/835563340/whos-hit-hardest-by-covid-19-why-obesity-stress-and-race-all-matter">evidence</a> already that there are significant racial and economic disparities in the rates of infection and mortality in COVID cases nationally. This is concerning for a number of reasons. ICS health researchers such <a href="http://seanyoungphd.com/about">Sean Young</a>, <a href="https://www.ics.uci.edu/~yunanc/">Yunan Chen</a> or <a href="https://www.informatics.uci.edu/explore/faculty-profiles/kai-zheng/">Kai Zheng</a> can certainly speak to the relationship between data, accuracy, health and communities. Clearly, public institutions need good, reliable data in order to make effective, responsive policies in health and elsewhere.<br><br>Aside from these metrological concerns, however, mass data collection in minoritized and racialized communities poses significant risks to those communities. As some community organizers have argued quite convincingly, there is always the danger that absent strong and deliberate oversight, data captured in the context of a beneficial application (public health, for example) will contribute to surveillance abuse and over-policing. Already, racial disparities in how cities and states are using law enforcement to respond to COVID-19 in our communities have emerged. A successful data collection strategy has to take the concerns of these communities into consideration and make clear how individual outcomes are related to structural inequalities.</p>
+
+
+
+<p><strong>You’ve </strong><a href="https://www.ics.uci.edu/community/news/view_news?id=1506"><strong>said</strong></a><strong> before that “technology is another space where we again have to revisit questions of civil rights, questions of abolition, questions of discrimination.” What are your concerns as much of our communication and way of life in general move online during the pandemic?</strong><br>One aspect of my research that is especially relevant now is the idea that access to technology carries costs and burdens. For most of us who have suddenly been asked to teach using Zoom, we can see very painful disparities in terms of which students have the resources necessary to make a free-to-use solution like Zoom operate. These disparities demand immediate attention, and I’ve been so inspired to see many parts of ICS making sure that students who need hardware or network resources in order to join in classes get them. [Also see UCI <a href="https://sites.uci.edu/learnanywhere/">Learn Anywhere</a>.]
+
+
+
+<p>But beyond these immediate practical concerns, there are serious questions about the politics of private platforms such as Zoom. From my perspective, Zoom imposes the costs of avoiding racist Zoombombings on teachers, students and conveners. Let’s call this a security cost: if we look at who is expected to use their time and labor to meet these security costs, we see other disparities. If we think further about who is likely to be targeted by a racist or sexist attack and who is most likely to be harmed by witnessing one, we see teachers and students being made responsible for security costs that have been imposed upon them via a series of seemingly benign design and implementation choices.</p>
+
+
+
+<p>If we are looking at extending our use of teleconferencing software beyond the immediate emergency posed by the pandemic, we must be attentive to what kinds of labor we are demanding and who will be made to provide it.</p>
+
+
+
+<p><strong>This was part of your argument that “access” shouldn’t be viewed as a binary topic. Can you expand on that?</strong><strong><br></strong>My students and I write about access a lot [see “<a href="https://journals.sagepub.com/doi/10.1177/0162243918783053">Times Thirty</a>,” “<a href="https://journals.litwinbooks.com/index.php/jclis/article/view/91">Accesso Libre</a>,” and “<a href="https://programs.sigchi.org/chi/2020/program/content/32211">Attenuated Access</a>”]. By looking at access as binary, as whether a certain user has access or does not have access, we occlude a number of costs that we need to make technology operational and keep it that way — this could include time, labor, attention, expertise and so on. Particularly as it concerns minoritized communities, the prevailing thought is that access means the presence or absence of a desired good: a computer, a network connection, the skills to use a certain software application.</p>
+
+
+
+<p>While I share an interest in the equitable distribution of these goods, I argue that we must simultaneously attend to costs. Access is always a configuration of costs and benefits relative to an imagined use. How are the resources of resilient communities extracted via access and to whom does the value of these resources accumulate?</p>
+
+
+
+<figure class="wp-block-image"><img src="//www.informatics.uci.edu/wp-content/uploads/Roderic-Crooks-virtual-workshop-1024x552.jpg" /><figcaption> A screenshot of Professor Roderic Crooks speaking at the “Racial Violence and Restorative Engagement in a Time of Pandemic&#8221; virtual workshop in April.</figcaption></figure>
+
+
+
+<p><strong>Given, as you noted during the workshop, that the benefits of technology are distributed unevenly in terms of education, political engagement and connectivity, how might ICS work across disciplines to address some of these disparities?</strong><strong><br></strong>Inequality has many dimensions and is of interest to many fields. Our colleagues in the social sciences offer many mature tools for thinking about and addressing inequality. Our colleagues in the arts have ways of helping us frame and interpret the world around us through the making of evocative artefacts. <a href="https://www.informatics.uci.edu/">Informatics</a> research, especially social computing research, has always prioritized collaboration with the social sciences, art, and humanities. Informatics research now is very interested in how inequality shapes technology and how technology might be used to address inequality. I study the use of technology, so I look for tools, theory and methods that can contextualize use as it is observed in the field. To begin with, I always make sure to include minoritized and racialized communities in research as users, as participants, as experts, as critics, as advisers. I am also looking at ways to bring conversations about inequality into the study of human-computer interaction, a field which has shown a growing interest in how forms of socially sanctioned difference shape the experience of using a platform or device. [Also see the ICS Office of Access and Inclusion (<a href="http://tech.uci.edu/access/">OAI</a>) and <a href="https://www.ics.uci.edu/community/news/view_news?id=1755">read</a> about Professor <a href="https://stacybranham.com/">Stacy Branham</a>’s HCI course.]
+
+
+
+<p><strong>You also talked about the art of teaching and use of online tools for authentic learning, pointing to work being done at the Connected Learning Lab (</strong><a href="https://connectedlearning.uci.edu/"><strong>CLL</strong></a><strong>). What role can the CLL play in helping educators better understand the potential of online tools?</strong><strong><br></strong>On a personal note, I care about teaching and creating meaningful and authentic experiences for my students. I have always believed that teaching is a communicative activity that involves the interaction of the instructor and the class: it’s not a straightforward transfer of information. Teaching is a social activity through and through.</p>
+
+
+
+<p>In terms of research, the CLL has produced an expansive body of <a href="https://connectedlearning.uci.edu/research-tools/">research</a> over the last decade. The CLL’s mandate is to communicate research findings about “<a href="https://connectedlearning.uci.edu/digital-equity/">equitable</a>, <a href="https://connectedlearning.uci.edu/enriching-esports/">innovative</a> and <a href="https://connectedlearning.uci.edu/learning-through-designing-and-making/">learner-centered</a> ways” of teaching and learning. My own interest in this area is in thinking about how fundamental inequalities in society structure the experience of learning with computers and computer-like devices. There’s a lot of valuable information produced in the lab about best practices of online learning.</p>
+
+
+
+<p>A bit closer to home, the implication of this research is that we should consider devoting a lot more resources to online instruction if we intend to deliver quality education to our own students. University faculty, staff and students have done a heroic job of improvising and dealing with the immediate pandemic, but if we plan to continue physical distancing into the fall, it is unlikely catch-as-catch-can uses of commercial teleconferencing platforms will substitute for informed, evidence-based approaches to online learning.</p>
+
+
+
+<p><strong>Kaaryn Gustafson noted during the workshop that although “it’s easy to disengage at a time like this, we need to lean into this moment of disruption to reimagine what society can look like.” What’s your vision for moving forward?<br></strong>As a public university, I hope we can collectively reaffirm our commitment to the care, education and security of all the people of the state, in good times and bad. In the months of rebuilding and recovery that follow, we should resolve not to leave anyone behind. After we have made space for people to grieve lost loved ones and lost opportunities, I hope that we will rededicate ourselves to the always ongoing work of imagining and building a California that is secure, healthy and peaceful for all of its people.</p>
+
+
+
+<p>— <em>Shani Murray</em></p>
+                    <br>
+                                <TITLE>Professor Roderic Crooks Talks Technology and Racial Inequality in the Context of COVID-19</TITLE><DIV STYLE='clear: both; '></DIV><HR><DIV STYLE='float: left; border: 0px dotted orange; margin: 0; padding: 1em; text-align: left; max-width: 40%; font-size: 90%; '>
+               <A HREF='/community/news/view_news.php?id=1760'>&lt; Previous</A>
+               <BR> Alzheimer’s Disease, Clinical Trials, And COVID-19 With Dr. Daniel Gillen (Video Q&A)
+            </DIV><DIV STYLE='float: right; border: 0px dotted purple; margin: 0; padding: 1em; text-align: right; max-width: 40%; font-size: 90%; '>
+               <A HREF='/community/news/view_news.php?id=1762'>Next &gt;</A>
+               <BR> Professor Franz’s Research Group Invited to Present at Black Hat USA 2020
+            </DIV>
+
+
+<link rel="stylesheet" href="/bin/styles/stylesheet_news_view.css">
+
+
+</div>
+</blockquote>
+</div>
+</div>
+<div class="col-md-4" id="s-bar">
+    <div>
+<div id="sidebar_title">More news and events</div>
+<ul>
+<li><a href="index.php">News Stories</a></li>
+<li><a href="http://www.youtube.com/UCIBrenICS">Video highlights</a></li>
+<li><a href="../../about/annualreport/index.php">Annual reports</a></li>
+<li><a href="//campusgroups.uci.edu/events?group_ids=54818">Calendar of events</a></li>
+</ul>
+</div>
+<p style="margin: 2em 1em; font-size: 100%;"><strong>Media Inquiries</strong> <br/>Media interested in interviewing ICS faculty, students or alumni should contact Matt Miller at&#160;(949) 824-1562 or&#160;<a href="mailto:matt.miller@uci.edu">matt.miller@uci.edu</a></p>
+    <div class="h-gap-30"></div>
+    <style>
+.adBanner{display:none;}
+.adBanner img{
+    border-radius:5px;
+}
+.adBanner a:after{
+    display:none;
+    }
+</style>
+<div class="adBanner">
+<div class="row">
+<div class="col-12 text-center"></div>
+</div>
+</div>
+<div class="h-gap-30"></div>
+<a class="twitter-timeline" data-height="550" href="https://twitter.com/UCIbrenICS?ref_src=twsrc%5Etfw">Tweets by UCIbrenICS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="h-gap-30"></div>
+<p class="social-button-sw"><a aria-pressed="true" class="btn btn-outline-primary btn-sm" href="//www.ics.uci.edu/social/" role="button">View Social Media</a></p></div>
+</div>
+</div>
+</section>
+<section id="bottom-section">
+<div class="container">
+<!--<div id="links_bottom"><system-region name="LINKS-BOTTOM"/></div>-->
+<div id="nav-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 soc-cons foot-col1">
+                <div class="row row-ics_address">
+            		<p>
+                        Donald Bren School of Information and Computer Sciences<br>
+                		University of California, Irvine<br>
+    					6210 Donald Bren Hall<br>
+    					Irvine, CA 92697-3425
+                    </p>	 
+                </div>
+                <div class="row">
+                    <ul>
+<li><a title="Facebook" alt="Facebook" href="http://facebook.com/UCIBrenICS" target="_blank"> <i class="fab fa-facebook-square" alt="facebook"></i> </a></li>
+<li><a title="Instagram" href="http://instagram.com/ucibrenics/" target="_blank"> <i class="fab fa-instagram" alt="instagram"></i> </a></li>
+<li><a title="Twitter" href="http://twitter.com/UCIbrenICS" target="_blank"> <i class="fab fa-twitter-square" alt="twitter"></i> </a></li>
+<li><a title="LinkedIn" href="https://www.linkedin.com/company/uc-irvine-information-and-computer-sciences" target="_blank"> <i class="fab fa-linkedin" alt="linkedin"></i> </a></li>
+<li><a title="Youtube" href="http://youtube.com/UCIBrenICS" target="_blank"> <i class="fab fa-youtube-square" alt="square"></i> </a></li>
+</ul>                </div>
+            </div>
+            <div class="col-md-2 quk-links foot-col2">
+                <ul>
+    				<li><a href="https://uci.edu/">UCI Homepage</a></li>
+					<li><a href="https://directory.uci.edu/">UCI Directory</a></li>
+					<li><a href="https://www.ics.uci.edu/about/search/index.php">Faculty & Staff</a></li>
+                    <li><a href="https://www.ics.uci.edu/employment/">Employment</a></li>
+                    <li><a href="https://intranet.ics.uci.edu/">ICS Intranet</a></li>
+                    <li><a href="https://www.ics.uci.edu/resources/researchdevelopment/">Research Development</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/kfflab/index.php">Kay Family Foundation Lab</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/facilities/index.php">Facilities</a></li>
+            	</ul>
+            </div>
+            <div class="col-md-2 quk-links foot-col3">
+                <ul>
+					<li><a href="https://www.ics.uci.edu/community/news/">News</a></li>
+                    <li><a href="https://campusgroups.uci.edu/events?group_ids=54818">Events</a></li>
+					<li><a href="https://www.ics.uci.edu/about/visit/index.php">Map & Directions</a></li>
+					<li><a href="https://www.ics.uci.edu/accessibility/">Accessibility Statement</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/about_safety.php">Safety Procedures</a></li>
+					<li><a href="https://uci.edu/privacy/index.php">Privacy Policy</a></li>
+                    <li><a href="https://www.ics.uci.edu/resources/coronavirus/">Coronavirus Resources</a></li>
+            	</ul>
+            </div>
+            <div class="col-md-2 quk-links foot-col4">
+                <ul>
+    				<li><a href="https://apply.grad.uci.edu/apply/">Apply</a></li>
+					<li><a href="https://www.ics.uci.edu/about/about_contact.php">Contact</a></li>
+					<li><a href="https://secure.connect.uci.edu/s/1735/interior-1col.aspx?sid=1735&gid=3&pgid=801&dids=79">Gift <i class="fas fa-gift"></i></a></li>
+            	</ul>
+            </div>
+        </div>
+        <div class="row copyrt-txt hr-top">
+            <div class="container"><p class="text-center"><a href="https://uci.edu/copyright/">&#169;&#160; UCI Donald Bren School of Information & Computer Sciences</a></p></div>
+        </div>
+    </div>
+</div><!--<div id="footer"><system-region name="FOOTER"/></div>-->
+</div>
+</section>
+<!-- Back To Top Btn -->
+<div id="btt-btn"><!-- Back To Top Btn --><a href="#" id="back2Top" title="Back to top">&#10148;</a></div>
+
+<script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+ <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-605898-1");
+        pageTracker._trackPageview();
+        </script>
+ <script crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" type="text/javascript">
+</script>
+ <script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" type="text/javascript">
+</script>
+<script src="../../bin/js/btt.js" type="text/javascript">
+</script>
+<!-- Accessibilty - START -->
+<script type="text/javascript">
+var _userway_config = {
+/* uncomment the following line to override default position*/
+/* position: '2', */
+/* uncomment the following line to override default size (values: small, large)*/
+/* size: 'small', */
+/* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
+/* language: 'en-US', */
+/* uncomment the following line to override color set via widget (e.g., #053f67)*/
+/* color: '#0064a4', */
+/* uncomment the following line to override type set via widget(1=person, 2=chair, 3=eye)*/
+/* type: '1', */
+/* uncomment the following line to override support on mobile devices*/
+/* mobile: true, */
+account: 'GTYOD4aROB'
+};
+</script>
+<script src="https://cdn.userway.org/widget.js" type="text/javascript"></script>
+<!-- Accessibilty - END -->
+</div>
+</body>
+</html>

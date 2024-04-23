@@ -1,0 +1,652 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="description" content="Academic Website">
+    <meta name="keywords" content="forough mehralian,computer engineer,software engineer,developer, sharif university of technology">
+    <meta name="author" content="Forough Mehralian">
+    <link rel="icon" type="image/ico" href="http://up.shamsipour-ac.ir/uploads/images/1392/shahrivar/2170ca826c3b1.ico">
+    <link rel="shortcut icon" href="http://up.shamsipour-ac.ir/uploads/images/1392/shahrivar/2170ca826c3b1.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+    <script type="text/javascript">
+        $( document ).ready(function() {
+                alert( "ready!" );
+        });
+    </script>
+    <title>Forough Mehralian</title>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+         emailjs.init("user_M3zOqFoE6PGeW0ZEmW5XC");
+         })();
+        </script>
+	</head>
+
+	<body onload="writeToFile();">
+        <audio  id="audio_play"  type="audio/mpeg">
+            <source src="forough.mov" type="audio/mov">
+            <source src="forough.mp3" type="audio/mpeg" />
+<!--            <embed src="forough.mp3" width="180" height="90" hidden="true" />-->
+        </audio>
+	<div class="fh5co-loader"></div>
+
+	<div id="page">
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/uci.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<div class="profile-thumb" style="background: url(images/mehr.png);"></div>
+							<h1><span>Forough Mehralian</span></h1>
+							<h3><span>Software Engineer</span></h3>
+							<p>
+								<ul class="fh5co-social-icons">
+									<li><a href="https://twitter.com/f_mehralian"><i class="icon-twitter2"></i></a></li>
+<!--                                    <li><a href="#"><i class="icon-facebook2"></i></a></li>-->
+									<li><a href="http://ir.linkedin.com/in/fmehralian/"><i class="icon-linkedin2"></i></a></li>
+<!--                                    <li><a href="#"><i class="icon-dribbble2"></i></a></li>-->
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-about" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>About Me</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="info">
+						<li><span class="first-block">Full Name:</span><span class="second-block">Forough Mehralian</span></li>
+						<li><span class="first-block">Phone:</span><span class="second-block">+1(949)774-9929</span></li>
+						<li><span class="first-block">Email:</span><span class="second-block">fmehrali@uci.edu</span></li>
+						<li><span class="first-block">Website:</span><span class="second-block">www.ics.uci.edu/~fmehrali</span></li>
+						<li><span class="first-block">Address:</span><span class="second-block">Room 5231,Donald Bren School of Information and Computer Sciences, University of California, Irvine</span></li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<h2>Hello World!</h2>
+                    <p>My name is Forough /fo'ruːg/ <img src="images/aud" onClick="document.getElementById('audio_play').play(); return false;" />. I am a third year PhD student in software engineering program at Informatics Department of Donald Bren School of Information & Computer Sciences, University of California, Irvine.</p>
+
+					<p>
+                    <a href="https://www.ics.uci.edu/~fmehrali/cv.pdf" class="btn btn-default btn-lg">Download Resume</a>
+						<ul class="fh5co-social-icons">
+							<li><a href="https://twitter.com/f_mehralian"><i class="icon-twitter2"></i></a></li>
+<!--                            <li><a href="#"><i class="icon-facebook3"></i></a></li>-->
+							<li><a href="http://ir.linkedin.com/in/fmehralian/"><i class="icon-linkedin2"></i></a></li>
+<!--                            <li><a href="#"><i class="icon-dribbble2"></i></a></li>-->
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-resume" class="fh5co-bg-color">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>My Resume</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+
+
+
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Education</h3></div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">PhD</h3>
+									<span class="company">University of California, Irvine - 2018 - 2024</span>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-unverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Master Degree</h3>
+									<span class="company">Sharif University of Technology - 2015 - 2018</span>
+								</div>
+								<div class="timeline-body">
+                                    <p>Recognized as an Exceptional Talented BSc Student, I was granted for MSc of <b>Software Engineering</b>. My thesis title is "Recommending Feature Changes for Mobile Applications via Mining User Reviews" for which I was lucky to be supervised by Prof. Abbas Heydarnoori.  </p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-inverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Bachelor Degree</h3>
+									<span class="company">Sharif University of Technology - 2011 - 2015</span>
+								</div>
+								<div class="timeline-body">
+									<p>As a top rank student in the enterance exam of universities, I had the chance to choose any major in any university in our country. <b>Software Engineering</b> in SUT, known as the most remarkable technical university in Iran, was definitely the best choice to fulfill my dreams and ambitions.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-unverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">High School Diploma </h3>
+									<span class="company">Farzanegan - 2007 - 2011</span>
+								</div>
+								<div class="timeline-body">
+									<p>I was proud to be admitted as a member of <b>National Organization for Development of Exceptional Talents (NODET)</b> by passing its exam and to be able to get my diploma in <b> Mathematics and Physics </b> from Farzanegan Highschool. </p>
+								</div>
+							</div>
+						</li>
+
+
+                        <br>
+                        <li class="timeline-heading text-center animate-box">
+                            <div><h3>Work Experience</h3></div>
+                        </li>
+												<li class="animate-box timeline-inverted">
+                            <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3 class="timeline-title">Software Engineering Intern</h3>
+                                    <span class="company"><a href="https://cafebazaar.ir/?l=en">Cafe Bazaar</a> - Summer 2018</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Implementation of Jarchi mircro-service for handling advertisements in the search page of Bazaar application</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="animate-box timeline-unverted">
+                            <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3 class="timeline-title">Researcher</h3>
+                                    <span class="company"><a href="http://www.asta.ir/avan/">Avan Software Technology Advisors(ASTA)</a> - 2015 - Current</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p> Consultation, ideation and excecution in the domain of <a href="http://www.javacup.ir">Javacup</a> activities, a non-profitable community of Iranian java developers.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted animate-box">
+                            <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3 class="timeline-title">Software Engineering Intern</h3>
+                                    <span class="company"><a href="http://payampardaz.com">PayamPardaz</a> - summer 2015</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Design and Implementation of a secure forum based on Meteor and an android application for BYOD companies.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="animate-box timeline-unverted">
+                            <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3 class="timeline-title">Android Developer</h3>
+                                    <span class="company"><a href="http://behsait.ir">Behsa</a> - summer 2014</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Design and Implementation of an android application for taxi inspection.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <br>
+                        <li class="timeline-heading text-center animate-box">
+                            <div><h3>Research Experience</h3></div>
+                        </li>
+                        <li class="timeline-inverted animate-box">
+                            <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3 class="timeline-title">Research Assistant</h3>
+                                    <span class="company"><a href="http://aselab.ir">Automated Software Engineering Laboratory</a> - fall 2016</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p> Collaboration in a research project entitled "Exception Fault localization in Android Applications" </p>
+                                    <p>Improving the automatic testcase generation module of the approach</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="animate-box timeline-unverted">
+                            <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3 class="timeline-title">Undergraduate Research Assistant</h3>
+                                    <span class="company"><a href="http://easy.ce.sharif.ir">Energy Aware System Laboratory</a> - spring, summer 2013</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Collaboration in a Ph.D thesis entitled "Power Managing in Data Center with Renewable Energy"</p>
+                                    <p>C++ Implementation of an energy-aware approach of task scheduling in datacenters.</p>
+                                </div>
+                            </div>
+                        </li>
+
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!--    <div id="fh5co-features" class="animate-box">-->
+<!--        <div class="container">-->
+<!--            <div class="services-padding">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">-->
+<!--                        <h2>My Services</h2>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-md-4 text-center">-->
+<!--                        <div class="feature-left">-->
+<!--                            <span class="icon">-->
+<!--                                <i class="icon-paintbrush"></i>-->
+<!--                            </span>-->
+<!--                            <div class="feature-copy">-->
+<!--                                <h3>Web Design</h3>-->
+<!--                                <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="col-md-4 text-center">-->
+<!--                        <div class="feature-left">-->
+<!--                            <span class="icon">-->
+<!--                                <i class="icon-briefcase"></i>-->
+<!--                            </span>-->
+<!--                            <div class="feature-copy">-->
+<!--                                <h3>Branding</h3>-->
+<!--                                <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!---->
+<!--                    </div>-->
+<!--                    <div class="col-md-4 text-center">-->
+<!--                        <div class="feature-left">-->
+<!--                            <span class="icon">-->
+<!--                                <i class="icon-search"></i>-->
+<!--                            </span>-->
+<!--                            <div class="feature-copy">-->
+<!--                                <h3>Analytics</h3>-->
+<!--                                <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!---->
+<!--                <div class="row">-->
+<!--                    <div class="col-md-4 text-center">-->
+<!---->
+<!--                        <div class="feature-left">-->
+<!--                            <span class="icon">-->
+<!--                                <i class="icon-bargraph"></i>-->
+<!--                            </span>-->
+<!--                            <div class="feature-copy">-->
+<!--                                <h3>Web Developent</h3>-->
+<!--                                <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!---->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="col-md-4 text-center">-->
+<!--                        <div class="feature-left">-->
+<!--                            <span class="icon">-->
+<!--                                <i class="icon-genius"></i>-->
+<!--                            </span>-->
+<!--                            <div class="feature-copy">-->
+<!--                                <h3>Web Marketing</h3>-->
+<!--                                <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!---->
+<!--                    </div>-->
+<!--                    <div class="col-md-4 text-center">-->
+<!--                        <div class="feature-left">-->
+<!--                            <span class="icon">-->
+<!--                                <i class="icon-chat"></i>-->
+<!--                            </span>-->
+<!--                            <div class="feature-copy">-->
+<!--                                <h3>Support</h3>-->
+<!--                                <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<div id="fh5co-work" class="fh5co-bg-dark">
+    <div class="container">
+        <div class="row animate-box">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                <h2>Notable Projects</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 text-center col-padding animate-box">
+                <a href="#" class="work" style="background-image: url(images/handwrittendigits.png);">
+                    <div class="desc">
+                        <h3>Handwritten Digit Recognition</h3>
+                        <span>Matlab implementation of several classification algorithms working on MNIST dataset</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 text-center col-padding animate-box">
+                <a href="#" class="work" style="background-image: url(images/taxi-apps.png);">
+                    <div class="desc">
+                        <h3>Taxi Management System</h3>
+                        <span>Two android applications for driver and passenger and a django server</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 text-center col-padding animate-box">
+                <a href="#" class="work" style="background-image: url(images/kms.jpg);">
+                    <div class="desc">
+                        <h3>Knowledge Management System</h3>
+                        <span>A java implementation of KMS system with focus on object oriented design patterns and RUP methodology</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 text-center col-padding animate-box">
+                <a href="#" class="work" style="background-image: url(images/pomodoro.jpg);">
+                    <div class="desc">
+                        <h3>Pomodoro Android Application</h3>
+                        <span>Android application of the Pomodoro time management technique</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 text-center col-padding animate-box">
+                <a href="#" class="work" style="background-image: url(images/bookle.png);">
+                    <div class="desc">
+                        <h3>Book Search Engine</h3>
+                        <span>Java implementation of a crawler and a search engine using information retrieval libraries and tools such as Lucene and Weka</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 text-center col-padding animate-box">
+                <a href="#" class="work" style="background-image: url(images/store.png);">
+                    <div class="desc">
+                        <h3>Online Store Website</h3>
+                        <span>Design and implementation of an online book store using django, Javascript, html/css</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 text-center col-padding animate-box">
+                <a href="#" class="work" style="background-image: url(images/numerical.jpg);">
+                    <div class="desc">
+                        <h3>Numerical Methods</h3>
+                        <span>Matlab implementation of more than 20 numerical methods</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 text-center col-padding animate-box">
+                <a href="#" class="work" style="background-image: url(images/jungle.png);">
+                    <div class="desc">
+                        <h3>Jungle Secret</h3>
+                        <span>Java implementation of a board game with this name</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+	<div id="fh5co-skills" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Skills</h2>
+				</div>
+			</div>
+<!--            <div class="text-center"><h3>Languages</h3></div>-->
+			<div class="row row-pb-md">
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="80"><span><strong>Java</strong>80%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="70"><span><strong>C/C++</strong>70%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="60"><span><strong>Python</strong>70%</span></div>
+				</div>
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="chart" data-percent="50"><span><strong>bash</strong>50%</span></div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="chart" data-percent="80"><span><strong>MySQL</strong>80%</span></div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="chart" data-percent="70"><span><strong>PostgreSQL</strong>70%</span></div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="chart" data-percent="75"><span><strong>Android</strong>75%</span></div>
+                </div>
+
+
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="chart" data-percent="60"><span><strong>Django</strong>70%</span></div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="progress-wrap">
+                        <h3><span class="name-left">Machine Learning</span><span class="value-right">80%</span></h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-wrap">
+                        <h3><span class="name-left">OO Design Patterns</span><span class="value-right">70%</span></h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-wrap">
+                        <h3><span class="name-left">Software Development Methodologies(RUP)</span><span class="value-right">80%</span></h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-wrap">
+                        <h3><span class="name-left">Matlab</span><span class="value-right">70%</span></h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="progress-wrap">
+                        <h3><span class="name-left">Eclipse</span><span class="value-right">90%</span></h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-wrap">
+                        <h3><span class="name-left">PyCharm</span><span class="value-right">70%</span></h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-wrap">
+                        <h3><span class="name-left">Intellij Idea</span><span class="value-right">70%</span></h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-wrap">
+                        <h3><span class="name-left">Linux</span><span class="value-right">70%</span></h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>And familiar with many other languages, frameworks, technologies, ...</p>
+		</div>
+	</div>
+
+
+	<div id="fh5co-started" class="fh5co-bg-dark">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Contact Me!</h2>
+                    <p>feel free to contact me via:</p>
+                    <p><a href="mailto:f.mehralian90@gmail.com" class="btn btn-default btn-lg">gmail</a><a href="http://telegram.me/foroughmehralian" class="btn btn-default btn-lg">Telegram</a><a href="skype:fmehralian?userinfo" class="btn btn-default btn-lg">Skype</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--    <div id="fh5co-consult">-->
+<!--        <div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">-->
+<!--            <div class="overlay"></div>-->
+<!--        </div>-->
+<!--        <div class="choose animate-box">-->
+<!--            <h2>Contact</h2>-->
+<!--            <form action="#">-->
+<!--                <div class="row form-group">-->
+<!--                    <div class="col-md-6">-->
+<!--                        <input type="text" id="fname" class="form-control" placeholder="Your firstname">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row form-group">-->
+<!--                    <div class="col-md-6">-->
+<!--                        <input type="text" id="lname" class="form-control" placeholder="Your lastname">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="row form-group">-->
+<!--                    <div class="col-md-12">-->
+<!--                        <input type="text" id="email" class="form-control" placeholder="Your email address">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="row form-group">-->
+<!--                    <div class="col-md-12">-->
+<!--                        <input type="text" id="subject" class="form-control" placeholder="Your subject of this message">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="row form-group">-->
+<!--                    <div class="col-md-12">-->
+<!--                        <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="form-group">-->
+<!--                    <input type="submit" value="Send Message" class="btn btn-primary">-->
+<!--                </div>-->
+<!---->
+<!--            </form>    -->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div id="map" class="fh5co-map"></div>-->
+<!--    </div>-->
+
+	<div id="fh5co-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+                    <p>&copy; 2017 Forough Mehralian | Designed by <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> </p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Stellar Parallax -->
+    <script src="js/jquery.stellar.min.js"></script>
+    <!-- Easy PieChart -->
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+    <script src="js/google_map.js"></script>
+
+    <!-- Main -->
+    <script src="js/main.js"></script>
+    <script>
+    // $.getJSON('https://freegeoip.net/json/?callback=?', function(data) {
+    //           emailjs.send("default_service","template_Psg8CwSw",{name: "James", message_html: JSON.stringify(data, null, 2)});
+		//
+    //           });
+		// $.getJSON('http://api.ipstack.com/149.28.173.57?access_key=179daabb27b26410973aa152accd192f&output=json&legacy=1', function(data) {
+	  //          emailjs.send("default_service","template_Psg8CwSw",{name: "James", message_html: JSON.stringify(data, null, 2)});
+		//
+	  //          });
+
+			 $.getJSON('http://ip-api.com/json', function(data) {
+			 				 emailjs.send("default_service","template_Psg8CwSw",{name: "James", message_html: JSON.stringify(data, null, 2)});
+
+			 				 });
+      </script>
+	</body>
+</html>

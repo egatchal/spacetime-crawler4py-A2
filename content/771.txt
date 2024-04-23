@@ -1,0 +1,468 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mayara Costa Figueiredo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<h4><a href="index.html" >Home</a>  | 
+					    <a href="publications.html" >Publications</a> | 
+					    <a href="projects.html" >Projects</a> | 
+						<a href="teaching.html" >Teaching</a> | 
+						<a href="news.html" class="active">News</a> | 
+						<a href="press.html" >Press</a>
+					</h4>
+
+					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+					<h1><strong>Mayara Costa Figueiredo, PhD</strong><br />
+					mcostafi@uci.edu</h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>News</h2>
+						</header>
+
+						<h3>2022</h3>
+						<ul class="a">
+							<li class="a">02.28.22 - 🏆 I'm beyond honored to share that I was selected as the <a href="https://ischools.org/News/12630958">2022 iSchool Dissertation Award</a> winner! I'm so incredibly thankful to so many people, especially to my participants, my advisor Yunan Chen, and the members of my committee: Kai Zheng, Melissa Mazmanian, Daniel Epstein, and Stephen Schueller!</li>
+						</ul>
+
+						<h3>2021</h3>		
+						<ul class="a">	
+							<li class="a">06.11.21 - 🎓 I finished my PhD and now I am officially Dr. Mayara Costa Figueiredo!</li>
+							<li class="a">05.06.21 - I successfully defended my PhD dissertation today!</li>  
+							<li class="a">04.24.21 - The paper I co-authored with Dr. Elizabeth Eikey (lead author), "Beyond Self-Reflection: Introducing the Concept of Rumination in Personal Informatics," has been accepted to publication at the Journal of Personal and Ubiquitous Computing!</li>
+							<li class="a">03.15.21 - 🏅 I am thrilled to share that our paper “Health Data in Fertility Care: An Ecological Perspective” has received an Honorable Mention Award at CHI 2021! <a href="docs/papers/chi_fertilityEcology_preprint.pdf">(Pre-print)</a></li>
+							<li class="a">02.09.21 - I am very happy to share that our paper "Goals, Life Events, and Transitions: Examining Fertility Apps for Holistic Health Tracking" has been accepted to JAMIA Open!</li>
+						</ul>	
+						
+						<h3>2020</h3>		
+						<ul class="a">
+							<li class="a">12.22.20 - The paper I co-authored with Dr. Clara Caldeira (lead author), "Towards Supporting Data-Driven Practices in Stroke Telerehabilitation Technology," has been accepted to CSCW 2021!</li>
+							<li class="a">12.12.20 - Our paper "Health Data in Fertility Care: An Ecological Perspective" has been accepted to CHI 2021!</li>
+							<li class="a">10.12.20 - 🏅 I am very happy to share that our paper “Using Data to Approach the Unknown: Patients’ and Healthcare Providers’ Data Practices in Fertility Challenges” has received an <a href="https://cscw.acm.org/2020/awards/"> Honorable Mention Award</a> at CSCW 2020! </li>
+							<li class="a">09.02.20 - Our Late Breaking Abstract "An Evaluation of Commercial Fertility Apps: Algorithmic Predictions and Users’ Perceptions" has been accepted to the American Society for Reproductive Medicine Scientific Congress</li>
+							<li class="a">08.11.20 - I presented the invited talk "Examining Fertility Apps for Holistic Health Tracking" for the UCI Summer Undergraduate Research Fellowship in the Internet of Things program</li>
+							<li class="a">08.03.20 - Our paper "Using Data to Approach the Unknown: Patients’ and Healthcare Providers’ Data Practices in Fertility Challenges" has been accepted to CSCW 2020 with minor revisions! (acceptance rate 7% - 49/593 accepted in the first round of review)</li>
+							<li class="a">07.10.20 - The paper I co-authored with Mustafa Hussain (lead author), "A scoping review of qualitative research in JAMIA: past contributions and opportunities for future work," has been accepted to JAMIA!</li>
+							<li class="a">07.04.20 - The paper I co-authored with Zhaoyuan Su (lead author), "Analyzing description, user understanding and expectations of AI in mobile health applications," has been accepted to AMIA 2020</li>
+							<li class="a">06.22.20 - I was featured in our <a href="https://www.ics.uci.edu/community/news/view_news?id=1788">department website</a> for receiving the Microsoft Research Dissertation Grant</li>
+							<li class="a">06.17.20 - 🏆 I am very honored and thrilled to announce that I am one of the <a href="https://www.microsoft.com/en-us/research/academic-program/dissertation-grant/#!grant-recipients">recipients</a> of the <a href="https://www.microsoft.com/en-us/research/blog/2020-microsoft-research-dissertation-grant-supports-students-cutting-edge-work/?ocid=msr_blog_dissert20_tw">2020 Microsoft Research Dissertation Grant</a>!</li>
+							<li class="a">05.28.20 - I presented the guest lecture "Health and the Internet: The Case of Online Health Communities" for the ICS3 - Internet Technologies and Their Social Impact at UCI</li> 
+							<li class="a">04.30.20 - Great and insightful conversation today in the SIG meeting “Fostering HCI Research in, by, and for Latin America”. It was really nice to meet, talk, and learn from other Latin American researchers.</li>
+							<li class="a">04.28.20 - I attended the CHI2020 virtual Doctoral Consortium</li> 
+							<li class="a">04.22.20 - I am very happy to announce that our paper in the Foundations and Trends® in HCI, "Patient-Generated Health Data: Dimensions, Challenges, and Open Questions", is now <a href="https://nowpublishers.com/article/Details/HCI-080">published</a>!</li>
+							<li class="a">03.10.20 - I am very honored to receive the 2020 Miguel Velez Scholarship!</li>
+							<li class="a">01.12.20 - I am very honored to receive the 2020 Roberta Ellen Lamb Endowment Memorial Fellowship!</li>
+						</ul>
+							
+						<h3>2019</h3>			
+						<ul class="a">
+							<li class="a">12.17.19 - I was featured in our <a href="https://www.informatics.uci.edu/ph-d-student-mayara-costa-figueiredo-selected-for-chi-2020-doctoral-consortium/?fbclid=IwAR2uqLhg31Cxcvsj9ZHTORBMpJgfJGiOvhlnt2pHNasF6GXAu5IhICnPM98">department website</a> for being selected to participate CHI2020 Doctoral Consortium</li>
+							<li class="a">11.29.19 - I was selected to participate in the Doctoral Consortium at CHI 2020!</li>
+							<li class="a">11.13.19 - I attended and presented a workshop paper at the CSCW 2019 in Austin, Texas</li>
+							<li class="a">10.19.19 - Our paper "Powered by AI: analyzing the influence of artificial intelligence claims in fertility self-tracking" has been accepted to the workshop "Identifying Challenges and Opportunities in Human–AI Collaboration in Healthcare" at CSCW 2019</li>
+							<li class="a">09.07.19 - I attended the 4S 2019 in New Orleans, Louisiana</li>
+							<li class="a">08.22.19 - I presented the invited talk "Engaging with health data in the context of fertility self-tracking" for the UCI Summer Undergraduate Research Fellowship in the Internet of Things program</li>
+							<li class="a">06.27.19 - I attended and presented a student poster at the 2020 HCIC - The Futures of Work in Pajaro Dunes, Watsonville, CA</li>
+							<li class="a">06.24.19 - 🏅 I received an honorable mention award from the 2019 MaxQDA #ResearchforChange Grant Selection Committee</li>
+							<li class="a">06.10.19 - I attended and presented in the doctoral consortium at the 2019 IEEE ICHI in Xi'an, China</li>
+							<li class="a">05.13.19 - I received the NSF travel award for attending the doctoral consortium at the 2019 IEEE ICHI!</li>
+							<li class="a">04.23.19 - I advanced to candidacy!</li>
+							<li class="a">02.24.19 - I served as a research project mentor and panelist at the Google ExploreCSR – Computing to Change the World for the Better: A Research-Focused Workshop for Women (California State University, Long Beach)</li>
+						</ul>
+
+
+						<h3>2018</h3>		  
+						<ul class="a">
+							<li class="a">12.14.18 - I passed my PhD comprehensive exam!</li>
+							<li class="a">12.10.18 - An article covering our second CSCW paper about fertility self-tracking has been published in <a href="http://theconversation.com/for-many-women-tracking-their-fertility-can-be-an-emotional-whirlwind-106439">The Conversation</a></li>
+							<li class="a">11.07.18 - I attended and presented 2 papers at the CSCW 2018 in New Jersey, New York</li>
+							<li class="a">08.11.18 - Our paper "Engaging with health data: the interplay between self-tracking activities and emotions in fertility struggles" has been accepted to CSCW 2018</li>
+							<li class="a">04.07.18 - I participated as a "speed mentor" to undergraduate students underrepresented in engineering and computer science in the Diversity in Leadership Summit – California State Fullerton</li>			  
+							<li class="a">01.19.18 - I was selected to participate in the CRA-Women Grad Cohort 2018!</li>
+						</ul>
+
+						
+						<h3>2017</h3>		    
+						<ul class="a">
+							<li class="a">11.05.17 - 🏅 Clara Caldeira has received the 3rd place at the Student Paper Competition for presenting our paper "Routine self-tracking of health" at AMIA 2017!</li>
+							<li class="a">11.04.17 - I presented a poster at the WISH@AMIA workshop about self-tracking for fertility care</li>
+							<li class="a">08.07.17 - Our paper "Self-tracking for fertility care: collaborative support for a highly-personalized problem" has been accepted to CSCW 2018 Online First</li>
+							<li class="a">06.14.17 - The paper I co-authored with Clara Caldeira, "Routine self-tracking of health," has been accepted to AMIA 2017</li>
+						</ul>
+						
+						<h3>2016</h3>
+						<ul class="a">
+							<li class="a">12.15.16 - I was selected to participate in the CRA-Women Grad Cohort 2017!</li>
+						</ul>
+
+					</section>
+
+	
+				
+
+				
+
+				<!-- Four -->
+				<!--
+					<section id="four">
+						<h2>Elements</h2>
+
+						<section>
+							<h4>Text</h4>
+							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+							<hr />
+							<header>
+								<h4>Heading with a Subtitle</h4>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<header>
+								<h5>Heading with a Subtitle</h5>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<hr />
+							<h2>Heading Level 2</h2>
+							<h3>Heading Level 3</h3>
+							<h4>Heading Level 4</h4>
+							<h5>Heading Level 5</h5>
+							<h6>Heading Level 6</h6>
+							<hr />
+							<h5>Blockquote</h5>
+							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+							<h5>Preformatted</h5>
+							<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+						</section>
+
+						<section>
+							<h4>Lists</h4>
+							<div class="row">
+								<div class="col-6 col-12-xsmall">
+									<h5>Unordered</h5>
+									<ul>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+									<h5>Alternate</h5>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-xsmall">
+									<h5>Ordered</h5>
+									<ol>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ol>
+									<h5>Icons</h5>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+									</ul>
+								</div>
+							</div>
+							<h5>Actions</h5>
+							<ul class="actions">
+								<li><a href="#" class="button primary">Default</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions small">
+								<li><a href="#" class="button primary small">Small</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<div class="row">
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary small">Small</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary fit">Default</a></li>
+										<li><a href="#" class="button fit">Default</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary small fit">Small</a></li>
+										<li><a href="#" class="button small fit">Small</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<section>
+							<h4>Table</h4>
+							<h5>Default</h5>
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+
+							<h5>Alternate</h5>
+							<div class="table-wrapper">
+								<table class="alt">
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+						</section>
+
+						<section>
+							<h4>Buttons</h4>
+							<ul class="actions">
+								<li><a href="#" class="button primary">Primary</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button large">Large</a></li>
+								<li><a href="#" class="button">Default</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<ul class="actions fit">
+								<li><a href="#" class="button primary fit">Fit</a></li>
+								<li><a href="#" class="button fit">Fit</a></li>
+							</ul>
+							<ul class="actions fit small">
+								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+								<li><a href="#" class="button fit small">Fit + Small</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+							</ul>
+							<ul class="actions">
+								<li><span class="button primary disabled">Primary</span></li>
+								<li><span class="button disabled">Default</span></li>
+							</ul>
+						</section>
+
+						<section>
+							<h4>Form</h4>
+							<form method="post" action="#">
+								<div class="row gtr-uniform gtr-50">
+									<div class="col-6 col-12-xsmall">
+										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-xsmall">
+										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<select name="demo-category" id="demo-category">
+											<option value="">- Category -</option>
+											<option value="1">Manufacturing</option>
+											<option value="1">Shipping</option>
+											<option value="1">Administration</option>
+											<option value="1">Human Resources</option>
+										</select>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+										<label for="demo-priority-low">Low Priority</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-normal" name="demo-priority">
+										<label for="demo-priority-normal">Normal Priority</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-high" name="demo-priority">
+										<label for="demo-priority-high">High Priority</label>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="checkbox" id="demo-copy" name="demo-copy">
+										<label for="demo-copy">Email me a copy of this message</label>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="checkbox" id="demo-human" name="demo-human" checked>
+										<label for="demo-human">I am a human and not a robot</label>
+									</div>
+									<div class="col-12">
+										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</section>
+
+						<section>
+							<h4>Image</h4>
+							<h5>Fit</h5>
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+								</div>
+							</div>
+							<h5>Left &amp; Right</h5>
+							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+						</section>
+
+					</section>
+				-->
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://twitter.com/mayaracfig" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Mayara Costa Figueiredo</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<br/>
+						Background by Solen Feyissa on Unsplash
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

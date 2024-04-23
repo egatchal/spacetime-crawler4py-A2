@@ -1,0 +1,434 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<head profile="http://www.w3.org/1999/xhtml/vocab"><!--start head section-->
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://isr.uci.edu/sites/isr.uci.edu/themes/isr/img/isr-favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="ISR Announcements" href="https://isr.uci.edu/announcements-feed" />
+	  <title>Institute for Software Research</title>
+	  <link type="text/css" rel="stylesheet" href="https://isr.uci.edu/sites/isr.uci.edu/files/css/css_rhqCvchBWGQ6aZcLAMfPbbbmzSE9KFeVlCXvCaZmNCM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://isr.uci.edu/sites/isr.uci.edu/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://isr.uci.edu/sites/isr.uci.edu/files/css/css_YmqOXN8y9Hy4jOjYSZzaG45vvA3cXr0uW-K2sHu6LXs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://isr.uci.edu/sites/isr.uci.edu/files/css/css_5FAObPfZdz2_HJIxk1ovxIgJY0vRKmvMEH9F17SKm4U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://isr.uci.edu/sites/isr.uci.edu/files/css/css_xZ8td-kyKKKBrAih7pNijMwXNx7tOBq4IwTH9ETrqjE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://isr.uci.edu/sites/isr.uci.edu/files/css/css_rSbMAudflQzB73dSQAm_OcgIayii0HuJf7eALvCFwug.css" media="print" />
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gudea:700&amp;subset=latin" media="all" />
+<link type="text/css" rel="stylesheet" href="https://isr.uci.edu/sites/isr.uci.edu/files/css/css_MxpGWsnplJpfRS_Lmlxc2o8y0TFJzQPtyF5MjTRIjNM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://isr.uci.edu/sites/isr.uci.edu/files/css/css_Qs-uHguh602Z57SQTujVsJ67e_rnT1zAN3Fc5emNDeY.css" media="all" />
+	  <script type="text/javascript" src="https://isr.uci.edu/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://isr.uci.edu/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://isr.uci.edu/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://isr.uci.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://isr.uci.edu/misc/drupal.js?qce6vy"></script>
+<script type="text/javascript" src="https://isr.uci.edu/sites/isr.uci.edu/modules/admin_menu/admin_devel/admin_devel.js?qce6vy"></script>
+<script type="text/javascript" src="https://isr.uci.edu/sites/isr.uci.edu/modules/image_caption/image_caption.min.js?qce6vy"></script>
+<script type="text/javascript" src="https://isr.uci.edu/sites/isr.uci.edu/modules/jquerymenu/jquerymenu.js?qce6vy"></script>
+<script type="text/javascript" src="https://isr.uci.edu/sites/isr.uci.edu/modules/google_analytics/googleanalytics.js?qce6vy"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-42329209-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://isr.uci.edu/sites/isr.uci.edu/themes/marinelli/js/hoverintent/hoverintent.js?qce6vy"></script>
+<script type="text/javascript" src="https://isr.uci.edu/sites/isr.uci.edu/themes/marinelli/js/menu/marinelli_menu.js?qce6vy"></script>
+<script type="text/javascript" src="https://isr.uci.edu/sites/isr.uci.edu/themes/isr/js/cycle/cycle.js?qce6vy"></script>
+<script type="text/javascript" src="https://isr.uci.edu/sites/isr.uci.edu/themes/isr/js/banner/marinelli_configure_cycle.js?qce6vy"></script>
+<script type="text/javascript" src="https://isr.uci.edu/sites/isr.uci.edu/themes/marinelli/js/modernizer/modernizr.js?qce6vy"></script>
+<script type="text/javascript" src="https://isr.uci.edu/sites/isr.uci.edu/themes/marinelli/js/marinelli_marinelli.js?qce6vy"></script>
+<script type="text/javascript" src="https://isr.uci.edu/sites/isr.uci.edu/themes/marinelli/js/topregion/marinelli_topregion.js?qce6vy"></script>
+<script type="text/javascript" src="https://isr.uci.edu/sites/isr.uci.edu/themes/isr/js/isr.js?qce6vy"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"isr","theme_token":"gybnHsGT7O9s6YXVdM1ItQPiBYOtSgNoV4uXhGPmtUI","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/isr.uci.edu\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/isr.uci.edu\/modules\/image_caption\/image_caption.min.js":1,"sites\/isr.uci.edu\/modules\/jquerymenu\/jquerymenu.js":1,"sites\/isr.uci.edu\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/isr.uci.edu\/themes\/marinelli\/js\/hoverintent\/hoverintent.js":1,"sites\/isr.uci.edu\/themes\/marinelli\/js\/menu\/marinelli_menu.js":1,"sites\/isr.uci.edu\/themes\/isr\/js\/cycle\/cycle.js":1,"sites\/isr.uci.edu\/themes\/isr\/js\/banner\/marinelli_configure_cycle.js":1,"sites\/isr.uci.edu\/themes\/marinelli\/js\/modernizer\/modernizr.js":1,"sites\/isr.uci.edu\/themes\/marinelli\/js\/marinelli_marinelli.js":1,"sites\/isr.uci.edu\/themes\/marinelli\/js\/topregion\/marinelli_topregion.js":1,"sites\/isr.uci.edu\/themes\/isr\/js\/isr.js":1},"css":{"sites\/isr.uci.edu\/themes\/isr\/css\/reset\/reset.css":1,"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/isr.uci.edu\/modules\/date\/date_api\/date.css":1,"sites\/isr.uci.edu\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/isr.uci.edu\/modules\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/isr.uci.edu\/modules\/views\/css\/views.css":1,"sites\/isr.uci.edu\/modules\/ctools\/css\/ctools.css":1,"sites\/isr.uci.edu\/modules\/jquerymenu\/jquerymenu.css":1,"sites\/isr.uci.edu\/modules\/panels\/css\/panels.css":1,"sites\/isr.uci.edu\/modules\/biblio\/biblio.css":1,"sites\/isr.uci.edu\/modules\/panels\/plugins\/layouts\/threecol_33_34_33_stacked\/threecol_33_34_33_stacked.css":1,"sites\/isr.uci.edu\/themes\/isr\/css\/grid\/grid_1000.css":1,"sites\/isr.uci.edu\/themes\/marinelli\/css\/common.css":1,"sites\/isr.uci.edu\/themes\/marinelli\/css\/links.css":1,"sites\/isr.uci.edu\/themes\/marinelli\/css\/typography.css":1,"sites\/isr.uci.edu\/themes\/marinelli\/css\/forms.css":1,"sites\/isr.uci.edu\/themes\/marinelli\/css\/drupal.css":1,"sites\/isr.uci.edu\/themes\/marinelli\/css\/layout.css":1,"sites\/isr.uci.edu\/themes\/marinelli\/css\/primary-links.css":1,"sites\/isr.uci.edu\/themes\/marinelli\/css\/slideshow.css":1,"sites\/isr.uci.edu\/themes\/marinelli\/css\/secondary-links.css":1,"sites\/isr.uci.edu\/themes\/marinelli\/css\/blocks.css":1,"sites\/isr.uci.edu\/themes\/marinelli\/css\/node.css":1,"sites\/isr.uci.edu\/themes\/marinelli\/css\/comments.css":1,"sites\/isr.uci.edu\/themes\/marinelli\/css\/pages\/maintenance-page.css":1,"sites\/isr.uci.edu\/themes\/isr\/css\/isr.css":1,"sites\/isr.uci.edu\/themes\/marinelli\/css\/print\/print.css":1,"https:\/\/fonts.googleapis.com\/css?family=Gudea:700\u0026subset=latin":1,"sites\/isr.uci.edu\/themes\/isr\/css\/css3\/css3.css":1,"sites\/isr.uci.edu\/themes\/isr\/css\/css3\/css3_graphics.css":1}},"jquerymenu":{"hover":0,"animate":1,"edit_link":0,"click_to_expand":0},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackCrossDomains":["www.isr.uci.edu"]},"marinelli":{"bartext":"Slide Down","bartext2":"Slide Up","banner_effect":"fade","banner_speed":"2000","banner_delay":"10000","banner_pause":1},"urlIsAjaxTrusted":{"\/":true}});
+//--><!]]>
+</script>
+	</head>
+	<!--[if lt IE 7 ]> <body class="marinelli ie6 html front not-logged-in no-sidebars page-home"> <![endif]-->
+    <!--[if IE 7 ]>    <body class="marinelli ie7 html front not-logged-in no-sidebars page-home"> <![endif]-->
+    <!--[if IE 8 ]>    <body class="marinelli ie8 html front not-logged-in no-sidebars page-home"> <![endif]-->
+    <!--[if IE 9 ]>    <body class="marinelli ie9 html front not-logged-in no-sidebars page-home"> <![endif]-->
+    <!--[if gt IE 9]>  <body class="marinelli html front not-logged-in no-sidebars page-home"> <![endif]-->
+    <!--[if !IE]><!--> <body class="marinelli html front not-logged-in no-sidebars page-home"> <!--<![endif]-->
+	  <div id="skip-link">
+	    <a href="#content" title="Jump to the main content of this page" class="element-invisible">Jump to Content</a>
+	  </div>
+	  	  
+
+<!--start framework container-->
+<div class="container_12 width_1" id="totalContainer">
+      <!--start top section-->
+    <div id="top" class="outsidecontent">
+
+              
+      <!--start branding-->
+      <div id="branding">
+
+                  <div id="logo-container">
+            <a href="/" title="Back to homepage" class="active"><img id="logo" typeof="foaf:Image" src="https://isr.uci.edu/sites/isr.uci.edu/themes/isr/img/ISR-Banner.jpg" alt="" /></a>          </div>
+        
+                  <!--start title and slogan-->
+          <div id="title-slogan">
+            
+                      </div>
+          <!--end title and slogan-->
+        
+      </div>
+      <!--end branding-->
+
+              <!--start search-->
+        <div id="search">
+          <!-- start region -->
+<div class="region region region-search">
+  <div id="block-search-form" class="block block-search">
+        <div class="content">
+    <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-h9KFaR4Wlu_8KqhEdS1txXuMXpnRgFGyEDtFdnTpqSw" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+
+</div></form>  </div>
+</div> <!-- /block --><div id="block-block-1" class="block block-block">
+        <div class="content">
+    <p><a href="https://www.facebook.com/ISRUCI" target="_blank"><img src="/sites/isr.uci.edu/files/images/facebook.png" alt="facebook" style="vertical-align: middle;" /></a> <a href="https://twitter.com/isruci" target="_blank"><img src="/sites/isr.uci.edu/files/images/twitter.png" alt="twitter" width="32" height="32" style="vertical-align: middle;" /></a> <a style="line-height: 1.538em;" href="http://www.youtube.com/user/ISRUCI" target="_blank"><img src="/sites/isr.uci.edu/files/images/youtube.png" alt="you tube" style="vertical-align: middle;" /></a> <a href="https://maillists.uci.edu/mailman/listinfo/isr-announce" target="_blank"><img src="/sites/isr.uci.edu/files/images/mailing-list.png" alt="ISR mailing list" style="vertical-align: middle;" /></a> <span style="line-height: 1.538em;"> </span><span style="line-height: 1.5em;">ISR</span></p>
+  </div>
+</div> <!-- /block --></div>
+<!-- end region -->        </div>
+        <!--end search-->
+      
+    </div>
+    <!--end top section-->
+  
+      <!--start main menu-->
+    <div id="navigation-primary" class="sitemenu">
+      <ul class="megamenu-1"><li class="megamenu-li-first-level" id="menu-main-title-218"><a href="/" class="active">Home</a></li><li class="megamenu-li-first-level" id="menu-main-title-312"><a href="/about/about-isr" title="">About ISR</a><div class="mega two-col"><div class="megamenuWrapper"><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-1365"><a href="/about/about-isr" title="">About ISR</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-1366"><a href="/about/director" title="">Director&#039;s Messages</a></div><div class="closepanel"><span class="close-panel" title="close this panel">close this panel</span></div></div></li><li class="megamenu-li-first-level" id="menu-main-title-313"><a href="/people/faculty" title="">People</a><div class="mega six-col"><div class="megamenuWrapper"><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-316"><a href="/people/faculty" title="">Faculty</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-317"><a href="/people/visitors" title="">Visitors</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-318"><a href="/people/staff" title="">Staff</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-1342"><a href="/people/researchers" title="">Associated Researchers</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-576"><a href="/people/students" title="">Graduate Students</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-319"><a href="/people/alumni" title="">Alumni</a></div><div class="closepanel"><span class="close-panel" title="close this panel">close this panel</span></div></div></li><li class="megamenu-li-first-level" id="menu-main-title-314"><a href="/isr-events/upcoming" title="">Events</a><div class="mega "><div class="megamenuWrapper"><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-892"><a href="/isr-events/upcoming" title="">Upcoming Events</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-896"><a href="/isr-events/past" title="">Past Events</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-3837"><a href="/isr-events/symposia" title="">Symposia-Forums</a><ul class="megamenu-section"><ul class="megamenu-section"><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-895"><a href="/dss" title="">Distinguished Speakers</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-1353"><a href="/isr-events/talks" title="">Colloquia and Talks</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-917"><a href="/isr-events/gsrs" title="">Student Symposia</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-1124"><a href="/isr-events/workshops" title="">Workshops</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-1352"><a href="/isr-events/supported" title="">ISR-Supported Events</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-918"><a href="/isr-events/conferences" title="">Conferences</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-1354"><a href="/isr-events/directions" title="">Directions and Parking</a></div><div class="closepanel"><span class="close-panel" title="close this panel">close this panel</span></div></div></li><li class="megamenu-li-first-level" id="menu-main-title-884"><a href="/research" title="">Research</a><div class="mega three-col"><div class="megamenuWrapper"><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-3718"><a href="/research" title="">Research Projects</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-3719"><a href="/happenings/hot-research" title="">Hot Research</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-3720"><a href="/happenings/spotlight" title="">Spotlight</a></div><div class="closepanel"><span class="close-panel" title="close this panel">close this panel</span></div></div></li><li class="megamenu-li-first-level" id="menu-main-title-692"><a href="/biblio" title="">Publications</a><div class="mega five-col"><div class="megamenuWrapper"><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-1013"><a href="/biblio" title="">Bibliography</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-3648"><a href="/publications/awarded" title="">Awarded Pubs</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-693"><a href="/publications" title="">Tech Reports</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-694"><a href="/publications/connectors" title="">Newsletter</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-3649"><a href="/publications/dissertations" title="">Dissertations</a></div><div class="closepanel"><span class="close-panel" title="close this panel">close this panel</span></div></div></li><li class="megamenu-li-first-level" id="menu-main-title-885"><a href="/happenings/announcements" title="">Happenings</a><div class="mega "><div class="megamenuWrapper"><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-886"><a href="/happenings/announcements" title="">Announcements</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-887"><a href="/happenings/news" title="">News Briefs</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-1014"><a href="/happenings/hot-research" title="">Hot Research</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-1362"><a href="/happenings/spotlight" title="">Spotlight</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-1364"><a href="/happenings/director" title="">Director&#039;s Messages</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-1016"><a href="/happenings/alumni-profiles" title="">Alumni Profiles</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-1018"><a href="/happenings/student-updates" title="">Student Updates</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-1656"><a href="/albums" title="">Photo Albums</a><ul class="megamenu-section"></div><div class="closepanel"><span class="close-panel" title="close this panel">close this panel</span></div></div></li><li class="megamenu-li-first-level" id="menu-main-title-921"><a href="/partnerships/sponsors" title="">Partnerships</a><div class="mega two-col"><div class="megamenuWrapper"><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-922"><a href="/partnerships/sponsors" title="">Sponsors</a><ul class="megamenu-section"><li class="menu-section-title" id="menu-section-title-923"><a href="/partnerships/sponsorship" title="">Become a Sponsor!</a></div><div class="closepanel"><span class="close-panel" title="close this panel">close this panel</span></div></div></li><li class="megamenu-li-first-level" id="menu-main-title-315"><a href="/content/contact-isr">Contact</a></li></ul>    </div>
+    <!--end main menu-->
+  
+  <!--border start-->
+  <div id="pageBorder" >
+          <!--start advertise section-->
+      <div id="header-images" >
+                  <div id="header-image-text" class="marinelli-hide-no-js"><div id="header-image-text-data"><h2 id="header-image-title"><a href="#" class="bannerlink" title="See this content">title</a></h2><p id="header-image-description"><a href="#" class="bannerlink" title="See this content">description</a></p></div></div>          <div id="header-image-navigation" class="marinelli-hide-no-js"><a href="#" id="header-image-prev" title="Previous Ad">&lsaquo;</a><a href="#" id="header-image-next" title="Next Ad">&rsaquo;</a></div>          <a href="/about"><img class="slide" id="slide-number-0" longdesc="Where Research Meets the Real World." typeof="foaf:Image" src="https://isr.uci.edu/sites/isr.uci.edu/files/banner/ICS2-cropped.jpg" alt="Where Research Meets the Real World." title="Institute for Software Research" /></a><a href="/partnerships/sponsors"><img class="slide marinelli-hide-no-js" id="slide-number-1" longdesc="Working with established companies, start-ups, government agencies, and standards bodies to develop and transition new technologies to widespread and practical application." typeof="foaf:Image" src="https://isr.uci.edu/sites/isr.uci.edu/files/banner/workshops.jpg" alt="Working with established companies, start-ups, government agencies, and standards bodies to develop and transition new technologies to widespread and practical application." title="Collaboration" /></a><a href="/isr-events/upcoming"><img class="slide marinelli-hide-no-js" id="slide-number-2" longdesc="The Institute for Software Research (ISR) regularly holds a Research Forum to bring researchers, industry leaders and technical practitioners to UC Irvine to share the latest software and information technology research developments." typeof="foaf:Image" src="https://isr.uci.edu/sites/isr.uci.edu/files/banner/forum.jpg" alt="The Institute for Software Research (ISR) regularly holds a Research Forum to bring researchers, industry leaders and technical practitioners to UC Irvine to share the latest software and information technology research developments." title="Events" /></a><a href="/research"><img class="slide marinelli-hide-no-js" id="slide-number-3" longdesc="Research in software and information technologies, with a distinguishing interest on human aspects." typeof="foaf:Image" src="https://isr.uci.edu/sites/isr.uci.edu/files/banner/archstudio-slant.png" alt="Research in software and information technologies, with a distinguishing interest on human aspects." title="Research" /></a>              </div>
+      <!--end advertise-->
+    		
+		
+    <!-- start contentWrapper-->
+    <div id="contentWrapper">
+      <!--start breadcrumb -->
+              <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/" class="active">Home</a></div></div>
+            <!-- end breadcrumb -->
+		
+			
+      <!--start innercontent-->
+			<div id="innerContent">
+
+        <!--start main content-->
+				<div class="grid_12" id="siteContent">
+						   				
+	   			            
+          		                
+                    
+                      <div class="tab-container">
+                          </div>
+          
+          
+          
+          <!--start drupal content-->
+          <div id="content">
+            <!-- start region -->
+<div class="region region region-content">
+  <div id="block-system-main" class="block block-system">
+        <div class="content">
+    <div class="panel-display panel-3col-33-stacked  clearfix" >
+  
+  <div class="center-wrapper">
+    <div class="panel-panel panel-col-first">
+      <div class="inside"><div class="panel-pane pane-views pane-directors-message"  >
+  
+        <h2 class="pane-title">
+      From the Director    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-directors-message view-id-directors_message view-display-id-block view-dom-id-8446967e45e16e2c3633e1bc99517600">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><h3>Welcome to ISR</h3></span>  </div>  
+  <div class="views-field views-field-field-director-photo">        <div class="field-content"><img typeof="foaf:Image" src="https://isr.uci.edu/sites/isr.uci.edu/files/styles/thumbnail/public/malek-sam-2018-crop-sm2.jpg?itok=JAIUqTAR" width="83" height="100" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p><span style="line-height: 1.538em;">Welcome to the Institute for Software Research (ISR) at the University of California, Irvine.  ISR is a Center in the <a href="https://www.ics.uci.edu/" target="_blank">Donald Bren School of Information and Computer Sciences</a>. Our goal is to advance software and information technology through research partnerships. Here at ISR, we have become the intersection between cutting edge software research and real world practice.</span></p>
+<p><span style="line-height: 1.538em;">Over the years we have built an impressive community of academic software researchers and industrial innovators.  ISR offers a range of opportunities for participation and engagement. We invite you to join us as we continue to transform the field of Software Engineering.</span></p>
+<p class="p1" style="text-align: right;">Director Prof. Sam Malek</p>
+</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-linked-logos-panel-pane-logos"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-linked-logos view-id-linked_logos view-display-id-panel_pane_logos view-dom-id-af966a5a64555ee401cca9fe56b6264d">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-logo-image">        <div class="field-content"><a href="https://secure.connect.uci.edu/s/1735/interior-1col.aspx?sid=1735&amp;gid=3&amp;pgid=801&amp;dids=78&amp;bledit=1" target="_blank"><img typeof="foaf:Image" src="https://isr.uci.edu/sites/isr.uci.edu/files/styles/width-250/public/logos/Taylor-Grad-Award-donate-v2b.jpg?itok=A3CFDNuU" width="250" height="156" alt="" /></a></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-logo-image">        <div class="field-content"><a href="https://secure.connect.uci.edu/s/1735/interior-1col.aspx?sid=1735&amp;gid=3&amp;pgid=801&amp;bledit=1&amp;dids=728" target="_blank"><img typeof="foaf:Image" src="https://isr.uci.edu/sites/isr.uci.edu/files/styles/width-250/public/logos/Rosalva-Award-donate-v1b.jpg?itok=e71WVV9p" width="250" height="156" alt="" /></a></div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-field-logo-image">        <div class="field-content"><a href="http://www.informatics.uci.edu/admissions/graduate-application-process/" target="_blank"><img typeof="foaf:Image" src="https://isr.uci.edu/sites/isr.uci.edu/files/styles/width-250/public/logos/se_apply_banner.png?itok=TDn-gVGj" width="237" height="80" alt="" /></a></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-projects-project-teaser-pane"  >
+  
+        <h2 class="pane-title">
+      Featured Project    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-projects view-id-projects view-display-id-project_teaser_pane view-dom-id-a97b288232b3b43cf58b931bed328cbe">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <h2 class="views-field views-field-title teaser-title">        <span class="field-content"><h2 class="views-field views-field-title teaser-title">
+<a href="/content/computer-games-and-software-engineering-proj">Computer Games and Software Engineering</a></h2></span>  </h2>  
+  <div class="views-field views-field-field-project-image">        <div class="field-content"><a href="/content/computer-games-and-software-engineering-proj"><img typeof="foaf:Image" src="https://isr.uci.edu/sites/isr.uci.edu/files/styles/width-250/public/projects/images/CGSE-image.png?itok=LPZslbnC" width="250" height="153" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-project-tagline">        <div class="field-content">Computer games are an excellent domain for which to research and develop new ways and means for (game) software engineering.</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div class="more-link"><a href="/research">More Research &gt;&gt;</a></div>
+    </div>
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+    </div>
+
+    <div class="panel-panel panel-col">
+      <div class="inside"><div class="panel-pane pane-views-panes pane-announcements-panel-pane-announcements"  >
+  
+        <h2 class="pane-title">
+      ISR Announcements    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-announcements view-id-announcements view-display-id-panel_pane_announcements view-dom-id-172e2661def7739c21fc67724a60c87d">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="teaser-container node node-announcement node-promoted node-teaser" about="/content/richard-n-taylor-fellowship-software-engineering-established-0" typeof="sioc:Item foaf:Document">
+	<div class="teaser-content">
+		<h2 class="teaser-title">
+		<a href="/content/richard-n-taylor-fellowship-software-engineering-established-0">Richard N. Taylor Graduate Award in Software Engineering Established</a>				</h2>
+					<div class="teaser-text">
+			<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img src="/sites/isr.uci.edu/files/styles/width-150/public/images/announcements/taylor-2013-crop-sm.jpg?itok=Lb2zests" alt="Prof. Richard N. Taylor" title="Prof. Richard N. Taylor" width="150" height="168" style="float: left; margin: 5px 8px; border: 2px solid black;" class="image-width-150" />The UCI Donald Bren School of Information and Computer Sciences (ICS) has announced the establishment of the <strong>Richard N. Taylor Graduate Award in Software Engineering</strong>. This is the first award in ICS specifically dedicated to software engineering.</p></div></div></div>                            	        <div class="announce-teaser-posted">
+			   Nov 02, 2018			</div>	
+		      		</div>
+	</div>
+  <div class="teaser-meta">
+      <span class="teaser-readmore"><a href="/content/richard-n-taylor-fellowship-software-engineering-established-0" class="node-readmore-link">read more</a></span>
+  </div>
+</div><!--end teaser container-->  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+    <div class="teaser-container node node-announcement node-promoted node-teaser" about="/content/software-engineering-ics-%E2%80%93-50-year-history-0" typeof="sioc:Item foaf:Document">
+	<div class="teaser-content">
+		<h2 class="teaser-title">
+		<a href="/content/software-engineering-ics-%E2%80%93-50-year-history-0"> Software Engineering in ICS – A 50-year History</a>				</h2>
+					<div class="teaser-text">
+			<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><a href="http://isr.uci.edu/sites/isr.uci.edu/files/techreports/UCI-ISR-18-5.pdf"><img src="/sites/isr.uci.edu/files/styles/width-200/public/images/announcements/UCI-ISR-18-5-cvr-sm.jpg?itok=PPrL-0GD" alt=" Software Engineering in ICS – A 50-year History" title=" Software Engineering in ICS – A 50-year History" width="200" height="255" style="font-size: 13.008px; float: left; margin: 5px 10px; border: 2px solid black;" class="image-width-200" /></a></p></div></div></div>                            	        <div class="announce-teaser-posted">
+			   Nov 01, 2018			</div>	
+		      		</div>
+	</div>
+  <div class="teaser-meta">
+      <span class="teaser-readmore"><a href="/content/software-engineering-ics-%E2%80%93-50-year-history-0" class="node-readmore-link">read more</a></span>
+  </div>
+</div><!--end teaser container-->  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div class="more-link"><a href="/happenings/announcements">More Announcements &gt;&gt;</a></div>
+    </div>
+  
+      <div class="feed-icon">
+      <a href="https://isr.uci.edu/announcements-feed" class="feed-icon" title="Subscribe to ISR Announcements"><img typeof="foaf:Image" src="https://isr.uci.edu/misc/feed.png" width="16" height="16" alt="Subscribe to ISR Announcements" /></a>    </div>
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+    </div>
+
+    <div class="panel-panel panel-col-last">
+      <div class="inside"><div class="panel-pane pane-views pane-connectors"  >
+  
+        <h2 class="pane-title">
+      Newsletter    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-connectors view-id-connectors view-display-id-connector_block view-dom-id-bc5513f16564bd55b51c1bc86d177fdc">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1">
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                         <!-- add a class "empty" to the td cell if it contains no contents -->
+                    <td class="col-1 col-first">
+              
+  <div class="views-field views-field-field-connector-thumbnail">        <div class="field-content"><a href="https://isr.uci.edu/sites/isr.uci.edu/files/connectors/ISR-Connector-34-SS2020.pdf " target="_blank"><img typeof="foaf:Image" src="https://isr.uci.edu/sites/isr.uci.edu/files/styles/connector-block/public/connectors/thumbs/SS2020-v9-thumb4.jpg?itok=ZncRCU3i" width="200" height="256" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://isr.uci.edu/sites/isr.uci.edu/files/connectors/ISR-Connector-34-SS2020.pdf " target="_blank">Spring/Summer 2020</a></span>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div class="more-link"><a href="publications/connectors">More Issues &gt;&gt;</a></div>
+    </div>
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-news-briefs-panel-pane-news-briefs"  >
+  
+        <h2 class="pane-title">
+      News Briefs    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-news-briefs view-id-news_briefs view-display-id-panel_pane_news_briefs view-dom-id-1d202b25adffcdad48c147ef60f16ebc">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Professor <a href="http://isr.uci.edu/users/iftekhar-ahmed" target="_blank">Iftekhar Ahmed</a> is leading the ICSE 2020 US(Pacific) Regional Live! team. The Live! team will set up the infrastructure for live streaming the ICSE 2020 sessions in July, provide technical support, and coordinate among the virtual conference participants during the sessions to ensure the program runs smoothly. ISR Director professor <a href="http://isr.uci.edu/users/sam-malek" target="_blank">Sam Malek</a>, professor <a href="http://isr.uci.edu/users/james-jones" target="_blank">James A. Jones</a>, and a group of ISR graduate students are serving as team members. The students include <a href="http://isr.uci.edu/users/sumaya-almanee" target="_blank">Sumaya Almanee</a> (J. Garcia, advisor), <a href="http://isr.uci.edu/users/farima-farmahinifarahani" target="_blank">Farima FarmahiniFarahani</a> (C. Lopes, advisor), <a href="http://isr.uci.edu/users/fnu-jirigesi" target="_blank">Fnu Jirigesi</a> (I. Ahmed, advisor), <a href="http://isr.uci.edu/users/forough-mehralian" target="_blank">Forough Mehralian</a> (S. Malek, advisor), <a href="http://isr.uci.edu/users/navid-salehnamadi" target="_blank">Navid Salehnamadi</a> (S. Malek, advisor), and <a href="http://isr.uci.edu/users/maruf-zaber" target="_blank">Maruf Zaber</a> (C. Lopes, advisor).</p>
+</div>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The paper titled “On the Relationship Between Design Discussions and Design Quality: A Case Study of Apache Projects” has been accepted to the Research track at ESEC/FSE 2020 to be held in November. The paper is authored by Ph.D. student Umme Ayda Mannan of Oregon State University, professor <a href="http://isr.uci.edu/users/iftekhar-ahmed" target="_blank">Iftekhar Ahmed</a>, and professors Carlos Jensen and <a href="http://isr.uci.edu/users/anita-sarma" target="_blank">Anita Sarma</a> of Oregon State University.</p>
+</div>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-body">        <div class="field-content"><p>ISR Director professor <a href="http://isr.uci.edu/users/sam-malek" target="_blank">Sam Malek</a>, professor <a href="http://isr.uci.edu/users/iftekhar-ahmed" target="_blank">Iftekhar Ahmed</a>, and professor Stacy Branham, Informatics, have been awarded a $75,000 School of ICS Exploration grant for their project titled “Toward Stemming Accessibility Issues in Software.”</p>
+</div>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Prof. <a href="http://isr.uci.edu/users/iftekhar-ahmed" target="_blank">Iftekhar Ahmed</a> and Prof. <a href="http://isr.uci.edu/users/andr%C3%A9-van-der-hoek" target="_blank">André van der Hoek</a> have been awarded a $75,000 School of ICS exploration grant to study “The Dark Side of Software Engineering: Stimulant Use among Software Professionals.” Prof. <a href="http://isr.uci.edu/users/eduardo-santana-de-almeida" target="_blank">Eduardo Almeida</a> of Federal University of Bahia, Brazil will collaborate with Ahmed and van der Hoek.</p>
+</div>  </div></li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field views-field-body">        <div class="field-content"><p>ISR Director professor <a href="http://isr.uci.edu/users/sam-malek" target="_blank">Sam Malek</a> gave a virtual presentation titled “The Threat in Your Pocket: Trends, Challenges, and Solutions in Mobile Application Security” to the OC ACM Chapter for their meeting on May 20.</p>
+</div>  </div></li>
+          <li class="views-row views-row-6 views-row-even views-row-last">  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Alumnus and ISR faculty member <a href="http://isr.uci.edu/users/norman-makoto-su" target="_blank">Norman Su</a> has been awarded tenure and promoted to Associate Professor in the School of Informatics, Computing, and Engineering at Indiana University Bloomington. Congratulations, Norman!</p>
+</div>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div class="more-link"><a href="/happenings/news">More News Briefs &gt;&gt;</a></div>
+    </div>
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+</div> <!-- /block --></div>
+<!-- end region -->          </div>
+          <!--end drupal content-->
+
+          
+          
+        </div>
+        <!--end main content-->
+	 			
+          		    		
+		    		    
+        						
+						
+				
+      
+      </div>
+      <!--end innerContent-->
+
+
+          </div>
+    <!--end contentWrapper-->
+
+	</div>
+  <!--close page border Wrapper-->
+
+  
+</div>
+<!--end framework container-->
+	  	</body><!--end body-->
+</html>

@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>ics majors @ the bren school of information and computer sciences</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="https://use.fontawesome.com/f443bac96a.js"></script>
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/><link href="../../bin/styles/stylesheet_index2018_addon.css" rel="stylesheet" type="text/css"/>
+
+
+<meta content="Mon, 26 Sep 2022 13:28:37 -0380" name="date"/>
+
+</head>
+<body>
+<!-- before breadcrumb_nav include -->
+ <!-- after breadcrumb_nav include -->
+<div id="wrapper">
+<div id="header-main">
+    <a id="skip-nav" role="region" aria-label="Skip to main content" class="skip-nav screen-reader-text" href="#mid-section">Skip to main content</a>
+    <div class="container">
+        <div id="logo-container">
+            <a title="UCI - Donald Bren School of Information and Computer Sciences Logo" href="/">
+                <div class="header-logo01 w-100 d-none d-md-block">
+                    <img src="/bin/img/logos/UCI17_Bren_ICS_2L_white-1200.png" alt="UCI Donald Bren School of Information and Computer Sciences - logo" />
+                </div>
+                <div class="header-logo02 d-block w-100 d-md-none text-center">
+                    <img src="/bin/img/logos/UCI17_Bren_ICS_2L_white-1200.png" alt="UCI Donald Bren School of Information and Computer Sciences - logo" />
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-ics-yellow" aria-label="Main menu">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-link nav-link-home d-block w-100 d-md-none">
+                    <a href='/'>HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/about/" id="navbarDropdownMenuLink-about" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-about">
+                        <li>
+                            <a class="dropdown-item" href='/about/'>About the School</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_deanmsg.php'>Dean's Welcome</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_factsfigures.php'>Facts and Figures</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/brenhall/index.php'>Donald Bren Hall</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/visit/index.php'>Visit the Bren School</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/equity/'>Equity & Diversity
+                            </A>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_contact.php'>Contact Us</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/dept/" id="navbarDropdownMenuLink-departments" aria-haspopup="true" aria-expanded="false">DEPARTMENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-research">
+                        <li>
+                            <a class="dropdown-item" href='//www.cs.uci.edu'>Computer Science</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.informatics.uci.edu'>Informatics</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.stat.uci.edu'>Statistics</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/faculty/area/" id="navbarDropdownMenuLink-research" aria-haspopup="true" aria-expanded="false">RESEARCH</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-faculty">
+                        <li>
+                            <a class="dropdown-item" href='/faculty/area/'>Research Areas</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/faculty/centers/'>Research Centers</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/faculty/highlights/'>Research Highlights</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-students" aria-haspopup="true" aria-expanded="false">STUDENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-students">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="/grad/admissions/index">Graduate &#x25B8;</a>
+                            <ul class="dropdown-menu dropdown-menu-color">
+                                <li>
+                                    <a class='dropdown-item' href='/grad/admissions/index-orientationbackupOct12'>Orientation</a>
+                                </li>
+                                <li>
+                                    <a class='dropdown-item' href='/grad/admissions/index'>Prospective Students</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/admissions/Prospective_ApplicationProcess.php'>How to Apply</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/degrees/index'>Programs of Study</a>
+                                </LI>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/courses/index-course'>Academic Year Plan</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/Course_updates'>Course Updates</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/forms_policies/index'>Forms And Policies</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/admissions_faq/index'>Admissions FAQ</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/funding/index'>Funding</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/funding/housing'>Housing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='//swiki.ics.uci.edu/doku.php'>Computing Support</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/resources'>Campus Resources</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/about/visit/index'>Visit the Bren School</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/index'>Contact</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="/ugrad/">Undergraduate &#x25B8;</a>
+                            <ul class="dropdown-menu dropdown-menu-color">
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/index'>Contact</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/index'>Academic Advising</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/Course_updates'>Course Updates</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/courses/index-course'>Academic Year Plan</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/QA_Petitions'>Petitions</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/degrees/index.php'>ICS Majors</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/degrees/Minors'>ICS Minors</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Academic_Honesty'>Policies: Academic Integrity</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Academic_Standing'>Policies: Academic Standing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Add_Drop_ChangeOption'>Policies: Add, drop, &amp; change options</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Course_Outside_UCI'>Policies: Coursework outside UCI</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Grade_Options'>Policies: Grade policy</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Laptop_ComputerUse'>Policies: Laptop &amp; computer use</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Withdrawal_Readmission'>Policies: Withdrawal/Readmission</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/CS199_IN4MATX199'>Policies: CS 199 / IN4MATX 199 Courses</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/QA_Graduation'>Graduation</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/resources/index'>ICS Student Life</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/SAO_Events.php'>Upcoming Events</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='//swiki.ics.uci.edu/doku.php'>Computing Support</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/scholarships/index'>Scholarships & Fellowships</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//uci.joinhandshake.com/login'>Student Jobs & Internships</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/about/search/" id="navbarDropdownMenuLink-people" aria-haspopup="true" aria-expanded="false">PEOPLE</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-people">
+                        <li>
+                            <a class="dropdown-item" href='/faculty/'>Faculty</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/search/index.php'>Staff</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/search/search_graduate_all.php'>Graduate Students</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-news_events" aria-haspopup="true" aria-expanded="false">NEWS & EVENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-news_events">
+                        <li>
+                            <a class="dropdown-item" href='/community/news/'>Newsroom</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//campusgroups.uci.edu/ics/events/'>Events</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/social/'>Social Media</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/annualreport/'>Publications</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/involved/" id="navbarDropdownMenuLink-get_involved" aria-haspopup="true" aria-expanded="false">GET INVOLVED</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-get_involved">
+                        <li>
+                            <a class="dropdown-item" href='https://secure.give.uci.edu/give-to-uci-donald-bren-school-of-information-computer-sciences/'>Make a Gift
+                                <i class="fas fa-gift"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/involved/leadership_council'>Leadership Council</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/involved/corporate_partner'>Corporate Partners</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.ics.uci.edu/involved/project_sponsor' target='_blank' rel='nofollow noopener'>Sponsor Projects</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/events/competition/'>Product Development Competition</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/alumni/'>Alumni</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="float-right">
+            <form class="form-inline my-2 my-md-0" name="searchform" action="//search.uci.edu/" method="get" id="searchform">
+                <input type="hidden" name="client" value="uci_full">
+                <input type="hidden" name="site" value="uci_full">
+                <input type="hidden" name="proxystylesheet" value="uci_full">
+                <input type="hidden" name="ie" value="UTF-8">
+                <input type="hidden" name="oe" value="UTF-8">
+                <input type="hidden" name="num" value="10">
+                <input type="hidden" name="btnG" value="Search+UC+Irvine">
+                <input type="hidden" name="as_occt" value="any">
+                <input type="hidden" name="as_dt" value="i">
+                <input type="hidden" name="as_sitesearch" value="ics.uci.edu">
+                <input name="collection" type="hidden" value="37" />
+                <input title="Search ICS Website" id="query" class="form-control" onfocus="clear_textbox()" name="q" size="9" maxlength="300" placeholder="Search ICS" autocomplete="off" type="text">
+                <div class="auto_complete" id="results" align="center" size="100" maxlength="500" height="500"></div>
+                <input type="hidden" id="results_selected" name="sel">
+                <input type="hidden" name="start_pb" value="1">
+            </form>
+        </div>
+    </div>
+</nav><section id="mid-section">
+<div class="container">
+<div class="row">
+<div class="col-md-8" id="mid-content"><!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/ugrad/">Undergraduate</a> &#47; <a href="https://www.ics.uci.edu/ugrad/degrees/">Degrees</a>] --><A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/ugrad/">Undergraduate</a> &#47; <a href="https://www.ics.uci.edu/ugrad/degrees/">Degrees</a></div>
+<!-- after breadcrumb_nav() print -->
+<div id="content"><a id="startcontent" name="startcontent"></a> 
+<div id="c-title">ICS Majors</div>
+<blockquote>
+<div id="c-text"><br/>
+<table align="center" border="1" cellpadding="3" cellspacing="2" style="border-color: #66ccff; width: 100%;" summary="List of ICS Majors">
+<tbody>
+<tr align="center" style="background-color: #ffffcc;">
+<td colspan="5" valign="top"><strong>Degree Programs</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">Business Information Management</td>
+<td>
+<p align="center" style="text-align: center;"><a href="http://catalogue.uci.edu/interdisciplinarystudies/businessinformationmanagement_bs/#text" target="_blank">Catalogue</a></p>
+</td>
+<td>
+<p align="center"><a href="degree_bim.php" target="_blank" title="BIM major">Website</a></p>
+</td>
+<td>
+<p align="center"><a href="../PLO/Business-Information-Management.pdf" target="_blank">Student Learning Outcomes</a></p>
+</td>
+<td>
+<p align="center"><a href="https://catalogue.uci.edu/interdisciplinarystudies/businessinformationmanagement_bs/#sampleprogramtext">Sample Plan</a></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Computer Science</p>
+</td>
+<td>
+<p align="center"><a href="http://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofcomputerscience/" target="_blank">Catalogue</a></p>
+</td>
+<td>
+<p align="center"><a href="degree_cs.php" target="_blank" title="CS major">Website</a></p>
+</td>
+<td>
+<p align="center"><a href="../PLO/Computer-Science.pdf" target="_blank">Student Learning Outcomes</a></p>
+</td>
+<td>
+<p align="center"><a href="https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofcomputerscience/computerscience_bs/#sampleprogramtext">S<span>ample Plan</span></a></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Computer Science and Engineering</p>
+</td>
+<td>
+<p align="center"><a href="http://catalogue.uci.edu/interdisciplinarystudies/computerscienceandengineering_bs/" target="_blank">Catalogue</a></p>
+</td>
+<td>
+<p align="center"><a href="degree_cse.php" target="_blank">Website</a></p>
+</td>
+<td>
+<p align="center"><a href="../PLO/Computer-Science-and-Engineering-2021.pdf" target="_blank">Student Learning Outcomes</a></p>
+</td>
+<td style="text-align: center;"><a href="https://catalogue.uci.edu/interdisciplinarystudies/computerscienceandengineering_bs/#sampleprogramtext">S<span>ample Plan</span></a>
+<p align="center"></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Data Science</p>
+</td>
+<td>
+<p align="center"><a href="http://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofstatistics/#majortext" target="_blank">Catalogue</a></p>
+</td>
+<td>
+<p align="center"><a href="http://www.stat.uci.edu/slider/b-s-in-data-science/" target="_blank">Website</a></p>
+</td>
+<td>
+<p align="center"><a href="2021_uci_ics_ds_plos.pdf" target="_blank" title="BIM major">Student Learning Outcomes</a></p>
+</td>
+<td style="text-align: center;"><a href="https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofstatistics/datascience_bs/#sampleprogramtext">S<span>ample Plan</span></a>
+<p align="center"></p>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<p>Game Design and Interactive Media</p>
+</td>
+<td>
+<p align="center"><a href="http://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/#computergamesci" target="_blank">Catalogue</a></p>
+</td>
+<td>
+<p align="center"><a href="https://www.informatics.uci.edu/undergrad/bs-game-design/" target="_blank">Website</a></p>
+</td>
+<td>
+<p align="center"><a href="PLO-Computer-Game-Science-GameDesign.pdf" target="_blank" title="BIM major">Student Learning Outcomes</a></p>
+</td>
+<td style="text-align: center;"><a href="https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofinformatics/gamedesignandinteractivemedia_bs/#sampleprogramtext">S<span>ample Plan</span></a>
+<p align="center"></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Informatics</p>
+</td>
+<td>
+<p align="center"><a href="http://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofinformatics/" target="_blank">Catalogue</a></p>
+</td>
+<td>
+<p align="center"><a href="http://www.informatics.uci.edu/undergrad/bs-informatics/" target="_blank" title="In4max major">Website</a></p>
+</td>
+<td>
+<p align="center"><a href="../PLO/Informatics.pdf" target="_blank">Student Learning Outcomes</a><a href="#" target="_blank"></a></p>
+</td>
+<td style="text-align: center;"><a href="https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofinformatics/informatics_bs/#requirementstext">S<span>ample Plan</span></a>
+<p align="center"></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Software Engineering</p>
+</td>
+<td>
+<p align="center"><a href="http://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/#softwareengr" target="_blank">Catalogue</a></p>
+</td>
+<td>
+<p align="center"><a href="degree_se.php" target="_blank" title="SE major">Website</a></p>
+</td>
+<td>
+<p align="center"><a href="../PLO/Software-Engineering.pdf" target="_blank">Student Learning Outcomes</a></p>
+</td>
+<td style="text-align: center;"><a href="https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/softwareengineering_bs/#sampleprogramtext">S<span>ample Plan</span></a>
+<p align="center"></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Students must also complete <a href="http://catalogue.uci.edu/informationforadmittedstudents/requirementsforabachelorsdegree/" target="_blank" title="General Catalogue: Requirements for Bachelor's Degree">University and General Education Requirements</a></p>
+<p><em>To learn more about about UC Irvine's Student/Program Learning Outcomes, visit the&#160;<a href="http://assessment.uci.edu/assessment/assessment-of-undergraduate-majors/#bren1" target="_blank">Assessment of Undergraduate Majors website</a>. Other ICS Student Learning Outcomes not listed above include the&#160;<a href="../PLO/Information-and-Computer-Science.pdf" target="_blank">B.S. in Information and Computer Science</a>&#160;and <a href="../PLO/Biomedical-Computing.pdf" target="_blank">Biomedical Computing</a>,&#160;which are no longer available for incoming students.<br/></em></p>
+<hr style="width: 0px;" width="0"/>
+<h6><span style="font-size: 10px;">&#160;</span></h6>
+<table align="center" border="1" style="border-color: #000000; width: 100%; border-width: 1px; border-style: solid; background-color: #fefefe;">
+<tbody>
+<tr>
+<td colspan="3">
+<div style="text-align: center;"><strong>Degree Sheets for 2022-2023</strong></div>
+</td>
+</tr>
+<tr>
+<td/>
+<td style="text-align: center;">Degree Sheet (pdf)</td>
+<td style="text-align: center;">Specialization/Track (pdf)</td>
+</tr>
+<tr>
+<td>Business Information Management&#160;</td>
+<td style="text-align: center;"><a href="2022_BIM Major.pdf" title="Business Information Management Major">Major Sheet</a></td>
+<td style="text-align: center;">N/A</td>
+</tr>
+<tr>
+<td>Computer Game Science</td>
+<td style="text-align: center;"><a href="2021_CGS Major.pdf" title="Computer Game Science Major">Major Sheet</a></td>
+<td style="text-align: center;"><a href="2021_CGS_ Bren Tracks.pdf" target="_blank" title="Computer Game Science Bren Tracks ">Bren Tracks</a></td>
+</tr>
+<tr>
+<td>Computer Science</td>
+<td style="text-align: center;"><a href="2022_CS Major.pdf" target="_blank" title="Computer Science Major">Major Sheet</a></td>
+<td style="text-align: center;"><a href="2022_CS Specializations.pdf" target="_blank" title="Computer Science Specializations ">Specializations</a></td>
+</tr>
+<tr>
+<td>Computer Science and Engineering</td>
+<td style="text-align: center;"><a href="2022_CSE Major.pdf">Major Sheet</a></td>
+<td style="text-align: center;">N/A<a href="2022_CSE Major.pdf"></a></td>
+</tr>
+<tr>
+<td>Data Science</td>
+<td style="text-align: center;"><a href="2022_DS Major.pdf">Major Sheet</a></td>
+<td style="text-align: center;">N/A<a href="2022_DS Major.pdf"></a></td>
+</tr>
+<tr>
+<td>Game Design and Interactive Media</td>
+<td style="text-align: center;"><a href="2022_GDIM Major.pdf">Major Sheet</a></td>
+<td style="text-align: center;">N/A<a href="2022_GDIM Major.pdf"></a></td>
+</tr>
+<tr>
+<td>Informatics</td>
+<td style="text-align: center;"><a href="2022_INF Major.pdf">Major Sheet</a></td>
+<td style="text-align: center;"><a href="2022_INF Specializations.pdf">Specializations</a></td>
+</tr>
+<tr>
+<td>Software Engineering</td>
+<td style="text-align: center;"><a href="2022_SE Major.pdf" target="_blank" title="Software Engineering Major">Major Sheet</a></td>
+<td style="text-align: center;">N/A</td>
+</tr>
+<tr>
+<td>University and General Education Requirements</td>
+<td style="text-align: center;"><a href="UC and GE Requirements.pdf" target="_blank" title="University and General Education Requirements ">Online Sheet&#160;</a></td>
+<td style="text-align: center;">N/A</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<h6><em>Degree Sheets are a tool for students to understand their degree requirements, as well as a tool for<a href="../sao/index.php" target="_blank" title="Academic Advising and Planning ">&#160;academic planning</a>. To go over your academic plan schedule an appointment with an Academic Counselor.&#160;</em></h6></div>
+</blockquote>
+</div>
+</div>
+<div class="col-md-4" id="s-bar">
+    <div id="sidebar_title">More Undergraduate</div>
+<ul>
+<li><a href="../index.php">Contact</a></li>
+<li><a href="../sao/SAO_News_and_Updates.php">News and Updates</a></li>
+<li><a href="../sao/index.php">Academic advising</a></li>
+<li><a href="../sao/Course_updates.php">Course updates</a></li>
+<li><a href="../courses/index.php">Academic year plan</a></li>
+<li><a href="index.php">ICS majors</a>
+<ul class="s-bar-sub">
+<li><a href="../sao/GDIM_FAQ_Page.php">GDIM FAQ page</a></li>
+<li><a href="Double_Majors.php">Double major</a></li>
+<li><a href="Second_BA.php">2nd baccalaureate</a></li>
+</ul>
+</li>
+<li><a href="Minors.php">ICS minors</a></li>
+<li><a href="../advising/ICS New Student Welcome.php">Newly Admitted to ICS</a></li>
+<li><a href="../QA_Petitions.php">Petitions &amp; Forms</a></li>
+<li><a href="/ugrad/policies/">Policies</a>
+<ul class="s-bar-sub">
+<li><a href="../policies/Academic_Honesty.php">Academic honesty</a></li>
+<li><a href="../policies/Academic_Standing.php">Academic standing</a></li>
+<li><a href="../policies/Add_Drop_ChangeOption.php">Add, drop, &amp; change options</a></li>
+<li><a href="../policies/Change_of_Major.php">Change of Major</a></li>
+<li><a href="../sao/Concurrent_Enrollment.php">Concurrent Enrollment</a></li>
+<li><a href="../policies/Course_Outside_UCI.php">Coursework outside UCI</a></li>
+<li><a href="../policies/CS199_IN4MATX199.php">CS 199 / IN4MATX 199</a></li>
+<li><a href="../policies/Grade_Options.php">Grade policy</a></li>
+<li><a href="../advising/ICS Credit by Exam.php">ICS Credit by Exam</a></li>
+<li><a href="../policies/Laptop_ComputerUse.php">Laptop &amp; computer use</a></li>
+<li><a href="../policies/Withdrawal_Readmission.php">Withdrawal/Readmission</a></li>
+<li><a href="../policies/ICS_192_Enrollment_CPT_OPT.php"><span>ICS 192 Enrollment/CPT&amp;OPT</span></a></li>
+</ul>
+</li>
+<li><a href="../QA_Graduation.php">Graduation</a></li>
+<li><a href="../resources/index.php">ICS student life</a></li>
+<li><a href="../honors/index.php">ICS Honors Program</a></li>
+<li><a href="../../../computing/account/new.php">Computing support</a></li>
+<li><span><a href="../resources/Title_IX_Resources.php">Title IX Resources</a></span></li>
+</ul>
+    <div class="h-gap-30"></div>
+    <style>
+.adBanner{display:none;}
+.adBanner img{
+    border-radius:5px;
+}
+.adBanner a:after{
+    display:none;
+    }
+</style>
+<div class="adBanner">
+<div class="row">
+<div class="col-12 text-center"></div>
+</div>
+</div>
+<div class="h-gap-30"></div>
+<a class="twitter-timeline" data-height="550" href="https://twitter.com/UCIbrenICS?ref_src=twsrc%5Etfw">Tweets by UCIbrenICS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="h-gap-30"></div>
+<p class="social-button-sw"><a aria-pressed="true" class="btn btn-outline-primary btn-sm" href="//www.ics.uci.edu/social/" role="button">View Social Media</a></p></div>
+</div>
+</div>
+</section>
+<section id="bottom-section">
+<div class="container">
+<!--<div id="links_bottom"><system-region name="LINKS-BOTTOM"/></div>-->
+<div id="nav-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 soc-cons foot-col1">
+                <div class="row row-ics_address">
+            		<p>
+                        Donald Bren School of Information and Computer Sciences<br>
+                		University of California, Irvine<br>
+    					6210 Donald Bren Hall<br>
+    					Irvine, CA 92697-3425
+                    </p>	 
+                </div>
+                <div class="row">
+                    <ul>
+<li><a title="Facebook" alt="Facebook" href="http://facebook.com/UCIBrenICS" target="_blank"> <i class="fab fa-facebook-square" alt="facebook"></i> </a></li>
+<li><a title="Instagram" href="http://instagram.com/ucibrenics/" target="_blank"> <i class="fab fa-instagram" alt="instagram"></i> </a></li>
+<li><a title="Twitter" href="http://twitter.com/UCIbrenICS" target="_blank"> <i class="fab fa-twitter-square" alt="twitter"></i> </a></li>
+<li><a title="LinkedIn" href="https://www.linkedin.com/company/uc-irvine-information-and-computer-sciences" target="_blank"> <i class="fab fa-linkedin" alt="linkedin"></i> </a></li>
+<li><a title="Youtube" href="http://youtube.com/UCIBrenICS" target="_blank"> <i class="fab fa-youtube-square" alt="square"></i> </a></li>
+</ul>                </div>
+            </div>
+            <div class="col-md-2 quk-links foot-col2">
+                <ul>
+    				<li><a href="https://uci.edu/">UCI Homepage</a></li>
+					<li><a href="https://directory.uci.edu/">UCI Directory</a></li>
+					<li><a href="https://www.ics.uci.edu/about/search/index.php">Faculty & Staff</a></li>
+                    <li><a href="https://www.ics.uci.edu/employment/">Employment</a></li>
+                    <li><a href="https://intranet.ics.uci.edu/">ICS Intranet</a></li>
+                    <li><a href="https://www.ics.uci.edu/resources/researchdevelopment/">Research Development</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/kfflab/index.php">Kay Family Foundation Lab</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/facilities/index.php">Facilities</a></li>
+            	</ul>
+            </div>
+            <div class="col-md-2 quk-links foot-col3">
+                <ul>
+					<li><a href="https://www.ics.uci.edu/community/news/">News</a></li>
+                    <li><a href="https://campusgroups.uci.edu/events?group_ids=54818">Events</a></li>
+					<li><a href="https://www.ics.uci.edu/about/visit/index.php">Map & Directions</a></li>
+					<li><a href="https://www.ics.uci.edu/accessibility/">Accessibility Statement</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/about_safety.php">Safety Procedures</a></li>
+					<li><a href="https://uci.edu/privacy/index.php">Privacy Policy</a></li>
+                    <li><a href="https://www.ics.uci.edu/resources/coronavirus/">Coronavirus Resources</a></li>
+            	</ul>
+            </div>
+            <div class="col-md-2 quk-links foot-col4">
+                <ul>
+    				<li><a href="https://apply.grad.uci.edu/apply/">Apply</a></li>
+					<li><a href="https://www.ics.uci.edu/about/about_contact.php">Contact</a></li>
+					<li><a href="https://secure.connect.uci.edu/s/1735/interior-1col.aspx?sid=1735&gid=3&pgid=801&dids=79">Gift <i class="fas fa-gift"></i></a></li>
+            	</ul>
+            </div>
+        </div>
+        <div class="row copyrt-txt hr-top">
+            <div class="container"><p class="text-center"><a href="https://uci.edu/copyright/">&#169;&#160; UCI Donald Bren School of Information & Computer Sciences</a></p></div>
+        </div>
+    </div>
+</div><!--<div id="footer"><system-region name="FOOTER"/></div>-->
+</div>
+</section>
+<!-- Back To Top Btn -->
+<div id="btt-btn"><!-- Back To Top Btn --><a href="#" id="back2Top" title="Back to top">&#10148;</a></div>
+
+<script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+ <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-605898-1");
+        pageTracker._trackPageview();
+        </script>
+ <script crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" type="text/javascript">
+</script>
+ <script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" type="text/javascript">
+</script>
+<script src="../../bin/js/btt.js" type="text/javascript">
+</script>
+<!-- Accessibilty - START -->
+<script type="text/javascript">
+var _userway_config = {
+/* uncomment the following line to override default position*/
+/* position: '2', */
+/* uncomment the following line to override default size (values: small, large)*/
+/* size: 'small', */
+/* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
+/* language: 'en-US', */
+/* uncomment the following line to override color set via widget (e.g., #053f67)*/
+/* color: '#0064a4', */
+/* uncomment the following line to override type set via widget(1=person, 2=chair, 3=eye)*/
+/* type: '1', */
+/* uncomment the following line to override support on mobile devices*/
+/* mobile: true, */
+account: 'GTYOD4aROB'
+};
+</script>
+<script src="https://cdn.userway.org/widget.js" type="text/javascript"></script>
+<!-- Accessibilty - END -->
+</div>
+</body>
+</html>

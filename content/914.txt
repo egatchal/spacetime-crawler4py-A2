@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /~ziv/diss/intropaper</title>
+ </head>
+ <body>
+<h1>Index of /~ziv/diss/intropaper</h1>
+<ul><li><a href="/~ziv/diss/"> Parent Directory</a></li>
+<li><a href=".ID_MAP.dir"> .ID_MAP.dir</a></li>
+<li><a href=".ID_MAP.pag"> .ID_MAP.pag</a></li>
+<li><a href=".IMG_PARAMS.dir"> .IMG_PARAMS.dir</a></li>
+<li><a href=".IMG_PARAMS.pag"> .IMG_PARAMS.pag</a></li>
+<li><a href=".ORIG_MAP.dir"> .ORIG_MAP.dir</a></li>
+<li><a href=".ORIG_MAP.pag"> .ORIG_MAP.pag</a></li>
+<li><a href="contents.pl"> contents.pl</a></li>
+<li><a href="internals.pl"> internals.pl</a></li>
+<li><a href="intropaper.css"> intropaper.css</a></li>
+<li><a href="intropaper.html"> intropaper.html</a></li>
+<li><a href="labels.pl"> labels.pl</a></li>
+<li><a href="node1.html"> node1.html</a></li>
+<li><a href="node2.html"> node2.html</a></li>
+<li><a href="node3.html"> node3.html</a></li>
+<li><a href="node4.html"> node4.html</a></li>
+<li><a href="node5.html"> node5.html</a></li>
+<li><a href="node6.html"> node6.html</a></li>
+<li><a href="node7.html"> node7.html</a></li>
+<li><a href="sections.pl"> sections.pl</a></li>
+</ul>
+<address>Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.7.14 Server at www.ics.uci.edu Port 80</address>
+</body></html>

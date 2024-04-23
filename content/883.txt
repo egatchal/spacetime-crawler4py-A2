@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /~ziv/diss</title>
+ </head>
+ <body>
+<h1>Index of /~ziv/diss</h1>
+<ul><li><a href="/~ziv/"> Parent Directory</a></li>
+<li><a href="abstract.tex"> abstract.tex</a></li>
+<li><a href="abstractpaper.aux"> abstractpaper.aux</a></li>
+<li><a href="abstractpaper.dvi"> abstractpaper.dvi</a></li>
+<li><a href="abstractpaper.log"> abstractpaper.log</a></li>
+<li><a href="abstractpaper.tex"> abstractpaper.tex</a></li>
+<li><a href="abstractpaper/"> abstractpaper/</a></li>
+<li><a href="conclusion.tex"> conclusion.tex</a></li>
+<li><a href="conclusionpaper.aux"> conclusionpaper.aux</a></li>
+<li><a href="conclusionpaper.bbl"> conclusionpaper.bbl</a></li>
+<li><a href="conclusionpaper.blg"> conclusionpaper.blg</a></li>
+<li><a href="conclusionpaper.dvi"> conclusionpaper.dvi</a></li>
+<li><a href="conclusionpaper.log"> conclusionpaper.log</a></li>
+<li><a href="conclusionpaper.tex"> conclusionpaper.tex</a></li>
+<li><a href="conclusionpaper/"> conclusionpaper/</a></li>
+<li><a href="intro.tex"> intro.tex</a></li>
+<li><a href="intropaper.aux"> intropaper.aux</a></li>
+<li><a href="intropaper.bbl"> intropaper.bbl</a></li>
+<li><a href="intropaper.blg"> intropaper.blg</a></li>
+<li><a href="intropaper.dvi"> intropaper.dvi</a></li>
+<li><a href="intropaper.log"> intropaper.log</a></li>
+<li><a href="intropaper.tex"> intropaper.tex</a></li>
+<li><a href="intropaper/"> intropaper/</a></li>
+</ul>
+<address>Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.7.14 Server at www.ics.uci.edu Port 80</address>
+</body></html>

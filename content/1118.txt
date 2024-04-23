@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>In the News @ Donald Bren School of Information and Computer Sciences</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="https://use.fontawesome.com/f443bac96a.js"></script>
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/><link href="../../bin/styles/stylesheet_index2018_addon.css" rel="stylesheet" type="text/css"/>
+
+
+<meta content="Mon, 21 Jun 2021 06:43:37 -0380" name="date"/>
+
+</head>
+<body>
+<!-- before breadcrumb_nav include -->
+ <!-- after breadcrumb_nav include -->
+<div id="wrapper">
+<div id="header-main">
+    <a id="skip-nav" role="region" aria-label="Skip to main content" class="skip-nav screen-reader-text" href="#mid-section">Skip to main content</a>
+    <div class="container">
+        <div id="logo-container">
+            <a title="UCI - Donald Bren School of Information and Computer Sciences Logo" href="/">
+                <div class="header-logo01 w-100 d-none d-md-block">
+                    <img src="/bin/img/logos/UCI17_Bren_ICS_2L_white-1200.png" alt="UCI Donald Bren School of Information and Computer Sciences - logo" />
+                </div>
+                <div class="header-logo02 d-block w-100 d-md-none text-center">
+                    <img src="/bin/img/logos/UCI17_Bren_ICS_2L_white-1200.png" alt="UCI Donald Bren School of Information and Computer Sciences - logo" />
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-ics-yellow" aria-label="Main menu">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-link nav-link-home d-block w-100 d-md-none">
+                    <a href='/'>HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/about/" id="navbarDropdownMenuLink-about" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-about">
+                        <li>
+                            <a class="dropdown-item" href='/about/'>About the School</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_deanmsg.php'>Dean's Welcome</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_factsfigures.php'>Facts and Figures</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/brenhall/index.php'>Donald Bren Hall</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/visit/index.php'>Visit the Bren School</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/equity/'>Equity & Diversity
+                            </A>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_contact.php'>Contact Us</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/dept/" id="navbarDropdownMenuLink-departments" aria-haspopup="true" aria-expanded="false">DEPARTMENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-research">
+                        <li>
+                            <a class="dropdown-item" href='//www.cs.uci.edu'>Computer Science</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.informatics.uci.edu'>Informatics</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.stat.uci.edu'>Statistics</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/faculty/area/" id="navbarDropdownMenuLink-research" aria-haspopup="true" aria-expanded="false">RESEARCH</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-faculty">
+                        <li>
+                            <a class="dropdown-item" href='/faculty/area/'>Research Areas</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/faculty/centers/'>Research Centers</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/faculty/highlights/'>Research Highlights</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-students" aria-haspopup="true" aria-expanded="false">STUDENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-students">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="/grad/admissions/index">Graduate &#x25B8;</a>
+                            <ul class="dropdown-menu dropdown-menu-color">
+                                <li>
+                                    <a class='dropdown-item' href='/grad/admissions/index-orientationbackupOct12'>Orientation</a>
+                                </li>
+                                <li>
+                                    <a class='dropdown-item' href='/grad/admissions/index'>Prospective Students</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/admissions/Prospective_ApplicationProcess.php'>How to Apply</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/degrees/index'>Programs of Study</a>
+                                </LI>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/courses/index-course'>Academic Year Plan</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/Course_updates'>Course Updates</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/forms_policies/index'>Forms And Policies</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/admissions_faq/index'>Admissions FAQ</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/funding/index'>Funding</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/funding/housing'>Housing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='//swiki.ics.uci.edu/doku.php'>Computing Support</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/resources'>Campus Resources</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/about/visit/index'>Visit the Bren School</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/index'>Contact</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="/ugrad/">Undergraduate &#x25B8;</a>
+                            <ul class="dropdown-menu dropdown-menu-color">
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/index'>Contact</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/index'>Academic Advising</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/Course_updates'>Course Updates</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/courses/index-course'>Academic Year Plan</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/QA_Petitions'>Petitions</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/degrees/index.php'>ICS Majors</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/degrees/Minors'>ICS Minors</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Academic_Honesty'>Policies: Academic Integrity</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Academic_Standing'>Policies: Academic Standing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Add_Drop_ChangeOption'>Policies: Add, drop, &amp; change options</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Course_Outside_UCI'>Policies: Coursework outside UCI</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Grade_Options'>Policies: Grade policy</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Laptop_ComputerUse'>Policies: Laptop &amp; computer use</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Withdrawal_Readmission'>Policies: Withdrawal/Readmission</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/CS199_IN4MATX199'>Policies: CS 199 / IN4MATX 199 Courses</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/QA_Graduation'>Graduation</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/resources/index'>ICS Student Life</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/SAO_Events.php'>Upcoming Events</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='//swiki.ics.uci.edu/doku.php'>Computing Support</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/scholarships/index'>Scholarships & Fellowships</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//uci.joinhandshake.com/login'>Student Jobs & Internships</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/about/search/" id="navbarDropdownMenuLink-people" aria-haspopup="true" aria-expanded="false">PEOPLE</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-people">
+                        <li>
+                            <a class="dropdown-item" href='/faculty/'>Faculty</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/search/index.php'>Staff</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/search/search_graduate_all.php'>Graduate Students</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-news_events" aria-haspopup="true" aria-expanded="false">NEWS & EVENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-news_events">
+                        <li>
+                            <a class="dropdown-item" href='/community/news/'>Newsroom</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//campusgroups.uci.edu/ics/events/'>Events</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/social/'>Social Media</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/annualreport/'>Publications</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/involved/" id="navbarDropdownMenuLink-get_involved" aria-haspopup="true" aria-expanded="false">GET INVOLVED</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-get_involved">
+                        <li>
+                            <a class="dropdown-item" href='https://secure.give.uci.edu/give-to-uci-donald-bren-school-of-information-computer-sciences/'>Make a Gift
+                                <i class="fas fa-gift"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/involved/leadership_council'>Leadership Council</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/involved/corporate_partner'>Corporate Partners</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.ics.uci.edu/involved/project_sponsor' target='_blank' rel='nofollow noopener'>Sponsor Projects</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/events/competition/'>Product Development Competition</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/alumni/'>Alumni</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="float-right">
+            <form class="form-inline my-2 my-md-0" name="searchform" action="//search.uci.edu/" method="get" id="searchform">
+                <input type="hidden" name="client" value="uci_full">
+                <input type="hidden" name="site" value="uci_full">
+                <input type="hidden" name="proxystylesheet" value="uci_full">
+                <input type="hidden" name="ie" value="UTF-8">
+                <input type="hidden" name="oe" value="UTF-8">
+                <input type="hidden" name="num" value="10">
+                <input type="hidden" name="btnG" value="Search+UC+Irvine">
+                <input type="hidden" name="as_occt" value="any">
+                <input type="hidden" name="as_dt" value="i">
+                <input type="hidden" name="as_sitesearch" value="ics.uci.edu">
+                <input name="collection" type="hidden" value="37" />
+                <input title="Search ICS Website" id="query" class="form-control" onfocus="clear_textbox()" name="q" size="9" maxlength="300" placeholder="Search ICS" autocomplete="off" type="text">
+                <div class="auto_complete" id="results" align="center" size="100" maxlength="500" height="500"></div>
+                <input type="hidden" id="results_selected" name="sel">
+                <input type="hidden" name="start_pb" value="1">
+            </form>
+        </div>
+    </div>
+</nav><section id="mid-section">
+<div class="container">
+<div class="row">
+<div class="col-md-8" id="mid-content"><!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/community/">Community</a> &#47; <a href="https://www.ics.uci.edu/community/news/">News</a>] --><A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/community/">Community</a> &#47; <a href="https://www.ics.uci.edu/community/news/">News</a></div>
+<!-- after breadcrumb_nav() print -->
+<div id="content"><a id="startcontent" name="startcontent"></a> 
+<div id="c-title">In the News</div>
+<blockquote>
+<div id="c-text"><br/>
+
+<!-- inc publications_db -->
+
+ 
+<strong>October 14,  2019
+</strong>
+<p>
+    <i></i><h3>ICS Welcomes 8 New Faculty for 2019</h3>
+        <p>
+                <p><p>
+The Donald Bren School of Information and Computer Sciences is pleased to introduce the following eight faculty who joined ICS in calendar year 2019. These outstanding researchers and educators advance our school’s strategic priorities in the areas of data science, artificial intelligence, and big data systems while strengthening our expanding collaborations across campus in the areas of health informatics and computational science and engineering. With these new hires, the number of tenure-track faculty in our school has increased by 40% within three years, bringing the total count to an all-time high of 93, and reflecting the unprecedented growth in our enrollments and research activity.
+
+
+
+
+
+
+
+<style>
+   .faculty-entry  { margin: 2em 0; }
+   .faculty-entry .name  { font-size: 125%; font-weight: bold; color: #6699cc; margin: 0.5em 0; }
+   .faculty-entry .title  { font-weight: bold; margin: 0.5em 0; }
+   .faculty-entry .photo  { width: 25%; float: right; margin: 0 0 1em 1em; }
+</style>
+
+
+
+
+
+
+
+<div class='faculty-entry'>
+<img class='photo' src='/bin/img/news/2019-New-Faculty/SangeethaAbduJyothi.jpg'>
+<h4>Sangeetha Abdu Jyothi</h4>
+<div class='title'>Assistant Professor, Computer Science
+ <br>Ph.D., Computer Science, University of Illinois, Urbana-Champaign </div>
+Abdu Jyothi’s research interests are in the areas of computer networking and systems, with a focus on building application-aware self-optimizing systems through automated resource management. Her work leverages learning and optimization techniques for achieving resource efficiency in large-scale networked systems. It is also concerned with problems in the intersection of systems and machine learning, including network scheduling for accelerating ML systems and network flow prediction using ML in data center environments. Her recent focus is on optimizing machine learning systems and designing resource management frameworks for micro data centers at the edge. Abdu Jyothi is currently a postdoc at VMware Research and will be joining the ICS faculty in September 2020.
+</div>
+
+
+
+
+
+<div class='faculty-entry'>
+<img class='photo' src='/bin/img/news/2019-New-Faculty/VeronicaBerrocal.jpg'>
+<h4>Veronica Berrocal</h4>
+<div class='title'>
+Associate Professor, Statistics
+ <br>Ph.D., Statistics, University of Washington </div>
+Berrocal was a National Research Council postdoc research associate at the Environmental Protection Agency and a postdoc research associate at Duke University and the Statistical and Applied Mathematical Sciences Institute (SAMSI) before spending the last nine years on the faculty at the University of Michigan. Her research interests are in spatial/spatio-temporal, environmental, and Bayesian statistics with an emphasis in environmental sciences, environmental health, and atmospheric and geophysical sciences applications. Berrocal has served as an ad-hoc member in several scientific advisory panels for the EPA, held various officer positions in the Section on Statistics and the Environment (ENVR) of the American Statistical Association (ASA), and received the Early Investigator Award from the ENVR section of ASA. She joined the ICS faculty in September 2019.
+</div>
+
+ 
+
+ 
+
+<div class='faculty-entry'>
+<img class='photo' src='/bin/img/news/2019-New-Faculty/MineDogucu.jpg'>
+<h4>Mine Dogucu</h4>
+<div class='title'>Assistant Professor of Teaching, Statistics
+ <br>Ph.D., Quantitative Research, Evaluation, and Measurement, The Ohio State University </div>
+Dogucu focuses on designing the modern statistics curriculum. Her work in curriculum design includes integration of data science topics and making advanced statistics topics accessible to novice statisticians. Her focus for the latter is making Bayesian statistics accessible, specifically at the undergraduate level. Dogucu also advocates for pedagogical training for anyone who teaches for the first time, and she has extensive experience in teaching teachers. In addition to pedagogical research, her work includes collaborative research in applications of survey design, measurement, and missing data. Dogucu was a visiting assistant professor of data analytics at Denison University prior to joining the ICS faculty in September 2019.
+</div>
+
+ 
+
+ 
+
+<div class='faculty-entry'>
+<img class='photo' src='/bin/img/news/2019-New-Faculty/RoyFox.jpg'>
+<h4>Roy Fox</h4>
+<div class='title'>Assistant Professor, Computer Science
+ <br>Ph.D., Computer Science and Engineering, The Hebrew University of Jerusalem </div>
+Fox is the founder of the Intelligent Dynamics Lab at UCI’s Donald Bren School of Information and Computer Sciences. He was previously a postdoc in UC Berkeley’s BAIR, RISELab, and AUTOLAB, where he developed algorithms and systems that interact with humans to learn structured control policies for robotics and program synthesis. Fox’s research interests include theory and applications of reinforcement learning, dynamical systems, information theory, and robotics. His current research focuses on structure, exploration, and optimization in deep reinforcement learning and imitation learning of virtual and physical agents. Fox joined the ICS faculty in September 2019.
+</div>
+
+ 
+
+ 
+
+<div class='faculty-entry'>
+<img class='photo' src='/bin/img/news/2019-New-Faculty/MilenaMihail.jpg'>
+<h4>Milena Mihail</h4>
+<div class='title'>Associate Professor, Computer Science
+ <br>Ph.D., Computer Science, Harvard University </div>
+Mihail’s research areas are theoretical computer science and networks. Her theory work focuses on spectral graph methods in algorithms, randomized and approximation algorithms, efficient Monte Carlo sampling, and rapidly mixing Markov chains, an area that she has pioneered. Her work in networking spans from the design of classical backbone networks to the study of structure, function, and mathematical modeling of distributed networks that arise in technology and society. Mihail has been a director and senior scientist at Bell Communications Research, and an associate professor of computer science at Georgia Tech. Mihail joined the ICS faculty in September 2019.
+</div>
+
+ 
+
+ 
+
+<div class='faculty-entry'>
+<img class='photo' src='/bin/img/news/2019-New-Faculty/AnnieQu.jpg'>
+<h4>Annie Qu</h4>
+<div class='title'>Professor, Statistics
+ <br>Ph.D., Statistics, Pennsylvania State University </div>
+Qu’s research focuses on solving fundamental issues regarding unstructured large-scale data. She works to develop cutting-edge statistical methods and theory in machine learning and algorithms for text sentiment analysis, automatic tagging and summarization, recommender systems, tensor imaging data, and network data analyses for complex heterogeneous data. Her work helps extracting essential information from large-volume high-dimensional data. Before joining UCI, Qu was Data Science Founder Professor of Statistics and the Director of the Illinois Statistics Office at the University of Illinois at Urbana-Champaign. She received an NSF Career Award and is a fellow of both the Institute of Mathematical Statistics and the American Statistical Association. Qu will join the ICS faculty in January 2020.
+</div>
+
+ 
+
+ 
+
+<div class='faculty-entry'>
+<img class='photo' src='/bin/img/news/2019-New-Faculty/MichaelShindler.jpg'>
+<h4>Michael Shindler</h4>
+<div class='title'>Assistant Professor of Teaching, Computer Science
+ <br>Ph.D., Computer Science, UCLA </div>
+Shindler, who received his B.S. from ICS, spent the last five years teaching theory, machine learning and systems courses at USC, where he played a major role in the creation of the undergraduate Machine Learning, course and the Concepts of Programming Languages elective. Shindler also served as the faculty advisor for AthenaHacks, a student organization that annually hosts Southern California’s premiere all-female hackathon. His research was formerly in theory and machine learning, but now he focuses on computer science education, with an eye toward teaching at scale, particularly promoting feedback and engagement. Shindler joined the ICS faculty in September 2019.
+</div>
+
+ 
+
+ 
+
+<div class='faculty-entry'>
+<img class='photo' src='/bin/img/news/2019-New-Faculty/SeanYoung.jpg'>
+<h4>Sean Young</h4>
+<div class='title'>Associate Professor, Informatics and Emergency Medicine
+ <br>Ph.D., Psychology, Stanford University </div>
+Young studies digital behavior and prediction technology, examining how and why people use social media, mobile apps, and wearable devices. As executive director of the UC Institute for Prediction Technology, he leverages social and behavioral data to detect real-world problems. His research applies insights from psychology to online behavior change interventions, transforming time-consuming and expensive community-based interventions into online variants that more efficiently reach the masses. Working with public health officials, he is now developing tools that mine social data to identify potential areas of disease outbreak, crime, and poverty. Young joined the ICS faculty in June 2019.
+</div>
+
+
+
+
+
+
+                    <br>
+                                <TITLE>ICS Welcomes 8 New Faculty for 2019</TITLE><DIV STYLE='clear: both; '></DIV><HR><DIV STYLE='float: left; border: 0px dotted orange; margin: 0; padding: 1em; text-align: left; max-width: 40%; font-size: 90%; '>
+               <A HREF='/community/news/view_news.php?id=1633'>&lt; Previous</A>
+               <BR> Cyber fraud techniques evolve into confidence trick arms race
+            </DIV><DIV STYLE='float: right; border: 0px dotted purple; margin: 0; padding: 1em; text-align: right; max-width: 40%; font-size: 90%; '>
+               <A HREF='/community/news/view_news.php?id=1678'>Next &gt;</A>
+               <BR> New faculty faces
+            </DIV>
+
+
+<link rel="stylesheet" href="/bin/styles/stylesheet_news_view.css">
+
+
+</div>
+</blockquote>
+</div>
+</div>
+<div class="col-md-4" id="s-bar">
+    <div>
+<div id="sidebar_title">More news and events</div>
+<ul>
+<li><a href="index.php">News Stories</a></li>
+<li><a href="http://www.youtube.com/UCIBrenICS">Video highlights</a></li>
+<li><a href="../../about/annualreport/index.php">Annual reports</a></li>
+<li><a href="//campusgroups.uci.edu/events?group_ids=54818">Calendar of events</a></li>
+</ul>
+</div>
+<p style="margin: 2em 1em; font-size: 100%;"><strong>Media Inquiries</strong> <br/>Media interested in interviewing ICS faculty, students or alumni should contact Matt Miller at&#160;(949) 824-1562 or&#160;<a href="mailto:matt.miller@uci.edu">matt.miller@uci.edu</a></p>
+    <div class="h-gap-30"></div>
+    <style>
+.adBanner{display:none;}
+.adBanner img{
+    border-radius:5px;
+}
+.adBanner a:after{
+    display:none;
+    }
+</style>
+<div class="adBanner">
+<div class="row">
+<div class="col-12 text-center"></div>
+</div>
+</div>
+<div class="h-gap-30"></div>
+<a class="twitter-timeline" data-height="550" href="https://twitter.com/UCIbrenICS?ref_src=twsrc%5Etfw">Tweets by UCIbrenICS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="h-gap-30"></div>
+<p class="social-button-sw"><a aria-pressed="true" class="btn btn-outline-primary btn-sm" href="//www.ics.uci.edu/social/" role="button">View Social Media</a></p></div>
+</div>
+</div>
+</section>
+<section id="bottom-section">
+<div class="container">
+<!--<div id="links_bottom"><system-region name="LINKS-BOTTOM"/></div>-->
+<div id="nav-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 soc-cons foot-col1">
+                <div class="row row-ics_address">
+            		<p>
+                        Donald Bren School of Information and Computer Sciences<br>
+                		University of California, Irvine<br>
+    					6210 Donald Bren Hall<br>
+    					Irvine, CA 92697-3425
+                    </p>	 
+                </div>
+                <div class="row">
+                    <ul>
+<li><a title="Facebook" alt="Facebook" href="http://facebook.com/UCIBrenICS" target="_blank"> <i class="fab fa-facebook-square" alt="facebook"></i> </a></li>
+<li><a title="Instagram" href="http://instagram.com/ucibrenics/" target="_blank"> <i class="fab fa-instagram" alt="instagram"></i> </a></li>
+<li><a title="Twitter" href="http://twitter.com/UCIbrenICS" target="_blank"> <i class="fab fa-twitter-square" alt="twitter"></i> </a></li>
+<li><a title="LinkedIn" href="https://www.linkedin.com/company/uc-irvine-information-and-computer-sciences" target="_blank"> <i class="fab fa-linkedin" alt="linkedin"></i> </a></li>
+<li><a title="Youtube" href="http://youtube.com/UCIBrenICS" target="_blank"> <i class="fab fa-youtube-square" alt="square"></i> </a></li>
+</ul>                </div>
+            </div>
+            <div class="col-md-2 quk-links foot-col2">
+                <ul>
+    				<li><a href="https://uci.edu/">UCI Homepage</a></li>
+					<li><a href="https://directory.uci.edu/">UCI Directory</a></li>
+					<li><a href="https://www.ics.uci.edu/about/search/index.php">Faculty & Staff</a></li>
+                    <li><a href="https://www.ics.uci.edu/employment/">Employment</a></li>
+                    <li><a href="https://intranet.ics.uci.edu/">ICS Intranet</a></li>
+                    <li><a href="https://www.ics.uci.edu/resources/researchdevelopment/">Research Development</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/kfflab/index.php">Kay Family Foundation Lab</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/facilities/index.php">Facilities</a></li>
+            	</ul>
+            </div>
+            <div class="col-md-2 quk-links foot-col3">
+                <ul>
+					<li><a href="https://www.ics.uci.edu/community/news/">News</a></li>
+                    <li><a href="https://campusgroups.uci.edu/events?group_ids=54818">Events</a></li>
+					<li><a href="https://www.ics.uci.edu/about/visit/index.php">Map & Directions</a></li>
+					<li><a href="https://www.ics.uci.edu/accessibility/">Accessibility Statement</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/about_safety.php">Safety Procedures</a></li>
+					<li><a href="https://uci.edu/privacy/index.php">Privacy Policy</a></li>
+                    <li><a href="https://www.ics.uci.edu/resources/coronavirus/">Coronavirus Resources</a></li>
+            	</ul>
+            </div>
+            <div class="col-md-2 quk-links foot-col4">
+                <ul>
+    				<li><a href="https://apply.grad.uci.edu/apply/">Apply</a></li>
+					<li><a href="https://www.ics.uci.edu/about/about_contact.php">Contact</a></li>
+					<li><a href="https://secure.connect.uci.edu/s/1735/interior-1col.aspx?sid=1735&gid=3&pgid=801&dids=79">Gift <i class="fas fa-gift"></i></a></li>
+            	</ul>
+            </div>
+        </div>
+        <div class="row copyrt-txt hr-top">
+            <div class="container"><p class="text-center"><a href="https://uci.edu/copyright/">&#169;&#160; UCI Donald Bren School of Information & Computer Sciences</a></p></div>
+        </div>
+    </div>
+</div><!--<div id="footer"><system-region name="FOOTER"/></div>-->
+</div>
+</section>
+<!-- Back To Top Btn -->
+<div id="btt-btn"><!-- Back To Top Btn --><a href="#" id="back2Top" title="Back to top">&#10148;</a></div>
+
+<script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+ <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-605898-1");
+        pageTracker._trackPageview();
+        </script>
+ <script crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" type="text/javascript">
+</script>
+ <script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" type="text/javascript">
+</script>
+<script src="../../bin/js/btt.js" type="text/javascript">
+</script>
+<!-- Accessibilty - START -->
+<script type="text/javascript">
+var _userway_config = {
+/* uncomment the following line to override default position*/
+/* position: '2', */
+/* uncomment the following line to override default size (values: small, large)*/
+/* size: 'small', */
+/* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
+/* language: 'en-US', */
+/* uncomment the following line to override color set via widget (e.g., #053f67)*/
+/* color: '#0064a4', */
+/* uncomment the following line to override type set via widget(1=person, 2=chair, 3=eye)*/
+/* type: '1', */
+/* uncomment the following line to override support on mobile devices*/
+/* mobile: true, */
+account: 'GTYOD4aROB'
+};
+</script>
+<script src="https://cdn.userway.org/widget.js" type="text/javascript"></script>
+<!-- Accessibilty - END -->
+</div>
+</body>
+</html>

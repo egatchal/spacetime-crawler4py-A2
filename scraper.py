@@ -1,9 +1,10 @@
-import re, requests, cbor
+import re, requests, cbor, pickle, time
 from urllib.parse import urlparse, urljoin
 from bs4 import BeautifulSoup
 from utils import  normalize
 from tokenize_words import tokenize_content, token_frequencies, write_to_file, check_file_size, check_url_ascii, check_content_ascii
 from simhasing import sim_hash, compute_sim_hash_similarity
+# from pickle_storing import pickle_data, load_pickled_data, crawl_data
 
 """
 Response
@@ -32,9 +33,14 @@ content_file = dict()
 ics_subdomains = dict()
 global_frequencies = dict()
 
+# crawl_data = return_crawl_data()
 
 def scraper(url, resp):
-    # robot.txt check goes here
+    # Adds the url to a visited set of URL's to keep track of how far along we are
+    from pickle_storing import crawl_data, pickle_data
+    crawl_data["visited_urls"].add(url)
+    pickle_data(crawl_data, "current_crawl_data.pickle")
+    
     if url in valid_set or url in invalid_set:
         return []
     

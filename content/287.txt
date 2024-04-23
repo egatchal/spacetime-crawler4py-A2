@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>In the News @ Donald Bren School of Information and Computer Sciences</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="https://use.fontawesome.com/f443bac96a.js"></script>
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/><link href="../../bin/styles/stylesheet_index2018_addon.css" rel="stylesheet" type="text/css"/>
+
+
+<meta content="Mon, 21 Jun 2021 06:43:37 -0380" name="date"/>
+
+</head>
+<body>
+<!-- before breadcrumb_nav include -->
+ <!-- after breadcrumb_nav include -->
+<div id="wrapper">
+<div id="header-main">
+    <a id="skip-nav" role="region" aria-label="Skip to main content" class="skip-nav screen-reader-text" href="#mid-section">Skip to main content</a>
+    <div class="container">
+        <div id="logo-container">
+            <a title="UCI - Donald Bren School of Information and Computer Sciences Logo" href="/">
+                <div class="header-logo01 w-100 d-none d-md-block">
+                    <img src="/bin/img/logos/UCI17_Bren_ICS_2L_white-1200.png" alt="UCI Donald Bren School of Information and Computer Sciences - logo" />
+                </div>
+                <div class="header-logo02 d-block w-100 d-md-none text-center">
+                    <img src="/bin/img/logos/UCI17_Bren_ICS_2L_white-1200.png" alt="UCI Donald Bren School of Information and Computer Sciences - logo" />
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-ics-yellow" aria-label="Main menu">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-link nav-link-home d-block w-100 d-md-none">
+                    <a href='/'>HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/about/" id="navbarDropdownMenuLink-about" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-about">
+                        <li>
+                            <a class="dropdown-item" href='/about/'>About the School</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_deanmsg.php'>Dean's Welcome</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_factsfigures.php'>Facts and Figures</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/brenhall/index.php'>Donald Bren Hall</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/visit/index.php'>Visit the Bren School</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/equity/'>Equity & Diversity
+                            </A>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_contact.php'>Contact Us</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/dept/" id="navbarDropdownMenuLink-departments" aria-haspopup="true" aria-expanded="false">DEPARTMENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-research">
+                        <li>
+                            <a class="dropdown-item" href='//www.cs.uci.edu'>Computer Science</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.informatics.uci.edu'>Informatics</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.stat.uci.edu'>Statistics</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/faculty/area/" id="navbarDropdownMenuLink-research" aria-haspopup="true" aria-expanded="false">RESEARCH</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-faculty">
+                        <li>
+                            <a class="dropdown-item" href='/faculty/area/'>Research Areas</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/faculty/centers/'>Research Centers</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/faculty/highlights/'>Research Highlights</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-students" aria-haspopup="true" aria-expanded="false">STUDENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-students">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="/grad/admissions/index">Graduate &#x25B8;</a>
+                            <ul class="dropdown-menu dropdown-menu-color">
+                                <li>
+                                    <a class='dropdown-item' href='/grad/admissions/index-orientationbackupOct12'>Orientation</a>
+                                </li>
+                                <li>
+                                    <a class='dropdown-item' href='/grad/admissions/index'>Prospective Students</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/admissions/Prospective_ApplicationProcess.php'>How to Apply</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/degrees/index'>Programs of Study</a>
+                                </LI>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/courses/index-course'>Academic Year Plan</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/Course_updates'>Course Updates</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/forms_policies/index'>Forms And Policies</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/admissions_faq/index'>Admissions FAQ</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/funding/index'>Funding</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/funding/housing'>Housing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='//swiki.ics.uci.edu/doku.php'>Computing Support</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/resources'>Campus Resources</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/about/visit/index'>Visit the Bren School</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/index'>Contact</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="/ugrad/">Undergraduate &#x25B8;</a>
+                            <ul class="dropdown-menu dropdown-menu-color">
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/index'>Contact</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/index'>Academic Advising</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/Course_updates'>Course Updates</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/courses/index-course'>Academic Year Plan</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/QA_Petitions'>Petitions</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/degrees/index.php'>ICS Majors</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/degrees/Minors'>ICS Minors</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Academic_Honesty'>Policies: Academic Integrity</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Academic_Standing'>Policies: Academic Standing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Add_Drop_ChangeOption'>Policies: Add, drop, &amp; change options</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Course_Outside_UCI'>Policies: Coursework outside UCI</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Grade_Options'>Policies: Grade policy</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Laptop_ComputerUse'>Policies: Laptop &amp; computer use</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Withdrawal_Readmission'>Policies: Withdrawal/Readmission</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/CS199_IN4MATX199'>Policies: CS 199 / IN4MATX 199 Courses</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/QA_Graduation'>Graduation</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/resources/index'>ICS Student Life</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/SAO_Events.php'>Upcoming Events</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='//swiki.ics.uci.edu/doku.php'>Computing Support</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/scholarships/index'>Scholarships & Fellowships</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//uci.joinhandshake.com/login'>Student Jobs & Internships</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/about/search/" id="navbarDropdownMenuLink-people" aria-haspopup="true" aria-expanded="false">PEOPLE</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-people">
+                        <li>
+                            <a class="dropdown-item" href='/faculty/'>Faculty</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/search/index.php'>Staff</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/search/search_graduate_all.php'>Graduate Students</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-news_events" aria-haspopup="true" aria-expanded="false">NEWS & EVENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-news_events">
+                        <li>
+                            <a class="dropdown-item" href='/community/news/'>Newsroom</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//campusgroups.uci.edu/ics/events/'>Events</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/social/'>Social Media</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/annualreport/'>Publications</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/involved/" id="navbarDropdownMenuLink-get_involved" aria-haspopup="true" aria-expanded="false">GET INVOLVED</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-get_involved">
+                        <li>
+                            <a class="dropdown-item" href='https://secure.give.uci.edu/give-to-uci-donald-bren-school-of-information-computer-sciences/'>Make a Gift
+                                <i class="fas fa-gift"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/involved/leadership_council'>Leadership Council</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/involved/corporate_partner'>Corporate Partners</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.ics.uci.edu/involved/project_sponsor' target='_blank' rel='nofollow noopener'>Sponsor Projects</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/events/competition/'>Product Development Competition</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/alumni/'>Alumni</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="float-right">
+            <form class="form-inline my-2 my-md-0" name="searchform" action="//search.uci.edu/" method="get" id="searchform">
+                <input type="hidden" name="client" value="uci_full">
+                <input type="hidden" name="site" value="uci_full">
+                <input type="hidden" name="proxystylesheet" value="uci_full">
+                <input type="hidden" name="ie" value="UTF-8">
+                <input type="hidden" name="oe" value="UTF-8">
+                <input type="hidden" name="num" value="10">
+                <input type="hidden" name="btnG" value="Search+UC+Irvine">
+                <input type="hidden" name="as_occt" value="any">
+                <input type="hidden" name="as_dt" value="i">
+                <input type="hidden" name="as_sitesearch" value="ics.uci.edu">
+                <input name="collection" type="hidden" value="37" />
+                <input title="Search ICS Website" id="query" class="form-control" onfocus="clear_textbox()" name="q" size="9" maxlength="300" placeholder="Search ICS" autocomplete="off" type="text">
+                <div class="auto_complete" id="results" align="center" size="100" maxlength="500" height="500"></div>
+                <input type="hidden" id="results_selected" name="sel">
+                <input type="hidden" name="start_pb" value="1">
+            </form>
+        </div>
+    </div>
+</nav><section id="mid-section">
+<div class="container">
+<div class="row">
+<div class="col-md-8" id="mid-content"><!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/community/">Community</a> &#47; <a href="https://www.ics.uci.edu/community/news/">News</a>] --><A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/community/">Community</a> &#47; <a href="https://www.ics.uci.edu/community/news/">News</a></div>
+<!-- after breadcrumb_nav() print -->
+<div id="content"><a id="startcontent" name="startcontent"></a> 
+<div id="c-title">In the News</div>
+<blockquote>
+<div id="c-text"><br/>
+
+<!-- inc publications_db -->
+
+ 
+<strong>February 22,  2021
+</strong>
+<p>
+    <i>UCI News</i><h3>UCI researchers join forces to tackle challenges in human health and the environment</h3>
+        <p><P><B><I>Newest building on campus is designed from the ground up to foster collaboration</I></B><P>
+                <p>
+<figure class="wp-block-image size-large"><img src="//news.uci.edu/wp-content/uploads/2021/02/201130_ISEB_0327_sz-768x468.jpg" alt="UCI researchers join forces to tackle challenges in human health and the environment" class="img-responsive"><figcaption>““Our long-held desire to get the best minds together to solve problems and make discoveries has come to a whole new level of fruition with the opening of the Interdisciplinary Science and Engineering Building,” says UCI Chancellor Howard Gillman. Steve Zylius / UCI</figcaption></figure>
+
+            
+            <div class="page-content clearfix"><p><strong>Irvine, Calif., Feb. 22, 2021 </strong>— The newly opened Interdisciplinary Science and Engineering Building at the University of California, Irvine was conceived with one goal in mind: providing a place where researchers in disparate academic fields could work together to address grand challenges, principally in human health and the planet’s climate crisis.</p>
+<p>Faculty, students and staff are now moving into the facility after three and a half years of construction. Made possible by seed financing from Susan and Henry Samueli, through the Samueli Foundation, combined with resources from the UC Office of the President and UCI, the gleaming, six-story edifice of glass, steel and concrete adds more than 200,000 square feet of laboratory, office and meeting space to the university.</p>
+<p>“With its Ring Road connecting the various schools in a continuous loop, UCI was designed from its very beginnings more than half a century ago as an incubator of cross-disciplinary research and collaboration,” said Chancellor Howard Gillman. “Our long-held desire to get the best minds together to solve problems and make discoveries has come to a whole new level of fruition with the opening of the Interdisciplinary Science and Engineering Building, one of the largest such structures constructed at any university this century.”</p>
+<p>He added: “We owe an enormous debt of gratitude to the Samueli Founation, UCOP and countless individuals at UCI for making this dream a reality.”</p>
+<p>Henry Samueli, co-founder of semiconductor maker Broadcom Corp., said, “As ground was being broken for this fabulous new facility, Susan and I were hoping for a structure that would provide an engine for cross-disciplinary research and innovations to benefit society, and we feel very strongly that goal has been achieved.” Through the Samueli Foundation, Henry and Susan Samueli have made the largest philanthropic gifts to UCI in the institution’s history.</p>
+<p>Researchers from nearly every UCI school will eventually work in the facility, but the bulk of the initial occupants will come from the School of Physical Sciences, The Henry Samueli School of Engineering and the Donald Bren School of Information &amp; Computer Sciences.</p>
+<p>“We thought that if we could bring people from various subfields of engineering, physical sciences, and information and computer sciences together and have them converge on major problems in energy, environment, climate and health, then perhaps we could make transformative advances on our biggest challenges,” said Pramod Khargonekar, UCI’s vice chancellor for research. “That’s how this building concept has come together.”</p>
+
+<!--
+<div id="attachment_52987" style="width: 505px" class="wp-caption alignright"><img aria-describedby="caption-attachment-52987" class=" wp-image-52987 img-responsive" src="https://news.uci.edu/wp-content/uploads/2021/02/210128_ISEB_1997_sz.jpg" alt="" width="495" height="321" srcset="https://news.uci.edu/wp-content/uploads/2021/02/210128_ISEB_1997_sz.jpg 2400w, https://news.uci.edu/wp-content/uploads/2021/02/210128_ISEB_1997_sz-300x194.jpg 300w, https://news.uci.edu/wp-content/uploads/2021/02/210128_ISEB_1997_sz-768x498.jpg 768w, https://news.uci.edu/wp-content/uploads/2021/02/210128_ISEB_1997_sz-1024x663.jpg 1024w" sizes="(max-width: 495px) 100vw, 495px" /><p id="caption-attachment-52987" class="wp-caption-text">On the fourth floor of the ISEB, large sliding-glass dividers can be opened to create flow between symposium rooms and an outdoor event venue. The design encourages connections between building occupants. Steve Zylius / UCI</p></div>
+-->
+
+<p><strong>Grouped by research topic</strong></p>
+<p>According to James Bullock, dean of the School of Physical Sciences, institutions traditionally have organized buildings and spaces by discipline – chemists here, mechanical engineers there, statisticians on the other side of a plaza.</p>
+<p>“With this building we took a different view: Rather than arranging by departments, we’re organizing by research question,” he said. “Energy, climate and health are not the domain of a single department or school, so we said, ‘Why not group together folks with the same broad goals, give them space to interact, and let them bring to bear diverse tools and approaches to tackle the biggest problems of our age?’”</p>
+<p>More than 50 physical sciences researchers – with expertise as diverse as atmospheric science, nano-optics and living biomaterials – have already occupied or are soon to take up residence in the Interdisciplinary Science and Engineering Building.</p>
+<p>Jenny Yang, an associate professor of chemistry, said that the move into the ISEB by her team – two postdoctoral scholars, nine Ph.D. students and three undergraduate researchers – will facilitate a deep dive into the fundamental science of sustainable technology and decarbonization.</p>
+<p>“Our current work centers on carbon dioxide capture and concentration from air and generating carbon-neutral fuels from sunlight, known as artificial photosynthesis,” she said. “The frontiers of energy research and bioinorganic chemistry require collaborations, so our interdisciplinary interactions with biochemists, bioengineers and electrochemists will be greatly enhanced by our presence in the ISEB.”</p>
+<p>Anna Grosberg, a researcher in the Edwards Lifesciences Center for Advanced Cardiovascular Technology, is relocating her group of five Ph.D. and four master’s students and six undergraduates into the ISEB. She noted that access to cutting-edge core facilities will enable them to accelerate their research into cardiac structure and function in health and disease.</p>
+<p>“We currently have an important project investigating the impact of coronavirus-caused hypoxia on the heart. This will improve our understanding of the long-term consequences to the health of COVID-19 survivors,” said Grosberg, an associate professor of biomedical engineering. “The move to the new building will allow us to even more effectively collaborate with the co-principal investigators on this grant while taking advantage of the facilities specifically designed for tissue engineering experiments.”</p>
+<p>She added that she’s also looking forward to partnering with researchers in the NSF-Simons Center for Multiscale Cell Fate Research, who will be on the same floor of the ISEB. Grosberg hopes the proximity will lead to new interdisciplinary projects combining high-level mathematical data analysis with her team’s laboratory observations.</p>
+
+<!--
+<div id="attachment_52988" style="width: 406px" class="wp-caption alignleft"><img aria-describedby="caption-attachment-52988" class=" wp-image-52988 img-responsive" src="https://news.uci.edu/wp-content/uploads/2021/02/210128_ISEB_1809_sz.jpg" alt="" width="396" height="256" srcset="https://news.uci.edu/wp-content/uploads/2021/02/210128_ISEB_1809_sz.jpg 2400w, https://news.uci.edu/wp-content/uploads/2021/02/210128_ISEB_1809_sz-300x194.jpg 300w, https://news.uci.edu/wp-content/uploads/2021/02/210128_ISEB_1809_sz-768x497.jpg 768w, https://news.uci.edu/wp-content/uploads/2021/02/210128_ISEB_1809_sz-1024x662.jpg 1024w" sizes="(max-width: 396px) 100vw, 396px" /><p id="caption-attachment-52988" class="wp-caption-text">The ISEB offers numerous interaction areas, comfortable, casual spaces where scientists and engineers can relax and have conversations. Steve Zylius / UCI</p></div>
+-->
+
+<p><strong>On-site data scientists, statisticians</strong></p>
+<p>Because information is the glue the binds many of these convergent research efforts together, the presence of data scientists and statisticians in the ISEB is all the more critical.</p>
+<p>“Bringing information and computer sciences into the mix is one of the keys to solving problems and making advances,” said Marios Papaefthymiou, dean of the Donald Bren School of Information &amp; Computer Sciences.</p>
+<p>Currently, the Center for Statistical Consulting is based in Donald Bren Hall, and the Institute for Clinical &amp; Translational Science’s Biostatistics, Epidemiology &amp; Research Design Unit operates out of Hewitt Research Hall. Both will become ISEB fixtures.</p>
+<p>“Having these two groups housed in the same location will foster collaboration both internally and externally and also allow for increased professional development,” said Joni Ladawn Ricks-Oddie, director of CSC and BERD. “This new environment will greatly enhance our ability to provide statistical, methodological and intellectual support to students, staff and faculty at UCI as well as investigators from other universities and external business enterprises.”</p>
+<p>According to Khargonekar, the ISEB was built with high-speed communications and computational capabilities that will facilitate seamless data exchange with the rest of the world.</p>
+<p>All the new space is helping to address another issue on the UCI campus, that of elbow room. Michael Green, interim dean of The Henry Samueli School of Engineering, said: “We grew from 100 tenure-track and tenured faculty in 2010 to 155 in 2020, the result of concerted efforts to bring a number of world-renowned experts to the school, but our laboratory capacity did not grow in order to meet this expansion.”</p>
+<p>He said that floor upon floor of new lab and office space in the ISEB helps solve this problem – with the added bonus of opening up square footage in existing engineering buildings – and will bolster future recruitment and retention efforts.</p>
+<p>Designed with UCI’s state-of-the-art Smart Labs technology, the ISEB will outperform the California Energy Code by more than 55 percent, according to campus architect Brian Pratt. The building is also expected to be the 21st consecutive construction project at UCI to achieve LEED Platinum certification.</p>
+<p>In addition to providing much-needed work and research space, the ISEB features an auditorium, a colloquium room, classrooms, and numerous indoor and outdoor meeting and event venues. There’s even a café on the ground floor.</p>
+<p>“When you bring people together, really new ideas emerge and new approaches to old problems can be conceived and developed, so creating spaces and flow-through so there are both intentional and serendipitous encounters is very much at the heart of this building,” Khargonekar said.</p>
+<p>“We have big, nice conference rooms where people are going to gather, hear lectures. They come out and, stimulated by what they heard, have new ideas. We want to capture all of that energy and creativity of our faculty, students and postdocs to generate new ways of thinking about these major problems.”</p>
+
+
+<p><em>Article originally published at <a href='https://news.uci.edu/2021/02/22/uci-researchers-join-forces-to-tackle-challenges-in-human-health-and-the-environment/' target='_blank'>UCI News</a>.</em></p>
+
+                    <br>
+                                <TITLE>UCI researchers join forces to tackle challenges in human health and the environment</TITLE><DIV STYLE='clear: both; '></DIV><HR><DIV STYLE='float: left; border: 0px dotted orange; margin: 0; padding: 1em; text-align: left; max-width: 40%; font-size: 90%; '>
+               <A HREF='/community/news/view_news.php?id=1931'>&lt; Previous</A>
+               <BR> Exploring Design + Ethics: Postdoc Arpita Bhattacharya and Industry Leaders Advocate for Inclusion
+            </DIV><DIV STYLE='float: right; border: 0px dotted purple; margin: 0; padding: 1em; text-align: right; max-width: 40%; font-size: 90%; '>
+               <A HREF='/community/news/view_news.php?id=1933'>Next &gt;</A>
+               <BR> Alumni Chapter’s Lunch &#038; Learn Panel Discussion Showcases Black Superstar Leaders in ICS
+            </DIV>
+
+
+<link rel="stylesheet" href="/bin/styles/stylesheet_news_view.css">
+
+
+</div>
+</blockquote>
+</div>
+</div>
+<div class="col-md-4" id="s-bar">
+    <div>
+<div id="sidebar_title">More news and events</div>
+<ul>
+<li><a href="index.php">News Stories</a></li>
+<li><a href="http://www.youtube.com/UCIBrenICS">Video highlights</a></li>
+<li><a href="../../about/annualreport/index.php">Annual reports</a></li>
+<li><a href="//campusgroups.uci.edu/events?group_ids=54818">Calendar of events</a></li>
+</ul>
+</div>
+<p style="margin: 2em 1em; font-size: 100%;"><strong>Media Inquiries</strong> <br/>Media interested in interviewing ICS faculty, students or alumni should contact Matt Miller at&#160;(949) 824-1562 or&#160;<a href="mailto:matt.miller@uci.edu">matt.miller@uci.edu</a></p>
+    <div class="h-gap-30"></div>
+    <style>
+.adBanner{display:none;}
+.adBanner img{
+    border-radius:5px;
+}
+.adBanner a:after{
+    display:none;
+    }
+</style>
+<div class="adBanner">
+<div class="row">
+<div class="col-12 text-center"></div>
+</div>
+</div>
+<div class="h-gap-30"></div>
+<a class="twitter-timeline" data-height="550" href="https://twitter.com/UCIbrenICS?ref_src=twsrc%5Etfw">Tweets by UCIbrenICS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="h-gap-30"></div>
+<p class="social-button-sw"><a aria-pressed="true" class="btn btn-outline-primary btn-sm" href="//www.ics.uci.edu/social/" role="button">View Social Media</a></p></div>
+</div>
+</div>
+</section>
+<section id="bottom-section">
+<div class="container">
+<!--<div id="links_bottom"><system-region name="LINKS-BOTTOM"/></div>-->
+<div id="nav-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 soc-cons foot-col1">
+                <div class="row row-ics_address">
+            		<p>
+                        Donald Bren School of Information and Computer Sciences<br>
+                		University of California, Irvine<br>
+    					6210 Donald Bren Hall<br>
+    					Irvine, CA 92697-3425
+                    </p>	 
+                </div>
+                <div class="row">
+                    <ul>
+<li><a title="Facebook" alt="Facebook" href="http://facebook.com/UCIBrenICS" target="_blank"> <i class="fab fa-facebook-square" alt="facebook"></i> </a></li>
+<li><a title="Instagram" href="http://instagram.com/ucibrenics/" target="_blank"> <i class="fab fa-instagram" alt="instagram"></i> </a></li>
+<li><a title="Twitter" href="http://twitter.com/UCIbrenICS" target="_blank"> <i class="fab fa-twitter-square" alt="twitter"></i> </a></li>
+<li><a title="LinkedIn" href="https://www.linkedin.com/company/uc-irvine-information-and-computer-sciences" target="_blank"> <i class="fab fa-linkedin" alt="linkedin"></i> </a></li>
+<li><a title="Youtube" href="http://youtube.com/UCIBrenICS" target="_blank"> <i class="fab fa-youtube-square" alt="square"></i> </a></li>
+</ul>                </div>
+            </div>
+            <div class="col-md-2 quk-links foot-col2">
+                <ul>
+    				<li><a href="https://uci.edu/">UCI Homepage</a></li>
+					<li><a href="https://directory.uci.edu/">UCI Directory</a></li>
+					<li><a href="https://www.ics.uci.edu/about/search/index.php">Faculty & Staff</a></li>
+                    <li><a href="https://www.ics.uci.edu/employment/">Employment</a></li>
+                    <li><a href="https://intranet.ics.uci.edu/">ICS Intranet</a></li>
+                    <li><a href="https://www.ics.uci.edu/resources/researchdevelopment/">Research Development</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/kfflab/index.php">Kay Family Foundation Lab</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/facilities/index.php">Facilities</a></li>
+            	</ul>
+            </div>
+            <div class="col-md-2 quk-links foot-col3">
+                <ul>
+					<li><a href="https://www.ics.uci.edu/community/news/">News</a></li>
+                    <li><a href="https://campusgroups.uci.edu/events?group_ids=54818">Events</a></li>
+					<li><a href="https://www.ics.uci.edu/about/visit/index.php">Map & Directions</a></li>
+					<li><a href="https://www.ics.uci.edu/accessibility/">Accessibility Statement</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/about_safety.php">Safety Procedures</a></li>
+					<li><a href="https://uci.edu/privacy/index.php">Privacy Policy</a></li>
+                    <li><a href="https://www.ics.uci.edu/resources/coronavirus/">Coronavirus Resources</a></li>
+            	</ul>
+            </div>
+            <div class="col-md-2 quk-links foot-col4">
+                <ul>
+    				<li><a href="https://apply.grad.uci.edu/apply/">Apply</a></li>
+					<li><a href="https://www.ics.uci.edu/about/about_contact.php">Contact</a></li>
+					<li><a href="https://secure.connect.uci.edu/s/1735/interior-1col.aspx?sid=1735&gid=3&pgid=801&dids=79">Gift <i class="fas fa-gift"></i></a></li>
+            	</ul>
+            </div>
+        </div>
+        <div class="row copyrt-txt hr-top">
+            <div class="container"><p class="text-center"><a href="https://uci.edu/copyright/">&#169;&#160; UCI Donald Bren School of Information & Computer Sciences</a></p></div>
+        </div>
+    </div>
+</div><!--<div id="footer"><system-region name="FOOTER"/></div>-->
+</div>
+</section>
+<!-- Back To Top Btn -->
+<div id="btt-btn"><!-- Back To Top Btn --><a href="#" id="back2Top" title="Back to top">&#10148;</a></div>
+
+<script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+ <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-605898-1");
+        pageTracker._trackPageview();
+        </script>
+ <script crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" type="text/javascript">
+</script>
+ <script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" type="text/javascript">
+</script>
+<script src="../../bin/js/btt.js" type="text/javascript">
+</script>
+<!-- Accessibilty - START -->
+<script type="text/javascript">
+var _userway_config = {
+/* uncomment the following line to override default position*/
+/* position: '2', */
+/* uncomment the following line to override default size (values: small, large)*/
+/* size: 'small', */
+/* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
+/* language: 'en-US', */
+/* uncomment the following line to override color set via widget (e.g., #053f67)*/
+/* color: '#0064a4', */
+/* uncomment the following line to override type set via widget(1=person, 2=chair, 3=eye)*/
+/* type: '1', */
+/* uncomment the following line to override support on mobile devices*/
+/* mobile: true, */
+account: 'GTYOD4aROB'
+};
+</script>
+<script src="https://cdn.userway.org/widget.js" type="text/javascript"></script>
+<!-- Accessibilty - END -->
+</div>
+</body>
+</html>

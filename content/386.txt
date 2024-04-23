@@ -1,0 +1,419 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Adriana Meza Soria</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/profile2.jpg);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Adriana Meza Soria</a></h1>
+				<span class="position"><a href="#">PhD Student</a> UC Irvine</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="about">About</a></li>
+                        <li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="research">Research</a></li>
+                        <li><a href="#" data-nav-section="publications">Publications</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+                        <li><a href="#" data-nav-section="teaching">Teaching</a></li>
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<div class="colorlib-footer">
+                <p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+				<ul>
+					<li><a href="#"><i class="icon-facebook2"></i></a></li>
+					<li><a href="#"><i class="icon-twitter2"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+			</div>
+
+		</aside>
+
+		<div id="colorlib-main">
+            <section id="colorlib-hero" class="js-fullheight" data-section="about">
+                <div class="flexslider js-fullheight">
+                    <ul class="slides">
+                        <li style="background-image: url(images/landscape9.JPG);">
+                            <div class="overlay"></div>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                                        <div class="slider-text-inner js-fullheight">
+                                            <div class="desc">
+                                                <h1 style="color:#F2F2F2;">Hi! <br>I'm Adriana</h1>
+                                                <h2 style="color:#E6E6E6;">Ph.D. student in the Department of Informatics at UC Irvine.</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background-image: url(images/landscape8.JPG);">
+                            <div class="overlay"></div>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                                        <div class="slider-text-inner">
+                                            <div class="desc">
+                                                <h1 style="color:#F2F2F2;">I am a Researcher</h1>
+                                                <h2 style="color:#E6E6E6;">Member of the Software Design and Collaboration Laboratory (<a href="https://sdcl.ics.uci.edu/">SDCL</a>)</h2>
+                                                    <p style="color:#E6E6E6;">I study software designers and how they interact with tools to document design work.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="colorlib-experience" data-section="education">
+                <div class="colorlib-narrow-content">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                            <h2 class="colorlib-heading animate-box">Education</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="timeline-centered">
+                                <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="timeline-entry-inner">
+                                        
+                                        <div class="timeline-icon color-1">
+                                            <i class="icon-pen2"></i>
+                                        </div>
+                                        
+                                        <div class="timeline-label">
+                                            <h2>Ph.D. in Software Engineering <span>2017–present</span></h2>
+                                            <ul>
+                                                <li>University of California, Irvine</li>
+                                                <li>GPA: 3.96 (0-4 scale)</li>
+                                                <li>Dissertation: "Important Design Moments capture and delivery for design meetings"</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </article>
+                                
+                                
+                                <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                                    <div class="timeline-entry-inner">
+                                        <div class="timeline-icon color-2">
+                                            <i class="icon-pen2"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h2>M.S in Engineering <span>2016</span></h2>
+                                            <ul>
+                                                <li>CETYS University, Tijuana, Mexico</li>
+                                                <li>GPA: 100 (0-100 scale)</li>
+                                                <li><strong>Summa Cum Laude</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </article>
+                                
+                                <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="timeline-entry-inner">
+                                        <div class="timeline-icon color-3">
+                                            <i class="icon-pen2"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h2>B.S. in Computational Systems Engineering<span>2013</span></h2>
+                                            <ul>
+                                                <li>Technological Institute of Tijuana (ITT), Tijuana, Mexico</li>
+                                                <li>GPA: 96.39 (0-100 scale)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </article>
+                                
+                                <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                                    <div class="timeline-entry-inner">
+                                        <div class="timeline-icon color-none">
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+			<section class="colorlib-skills" data-section="research">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<h2 class="colorlib-heading animate-box">My Research</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                            <!--img src="images/research.png" alt="Designers at the whiteboard"-->
+                            <p>One problem designers confront in practice is capturing design information produced during design meetings, which usually take place as informal conversations at the whiteboard. Another equally important problem is bringing that design information back during future meetings, right 'in-the-moment' the developers need it.</p>
+                            <p>Nowadays, both activities most likely require heavyweight processes, and the tool support available is usually obtrussive, with interactions that hinder the developers from actively participating in the meeting. Therefore, developers barely use them.</p>
+                            <p>My research attempts to address this tandem-problem through the development and evaluation of lightweight tools to (semi-) automatically capture and deliver important design information.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+            
+            <section class="colorlib-skills" data-section="publications">
+                <div class="colorlib-narrow-content">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                            <h2 class="colorlib-heading animate-box">Publications</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                            <ul>
+                                <li>A. Meza Soria and A. van der Hoek, "Collecting Design Knowledge through Voice Notes" 2019 IEEE/ACM 12th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE), Montreal, 2019, pp. 33-36 </li>
+                                <li>Y. Du and A. Meza Soria, "Designing Conversational Agents to Support Home Exercises for Children Who Receive Speech and Language Therapy," AMIA 2018 Annual Symposium, United States, 2018 </li>
+                                <li>A. Meza Soria and A. van der Hoek, "Toward Collecting and Delivering Knowledge for Software Design at the Whiteboard," 2018 IEEE/ACM 11th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE), Gothenburg, 2018, pp. 108-109</li>
+                                <li>A. Meza Soria and A. Hirales Carbajal, "A Node Selection Criterion for Multi-group Membership on Wi-Fi-Direct Networks," 7th International Supercomputing Conference in Mexico (ISUM), Mexico, 2016 (Poster, 2 pages). </li>
+                                <li>A. Meza Soria and A. Hirales Carbajal, "Characterizing Smartphones Voice, Text and Connectivity Communication," 1st Workshop on Human Computer Interaction at Encuentro Nacional de Ciencias de la Computación (ENC), Mexico, 2015, unpublished</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<h2 class="colorlib-heading animate-box">Professional Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2>Grupo Tress Internacional (GTI) | Senior Software Engineer <span>2013-2017</span></h2>
+					                  <p>End-user application design and development, architectural upgrade design, and coaching.</p>
+					               </div>
+					            </div>
+					         </article>
+
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+                                       <h2>IWAI Metal Mexico, IT Assistant | IT Assistant <span>2012-2013</span></h2>
+                                       <p>Internal software development and IT management activities.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+                                       <h2>TELNOR | Intern <span>2011-2012</span></h2>
+                                       <p>Early design and prototyping.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+            
+            <section class="colorlib-experience" data-section="teaching">
+                <div class="colorlib-narrow-content">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                            <h2 class="colorlib-heading animate-box">Teaching Experience</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="timeline-centered">
+                                <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="timeline-entry-inner">
+                                        
+                                        <div class="timeline-icon color-1">
+                                            <i class="icon-pen2"></i>
+                                        </div>
+                                        
+                                        <div class="timeline-label">
+                                            <h2>Teaching Assistant <span>Fall 2018–Winter 2019</span></h2>
+                                            <ul>
+                                                <li>UC Irvine CA, U.S.A</li>
+                                                <li>Software Design I: Application Design</li>
+                                                <li>Software Testing and Quality Assurance</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </article>
+                                
+                                
+                                <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                                    <div class="timeline-entry-inner">
+                                        <div class="timeline-icon color-2">
+                                            <i class="icon-pen2"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h2>Professor <span>2016–2017</span></h2>
+                                            <ul>
+                                                <li>CETYS University Tijuana, Mexico</li>
+                                                <li>Advanced Programming</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </article>
+                                
+                                <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="timeline-entry-inner">
+                                        <div class="timeline-icon color-3">
+                                            <i class="icon-pen2"></i>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <h2>Professor <span>2014–2017</span></h2>
+                                            <ul>
+                                                <li>Autonomous University of Baja California (UABC) Tijuana, Mexico</li>
+                                                <li>Emergent Technologies</li>
+                                                <li>Process Re-engineering</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </article>
+                                
+                                <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                                    <div class="timeline-entry-inner">
+                                        <div class="timeline-icon color-none">
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<h2 class="colorlib-heading">Contact Info</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+                            <div class="colorlib-text">
+                                <ul>
+                                    <li>amezasor@uci.edu</li>
+                                    <li>Find me in <a href="https://www.linkedin.com/in/adriana-meza-soria-52799961">Linked In</a>  and <a href="https://www.researchgate.net/profile/Adriana_Meza_Soria">Research Gate</a></li>
+                                    <li>SDCL, ICS 414, Room D</li>
+                                </ul>
+                                <img src="images/working4.jpg" alt="At ICSE 2018">
+                            </div>
+						</div>
+				</div>
+			</section>
+
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+

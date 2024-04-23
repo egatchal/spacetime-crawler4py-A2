@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>In the News @ Donald Bren School of Information and Computer Sciences</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="https://use.fontawesome.com/f443bac96a.js"></script>
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"/><link href="../../bin/styles/stylesheet_index2018_addon.css" rel="stylesheet" type="text/css"/>
+
+
+<meta content="Mon, 21 Jun 2021 06:43:37 -0380" name="date"/>
+
+</head>
+<body>
+<!-- before breadcrumb_nav include -->
+ <!-- after breadcrumb_nav include -->
+<div id="wrapper">
+<div id="header-main">
+    <a id="skip-nav" role="region" aria-label="Skip to main content" class="skip-nav screen-reader-text" href="#mid-section">Skip to main content</a>
+    <div class="container">
+        <div id="logo-container">
+            <a title="UCI - Donald Bren School of Information and Computer Sciences Logo" href="/">
+                <div class="header-logo01 w-100 d-none d-md-block">
+                    <img src="/bin/img/logos/UCI17_Bren_ICS_2L_white-1200.png" alt="UCI Donald Bren School of Information and Computer Sciences - logo" />
+                </div>
+                <div class="header-logo02 d-block w-100 d-md-none text-center">
+                    <img src="/bin/img/logos/UCI17_Bren_ICS_2L_white-1200.png" alt="UCI Donald Bren School of Information and Computer Sciences - logo" />
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-ics-yellow" aria-label="Main menu">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-link nav-link-home d-block w-100 d-md-none">
+                    <a href='/'>HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/about/" id="navbarDropdownMenuLink-about" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-about">
+                        <li>
+                            <a class="dropdown-item" href='/about/'>About the School</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_deanmsg.php'>Dean's Welcome</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_factsfigures.php'>Facts and Figures</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/brenhall/index.php'>Donald Bren Hall</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/visit/index.php'>Visit the Bren School</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/equity/'>Equity & Diversity
+                            </A>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/about_contact.php'>Contact Us</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/dept/" id="navbarDropdownMenuLink-departments" aria-haspopup="true" aria-expanded="false">DEPARTMENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-research">
+                        <li>
+                            <a class="dropdown-item" href='//www.cs.uci.edu'>Computer Science</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.informatics.uci.edu'>Informatics</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.stat.uci.edu'>Statistics</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/faculty/area/" id="navbarDropdownMenuLink-research" aria-haspopup="true" aria-expanded="false">RESEARCH</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-faculty">
+                        <li>
+                            <a class="dropdown-item" href='/faculty/area/'>Research Areas</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/faculty/centers/'>Research Centers</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/faculty/highlights/'>Research Highlights</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-students" aria-haspopup="true" aria-expanded="false">STUDENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-students">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="/grad/admissions/index">Graduate &#x25B8;</a>
+                            <ul class="dropdown-menu dropdown-menu-color">
+                                <li>
+                                    <a class='dropdown-item' href='/grad/admissions/index-orientationbackupOct12'>Orientation</a>
+                                </li>
+                                <li>
+                                    <a class='dropdown-item' href='/grad/admissions/index'>Prospective Students</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/admissions/Prospective_ApplicationProcess.php'>How to Apply</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/degrees/index'>Programs of Study</a>
+                                </LI>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/courses/index-course'>Academic Year Plan</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/Course_updates'>Course Updates</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/forms_policies/index'>Forms And Policies</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/admissions_faq/index'>Admissions FAQ</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/funding/index'>Funding</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/funding/housing'>Housing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='//swiki.ics.uci.edu/doku.php'>Computing Support</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/resources'>Campus Resources</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/about/visit/index'>Visit the Bren School</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/grad/index'>Contact</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="/ugrad/">Undergraduate &#x25B8;</a>
+                            <ul class="dropdown-menu dropdown-menu-color">
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/index'>Contact</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/index'>Academic Advising</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/Course_updates'>Course Updates</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/courses/index-course'>Academic Year Plan</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/QA_Petitions'>Petitions</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/degrees/index.php'>ICS Majors</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/degrees/Minors'>ICS Minors</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Academic_Honesty'>Policies: Academic Integrity</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Academic_Standing'>Policies: Academic Standing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Add_Drop_ChangeOption'>Policies: Add, drop, &amp; change options</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Course_Outside_UCI'>Policies: Coursework outside UCI</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Grade_Options'>Policies: Grade policy</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Laptop_ComputerUse'>Policies: Laptop &amp; computer use</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/Withdrawal_Readmission'>Policies: Withdrawal/Readmission</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/policies/CS199_IN4MATX199'>Policies: CS 199 / IN4MATX 199 Courses</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/QA_Graduation'>Graduation</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/resources/index'>ICS Student Life</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='/ugrad/sao/SAO_Events.php'>Upcoming Events</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href='//swiki.ics.uci.edu/doku.php'>Computing Support</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/scholarships/index'>Scholarships & Fellowships</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//uci.joinhandshake.com/login'>Student Jobs & Internships</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/about/search/" id="navbarDropdownMenuLink-people" aria-haspopup="true" aria-expanded="false">PEOPLE</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-people">
+                        <li>
+                            <a class="dropdown-item" href='/faculty/'>Faculty</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/search/index.php'>Staff</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/search/search_graduate_all.php'>Graduate Students</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-news_events" aria-haspopup="true" aria-expanded="false">NEWS & EVENTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-news_events">
+                        <li>
+                            <a class="dropdown-item" href='/community/news/'>Newsroom</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//campusgroups.uci.edu/ics/events/'>Events</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/social/'>Social Media</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/about/annualreport/'>Publications</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/involved/" id="navbarDropdownMenuLink-get_involved" aria-haspopup="true" aria-expanded="false">GET INVOLVED</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-get_involved">
+                        <li>
+                            <a class="dropdown-item" href='https://secure.give.uci.edu/give-to-uci-donald-bren-school-of-information-computer-sciences/'>Make a Gift
+                                <i class="fas fa-gift"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/involved/leadership_council'>Leadership Council</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/involved/corporate_partner'>Corporate Partners</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='//www.ics.uci.edu/involved/project_sponsor' target='_blank' rel='nofollow noopener'>Sponsor Projects</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/events/competition/'>Product Development Competition</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href='/community/alumni/'>Alumni</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="float-right">
+            <form class="form-inline my-2 my-md-0" name="searchform" action="//search.uci.edu/" method="get" id="searchform">
+                <input type="hidden" name="client" value="uci_full">
+                <input type="hidden" name="site" value="uci_full">
+                <input type="hidden" name="proxystylesheet" value="uci_full">
+                <input type="hidden" name="ie" value="UTF-8">
+                <input type="hidden" name="oe" value="UTF-8">
+                <input type="hidden" name="num" value="10">
+                <input type="hidden" name="btnG" value="Search+UC+Irvine">
+                <input type="hidden" name="as_occt" value="any">
+                <input type="hidden" name="as_dt" value="i">
+                <input type="hidden" name="as_sitesearch" value="ics.uci.edu">
+                <input name="collection" type="hidden" value="37" />
+                <input title="Search ICS Website" id="query" class="form-control" onfocus="clear_textbox()" name="q" size="9" maxlength="300" placeholder="Search ICS" autocomplete="off" type="text">
+                <div class="auto_complete" id="results" align="center" size="100" maxlength="500" height="500"></div>
+                <input type="hidden" id="results_selected" name="sel">
+                <input type="hidden" name="start_pb" value="1">
+            </form>
+        </div>
+    </div>
+</nav><section id="mid-section">
+<div class="container">
+<div class="row">
+<div class="col-md-8" id="mid-content"><!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/community/">Community</a> &#47; <a href="https://www.ics.uci.edu/community/news/">News</a>] --><A HREF="/">Bren school home</A> &#47; <a href="https://www.ics.uci.edu/community/">Community</a> &#47; <a href="https://www.ics.uci.edu/community/news/">News</a></div>
+<!-- after breadcrumb_nav() print -->
+<div id="content"><a id="startcontent" name="startcontent"></a> 
+<div id="c-title">In the News</div>
+<blockquote>
+<div id="c-text"><br/>
+
+<!-- inc publications_db -->
+
+ 
+<strong>April 27,  2020
+</strong>
+<p>
+    <i></i><h3>Undergraduate Informatics Course Offers Real-World Lessons on Inclusive Human-Centered Design</h3>
+        <p>
+                <p>	
+<p>“Today is going to be a little experimental,” announced Informatics Professor <a href="https://stacybranham.com/">Stacy Branham</a> as she stood at the front of an Anteater Learning Pavilion (<a href="http://alp.uci.edu/">ALP</a>) lecture hall back in January and introduced her IN4MATX 131 students to a panel of speakers:</p>
+
+
+
+<ul><li><a href="https://www.linkedin.com/in/jenaro-soto-5956ab119/">Jenaro Soto</a>, a third-year Ph.D. student in pharmaceutical sciences at UCI and a wheelchair user;</li><li>Maya Gupta, a master’s student in informatics at UCI studying wayfinding technology for people with disabilities; and&nbsp;</li><li><a href="https://www.linkedin.com/in/cella/">Cella Sum</a>, a software engineer at Big Cartel and a student in UCI’s master of human-computer interaction and design (<a href="https://mhcid.ics.uci.edu/">MHCID</a>) program.</li></ul>
+
+
+
+<span id="more-6276"></span>
+
+
+
+<p>The panelists had come to the Tuesday afternoon class — an undergraduate course on the basic principles of human-computer interaction (HCI) — to talk about “mobility for all.” This was <a href="https://uci.yuja.com/V/Video?v=672759&amp;a=47857701">Part I</a> of Branham’s novel, two-day lecture on “Representing Users and Universal Usability.”</p>
+
+
+
+<p>Part II, scheduled for the Thursday class, would focus on “vision impairments” with a new set of panelists:</p>
+
+
+
+<ul><li>Carlos Martinez, a UCI alumnus who is now serving as the office coordinator for UCI’s <a href="http://summer.uci.edu/programs/">Edge Programs</a> and who is blind;</li><li>Hipolito Ruiz, a UCI student majoring in psychology and social behavior who is visually impaired;</li><li><a href="https://www.linkedin.com/in/mehrenberg/">Meredith Ehrenberg</a>, an information architect at UCI; and&nbsp;</li><li>Somphone Eno, an assistive technology manager at the UCI <a href="https://dsc.uci.edu/">Disability Services Center</a>.</li></ul>
+
+
+
+<p>Throughout the two-day lecture and panel discussions, students in the Donald Bren School of Information and Computer Sciences (<a href="https://www.ics.uci.edu/">ICS</a>) learned first-hand about representation and accessibility and the benefits of universal usability.</p>
+
+
+
+<p><strong>Mobility for All</strong><br>Students first learned about <a href="https://www.interaction-design.org/literature/article/personas-why-and-how-you-should-use-them">personas</a> — fictional characters that designers use to better understand potential users. They learned that, through a <a href="https://www.ics.uci.edu/community/news/view_news?id=1645">partnership</a> with Toyota Motor North America (TMNA) aimed at offering navigational support for older adults and individuals with vision impairments, Branham quickly realized it’s rare to find personas with disabilities. Students read about “Rachel,” a persona representing a wheelchair user that Gupta had developed while working with Branham on the TMNA project. So when Branham asked the class to break into groups and use personas to evaluate Google Maps walking directions by finding the “best” route to Pete’s Coffee on campus, the students all had users such as Rachel in mind.</p>
+
+
+
+<figure class="wp-block-image"><img src="//www.informatics.uci.edu/wp-content/uploads/Branham_Persona-Activity-1024x523.png" /><figcaption>Students used personas (such as “Rachel Lee”) to evaluate Google Maps walking directions.</figcaption></figure>
+
+
+
+<p>“It was so unnecessarily complicated,” says Hermain Hanif, a senior majoring in computer science who called Branham’s class “mind blowing.” Hanif says she has already started applying concepts of human-computer interaction she has learned from the class to her job as an iOS developer and UI/UX developer for startup RedApple Health Digital Care. “I actually think about these concepts when making the UI.”</p>
+
+
+
+<p>Yet part of what the Google Maps exercise showed was that when thinking about accessibility, you also need to think about access. It turns out that Soto, a panelist with a lot of lived experience navigating through environments in a wheelchair, also learned something new while watching the students find an appropriate route to Pete’s Coffee.</p>
+
+
+
+<p>“They had to get directions and think about how I would get there,” he said. “Google Maps takes them through a path that has stairs, and it takes them uphill, so they had to try to avoid these things.” One student found an accessibility feature that even Soto didn’t know existed. By selecting the “public transportation” (as opposed to “walking”) icon, the student was able to select a “wheelchair accessible” box. “It was eye-opening for me,” says Soto. “So they’re thinking about it, but it’s just not easily accessible.”</p>
+
+
+
+<p>This is where the concept of universal usability comes into play. Based on the idea of <a href="https://en.wikipedia.org/wiki/Universal_design">universal design</a>, it suggests that designing well for people with unique needs creates better products for everyone. For example, it’s not just a wheelchair user who might want to avoid hills or stairs; it could be an older adult, a parent pushing a stroller, an athlete with a broken leg or a traveler pulling a suitcase. The ability to easily find unique routes could benefit all kinds of users.</p>
+
+
+
+<p>“The panel discussion brought together different perspectives to help explore universal usability and ways to better represent users in personas,” explained Sum, a co-author of “Three Tensions Between Personas and Complex Disability Identities,” a <a href="https://chi2020.acm.org/">CHI 2020</a> poster paper. “Professor Branham’s extensive work in accessibility, Maya’s research in mobility, my research in personas and intersectional identities, and Jenaro’s lived experiences as a person with a disability all highlighted the importance of this work, and I think that we all agree that there is a lot more work to be done.”</p>
+
+
+
+<p>By increasing awareness of these issues among students, Branham is providing future designers with the knowledge needed to design for universal usability. As Sum notes, “accessibility and representation are important issues that improve lives for everyone, not just for people with disabilities, and I think the panel was a good reminder for students that they can always look for ways to make positive changes, no matter where they end up.”</p>
+
+
+
+<p>Informatics junior Sumah Faqhir agrees, noting that it was “informative to see the real-world applications of the concepts we had only ever read about before.” It also gave her a broader perspective of potential users. “This truly matters because many of the people in that lecture room will most likely go on to become software developers, UX designers or front-end developers,” she says. “So for us to have this knowledge is really important, because we want to keep everyone in mind when creating or designing anything new.”</p>
+
+
+
+<p><strong>Through the Lens of Vision Impairments</strong><br>The second part of Branham’s lecture on “Representing Users and Universal Usability” focused on vision impairments, emphasizing the diversity of people with disabilities and their differing needs.</p>
+
+
+
+<p>“As an Anteater who is completely blind, I was so excited when Dr. Branham invited me to participate in a discussion about digital accessibility,” says Martinez, who graduated from UCI in 2017. “By giving panelists the chance to share their stories and allowing her students to interact with assistive technology, Dr. Branham is equipping the next generation of pathfinders with valuable context about their consumer base.” The exercise for this class was to use a screen reader, which lets blind and visually impaired people navigate interfaces with audio feedback.</p>
+
+
+
+<figure class="wp-block-image"><img src="//www.informatics.uci.edu/wp-content/uploads/Branham_ScreenReader-PDFs-1024x427.png" /><figcaption>Students practiced using a screen reader to better understand the importance of adding proper markup and metadata to content. Branham pointed out that PDF files are notorious for being inaccessible.</figcaption></figure>
+
+
+
+<p>“Our presentation to her undergraduate students was met with curiosity and intrigue,” says Ruiz, a white cane user. “They were amazed that whole new ways of interaction were available right in the palm of their hand.” Ruiz is also assisting Branham with the TMNA project, running co-design sessions and analyzing the data for the wayfinding prototype. “Creating universal-design products allows all of us to live more conveniently, become successful in the workforce, and enjoy the fruits of the internet,” he says, noting the importance of increased awareness. “Having professors at well-respected universities, such as Dr. Branham at UC Irvine, speak about these technologies is critical for advancement.”</p>
+
+
+
+<p>Ehrenberg seconds that notion: “As one of the co-chairs for the <a href="https://accessibility.uci.edu/information-technology/workgroup.php">IT Accessibility Workgroup</a> here on campus, I really appreciate Professor Branham’s approach for a few reasons.” First, Ehrenberg welcomes the focus on users and on universal design, but even more important, she appreciates how Branham’s approach gives people with disabilities a voice. “It’s critical to hear different users’ experiences <em>directly from them</em>. No two users, regardless of ability, will navigate a site or application or use an assistive device the same way,” she explains. “Exposing students to these critical concepts in the panel format humanizes the need and creates more inclusive thinking in general.”</p>
+
+
+
+<p>This was certainly the case for Garrison Finley, a transfer student majoring in informatics and specializing in human-computer interaction. “It was particularly interesting to hear from panelists Carlos Martinez, Hipolito Ruiz and Jenaro Soto,” he says. “It was refreshing to get their perspective, because I’ve been to a lot of events surrounding UX and accessibility where accessibility experts took the place of people with disabilities.” He noted how listening to the panelists “really reinforced the humanizing benefits of in-person interviews and consultation with people of disabilities and the fact that these voices exist and that there’s a person behind them who deserves to be taken into consideration when designing a product.”</p>
+
+
+
+<p><strong>The Benefits of Active Learning</strong><br>This “experimental” lesson was all part of Branham’s larger focus on <a href="http://alp.uci.edu/what-is-active-learning/">active learning</a>. UCI’s Anteater Learning Pavilion was designed specifically for active learning, and she received training on the technique through UCI’s Active Learning Institute (<a href="https://dtei.uci.edu/active-learning-institute-ali/">ALI</a>) this past summer.</p>
+
+
+
+<p>“Active learning — where you have students practice applying the theories and ideas they learn during class,” says Branham, “is now regarded as the best way to help students prepare for the workforce.” Furthermore, by using it to teach future designers how to represent users and employ universal usability, Branham is not only preparing students for the workforce but also better preparing the workforce itself by infusing it with a more inclusive mindset.</p>
+
+
+
+<p>Although UCI has moved to remote learning this quarter owing to the global pandemic, Branham says that’s no barrier to active learning. “I’m still leveraging the techniques I learned from ALI and experimenting with different lessons to provide my students with real-world experience,” she says. “With students no longer in the classroom, active learning is more important than ever, and our increased reliance on technology shows how critical it is to understand users and ensure accessibility.”</p>
+
+
+
+<p>— <em>Shani Murray</em></p>
+                    <br>
+                                <TITLE>Undergraduate Informatics Course Offers Real-World Lessons on Inclusive Human-Centered Design</TITLE><DIV STYLE='clear: both; '></DIV><HR><DIV STYLE='float: left; border: 0px dotted orange; margin: 0; padding: 1em; text-align: left; max-width: 40%; font-size: 90%; '>
+               <A HREF='/community/news/view_news.php?id=1754'>&lt; Previous</A>
+               <BR> Cadena de Favores: Rosalva Gallardo Valencia y Adriana Meza Soria
+            </DIV><DIV STYLE='float: right; border: 0px dotted purple; margin: 0; padding: 1em; text-align: right; max-width: 40%; font-size: 90%; '>
+               <A HREF='/community/news/view_news.php?id=1756'>Next &gt;</A>
+               <BR> Researcher Spotlight: Dr. Babak Shahbaba
+            </DIV>
+
+
+<link rel="stylesheet" href="/bin/styles/stylesheet_news_view.css">
+
+
+</div>
+</blockquote>
+</div>
+</div>
+<div class="col-md-4" id="s-bar">
+    <div>
+<div id="sidebar_title">More news and events</div>
+<ul>
+<li><a href="index.php">News Stories</a></li>
+<li><a href="http://www.youtube.com/UCIBrenICS">Video highlights</a></li>
+<li><a href="../../about/annualreport/index.php">Annual reports</a></li>
+<li><a href="//campusgroups.uci.edu/events?group_ids=54818">Calendar of events</a></li>
+</ul>
+</div>
+<p style="margin: 2em 1em; font-size: 100%;"><strong>Media Inquiries</strong> <br/>Media interested in interviewing ICS faculty, students or alumni should contact Matt Miller at&#160;(949) 824-1562 or&#160;<a href="mailto:matt.miller@uci.edu">matt.miller@uci.edu</a></p>
+    <div class="h-gap-30"></div>
+    <style>
+.adBanner{display:none;}
+.adBanner img{
+    border-radius:5px;
+}
+.adBanner a:after{
+    display:none;
+    }
+</style>
+<div class="adBanner">
+<div class="row">
+<div class="col-12 text-center"></div>
+</div>
+</div>
+<div class="h-gap-30"></div>
+<a class="twitter-timeline" data-height="550" href="https://twitter.com/UCIbrenICS?ref_src=twsrc%5Etfw">Tweets by UCIbrenICS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="h-gap-30"></div>
+<p class="social-button-sw"><a aria-pressed="true" class="btn btn-outline-primary btn-sm" href="//www.ics.uci.edu/social/" role="button">View Social Media</a></p></div>
+</div>
+</div>
+</section>
+<section id="bottom-section">
+<div class="container">
+<!--<div id="links_bottom"><system-region name="LINKS-BOTTOM"/></div>-->
+<div id="nav-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 soc-cons foot-col1">
+                <div class="row row-ics_address">
+            		<p>
+                        Donald Bren School of Information and Computer Sciences<br>
+                		University of California, Irvine<br>
+    					6210 Donald Bren Hall<br>
+    					Irvine, CA 92697-3425
+                    </p>	 
+                </div>
+                <div class="row">
+                    <ul>
+<li><a title="Facebook" alt="Facebook" href="http://facebook.com/UCIBrenICS" target="_blank"> <i class="fab fa-facebook-square" alt="facebook"></i> </a></li>
+<li><a title="Instagram" href="http://instagram.com/ucibrenics/" target="_blank"> <i class="fab fa-instagram" alt="instagram"></i> </a></li>
+<li><a title="Twitter" href="http://twitter.com/UCIbrenICS" target="_blank"> <i class="fab fa-twitter-square" alt="twitter"></i> </a></li>
+<li><a title="LinkedIn" href="https://www.linkedin.com/company/uc-irvine-information-and-computer-sciences" target="_blank"> <i class="fab fa-linkedin" alt="linkedin"></i> </a></li>
+<li><a title="Youtube" href="http://youtube.com/UCIBrenICS" target="_blank"> <i class="fab fa-youtube-square" alt="square"></i> </a></li>
+</ul>                </div>
+            </div>
+            <div class="col-md-2 quk-links foot-col2">
+                <ul>
+    				<li><a href="https://uci.edu/">UCI Homepage</a></li>
+					<li><a href="https://directory.uci.edu/">UCI Directory</a></li>
+					<li><a href="https://www.ics.uci.edu/about/search/index.php">Faculty & Staff</a></li>
+                    <li><a href="https://www.ics.uci.edu/employment/">Employment</a></li>
+                    <li><a href="https://intranet.ics.uci.edu/">ICS Intranet</a></li>
+                    <li><a href="https://www.ics.uci.edu/resources/researchdevelopment/">Research Development</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/kfflab/index.php">Kay Family Foundation Lab</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/facilities/index.php">Facilities</a></li>
+            	</ul>
+            </div>
+            <div class="col-md-2 quk-links foot-col3">
+                <ul>
+					<li><a href="https://www.ics.uci.edu/community/news/">News</a></li>
+                    <li><a href="https://campusgroups.uci.edu/events?group_ids=54818">Events</a></li>
+					<li><a href="https://www.ics.uci.edu/about/visit/index.php">Map & Directions</a></li>
+					<li><a href="https://www.ics.uci.edu/accessibility/">Accessibility Statement</a></li>
+                    <li><a href="https://www.ics.uci.edu/about/about_safety.php">Safety Procedures</a></li>
+					<li><a href="https://uci.edu/privacy/index.php">Privacy Policy</a></li>
+                    <li><a href="https://www.ics.uci.edu/resources/coronavirus/">Coronavirus Resources</a></li>
+            	</ul>
+            </div>
+            <div class="col-md-2 quk-links foot-col4">
+                <ul>
+    				<li><a href="https://apply.grad.uci.edu/apply/">Apply</a></li>
+					<li><a href="https://www.ics.uci.edu/about/about_contact.php">Contact</a></li>
+					<li><a href="https://secure.connect.uci.edu/s/1735/interior-1col.aspx?sid=1735&gid=3&pgid=801&dids=79">Gift <i class="fas fa-gift"></i></a></li>
+            	</ul>
+            </div>
+        </div>
+        <div class="row copyrt-txt hr-top">
+            <div class="container"><p class="text-center"><a href="https://uci.edu/copyright/">&#169;&#160; UCI Donald Bren School of Information & Computer Sciences</a></p></div>
+        </div>
+    </div>
+</div><!--<div id="footer"><system-region name="FOOTER"/></div>-->
+</div>
+</section>
+<!-- Back To Top Btn -->
+<div id="btt-btn"><!-- Back To Top Btn --><a href="#" id="back2Top" title="Back to top">&#10148;</a></div>
+
+<script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+ <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-605898-1");
+        pageTracker._trackPageview();
+        </script>
+ <script crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" type="text/javascript">
+</script>
+ <script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" type="text/javascript">
+</script>
+<script src="../../bin/js/btt.js" type="text/javascript">
+</script>
+<!-- Accessibilty - START -->
+<script type="text/javascript">
+var _userway_config = {
+/* uncomment the following line to override default position*/
+/* position: '2', */
+/* uncomment the following line to override default size (values: small, large)*/
+/* size: 'small', */
+/* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
+/* language: 'en-US', */
+/* uncomment the following line to override color set via widget (e.g., #053f67)*/
+/* color: '#0064a4', */
+/* uncomment the following line to override type set via widget(1=person, 2=chair, 3=eye)*/
+/* type: '1', */
+/* uncomment the following line to override support on mobile devices*/
+/* mobile: true, */
+account: 'GTYOD4aROB'
+};
+</script>
+<script src="https://cdn.userway.org/widget.js" type="text/javascript"></script>
+<!-- Accessibilty - END -->
+</div>
+</body>
+</html>

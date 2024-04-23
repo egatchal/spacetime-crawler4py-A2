@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="apqbuNOJhElrydSJzwkxmKEZVyYqF9orhHDkx0mwRfAv7P7nkbzVOir_48SLWQT07kgzVxJFi3P2XdatCPRxoQ==">
+    <title>Login</title>
+    <link href="/comp_checkout/web/css/screen.css" rel="stylesheet">
+    <link href="/comp_checkout/web/css/main.css" rel="stylesheet">
+<style>
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.navbar {
+        width:95%;
+}
+</style>
+    <link href="/comp_checkout/web/assets/1338b9a6/css/bootstrap.css" rel="stylesheet">
+<link href="/comp_checkout/web/css/site.css" rel="stylesheet"></head>
+<body>
+<style>
+        .span5 {
+            width: 25em;
+        }
+</style>
+
+
+
+
+
+
+
+
+
+<div class="container">
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark "   style='background-color: #0064a4; '>
+
+<nav id="w0" class="navbar-dark navbar-expand-lg navbar" title="Home" style="background-color: #0064a4; ">
+<div class="container">
+<a class="navbar-brand" href="/comp_checkout/web/"><img src='/comp_checkout/web/anteater.png' style='max-height: 25px; margin-right: 10px; '>Laptops+</a>
+<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#w0-collapse" aria-controls="w0-collapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+<div id="w0-collapse" class="collapse navbar-collapse">
+<ul id="w1" class="navbar-nav nav"><li class="nav-item"><a class="nav-link" href="/comp_checkout/web/site/index">Home</a></li>
+<li class="mr-auto span5 nav-item"><a class="nav-link" href="#"></a></li></ul><ul id="w2" class="navbar-nav ml-auto nav"><li class="mr-auto right nav-item"><a class="nav-link active" href="/comp_checkout/web/site/login">Login</a></li></ul></div>
+</div>
+</nav>
+</nav>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container"   style="padding: 1em; "   >
+
+        
+        <!--   Alert::widget()   was here   -->
+
+        
+
+
+<div class="site-login   col-lg-6 col-md-12 mx-auto   ">
+
+
+	<div class='card'>
+
+		<h3 class='card-header'>Login</h3>
+
+			<div class='card-body'>
+
+
+
+<p>Please input your <b>ICS login credentials</b>:</p><form id="login-form" class="mt-4 form-horizontal" action="/comp_checkout/web/site/login" method="post">
+<input type="hidden" name="_csrf" value="apqbuNOJhElrydSJzwkxmKEZVyYqF9orhHDkx0mwRfAv7P7nkbzVOir_48SLWQT07kgzVxJFi3P2XdatCPRxoQ=="><div class="form-group field-loginform-username required">
+<label class="col-lg-12" for="loginform-username">Username</label>
+<div class="col-lg-12">
+<input type="text" id="loginform-username" class="form-control" name="LoginForm[username]" autofocus aria-required="true">
+<p class="help-block help-block-error "></p>
+</div>
+
+</div><div class="form-group field-loginform-password required">
+<label class="col-lg-12" for="loginform-password">Password</label>
+<div class="col-lg-12">
+<input type="password" id="loginform-password" class="form-control" name="LoginForm[password]" value="" aria-required="true">
+<p class="help-block help-block-error "></p>
+</div>
+
+</div>
+
+
+
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary" name="login_button" value="Login">Login</button>            </div>
+
+    </form>
+
+
+		</div>
+
+	</div>
+
+
+
+</div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+
+<footer class="footer   mt-3 ">
+        <p class="pull-left   float-left px-3 ">&copy; BrenSchool ICS 2022</p>
+         </footer>
+
+</div>
+
+
+
+
+
+<script src="/comp_checkout/web/assets/27fd0897/jquery.js"></script>
+<script src="/comp_checkout/web/assets/5e73d068/yii.js"></script>
+<script src="/comp_checkout/web/assets/5e73d068/yii.validation.js"></script>
+<script src="/comp_checkout/web/assets/5e73d068/yii.activeForm.js"></script>
+<script src="/comp_checkout/web/assets/1338b9a6/js/bootstrap.bundle.js"></script>
+<script>jQuery(function ($) {
+jQuery('#login-form').yiiActiveForm([{"id":"loginform-username","name":"username","container":".field-loginform-username","input":"#loginform-username","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Username cannot be blank."});}},{"id":"loginform-password","name":"password","container":".field-loginform-password","input":"#loginform-password","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Password cannot be blank."});}}], []);
+});</script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<style>
+
+   .pagination li  { border: 1px solid #abc; margin: 0 1px; padding: 0 5px; }
+   .pagination li.active  { border: 1px dotted #123; background-color: #def; }
+
+   .breadcrumb li  { border: 1px solid #abc; margin: 0 1px; padding: 0 5px; }
+   .breadcrumb li.active  { border: 1px dotted #123; background-color: #def; }
+
+</style>
+
+
+

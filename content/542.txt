@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /~emilyo/teaching/info122w2014/samplecode</title>
+ </head>
+ <body>
+<h1>Index of /~emilyo/teaching/info122w2014/samplecode</h1>
+<ul><li><a href="/~emilyo/teaching/info122w2014/"> Parent Directory</a></li>
+<li><a href="lecture7/"> lecture7/</a></li>
+<li><a href="lecture8/"> lecture8/</a></li>
+<li><a href="lecture9/"> lecture9/</a></li>
+</ul>
+<address>Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.7.14 Server at www.ics.uci.edu Port 80</address>
+</body></html>

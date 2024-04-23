@@ -1,0 +1,177 @@
+<!--
+ * Contains elements from:
+ *
+ * http://www.cs.columbia.edu/~roxana/research/index.html 
+ *
+ -->
+
+<html class="no-js" lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Ardalan Amiri Sani</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+  </head>
+
+  <body><div id="main_body">
+  <!--<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>-->
+    <table width="100%">
+      <tr>
+        <td>
+          <h1>Ardalan Amiri Sani</h1>
+          <p>
+            <b>Associate Professor</b><br/>
+	    Computer Science Department<br/>
+	    University of California, Irvine<br/>
+	    <b>Email:</b> ardalan at uci dot edu<br/>
+	    <b>Lab (TrussLab):</b> Information and Computer Science I (ICS 1), #401<br/>
+	    <b>Office:</b> Information and Computer Science I (ICS 1), #417 (located inside TrussLab)<br/>
+          </p>
+        </td>
+        <td align="center">
+          <img src="img/profile_pic.jpg?version=2" align="right" height="250" />
+        </td>
+      </tr>
+    </table>
+
+    <div id="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="students.html">Students</a></li>
+        <li><a href="publications.html">Publications</a></li>
+	<li><a href="courses.html">Courses</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+    </div>
+
+    <table width="100%">
+      <tr>
+	<p>
+	  I direct the Trustworthy Systems Lab (TrussLab).
+          Our lab's research involves building trustworthy systems.
+          Our projects are often at the intersection of mobile computing, security, and operating systems.
+	</p>
+        <p>
+	  I joined the CS department at UC Irvine in July 2015.
+	  I received my M.Sc. and Ph.D. from the ECE department at Rice
+	  University, and my B.Sc. from Sharif University of Technology.
+	  Since joining UCI, I have received the NSF CAREER Award, Google's Android Security and PrIvacy REsearch (ASPIRE) Award, and UCI ICS Dean's Mid-Career Award for Research.
+	</p>
+      </tr>
+      <tr>
+	<h2>Prospective Students</h2>
+        <p>
+	  I'm always looking for motivated graduate and undergraduate students who enjoy building systems to join our lab. If you're interested, send me an email or drop by my office.
+	</p>
+      </tr>
+      <tr>
+	<h2>News</h2>
+	<p><ul>
+	  <li><span>
+            7/14/2022: GLeeFuzz is accepted to USENIX Security'23.
+          </span></li>
+	  <li><span>
+            6/9/2022: Sifter is accepted to MobiCom'22.
+          </span></li>
+	  <li><span>
+            3/14/2022: Vronicle is accepted to MobiSys'22.
+          </span></li>
+	  <li><span>
+            9/2/2021: Received funding from Intel.
+          </span></li>
+	  <li><span>
+            7/19/2021: Received the tenure promotion at UCI.
+          </span></li>
+	  <li><span>
+            6/4/2021: Received UCI ICS Dean's Mid-Career Award for Research.
+          </span></li>
+	  <li><span>
+            4/12/2021: UDC is accepted to HotOS'21.
+          </span></li>
+	  <li><span>
+            3/25/2021: MegaMind is accepted to MobiSys'21.
+          </span></li>
+	  <li><span>
+            12/7/2020: Our paper on undo workarounds for kernel bugs (bowknots/Hecaton) is accepted to USENIX Security'21.
+          </span></li>
+	  <li><span>
+            11/12/2020: Received Google's 2020 Android Security and PrIvacy REsearch (ASPIRE) Award.
+          </span></li>
+	  <li><span>
+            7/24/2020: Received NSA NCAE-C Cyber Curriculum and Research 2020 Program Award.
+          </span></li>
+	  <li><span>
+            7/9/2020: NSF Proposal (SaTC: Small) is funded.
+          </span></li>
+	  <li><span>
+            3/6/2020: Tabellion is accepted to MobiSys'20.
+          </span></li>
+	  <li><span>
+            2/14/2020: Mousse is accepted to EuroSys'20.
+          </span></li>
+	  <li><span>
+            6/27/2019: Our SIGMETRICS'19 paper is nominated for the best paper award.
+          </span></li>
+	  <li><span>
+            4/16/2019: Our paper on causal profiling of web browsers is accepted to SIGMETRICS'19.
+          </span></li>
+	  <li><span>
+            3/11/2019: I/O-Device-as-a-Service is accepted to HotOS'19.
+          </span></li>
+	  <li><span>
+	    3/1/2019: Received the NSF CAREER Award for "Securing Mobile Devices by Hardening their System Software".
+          </span></li>
+	  <li><span>
+            8/27/2018: Our APSys'18 paper is nominated for the best paper award.
+          </span></li>
+	  <li><span>
+            7/23/2018: Milkomeda is accepted to CCS'18.
+          </span></li>
+	  <li><span>
+            7/16/2018: Our paper arguing for the use of virtualization hardware (and not TrustZone) for the TEE on mobile devices is accepted APSys'18.
+          </span></li>
+	  <li><span>
+	    6/6/2018: NSF Proposal (CSR: Medium) has been recommended for funding.
+          </span></li>
+	  <li><span>
+            5/2/2018: Charm is accepted to USENIX Security'18.
+          </span></li>
+	  <li><span>
+            11/13/2017: Sugar is accepted to ASPLOS'18.
+          </span></li>
+	  <li><span>
+            7/13/2017: Ditio is accepted to SenSys'17.
+          </span></li>
+	  <li><span>
+            7/24/2017: NSF Proposal (SaTC: Small) is funded.
+          </span></li>
+	  <li><span>
+            2/25/2017: SchrodinText is accepted to MobiSys'17.
+          </span></li>
+	  <li><span>
+            12/17/2016: Our user study to understand sensor notifications on mobile devices is accepted to HotMobile'17.
+          </span></li>
+	  <li><span>
+            11/10/2016: Graspan is accepted to ASPLOS'17.
+          </span></li>
+	  <li><span>
+            9/1/2016: NSF Proposal (CSR: Small) is funded.
+          </span></li>
+	  <li><span>
+            6/10/2016: NSF Proposal (TWC: Small) is funded.
+          </span></li>
+	  <li><span>
+            5/1/2016: Zongheng Ma has won the UCI SURP Fellowship. Congrats!
+          </span></li>
+	  <li><span>
+            2/23/2016: Viola is accepted to MobiSys'16.
+          </span></li>
+        </ul></p>
+      </tr>
+    </table>
+  </div></body>
+</html>

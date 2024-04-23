@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /~seal/projects</title>
+ </head>
+ <body>
+<h1>Index of /~seal/projects</h1>
+<ul><li><a href="/~seal/"> Parent Directory</a></li>
+<li><a href=".DS_Store"> .DS_Store</a></li>
+<li><a href="._.DS_Store"> ._.DS_Store</a></li>
+<li><a href="aceton/"> aceton/</a></li>
+<li><a href="archevolution/"> archevolution/</a></li>
+<li><a href="archprediction/"> archprediction/</a></li>
+<li><a href="armour/"> armour/</a></li>
+<li><a href="ase20empirical/"> ase20empirical/</a></li>
+<li><a href="coala/"> coala/</a></li>
+<li><a href="cobweb/"> cobweb/</a></li>
+<li><a href="covert/"> covert/</a></li>
+<li><a href="craftdroid/"> craftdroid/</a></li>
+<li><a href="darcy/"> darcy/</a></li>
+<li><a href="deldroid/"> deldroid/</a></li>
+<li><a href="droid-sec-taxonomy/"> droid-sec-taxonomy/</a></li>
+<li><a href="droid_arch_jss/"> droid_arch_jss/</a></li>
+<li><a href="energy-test-min/"> energy-test-min/</a></li>
+<li><a href="ercatcher/"> ercatcher/</a></li>
+<li><a href="fusion/"> fusion/</a></li>
+<li><a href="latte/"> latte/</a></li>
+<li><a href="letterbomb/"> letterbomb/</a></li>
+<li><a href="mu_droid/"> mu_droid/</a></li>
+<li><a href="mudroid/"> mudroid/</a></li>
+<li><a href="nemo/"> nemo/</a></li>
+<li><a href="obfuscation/"> obfuscation/</a></li>
+<li><a href="patdroid/"> patdroid/</a></li>
+<li><a href="phenomenon/"> phenomenon/</a></li>
+<li><a href="resist/"> resist/</a></li>
+<li><a href="revealdroid/"> revealdroid/</a></li>
+<li><a href="salma/"> salma/</a></li>
+<li><a href="savasana/"> savasana/</a></li>
+<li><a href="terminator/"> terminator/</a></li>
+<li><a href="titanium/"> titanium/</a></li>
+<li><a href="trimdroid/"> trimdroid/</a></li>
+</ul>
+<address>Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.7.14 Server at www.ics.uci.edu Port 80</address>
+</body></html>

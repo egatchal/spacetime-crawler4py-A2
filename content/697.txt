@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83301040-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<head>
+<title>SEAL - ER Catcher: A Static Analysis Framework for Accurate and Scalable Event-Race Detection in Android</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Reply-to" content="malek at uci dot edu">
+<meta http-equiv="Owner" content="Sam Malek">
+<meta name="Author" content="Sam Malek">
+<meta name="Generator" content="Emacs">
+<link rev="MADE" href="mailto:malek at uci dot edu">
+<link href="../../seal.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="menu">
+      <p>
+          <a href="/index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="/members.html">Members</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="/publications.html">Publications</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="/projects.html">Projects</a>
+      </p>
+  </div>
+
+<!-- *************** Beginning of content ****************** -->
+
+<h2>ER Catcher: A Static Analysis Framework for Accurate and Scalable Event-Race Detection in Android</h2>
+
+<p>
+    Android platform provisions a number of sophisticated concurrency mechanisms for the development of apps. The concurrency mechanisms, while powerful, are quite difficult to properly master by mobile developers. In fact, prior studies have shown concurrency issues, such as event-race defects, to be prevalent among real-world Android apps. In this paper, we propose a flow-, context-, and thread-sensitive static analysis framework, called ER Catcher, for detection of event-race defects in Android apps. ER Catcher introduces a new type of summary function aimed at modeling the concurrent behavior of methods in both Android apps and libraries. In addition, it leverages a novel, statically constructed Vector Clock for rapid analysis of happens-before relations. Altogether, these design choices enable ER Catcher to not only detect event-race defects with a substantially higher degree of accuracy, but also in a fraction of time compared to the existing state-of-the-art technique.
+</p>
+
+<!-- <h3>Methdology</h3>
+<p>
+Figure below depicts the flow of data collection and analysis in our study. This study consisted of the following steps: (1) we first collected a large list of GitHub repositories from the GHTorrent database; (2) we set filtering criteria to identify the repositories representing non-trivial Android apps; (3) we further analyzed the identified repositories to collect their meta-data and information about automated tests and popularity; (4) we evaluated the collected dataset to answer research questions about the test automation culture prevalent among mobile app developers; and finally (5) we conducted a survey with the developers of the subject apps to get a deeper understanding of the underlying reasons for our observations from the dataset.
+</p> -->
+
+<h3> Video Presentation </h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vagYUBedf0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img style="margin:10" ALT="[Approach picture]" height="250" src=./Approach.png><br>
+
+<h3>Artifacts</h3>
+
+<p>
+The artifacts are available for download from <a href="https://github.com/seal-hub/ercatcher">here</a>.
+
+<h3>Publications</h3>
+
+More details about this project can be found in our publication below:
+<br>
+<ul class="paperlist">
+    <li><b>ER Catcher: A Static Analysis Framework for Accurate and Scalable Event-Race Detection in Android</b><br>
+    Navid Salehnamadi, Abdulaziz Alshayban, Iftekhar Ahmed , and Sam Malek<br>
+    <i>35th International Conference on Automated Software Engineering (ASE 2020), Virtual Event, Australia, September 2020. (23% acceptance rate) </i>
+	<br>[<a href="./2020_ASE_ERCatcher.pdf">PDF</a>]
+    </li>
+</ul>
+
+<!-- ***************** End of content ****************** -->
+<br><br>
+<div style="float:left">
+            <a href="http://www.ics.uci.edu/~seal/"><img ALT="[seal's logo]" height="200" src=../../seal.png></a>
+</div>
+<div style="float:right">
+            <a href="http://www.ics.uci.edu"><img ALT="[uci's logo]" style="padding-top: 40px" height="100" src=../../uci.jpg></a>
+</div>
+</div>
+</body>
