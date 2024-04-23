@@ -2,7 +2,7 @@ import re, requests, cbor, pickle, time
 from urllib.parse import urlparse, urljoin
 from bs4 import BeautifulSoup
 from utils import  normalize
-from tokenize_words import tokenize_content, token_frequencies, write_to_file, check_file_size, check_url_ascii, check_content_ascii
+from tokenize_words import tokenize_content, token_frequencies, write_to_file, check_file_size, check_url_ascii, check_content_ascii, tokenize_url
 from simhasing import sim_hash, compute_sim_hash_similarity
 # from pickle_storing import pickle_data, load_pickled_data, crawl_data
 
@@ -25,7 +25,7 @@ valid_domains = [r"^((.*\.)*ics\.uci\.edu)$", r"^((.*\.)*cs\.uci\.edu)$",
 traps = r"^.*calendar.*$|^.*filter.*$"
 valid_set = set()
 invalid_set = set()
-
+url_hashes = set()
 content_hashes = set() 
 content = dict()
 content_file = dict()
@@ -40,11 +40,14 @@ def scraper(url, resp):
     from pickle_storing import crawl_data, pickle_data
     crawl_data["visited_urls"].add(url)
     pickle_data(crawl_data, "current_crawl_data.pickle")
-    
+
     if url in valid_set or url in invalid_set:
         return []
-    
-    if not check_url_ascii(url) or not is_valid(url):
+
+    url_freq = tokenize_url(url)
+    url_hash =sim_hash(url_freq)
+
+    if not check_url_ascii(url) or not check_url(url_hash)  or not is_valid(url):
         invalid_set.add(url)
         return []
     
@@ -286,6 +289,20 @@ def is_valid(url, disallows = []) -> bool:
         raise
  
 # Tokenize contents of a .txt file using a buffer and reading by each char!
+
+def check_url(new_hash_vector, similarity_threshold = 0.8):
+    """Check if the new content set is exact or approximately similar to existing sets."""
+
+    # Check for exact match first
+    if new_hash_vector in url_hashes:
+        return False  # Exact match found, content is not unique
+
+    # Check for approximate similarity
+    for hash_vector in url_hashes:
+        if compute_sim_hash_similarity(new_hash_vector, hash_vector) > similarity_threshold:
+            return False  # Similar content found, content is not unique
+
+    return True  # Content is unique
 
 def check_content(new_hash_vector, similarity_threshold = 0.8):
     """Check if the new content set is exact or approximately similar to existing sets."""

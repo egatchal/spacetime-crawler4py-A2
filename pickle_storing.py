@@ -1,4 +1,4 @@
-from scraper import valid_set, invalid_set, content_hashes, content, content_file, ics_subdomains, global_frequencies
+from scraper import valid_set, invalid_set, content_hashes, content, content_file, ics_subdomains, global_frequencies, url_hashes
 import pickle
 
 crawl_data = {
@@ -10,6 +10,7 @@ crawl_data = {
     "content_file": content_file,
     "ics_subdomains": ics_subdomains,
     "global_frequencies": global_frequencies
+    "url_hashes": url_hashes
 }
 
 def pickle_data(data_state, filename):

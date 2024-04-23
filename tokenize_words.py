@@ -75,6 +75,12 @@ def tokenize_content(text) -> list:
 
     return token_list
 
+def tokenize_url(url):
+    tokens = url.split('/')
+    token_freq = token_frequencies(tokens)
+    return token_freq
+
+
 def token_frequencies(tokens):
     token_freq = dict()
     for token in tokens:
