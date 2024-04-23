@@ -423,4 +423,3 @@ if __name__ == "__main__":
     resp = requests.get(url)
     print(resp.status_code)
     scraper(url, resp)
-    print("Done")
