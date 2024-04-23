@@ -1,0 +1,3 @@
+https://www.ics.uci.edu: 3
+https://support.ics.uci.edu: 2
+http://support.ics.uci.edu: 1

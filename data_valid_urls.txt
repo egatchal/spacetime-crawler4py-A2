@@ -1,1 +1,8 @@
-0: https://www.stat.uci.edu
+0: https://support.ics.uci.edu/auth/web/site/index
+1: https://www.ics.uci.edu/community/news/view_news?id=2196
+2: https://support.ics.uci.edu/auth
+3: http://support.ics.uci.edu/auth/web/site/login
+4: https://www.stat.uci.edu/ucis-master-of-data-science-to-launch-part-time-program-in-fall-2023
+5: https://www.stat.uci.edu
+6: https://www.ics.uci.edu/grad/admissions
+7: https://www.ics.uci.edu/grad/admissions/index-orientationbackupOct12

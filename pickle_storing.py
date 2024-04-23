@@ -9,7 +9,7 @@ crawl_data = {
     "content": content,
     "content_file": content_file,
     "ics_subdomains": ics_subdomains,
-    "global_frequencies": global_frequencies
+    "global_frequencies": global_frequencies,
     "url_hashes": url_hashes
 }
 

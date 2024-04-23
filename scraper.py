@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from utils import  normalize
 from tokenize_words import tokenize_content, token_frequencies, write_to_file, check_file_size, check_url_ascii, check_content_ascii, tokenize_url
 from simhasing import sim_hash, compute_sim_hash_similarity
+from pickle_storing import crawl_data, pickle_data
 # from pickle_storing import pickle_data, load_pickled_data, crawl_data
 
 """
@@ -37,24 +38,26 @@ global_frequencies = dict()
 
 def scraper(url, resp):
     # Adds the url to a visited set of URL's to keep track of how far along we are
-    from pickle_storing import crawl_data, pickle_data
     crawl_data["visited_urls"].add(url)
     pickle_data(crawl_data, "current_crawl_data.pickle")
+    # print(crawl_data["valid_urls"])
+    # print(crawl_data["invalid_urls"])
+    # print(crawl_data["url_hashes"])
+    # print(crawl_data["content_hashes"])
+    # print(crawl_data["content"])
+    # print(crawl_data["content_file"])
+    # print(crawl_data["ics_subdomains"])
+    # print(crawl_data["global_frequencies"])
 
     if url in valid_set or url in invalid_set:
         return []
 
-    url_freq = tokenize_url(url)
-    url_hash =sim_hash(url_freq)
-
-    if not check_url_ascii(url) or not check_url(url_hash)  or not is_valid(url):
+    if not check_url_ascii(url) or not is_valid(url):
         invalid_set.add(url)
         return []
     
-    flag, disallows = check_robot_permission(url)
-    if not flag: # cannot access page
-        invalid_set.add(url)
-        return []
+    url_freq = tokenize_url(url)
+    url_hash = sim_hash(url_freq)
 
     try:
         if (resp.status == 200 and resp.raw_response and resp.raw_response.content):
@@ -62,10 +65,18 @@ def scraper(url, resp):
             if not flag: # cannot access page
                 invalid_set.add(url)
                 return []
-            
+
             if len(resp.raw_response.content) > 1000000 or not check_content_ascii(resp.raw_response.content):
                 invalid_set.add(url)
                 return []
+            
+            if not check_url(url_hash):
+                valid_set.add(url)
+                ics_subdomain(url)
+                content[url] = total_tokens # [content folder num, total tokens]
+                return []
+
+            url_hashes.add(url_hash)
             
             tokens = tokenize_content(resp.raw_response.content) # get tokens
             frequencies = token_frequencies(tokens) # compute token frequencies
