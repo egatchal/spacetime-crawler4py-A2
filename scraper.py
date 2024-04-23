@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 from utils import  normalize
 from tokenize_words import tokenize_content, token_frequencies, write_to_file, check_file_size, check_url_ascii, check_content_ascii, tokenize_url
 from simhasing import sim_hash, compute_sim_hash_similarity
-from pickle_storing import crawl_data, pickle_data
 # from pickle_storing import pickle_data, load_pickled_data, crawl_data
 
 """
@@ -37,6 +36,7 @@ global_frequencies = dict()
 # crawl_data = return_crawl_data()
 
 def scraper(url, resp):
+    from pickle_storing import crawl_data, pickle_data
     # Adds the url to a visited set of URL's to keep track of how far along we are
     crawl_data["visited_urls"].add(url)
     pickle_data(crawl_data, "current_crawl_data.pickle")
