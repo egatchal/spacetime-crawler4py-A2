@@ -29,8 +29,7 @@ stopwords_list = set([
 def tokenize_content(resp) -> list:
     if resp.url.endswith(".xml"):
         return []
-    # soup = BeautifulSoup(resp.raw_response.content, "html.parser") # this was not working for me so i used the below line -jeff
-    soup = BeautifulSoup(resp.content, "html.parser") # jeff changed it to this
+    soup = BeautifulSoup(resp.raw_response.content, "html.parser")
     text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
     text_content = [tag.get_text(separator = " ", strip = True) for tag in text_tags]
 
