@@ -4,7 +4,7 @@ https://archive.ics.uci.edu: 1
 https://malek.ics.uci.edu: 1
 http://mhcid.ics.uci.edu: 1
 https://mse.ics.uci.edu: 1
-http://www.ics.uci.edu: 123
+http://www.ics.uci.edu: 132
 https://intranet.ics.uci.edu: 1
 https://swiki.ics.uci.edu: 1
 http://ics.uci.edu: 1

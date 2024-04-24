@@ -108,7 +108,8 @@ def scraper(url, resp):
             if  redirected_url not in visited_set and is_valid(redirected_url) and url_depth[url] <= depth_threshold:
                 valid_set.add(url)
                 ics_subdomain(url)
-                url_depth[redirected_url] = url_depth[url] + 1
+                if redirected_url not in url_depth:
+                    url_depth[redirected_url] = url_depth[url] + 1
                 return [redirected_url]
             else:
                 return []
@@ -141,11 +142,10 @@ def extract_next_links(url, resp) -> list:
         if tag.get('href'):
             new_url = tag['href']
             absolute_url = create_absolute_url(url, new_url)  
-            if  absolute_url not in visited_set and \
-                check_url_ascii(absolute_url) and \
-                is_valid(absolute_url):
+            if  absolute_url not in visited_set and check_url_ascii(absolute_url) and is_valid(absolute_url):
+                if absolute_url not in url_depth:
                     url_depth[absolute_url] = url_depth[url] + 1 
-                    new_urls.add(absolute_url)
+                new_urls.add(absolute_url)
             else:
                 visited_set.add(absolute_url)
     return list(new_urls)

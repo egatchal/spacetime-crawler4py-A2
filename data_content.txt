@@ -220,3 +220,12 @@ https://www.stat.uci.edu/isi-buds: 153
 http://www.ics.uci.edu/~babaks/teaching.html: 520
 http://www.ics.uci.edu/~babaks/BWR/Home.html: 144
 http://www.ics.uci.edu/~babaks/BWR/Home_files/birthwt.txt: 577
+http://www.ics.uci.edu/~babaks/BWR/Home_files/AsthmaLOS.txt: 768
+http://www.ics.uci.edu/~babaks/BWR/Home_files/snoreData.txt: 70
+http://www.ics.uci.edu/~babaks/BWR/Home_files/BodyTemperature.txt: 304
+http://www.ics.uci.edu/~babaks/BWR/Home_files/Platelet.txt: 22
+http://www.ics.uci.edu/~babaks/BWR/Home_files/calcium.txt: 66
+http://www.ics.uci.edu/~babaks/BWR/Home_files/saltBP.txt: 79
+http://www.ics.uci.edu/~babaks/BWR/Home_files/Protein.txt: 100
+http://www.ics.uci.edu/~babaks/BWR/Home_files/Survival.txt: 658
+https://www.informatics.uci.edu: 435
