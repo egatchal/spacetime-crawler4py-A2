@@ -23,9 +23,7 @@ class Worker(Thread):
         if not self.frontier.restart_flag:
             crawl_data = load_pickled_data("current_crawl_data.pickle")
             if crawl_data:
-                print("loading past pickled data")
-                print(crawl_data)
-                print("done loading with pickled data")
+                print("Data has been uploaded from previous crawl.")
             else:
                 print("No pickled data found. Starting fresh crawl.")
         while True:

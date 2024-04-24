@@ -23,30 +23,25 @@ Methods for checking traps
 valid_domains = [r"^((.*\.)*ics\.uci\.edu)$", r"^((.*\.)*cs\.uci\.edu)$",
                 r"^((.*\.)*informatics\.uci\.edu)$", r"^((.*\.)*stat\.uci\.edu)$"]
 traps = r"^.*calendar.*$|^.*filter.*$"
+
 valid_set = set()
 visited_set = set()
 url_hashes = set()
 content_hashes = set() 
 content = dict()
 content_file = dict()
-
 ics_subdomains = dict()
 global_frequencies = dict()
 
-# crawl_data = return_crawl_data()
 
 def scraper(url, resp):
     from pickle_storing import crawl_data, pickle_data
     # Adds the url to a visited set of URL's to keep track of how far along we are
     pickle_data(crawl_data, "current_crawl_data.pickle")
-    # print(crawl_data["valid_urls"])
-    # print(crawl_data["invalid_urls"])
-    # print(crawl_data["url_hashes"])
-    # print(crawl_data["content_hashes"])
-    # print(crawl_data["content"])
-    # print(crawl_data["content_file"])
-    # print(crawl_data["ics_subdomains"])
-    # print(crawl_data["global_frequencies"])
+
+    # print("visited urls", crawl_data.get("visited_url"))
+    # print("content file",crawl_data.get("content_file"))
+    # print("subdomain", crawl_data.get("ics_subdomains"))
 
     if url in visited_set:
         return []
@@ -428,10 +423,10 @@ if __name__ == "__main__":
     # # print(tokenize("webpage_text.txt"))
 
     # # === Testing the lengths of lists being returned from a line-by-line read
-    # my_list = tokenize100(text_content)
+    # my_list = tokenize(text_content)
     # print(my_list)
     # print(len(my_list))
-    # my_list1 = tokenize1("webpage_text.txt")
+    # my_list1 = tokenize("webpage_text.txt")
     # print(len(my_list1))
 
     # # Testing similar tokens in the two "my_lists"
@@ -444,9 +439,24 @@ if __name__ == "__main__":
     #     print("Crawl Delay is:", parse_robots_txt_for_crawl_delay(f))
 
     # Testing gathering sitemaps
-    with open("/Users/shika/Downloads/robots.txt", 'r') as txt_file:
-        print("List of sitemaps:",len(find_all_sitemaps(txt_file)))
+    # with open("/Users/shika/Downloads/robots.txt", 'r') as txt_file:
+    #     print("List of sitemaps:",len(find_all_sitemaps(txt_file)))
 
         # check for traps 
             # algorithm for similarity
-    #comment
+
+
+    # my_url = "https://www.google.com/"
+    # papa_url = "https://ics.uci.edu/~mikes/"
+    test1 = "https://www.ics.uci.edu/community/news/view_news.php?id=2"
+    test2 = "https://www.ics.uci.edu/community/news/view_news.php?id=2227"
+
+    url_token = tokenize_url(test1)
+    papa_token = tokenize_url(test2)
+
+    url_hash = sim_hash(url_token)
+    papa_hash = sim_hash(papa_token)
+
+    print(compute_sim_hash_similarity(url_hash, papa_hash))
+
+

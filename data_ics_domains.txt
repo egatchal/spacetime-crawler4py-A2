@@ -1,4 +1,15 @@
-https://www.ics.uci.edu: 10
+https://www.ics.uci.edu: 122
+http://www.ics.uci.edu: 115
+http://futurehealth.ics.uci.edu: 29
+https://acoi.ics.uci.edu: 21
+http://ics.uci.edu: 139
+https://industryshowcase.ics.uci.edu: 16
+http://sdcl.ics.uci.edu: 67
+http://mhcid.ics.uci.edu: 1
 https://mse.ics.uci.edu: 3
 https://mswe.ics.uci.edu: 14
-http://www.ics.uci.edu: 9
+https://hack.ics.uci.edu: 1
+https://ugradforms.ics.uci.edu: 1
+http://mcs.ics.uci.edu: 1
+https://mcs.ics.uci.edu: 80
+https://cyberclub.ics.uci.edu: 1
