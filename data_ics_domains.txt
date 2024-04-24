@@ -1,10 +1,10 @@
 https://dgillen.ics.uci.edu: 22
-https://www.ics.uci.edu: 136
+https://www.ics.uci.edu: 454
 https://archive.ics.uci.edu: 1
 https://malek.ics.uci.edu: 1
 http://mhcid.ics.uci.edu: 1
 https://mse.ics.uci.edu: 1
-http://www.ics.uci.edu: 29
+http://www.ics.uci.edu: 123
 https://intranet.ics.uci.edu: 1
 https://swiki.ics.uci.edu: 1
 http://ics.uci.edu: 1
@@ -12,3 +12,11 @@ http://plrg.ics.uci.edu: 1
 https://jgarcia.ics.uci.edu: 1
 http://nalini.ics.uci.edu: 1
 https://mdogucu.ics.uci.edu: 1
+http://ngs.ics.uci.edu: 1
+https://Transformativeplay.ics.uci.edu: 1
+https://statconsulting.ics.uci.edu: 1
+https://mds.ics.uci.edu: 1
+https://mswe.ics.uci.edu: 1
+https://mcs.ics.uci.edu: 1
+https://futurehealth.ics.uci.edu: 108
+https://unite.ics.uci.edu: 10

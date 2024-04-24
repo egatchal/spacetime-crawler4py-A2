@@ -108,7 +108,7 @@ def scraper(url, resp):
             if  redirected_url not in visited_set and is_valid(redirected_url) and url_depth[url] <= depth_threshold:
                 valid_set.add(url)
                 ics_subdomain(url)
-                url_depth[absolute_url] = url_depth[url] + 1
+                url_depth[redirected_url] = url_depth[url] + 1
                 return [redirected_url]
             else:
                 return []
