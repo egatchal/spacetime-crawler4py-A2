@@ -1,7 +1,7 @@
 https://mdogucu.ics.uci.edu: 7
-https://www.ics.uci.edu: 254
+https://www.ics.uci.edu: 268
 https://ugradforms.ics.uci.edu: 1
-http://www.ics.uci.edu: 260
+http://www.ics.uci.edu: 263
 https://acoi.ics.uci.edu: 62
 http://ics.uci.edu: 1
 https://mse.ics.uci.edu: 1
@@ -35,4 +35,6 @@ http://www.informatics.ics.uci.edu: 1
 http://nalini.ics.uci.edu: 1
 https://nalini.ics.uci.edu: 6
 http://cert.ics.uci.edu: 1
-https://jgarcia.ics.uci.edu: 16
+https://jgarcia.ics.uci.edu: 20
+http://ngs.ics.uci.edu: 1
+https://ngs.ics.uci.edu: 25

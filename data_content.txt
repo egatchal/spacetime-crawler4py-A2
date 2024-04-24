@@ -594,3 +594,12 @@ https://jgarcia.ics.uci.edu: 165
 https://jgarcia.ics.uci.edu/?page_id=7: 1183
 https://jgarcia.ics.uci.edu/?p=613: 57
 https://jgarcia.ics.uci.edu/?cat=1: 298
+https://www.ics.uci.edu/faculty?letter=R: 384
+https://www.ics.uci.edu/faculty?department=Computer Science: 2117
+https://www.ics.uci.edu/faculty?department=Statistics: 699
+https://www.ics.uci.edu/employment/index.php: 432
+http://ngs.ics.uci.edu: 378
+https://ngs.ics.uci.edu/research/books: 153
+https://ngs.ics.uci.edu/researcher: 68
+https://ngs.ics.uci.edu/teacher: 68
+https://ngs.ics.uci.edu/entrepreneur: 68
