@@ -19,13 +19,16 @@ class Worker(Thread):
         super().__init__(daemon=True)
         
     def run(self):
-        # print(crawl_data["url_hashes"])
-        if crawl_data:
-            print("loading past pickled data")
-            load_pickled_data("current_crawl_data.pickle")
-            print("done loading with pickled data")
-            print(crawl_data["url_hashes"])
-        
+        try:
+            crawl_data = load_pickled_data("current_crawl_data.pickle")
+            if crawl_data:
+                print("loading past pickled data")
+                print(crawl_data["url_hashes"])
+                print("done loading with pickled data")
+            else:
+                print("No pickled data found. Starting fresh crawl.")
+        except (KeyError, FileNotFoundError) as err:
+            print(f"Error loading pickled data: {err}")
         while True:
             # post
             tbd_url = self.frontier.get_tbd_url()
