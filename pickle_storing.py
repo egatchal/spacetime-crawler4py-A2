@@ -1,10 +1,9 @@
-from scraper import valid_set, invalid_set, content_hashes, content, content_file, ics_subdomains, global_frequencies, url_hashes
+from scraper import valid_set, visited_set, content_hashes, content, content_file, ics_subdomains, global_frequencies, url_hashes
 import pickle
 
 crawl_data = {
-    "visited_urls": set(),
     "valid_urls": valid_set,
-    "invalid_urls": invalid_set,
+    "visited_urls": visited_set,
     "content_hashes": content_hashes,
     "content": content,
     "content_file": content_file,
