@@ -5,7 +5,7 @@ from utils.download import download
 from utils import get_logger
 import scraper
 import time
-import pickle_storing
+from pickle_storing import load_pickled_data, crawl_data
 
 
 class Worker(Thread):
@@ -19,6 +19,13 @@ class Worker(Thread):
         super().__init__(daemon=True)
         
     def run(self):
+        # print(crawl_data["url_hashes"])
+        if crawl_data:
+            print("loading past pickled data")
+            load_pickled_data("current_crawl_data.pickle")
+            print("done loading with pickled data")
+            print(crawl_data["url_hashes"])
+        
         while True:
             # post
             tbd_url = self.frontier.get_tbd_url()
