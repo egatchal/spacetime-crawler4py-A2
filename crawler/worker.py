@@ -7,6 +7,7 @@ import scraper
 import time
 from pickle_storing import load_pickled_data, crawl_data
 
+# restart_flag = False
 
 class Worker(Thread):
     def __init__(self, worker_id, config, frontier):
@@ -19,16 +20,14 @@ class Worker(Thread):
         super().__init__(daemon=True)
         
     def run(self):
-        try:
+        if not self.frontier.restart_flag:
             crawl_data = load_pickled_data("current_crawl_data.pickle")
             if crawl_data:
                 print("loading past pickled data")
-                print(crawl_data["url_hashes"])
+                print(crawl_data)
                 print("done loading with pickled data")
             else:
                 print("No pickled data found. Starting fresh crawl.")
-        except (KeyError, FileNotFoundError) as err:
-            print(f"Error loading pickled data: {err}")
         while True:
             # post
             tbd_url = self.frontier.get_tbd_url()
@@ -36,11 +35,7 @@ class Worker(Thread):
             if not tbd_url:
                 self.logger.info("Frontier is empty. Stopping Crawler.")
                 break
-            try:
-                resp = download(tbd_url, self.config, self.logger)
-            except:
-                pass # remove this and test a reconnection and load of the data we already have in crawl_data
-                # call function to retry repeatedly?
+            resp = download(tbd_url, self.config, self.logger)
 
             self.logger.info(
                 f"Downloaded {tbd_url}, status <{resp.status}>, "

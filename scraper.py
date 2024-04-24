@@ -38,7 +38,6 @@ global_frequencies = dict()
 def scraper(url, resp):
     from pickle_storing import crawl_data, pickle_data
     # Adds the url to a visited set of URL's to keep track of how far along we are
-    crawl_data["visited_urls"].add(url)
     pickle_data(crawl_data, "current_crawl_data.pickle")
     # print(crawl_data["valid_urls"])
     # print(crawl_data["invalid_urls"])

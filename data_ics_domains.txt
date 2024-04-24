@@ -1,2 +1,4 @@
-https://www.ics.uci.edu: 2
-http://www.ics.uci.edu: 1
+https://www.ics.uci.edu: 10
+https://mse.ics.uci.edu: 3
+https://mswe.ics.uci.edu: 14
+http://www.ics.uci.edu: 9
