@@ -22,7 +22,7 @@ Methods for checking traps
 """
 valid_domains = [r"^((.*\.)*ics\.uci\.edu)$", r"^((.*\.)*cs\.uci\.edu)$",
                 r"^((.*\.)*informatics\.uci\.edu)$", r"^((.*\.)*stat\.uci\.edu)$"]
-traps = r"^.*calendar.*$|^.*filter.*$"
+traps = r"^.*calendar.*$|^.*filter.*$|^.*png.*$"
 
 depth_threshold = 10
 
@@ -454,15 +454,16 @@ if __name__ == "__main__":
 
     # my_url = "https://www.google.com/"
     # papa_url = "https://ics.uci.edu/~mikes/"
-    test1 = "https://www.ics.uci.edu/community/news/view_news.php?id=2"
-    test2 = "https://www.ics.uci.edu/community/news/view_news.php?id=2227"
+    print(is_valid("http://swiki.ics.uci.edu/doku.php/start?ns=courses&tab_files=files&do=media&tab_details=history&image=projects%3Anotice_power_shutdown_rev_0422021.png"))
+    # test1 = "https://www.ics.uci.edu/community/news/view_news.php?id=2"
+    # test2 = "https://www.ics.uci.edu/community/news/view_news.php?id=2227"
 
-    url_token = tokenize_url(test1)
-    papa_token = tokenize_url(test2)
+    # url_token = tokenize_url(test1)
+    # papa_token = tokenize_url(test2)
 
-    url_hash = sim_hash(url_token)
-    papa_hash = sim_hash(papa_token)
+    # url_hash = sim_hash(url_token)
+    # papa_hash = sim_hash(papa_token)
 
-    print(compute_sim_hash_similarity(url_hash, papa_hash))
+    # print(compute_sim_hash_similarity(url_hash, papa_hash))
 
 
