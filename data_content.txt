@@ -1,5 +1,3 @@
-https://www.stat.uci.edu: 436
-https://www.stat.uci.edu/minor-in-statistics: 525
-https://www.stat.uci.edu/faculty: 330
-http://www.stat.uci.edu/faculty-directory/veronica-berrocal: 432
-http://www.stat.uci.edu/faculty/vladimir-minin: 418
+https://www.ics.uci.edu/about/annualreport/index.php: 324
+https://www.ics.uci.edu/about/annualreport/2005-06/index.php: 165
+http://www.ics.uci.edu/community/news/articles/index.php?select_year=2006: 498

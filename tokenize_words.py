@@ -52,8 +52,7 @@ def check_content_ascii(content):
     return True
 
 def tokenize_content(text) -> list:
-    soup = BeautifulSoup(text, "html.parser")
-    text_tags = soup.find_all(['p','h1','h2','h3','h4','h5','h6','li','ul'])
+    text_tags = BeautifulSoup(text, "html.parser")
     text_content = [tag.get_text(separator = " ", strip = True) for tag in text_tags]
 
     token_list = []

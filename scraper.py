@@ -24,7 +24,7 @@ valid_domains = [r"^((.*\.)*ics\.uci\.edu)$", r"^((.*\.)*cs\.uci\.edu)$",
                 r"^((.*\.)*informatics\.uci\.edu)$", r"^((.*\.)*stat\.uci\.edu)$"]
 traps = r"^.*calendar.*$|^.*filter.*$"
 valid_set = set()
-invalid_set = set()
+visited_set = set()
 url_hashes = set()
 content_hashes = set() 
 content = dict()
@@ -49,11 +49,12 @@ def scraper(url, resp):
     # print(crawl_data["ics_subdomains"])
     # print(crawl_data["global_frequencies"])
 
-    if url in valid_set or url in invalid_set:
+    if url in visited_set:
         return []
 
+    visited_set.add(url)
+
     if not check_url_ascii(url) or not is_valid(url):
-        invalid_set.add(url)
         return []
     
     url_freq = tokenize_url(url)
@@ -63,11 +64,9 @@ def scraper(url, resp):
         if (resp.status == 200 and resp.raw_response and resp.raw_response.content):
             flag, disallows = check_robot_permission(url)
             if not flag: # cannot access page
-                invalid_set.add(url)
                 return []
 
             if len(resp.raw_response.content) > 1000000 or not check_content_ascii(resp.raw_response.content):
-                invalid_set.add(url)
                 return []
             
             if not check_url(url_hash):
@@ -104,25 +103,20 @@ def scraper(url, resp):
         elif resp.status in set([301, 302, 308, 309]) and resp.raw_response and resp.url:
             flag, disallows = check_robot_permission(url)
             if not flag: # cannot access page
-                invalid_set.add(url)
                 return []
             
             location = resp.url
             redirected_url = create_absolute_url(url, location)
-            if  redirected_url not in valid_set and \
-                redirected_url not in invalid_set and \
+            if  redirected_url not in visited_setand and \
                 is_valid(redirected_url):
                     valid_set.add(url)
                     ics_subdomain(url)
                     return [redirected_url]
             else:
-                invalid_set.add(url)
                 return []
         else:
-            invalid_set.add(url)
             return []
     except:
-        invalid_set.add(url)
         return []
 
 # This function needs to return a list of urls that are scraped from the response. 
@@ -149,19 +143,17 @@ def extract_next_links(url, resp) -> list:
         if tag.get('href'):
             new_url = tag['href']
             absolute_url = create_absolute_url(url, new_url)
-            if  absolute_url not in valid_set and \
-                absolute_url not in invalid_set and \
+            if  absolute_url not in visited_set and \
                 check_url_ascii(absolute_url) and \
                 is_valid(absolute_url):
                     new_urls.add(absolute_url)
             else:
-                invalid_set.add(absolute_url)
+                visited_set.add(absolute_url)
     return list(new_urls)
     
 def create_absolute_url(base_url, new_url):
+    new_url = new_url.split('#', 1)[0].strip()
     absolute_url = urljoin(base_url, new_url, allow_fragments=False)
-    absolute_url = absolute_url.split('#', 1)[0].strip()
-    absolute_url = normalize(absolute_url)
     return absolute_url
     
 
@@ -345,9 +337,9 @@ def save_data():
         # Write the statistics data to the file
         for i, url in enumerate(valid_set):
             file.write(f"{i}: {url}\n")
-    with open('data_invalid_urls.txt', 'w') as file:
+    with open('data_visisted_urls.txt', 'w') as file:
         # Write the statistics data to the file
-        for i, url in enumerate(invalid_set):
+        for i, url in enumerate(visited_set):
             file.write(f"{i}: {url}\n")
     with open('data_frequencies.txt', 'w') as file:
         # Write the statistics data to the file

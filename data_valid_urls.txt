@@ -1,6 +1,3 @@
-0: http://www.stat.uci.edu/faculty/vladimir-minin
-1: https://www.stat.uci.edu
-2: http://www.stat.uci.edu/faculty-directory/veronica-berrocal
-3: https://www.stat.uci.edu/faculty
-4: https://www.stat.uci.edu/slider/b-s-in-data-science
-5: https://www.stat.uci.edu/minor-in-statistics
+0: https://www.ics.uci.edu/about/annualreport/2005-06/index.php
+1: https://www.ics.uci.edu/about/annualreport/index.php
+2: http://www.ics.uci.edu/community/news/articles/index.php?select_year=2006
