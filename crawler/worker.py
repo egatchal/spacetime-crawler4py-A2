@@ -27,9 +27,7 @@ class Worker(Thread):
             else:
                 print("No pickled data found. Starting fresh crawl.")
         while True:
-            # post
             tbd_url = self.frontier.get_tbd_url()
-            # wait
             if not tbd_url:
                 self.logger.info("Frontier is empty. Stopping Crawler.")
                 break

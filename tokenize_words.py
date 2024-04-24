@@ -26,7 +26,7 @@ stopwords_list = set([
     "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", 
     "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
 ])
-
+delimiter_patterns = r'[:;,.=\+\-%_?&%\s\/\\]+'
 def write_to_file(filename, text):
     current_directory = os.getcwd()
     current_directory = f"{current_directory}/{filename}"
@@ -75,7 +75,8 @@ def tokenize_content(text) -> list:
     return token_list
 
 def tokenize_url(url):
-    tokens = url.split('/')
+    # tokens = url.split('/')
+    tokens = re.split(delimiter_patterns, url)
     token_freq = token_frequencies(tokens)
     return token_freq
 
@@ -94,22 +95,29 @@ def is_alpha_num(char) -> bool:
     return re.match(pattern, char.lower()) or False
 
 if __name__ == "__main__":
-    url = "https://ja.wikipedia.org/wiki/メインページ"
-    resp = requests.get("https://www.englishpage.com/")
-    # resp1 = requests.get("https://ics.uci.edu/2017/11/08/new-faculty-spotlight-professor-vijay-vazirani-continues-groundbreaking-research/")
-    # resp2 = requests.get("https://ics.uci.edu/2017/11/13/los-angeles-times-uci-computer-game-explores-culture-of-18th-century-ghana-el-zarki-quoted/")
-    print(check_url_ascii(url))
-    print(check_content_ascii(resp.content))
-    # tokens1 = tokenize_content(resp1)
-    # tokens2 = tokenize_content(resp2)
+    # resp1 = requests.get("https://ics.uci.edu/facts-figures/ics-mission-history/")
+    # resp2 = requests.get("http://www.ics.uci.edu/about/search")
+    resp1 = "https://ics.uci.edu/~dechter/publications/r64.html"
+    resp2 = "https://ics.uci.edu/~dechter/publications/r255.html"
+    # print(check_url_ascii(url))
+    # print(check_content_ascii(resp.content))
+    tokens1 = tokenize_url(resp1)
+    tokens2 = tokenize_url(resp2)
+    
+    # tokens1 = tokenize_content(resp1.content)
+    # tokens2 = tokenize_content(resp2.content)
+    
+    print(tokens1)
+    print(tokens2)
+    
+#     frequencies1 = token_frequencies(tokens1)
+#     frequencies2 = token_frequencies(tokens2)
 
-    # frequencies1 = token_frequencies(tokens1)
-    # frequencies2 = token_frequencies(tokens2)
-
-    # hash1 = sim_hash(frequencies1)
-    # hash2 = sim_hash(frequencies2)
-
-    # print(compute_sim_hash_similarity(hash1, hash2))
+#     hash1 = sim_hash(frequencies1)
+#     hash2 = sim_hash(frequencies2)
+    hash1 = sim_hash(tokens1)
+    hash2 = sim_hash(tokens2)
+    print(compute_sim_hash_similarity(hash1, hash2))
     # filename = "read_page.txt.txt"
     # resp = requests.get("http://www.ics.uci.edu/~eppstein/junkyard/all.html")
     # write_to_file(filename, resp.text)

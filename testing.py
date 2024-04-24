@@ -91,7 +91,7 @@ if __name__ == "__main__":
  
     print(compute_sim_hash_similarity(hash1, hash2))
     # http://http:www.ics.uci.edu/~jacobson/ics21/LabManual/00-LabManual.html
-    print(check_for_repeating_dirs("https://www.cs.uci.edu/path/lies/beef"))
-    print(check_url("https://wics.ics.uci.edu/employment/employ_distinguished.php"))
+    # print(check_for_repeating_dirs("https://www.cs.uci.edu/path/lies/beef"))
+    # print(check_url("https://wics.ics.uci.edu/employment/employ_distinguished.php"))
 
     

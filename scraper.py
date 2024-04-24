@@ -24,6 +24,8 @@ valid_domains = [r"^((.*\.)*ics\.uci\.edu)$", r"^((.*\.)*cs\.uci\.edu)$",
                 r"^((.*\.)*informatics\.uci\.edu)$", r"^((.*\.)*stat\.uci\.edu)$"]
 traps = r"^.*calendar.*$|^.*filter.*$"
 
+depth_threshold = 10
+
 valid_set = set()
 visited_set = set()
 url_hashes = set()
@@ -32,38 +34,40 @@ content = dict()
 content_file = dict()
 ics_subdomains = dict()
 global_frequencies = dict()
-
+url_depth = dict()
 
 def scraper(url, resp):
     from pickle_storing import crawl_data, pickle_data
     # Adds the url to a visited set of URL's to keep track of how far along we are
     pickle_data(crawl_data, "current_crawl_data.pickle")
-
+    save_data()
     # print("visited urls", crawl_data.get("visited_url"))
     # print("content file",crawl_data.get("content_file"))
     # print("subdomain", crawl_data.get("ics_subdomains"))
 
     if url in visited_set:
         return []
-
+    
     visited_set.add(url)
-
+    
     if not check_url_ascii(url) or not is_valid(url):
         return []
-    
+        
     url_freq = tokenize_url(url)
     url_hash = sim_hash(url_freq)
 
     try:
         if (resp.status == 200 and resp.raw_response and resp.raw_response.content):
-            flag, disallows = check_robot_permission(url)
-            if not flag: # cannot access page
-                return []
-
+            # flag, disallows = check_robot_permission(url)
+            # if not flag: # cannot access page
+            #     return []
             if len(resp.raw_response.content) > 1000000 or not check_content_ascii(resp.raw_response.content):
                 return []
-            
-            if not check_url(url_hash):
+
+            if url not in url_depth:
+                url_depth[url] = 0
+
+            if not check_url(url_hash, similarity_threshold=.94) or url_depth[url] > depth_threshold:
                 valid_set.add(url)
                 ics_subdomain(url)
                 content[url] = total_tokens # [content folder num, total tokens]
@@ -80,7 +84,7 @@ def scraper(url, resp):
             ics_subdomain(url)
             content[url] = total_tokens # [content folder num, total tokens]
 
-            if check_content(hash_vector, similarity_threshold=.95): # check if the content is unique or does not meet thresholds
+            if check_content(hash_vector, similarity_threshold=.93):
                 # file_number = len(valid_set)
                 # filename = f"content/{file_number}.txt"
                 # content_file[url] = file_number
@@ -90,22 +94,22 @@ def scraper(url, resp):
                 links = extract_next_links(url, resp) # extract the links
             else:
                 return []
-            
-            save_data()
 
-            return [link for link in links if is_valid(link, disallows)]
+            return [link for link in links if is_valid(link)]
         elif resp.status in set([301, 302, 308, 309]) and resp.raw_response and resp.url:
-            flag, disallows = check_robot_permission(url)
-            if not flag: # cannot access page
-                return []
-            
+            # flag, disallows = check_robot_permission(url)
+            # if not flag: # cannot access page
+            #     return []
+            if url not in url_depth:
+                url_depth[url] = 0
+
             location = resp.url
             redirected_url = create_absolute_url(url, location)
-            if  redirected_url not in visited_setand and \
-                is_valid(redirected_url):
-                    valid_set.add(url)
-                    ics_subdomain(url)
-                    return [redirected_url]
+            if  redirected_url not in visited_set and is_valid(redirected_url) and url_depth[url] <= depth_threshold:
+                valid_set.add(url)
+                ics_subdomain(url)
+                url_depth[absolute_url] = url_depth[url] + 1
+                return [redirected_url]
             else:
                 return []
         else:
@@ -136,10 +140,11 @@ def extract_next_links(url, resp) -> list:
     for tag in soup.find_all('a', href=True):
         if tag.get('href'):
             new_url = tag['href']
-            absolute_url = create_absolute_url(url, new_url)
+            absolute_url = create_absolute_url(url, new_url)  
             if  absolute_url not in visited_set and \
                 check_url_ascii(absolute_url) and \
                 is_valid(absolute_url):
+                    url_depth[absolute_url] = url_depth[url] + 1 
                     new_urls.add(absolute_url)
             else:
                 visited_set.add(absolute_url)
@@ -148,6 +153,7 @@ def extract_next_links(url, resp) -> list:
 def create_absolute_url(base_url, new_url):
     new_url = new_url.split('#', 1)[0].strip()
     absolute_url = urljoin(base_url, new_url, allow_fragments=False)
+    absolute_url = normalize(absolute_url)
     return absolute_url
     
 
@@ -319,7 +325,7 @@ def check_content(new_hash_vector, similarity_threshold = 0.8):
 
 def save_data():
     num_pages = len(valid_set)
-    longest_page = max(content, key=content.get)
+    longest_page = max(content, key=content.get) if content else "None"
     top_50 = sorted(global_frequencies.items(), key=lambda x: (x[0])) # sort in alphabetical order
     top_50 = sorted(top_50, key=lambda x: (x[1]), reverse=True) [:50]
     statistics = {"Unique Pages":num_pages, "Longest Page":longest_page, "Top 50":top_50, "ICS domain":ics_subdomains}
