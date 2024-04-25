@@ -1,4 +1,4 @@
-from scraper import valid_set, visited_set, content_hashes, content, content_file, ics_subdomains, global_frequencies, url_hashes
+from scraper import valid_set, visited_set, content_hashes, content, content_file, ics_subdomains, global_frequencies, url_hashes, url_path_count
 import pickle
 
 crawl_data = {
@@ -9,7 +9,8 @@ crawl_data = {
     "content_file": content_file,
     "ics_subdomains": ics_subdomains,
     "global_frequencies": global_frequencies,
-    "url_hashes": url_hashes
+    "url_hashes": url_hashes,
+    "url_path_count": url_path_count
     # "url_depths": url_depth
 }
 

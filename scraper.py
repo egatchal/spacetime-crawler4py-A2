@@ -36,7 +36,7 @@ global_frequencies = dict()
 url_hashes = set()
 # url_depth = dict()
 
-url_path_threshold = dict()
+url_path_count = dict()
 
 def scraper(url, resp):
     from pickle_storing import crawl_data, pickle_data
@@ -166,12 +166,12 @@ def create_absolute_url(base_url, new_url):
 def path_threshold_check(url, threshold = 10):
     base_url = url.split('?', 1)[0].strip()
         
-    if base_url not in url_path_threshold:
-        url_path_threshold[base_url] = 1
+    if base_url not in url_path_count:
+        url_path_count[base_url] = 1
     else:
-        url_path_threshold[base_url] += 1
+        url_path_count[base_url] += 1
         
-    if base_url in url_path_threshold and url_path_threshold[base_url] >= threshold:
+    if base_url in url_path_count and url_path_count[base_url] >= threshold:
         return False
     return True
     
@@ -192,7 +192,7 @@ Query String: ucinetid=eppstein
 
 # def path_threshold_valid(url):
 #     base_url = get_base_url(url)
-#     if base_url in url_path_threshold and url_path_threshold[base_url] >= threshold:
+#     if base_url in url_path_count and url_path_count[base_url] >= threshold:
 #         return False
 #     return True
 

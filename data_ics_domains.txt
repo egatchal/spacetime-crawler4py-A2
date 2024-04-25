@@ -1,14 +1,1 @@
-http://www.ics.uci.edu: 1
-https://www.ics.uci.edu: 2
-https://tippersweb.ics.uci.edu: 2
-https://swiki.ics.uci.edu: 136
-https://wiki.ics.uci.edu: 1754
-https://grape.ics.uci.edu: 3
-https://svn.ics.uci.edu: 1
-https://elms.ics.uci.edu: 11
-https://pastebin.ics.uci.edu: 1
-https://speedtest.ics.uci.edu: 1
-https://containers.ics.uci.edu: 1
-https://phpmyadmin.ics.uci.edu: 46
-https://rstudio-hub.ics.uci.edu: 2
-https://gitlab.ics.uci.edu: 9067
+https://www.ics.uci.edu: 1
