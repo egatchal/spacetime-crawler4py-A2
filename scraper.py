@@ -24,17 +24,17 @@ valid_domains = [r"^((.*\.)*ics\.uci\.edu)$", r"^((.*\.)*cs\.uci\.edu)$",
                 r"^((.*\.)*informatics\.uci\.edu)$", r"^((.*\.)*stat\.uci\.edu)$"]
 traps = r"^.*calendar.*$|^.*filter.*$|^.*png.*$"
 
-depth_threshold = 10
+# depth_threshold = 30
 
 valid_set = set()
 visited_set = set()
-url_hashes = set()
 content_hashes = set() 
 content = dict()
 content_file = dict()
 ics_subdomains = dict()
 global_frequencies = dict()
-url_depth = dict()
+url_hashes = set()
+# url_depth = dict()
 
 def scraper(url, resp):
     from pickle_storing import crawl_data, pickle_data
@@ -43,7 +43,6 @@ def scraper(url, resp):
     save_data()
     # print("visited urls", crawl_data.get("visited_url"))
     # print("content file",crawl_data.get("content_file"))
-    # print("subdomain", crawl_data.get("ics_subdomains"))
 
     if url in visited_set:
         return []
@@ -64,15 +63,15 @@ def scraper(url, resp):
             if len(resp.raw_response.content) > 1000000 or not check_content_ascii(resp.raw_response.content):
                 return []
 
-            if url not in url_depth:
-                url_depth[url] = 0
+            # if url not in url_depth:
+            #     url_depth[url] = 0
 
-            if not check_url(url_hash, similarity_threshold=.94) or url_depth[url] > depth_threshold:
+            # if not check_url(url_hash, similarity_threshold=.94) or url_depth[url] > depth_threshold:
+            if not check_url(url_hash, similarity_threshold=.94):
                 valid_set.add(url)
                 ics_subdomain(url)
                 content[url] = total_tokens # [content folder num, total tokens]
                 return []
-
             url_hashes.add(url_hash)
             
             tokens = tokenize_content(resp.raw_response.content) # get tokens
@@ -100,16 +99,17 @@ def scraper(url, resp):
             # flag, disallows = check_robot_permission(url)
             # if not flag: # cannot access page
             #     return []
-            if url not in url_depth:
-                url_depth[url] = 0
+            # if url not in url_depth:
+            #     url_depth[url] = 0
 
             location = resp.url
             redirected_url = create_absolute_url(url, location)
-            if  redirected_url not in visited_set and is_valid(redirected_url) and url_depth[url] <= depth_threshold:
+            if  redirected_url not in visited_set and is_valid(redirected_url):
+            # if  redirected_url not in visited_set and is_valid(redirected_url) and url_depth[url] <= depth_threshold:
                 valid_set.add(url)
                 ics_subdomain(url)
-                if redirected_url not in url_depth:
-                    url_depth[redirected_url] = url_depth[url] + 1
+                # if redirected_url not in url_depth:
+                #     url_depth[redirected_url] = url_depth[url] + 1
                 return [redirected_url]
             else:
                 return []
@@ -143,8 +143,8 @@ def extract_next_links(url, resp) -> list:
             new_url = tag['href']
             absolute_url = create_absolute_url(url, new_url)  
             if  absolute_url not in visited_set and check_url_ascii(absolute_url) and is_valid(absolute_url):
-                if absolute_url not in url_depth:
-                    url_depth[absolute_url] = url_depth[url] + 1 
+                # if absolute_url not in url_depth:
+                #     url_depth[absolute_url] = url_depth[url] + 1 
                 new_urls.add(absolute_url)
             else:
                 visited_set.add(absolute_url)

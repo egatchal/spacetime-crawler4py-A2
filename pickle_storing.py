@@ -10,6 +10,7 @@ crawl_data = {
     "ics_subdomains": ics_subdomains,
     "global_frequencies": global_frequencies,
     "url_hashes": url_hashes
+    # "url_depths": url_depth
 }
 
 def pickle_data(data_state, filename):
