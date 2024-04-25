@@ -36,6 +36,8 @@ global_frequencies = dict()
 url_hashes = set()
 # url_depth = dict()
 
+url_path_threshold = dict()
+
 def scraper(url, resp):
     from pickle_storing import crawl_data, pickle_data
     # Adds the url to a visited set of URL's to keep track of how far along we are
@@ -61,6 +63,9 @@ def scraper(url, resp):
             # if not flag: # cannot access page
             #     return []
             if len(resp.raw_response.content) > 1000000 or not check_content_ascii(resp.raw_response.content):
+                return []
+            
+            if not path_threshold_check(url):
                 return []
 
             # if url not in url_depth:
@@ -105,11 +110,12 @@ def scraper(url, resp):
             location = resp.url
             redirected_url = create_absolute_url(url, location)
             if  redirected_url not in visited_set and is_valid(redirected_url):
-            # if  redirected_url not in visited_set and is_valid(redirected_url) and url_depth[url] <= depth_threshold:
-                valid_set.add(url)
-                ics_subdomain(url)
-                # if redirected_url not in url_depth:
-                #     url_depth[redirected_url] = url_depth[url] + 1
+                # if  redirected_url not in visited_set and is_valid(redirected_url) and url_depth[url] <= depth_threshold:
+                if path_threshold_check(url):
+                    valid_set.add(url)
+                    ics_subdomain(url)
+                    # if redirected_url not in url_depth:
+                    #     url_depth[redirected_url] = url_depth[url] + 1
                 return [redirected_url]
             else:
                 return []
@@ -145,7 +151,8 @@ def extract_next_links(url, resp) -> list:
             if  absolute_url not in visited_set and check_url_ascii(absolute_url) and is_valid(absolute_url):
                 # if absolute_url not in url_depth:
                 #     url_depth[absolute_url] = url_depth[url] + 1 
-                new_urls.add(absolute_url)
+                if path_threshold_check(url):
+                    new_urls.add(absolute_url)
             else:
                 visited_set.add(absolute_url)
     return list(new_urls)
@@ -156,6 +163,38 @@ def create_absolute_url(base_url, new_url):
     absolute_url = normalize(absolute_url)
     return absolute_url
     
+def path_threshold_check(url, threshold = 10):
+    base_url = url.split('?', 1)[0].strip()
+        
+    if base_url not in url_path_threshold:
+        url_path_threshold[base_url] = 1
+    else:
+        url_path_threshold[base_url] += 1
+        
+    if base_url in url_path_threshold and url_path_threshold[base_url] >= threshold:
+        return False
+    return True
+    
+    # parsed_url = urlparse(url)
+    # base_url = parsed_url.scheme + "://" + parsed_url.netloc + parsed_url.path
+    # query_string = parsed_url.query
+    # return base_url, query_string
+
+'''
+Example:
+
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=eppstein
+
+will  split into:
+Base URL: https://www.ics.uci.edu/faculty/profiles/view_faculty.php
+Query String: ucinetid=eppstein
+'''
+
+# def path_threshold_valid(url):
+#     base_url = get_base_url(url)
+#     if base_url in url_path_threshold and url_path_threshold[base_url] >= threshold:
+#         return False
+#     return True
 
 def check_robot_permission(url) -> bool:
     parsed = urlparse(url)
