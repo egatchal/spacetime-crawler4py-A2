@@ -22,7 +22,8 @@ Methods for checking traps
 """
 valid_domains = [r"^((.*\.)*ics\.uci\.edu)$", r"^((.*\.)*cs\.uci\.edu)$",
                 r"^((.*\.)*informatics\.uci\.edu)$", r"^((.*\.)*stat\.uci\.edu)$"]
-traps = r"^.*calendar.*$|^.*filter.*$|^.*png.*$"
+# traps = r"^.*calendar.*$|^.*filter.*$|^.*png.*$"
+traps = r"^.*\/commit.*$|^.*\/commits.*$|^.*\/tree.*$|^.*\/blob.*$"
 
 # depth_threshold = 30
 
@@ -72,7 +73,7 @@ def scraper(url, resp):
             #     url_depth[url] = 0
 
             # if not check_url(url_hash, similarity_threshold=.94) or url_depth[url] > depth_threshold:
-            if not check_url(url_hash, similarity_threshold=.94):
+            if not check_url(url_hash, similarity_threshold=.99):
                 valid_set.add(url)
                 ics_subdomain(url)
                 content[url] = total_tokens # [content folder num, total tokens]

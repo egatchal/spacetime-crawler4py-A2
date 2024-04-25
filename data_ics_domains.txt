@@ -1,1 +1,8 @@
-https://www.ics.uci.edu: 1
+http://www.ics.uci.edu: 62
+http://swiki.ics.uci.edu: 7
+https://wiki.ics.uci.edu: 2
+https://onboarding.ics.uci.edu: 3
+https://www.ics.uci.edu: 4
+https://statconsulting.ics.uci.edu: 1
+https://dgillen.ics.uci.edu: 23
+https://mds.ics.uci.edu: 11
