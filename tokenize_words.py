@@ -26,7 +26,10 @@ stopwords_list = set([
     "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", 
     "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
 ])
+
 delimiter_patterns = r'[:;,.=\+\-%_?&%\s\/\\]+'
+
+
 def write_to_file(filename, text):
     current_directory = os.getcwd()
     current_directory = f"{current_directory}/{filename}"
@@ -75,9 +78,21 @@ def tokenize_content(text) -> list:
     return token_list
 
 def tokenize_url(url):
-    # tokens = url.split('/')
-    tokens = re.split(delimiter_patterns, url)
-    token_freq = token_frequencies(tokens)
+    token_list = []
+    token = ''
+    for char in url:
+        char = char.lower()
+        if is_alpha_num(char):
+            token += char
+        else:
+            if token:
+                token_list.append(token)
+                token = ''
+    if token:
+        token_list.append(token)
+        token = ''
+
+    token_freq = token_frequencies(token_list)
     return token_freq
 
 
