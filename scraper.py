@@ -52,7 +52,7 @@ def scraper(url, resp):
     
     visited_set.add(url)
     
-    if not check_url_ascii(url) or not is_valid(url):
+    if not check_url_ascii(url):
         return []
         
     url_freq = tokenize_url(url)
@@ -63,10 +63,14 @@ def scraper(url, resp):
             # flag, disallows = check_robot_permission(url)
             # if not flag: # cannot access page
             #     return []
-            if len(resp.raw_response.content) > 1000000 or not check_content_ascii(resp.raw_response.content):
+            if len(resp.raw_response.content) > 2000000 or not check_content_ascii(resp.raw_response.content):
+                valid_set.add(url)
+                ics_subdomain(url)
                 return []
             
-            if not path_threshold_check(url):
+            if not path_threshold_check(url, 50):
+                valid_set.add(url)
+                ics_subdomain(url)
                 return []
 
             # if url not in url_depth:
@@ -78,7 +82,6 @@ def scraper(url, resp):
                 ics_subdomain(url)
                 content[url] = total_tokens # [content folder num, total tokens]
                 return []
-            url_hashes.add(url_hash)
             
             tokens = tokenize_content(resp.raw_response.content) # get tokens
             frequencies = token_frequencies(tokens) # compute token frequencies
@@ -88,12 +91,16 @@ def scraper(url, resp):
             valid_set.add(url)
             ics_subdomain(url)
             content[url] = total_tokens # [content folder num, total tokens]
-
-            if check_content(hash_vector, similarity_threshold=.93):
+            
+            if total_tokens < 100 or total_tokens > 100000:
+                return []
+            
+            if check_content(hash_vector, similarity_threshold=.99):
                 # file_number = len(valid_set)
                 # filename = f"content/{file_number}.txt"
                 # content_file[url] = file_number
                 # write_to_file(filename, resp.raw_response.content)
+                url_hashes.add(url_hash)
                 add_token_to_frequencies(tokens)
                 content_hashes.add(hash_vector)
                 links = extract_next_links(url, resp) # extract the links
@@ -143,7 +150,7 @@ def extract_next_links(url, resp) -> list:
     
     #if resp.status == 200 and resp.raw_response.content:
     text = resp.raw_response.content
-    new_urls  = set()
+    new_urls  = []
     soup = BeautifulSoup(text, "html.parser") # gets the text
     for tag in soup.find_all('a', href=True):
         if tag.get('href'):
@@ -153,14 +160,14 @@ def extract_next_links(url, resp) -> list:
                 # if absolute_url not in url_depth:
                 #     url_depth[absolute_url] = url_depth[url] + 1 
                 if path_threshold_check(url):
-                    new_urls.add(absolute_url)
+                    new_urls.append(absolute_url)
             else:
                 visited_set.add(absolute_url)
-    return list(new_urls)
+    return list(set(new_urls))
     
 def create_absolute_url(base_url, new_url):
     new_url = new_url.split('#', 1)[0].strip()
-    absolute_url = urljoin(base_url, new_url, allow_fragments=False)
+    absolute_url = urljoin(base_url, new_url)
     absolute_url = normalize(absolute_url)
     return absolute_url
     
@@ -325,9 +332,9 @@ def is_valid(url, disallows = []) -> bool:
             + r"|wav|avi|mov|mpeg|mpg|ram|m4v|mkv|ogg|ogv|pdf"
             + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
-            + r"|epub|dll|cnf|tgz|sha1|war|img|apk|py|cp|h|ff"
+            + r"|epub|dll|cnf|tgz|sha1|war|img|apk|ff"
             + r"|thmx|mso|arff|rtf|jar|csv|bib|java|m|cc|odp|class|mexglx"
-            + r"|rm|smil|wmv|swf|wma|zip|rar|gz|pov|sh|c)$", parsed.path.lower())
+            + r"|rm|smil|wmv|swf|wma|zip|rar|gz|pov|sh)$", parsed.path.lower())
 
     except TypeError:
         print ("TypeError for ", parsed)
@@ -505,5 +512,3 @@ if __name__ == "__main__":
     # papa_hash = sim_hash(papa_token)
 
     # print(compute_sim_hash_similarity(url_hash, papa_hash))
-
-
