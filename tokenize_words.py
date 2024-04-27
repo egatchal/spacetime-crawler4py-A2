@@ -26,11 +26,7 @@ stopwords_list = set([
     "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", 
     "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
 ])
-
-# delimiter_patterns = r'[:;,.=\+\-%_?&%\s\/\\]+'
-delimiter_patterns = r'[\/]+'
-
-
+delimiter_patterns = r'[:;,.=\+\-%_?&%\s\/\\]+'
 def write_to_file(filename, text):
     current_directory = os.getcwd()
     current_directory = f"{current_directory}/{filename}"
@@ -57,30 +53,30 @@ def check_content_ascii(content):
 
 def tokenize_content(text) -> list:
     text_tags = BeautifulSoup(text, "html.parser")
-    text_content = [tag.get_text(separator = " ", strip = True) for tag in text_tags]
-
+    # text_content = [tag.get_text(separator = " ", strip = True) for tag in text_tags]
+    text_content = text_tags.get_text(" ")
     token_list = []
     token = ''
-    for line in text_content:
-        for char in line:
-            char = char.lower()
-            if is_alpha_num(char):
-                token += char
-            else:
-                if token:
-                    if token not in stopwords_list:
-                        token_list.append(token)
-                    token = ''
-        if token:
-            if token not in stopwords_list:
-                token_list.append(token)
-            token = ''
+    # for line in text_content:
+    for char in text_content:
+        char = char.lower()
+        if is_alpha_num(char):
+            token += char
+        else:
+            if token:
+                if token not in stopwords_list and len(token) > 1:
+                    token_list.append(token)
+                token = ''
+    if token:
+        if token not in stopwords_list and len(token) > 1:
+            token_list.append(token)
+        token = ''
 
     return token_list
 
 def tokenize_url(url):
     token_list = []
-    token = ''
+    token = ""
     for char in url:
         char = char.lower()
         if is_alpha_num(char):
@@ -90,9 +86,7 @@ def tokenize_url(url):
                 token_list.append(token)
                 token = ''
     if token:
-        token_list.append(token)
-        token = ''
-
+            token_list.append(token)
     token_freq = token_frequencies(token_list)
     return token_freq
 
@@ -107,7 +101,7 @@ def token_frequencies(tokens):
     return token_freq
 
 def is_alpha_num(char) -> bool:
-    pattern = r"[a-z0-9']"
+    pattern = r"[a-z0-9]"
     return re.match(pattern, char.lower()) or False
 
 if __name__ == "__main__":

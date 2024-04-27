@@ -25,8 +25,6 @@ valid_domains = [r"^((.*\.)*ics\.uci\.edu)$", r"^((.*\.)*cs\.uci\.edu)$",
 # traps = r"^.*calendar.*$|^.*filter.*$|^.*png.*$"
 traps = r"^.*\/commit.*$|^.*\/commits.*$|^.*\/tree.*$|^.*\/blob.*$"
 
-# depth_threshold = 30
-
 valid_set = set()
 visited_set = set()
 content_hashes = set() 
@@ -35,14 +33,11 @@ content_file = dict()
 ics_subdomains = dict()
 global_frequencies = dict()
 url_hashes = set()
-# url_depth = dict()
-
-url_path_count = dict()
 
 def scraper(url, resp):
     from pickle_storing import crawl_data, pickle_data
     # Adds the url to a visited set of URL's to keep track of how far along we are
-    pickle_data(crawl_data, "current_crawl_data.pickle")
+    pickle_data(get_crawl_data(), "current_crawl_data.pickle")
     save_data()
     # print("visited urls", crawl_data.get("visited_url"))
     # print("content file",crawl_data.get("content_file"))
@@ -63,25 +58,25 @@ def scraper(url, resp):
             # flag, disallows = check_robot_permission(url)
             # if not flag: # cannot access page
             #     return []
-            if len(resp.raw_response.content) > 2000000 or not check_content_ascii(resp.raw_response.content):
+            if len(resp.raw_response.content) > 10000000:
                 valid_set.add(url)
                 ics_subdomain(url)
                 return []
             
-            if not path_threshold_check(url, 50):
-                valid_set.add(url)
-                ics_subdomain(url)
-                return []
+            # if not path_threshold_check(url, 50):
+            #     valid_set.add(url)
+            #     ics_subdomain(url)
+            #     return []
 
             # if url not in url_depth:
             #     url_depth[url] = 0
 
-            # if not check_url(url_hash, similarity_threshold=.94) or url_depth[url] > depth_threshold:
-            if not check_url(url_hash, similarity_threshold=.99):
-                valid_set.add(url)
-                ics_subdomain(url)
-                content[url] = total_tokens # [content folder num, total tokens]
-                return []
+            # # if not check_url(url_hash, similarity_threshold=.94) or url_depth[url] > depth_threshold:
+            # if not check_url(url_hash, similarity_threshold=.99):
+            #     valid_set.add(url)
+            #     ics_subdomain(url)
+            #     content[url] = total_tokens # [content folder num, total tokens]
+            #     return []
             
             tokens = tokenize_content(resp.raw_response.content) # get tokens
             frequencies = token_frequencies(tokens) # compute token frequencies
@@ -92,14 +87,10 @@ def scraper(url, resp):
             ics_subdomain(url)
             content[url] = total_tokens # [content folder num, total tokens]
             
-            if total_tokens < 100 or total_tokens > 100000:
+            if total_tokens < 100 or total_tokens > 60000:
                 return []
             
-            if check_content(hash_vector, similarity_threshold=.99):
-                # file_number = len(valid_set)
-                # filename = f"content/{file_number}.txt"
-                # content_file[url] = file_number
-                # write_to_file(filename, resp.raw_response.content)
+            if check_content(hash_vector, similarity_threshold=60):
                 url_hashes.add(url_hash)
                 add_token_to_frequencies(tokens)
                 content_hashes.add(hash_vector)
@@ -325,6 +316,15 @@ def is_valid(url, disallows = []) -> bool:
             pattern = re.compile(disallowed_link, re.I)
             if re.match(pattern, parsed.path):
                 return False
+            
+            
+        url_freq = tokenize_url(url)
+        url_hash = sim_hash(url_freq)
+
+        if not check_url(url_hash, similarity_threshold=60):
+            valid_set.add(url)
+            ics_subdomain(url)
+            return False
         
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
@@ -433,6 +433,20 @@ def check_for_traps(url) -> bool:
     if re.match(traps, url):
         return True
     return False
+
+def get_crawl_data():
+    crawl_data = {
+        "valid_urls": valid_set,
+        "visited_urls": visited_set,
+        "content_hashes": content_hashes,
+        "content": content,
+        "content_file": content_file,
+        "ics_subdomains": ics_subdomains,
+        "global_frequencies": global_frequencies,
+        "url_hashes": url_hashes,
+        "url_path_count": url_path_count
+    }
+    return crawl_data
 
 if __name__ == "__main__":
     # testing is_valid function
