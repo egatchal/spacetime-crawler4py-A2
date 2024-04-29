@@ -66,7 +66,6 @@ def scraper(url, resp):
             location = resp.url
             redirected_url = create_absolute_url(url, location)
             if  redirected_url not in visited_set and is_valid(redirected_url):
-                url_hashes.add(url)
                 valid_set.add(url)
                 ics_subdomain(url)
                 return [redirected_url]
@@ -115,104 +114,104 @@ def create_absolute_url(base_url, new_url):
     absolute_url = normalize(absolute_url)
     return absolute_url
     
-def path_threshold_check(url, threshold = 10):
-    base_url = url.split('?', 1)[0].strip()
+# def path_threshold_check(url, threshold = 10):
+#     base_url = url.split('?', 1)[0].strip()
         
-    if base_url not in url_path_count:
-        url_path_count[base_url] = 1
-    else:
-        url_path_count[base_url] += 1
+#     if base_url not in url_path_count:
+#         url_path_count[base_url] = 1
+#     else:
+#         url_path_count[base_url] += 1
         
-    if base_url in url_path_count and url_path_count[base_url] >= threshold:
-        return False
-    return True
+#     if base_url in url_path_count and url_path_count[base_url] >= threshold:
+#         return False
+#     return True
 
-def check_robot_permission(url) -> bool:
-    parsed = urlparse(url)
-    scheme = parsed.scheme
-    domain = parsed.netloc
-    robots_file_url = f"{scheme}://{domain}/robots.txt"
+# def check_robot_permission(url) -> bool:
+#     parsed = urlparse(url)
+#     scheme = parsed.scheme
+#     domain = parsed.netloc
+#     robots_file_url = f"{scheme}://{domain}/robots.txt"
     
-    try: 
-        response = requests.get(robots_file_url)
-    except:
-        return False, None
+#     try: 
+#         response = requests.get(robots_file_url)
+#     except:
+#         return False, None
 
-    if response.status_code == 200:
-        robot_html_text = response.text
-        return True, parse_robots_txt_for_disallows(robot_html_text), 
-    else:
-        return False, None
+#     if response.status_code == 200:
+#         robot_html_text = response.text
+#         return True, parse_robots_txt_for_disallows(robot_html_text), 
+#     else:
+#         return False, None
 
-def parse_robots_txt_for_disallows(robots_txt, user_agent='*') -> set:
-    """ Parse the robots.txt to find all disallowed paths for the given user-agent. """
-    disallow_paths = []
-    finished = False
-    found_agents = False
+# def parse_robots_txt_for_disallows(robots_txt, user_agent='*') -> set:
+#     """ Parse the robots.txt to find all disallowed paths for the given user-agent. """
+#     disallow_paths = []
+#     finished = False
+#     found_agents = False
 
-    # Split the file into lines
-    for line in robots_txt.splitlines():
-        # print(line)
-        line = line.split('#', 1)[0].strip()  # Defragment the url using (split '#') and take the 1st
-        if not line:
-            continue  # Skip empty lines
+#     # Split the file into lines
+#     for line in robots_txt.splitlines():
+#         # print(line)
+#         line = line.split('#', 1)[0].strip()  # Defragment the url using (split '#') and take the 1st
+#         if not line:
+#             continue  # Skip empty lines
 
-        if ':' in line:
-            key, value = line.split(':', 1) # split line into two tokens
-            key = key.strip().lower()
-            value = value.strip()
+#         if ':' in line:
+#             key, value = line.split(':', 1) # split line into two tokens
+#             key = key.strip().lower()
+#             value = value.strip()
 
-            if key == 'user-agent':
-                if value == user_agent and not finished:
-                    found_agents = True
-                else:
-                    if found_agents and finished:
-                        return set(disallow_paths)
-            elif key == 'disallow' and found_agents:
-                finished = True
-                if value:  # Ignore empty Disallow directives which mean allow everything
-                    disallow_paths.append(value)
+#             if key == 'user-agent':
+#                 if value == user_agent and not finished:
+#                     found_agents = True
+#                 else:
+#                     if found_agents and finished:
+#                         return set(disallow_paths)
+#             elif key == 'disallow' and found_agents:
+#                 finished = True
+#                 if value:  # Ignore empty Disallow directives which mean allow everything
+#                     disallow_paths.append(value)
                 
-    return set(disallow_paths)
+#     return set(disallow_paths)
 
-# Find specified crawl delay value for the page being searched
-def parse_robots_txt_for_crawl_delay(robots_txt, user_agent = '*') -> int:
-    finished = False
-    found_delay = False
-    crawl_delay = None
+# # Find specified crawl delay value for the page being searched
+# def parse_robots_txt_for_crawl_delay(robots_txt, user_agent = '*') -> int:
+#     finished = False
+#     found_delay = False
+#     crawl_delay = None
 
-    for line in robots_txt.read().splitlines():
-        line = line.split('#', 1)[0].strip()
-        if not line:
-            continue
+#     for line in robots_txt.read().splitlines():
+#         line = line.split('#', 1)[0].strip()
+#         if not line:
+#             continue
 
-        if ':' in line:
-            key, value = line.split(':', 1)
-            key = key.strip().lower()
-            value = value.strip() 
-            if key == "user-agent":
-                if value == user_agent and not finished:
-                    found_delay = True
-                elif found_delay:
-                    break
-            elif key == "crawl-delay" and value:
-                    crawl_delay = int(value)
-                    finished = True
-    return crawl_delay if crawl_delay and found_delay and finished else 2 # A delay of 2 (seconds) seems to be the standard delay for crawling websites
-''
-def find_all_sitemaps(robots_txt, keyword = "sitemap") -> list:
-    sitemaps = []
-    for line in robots_txt.read().splitlines():
-        line = line.split('#', 1)[0].strip()
-        if not line:
-            continue
-        if ':' in line:
-            key, value = line.split(':', 1)
-            key = key.strip().lower()
-            value = value.strip()
-            if key == keyword:
-                sitemaps.append(value)
-    return sitemaps
+#         if ':' in line:
+#             key, value = line.split(':', 1)
+#             key = key.strip().lower()
+#             value = value.strip() 
+#             if key == "user-agent":
+#                 if value == user_agent and not finished:
+#                     found_delay = True
+#                 elif found_delay:
+#                     break
+#             elif key == "crawl-delay" and value:
+#                     crawl_delay = int(value)
+#                     finished = True
+#     return crawl_delay if crawl_delay and found_delay and finished else 2 # A delay of 2 (seconds) seems to be the standard delay for crawling websites
+# ''
+# # def find_all_sitemaps(robots_txt, keyword = "sitemap") -> list:
+#     sitemaps = []
+#     for line in robots_txt.read().splitlines():
+#         line = line.split('#', 1)[0].strip()
+#         if not line:
+#             continue
+#         if ':' in line:
+#             key, value = line.split(':', 1)
+#             key = key.strip().lower()
+#             value = value.strip()
+#             if key == keyword:
+#                 sitemaps.append(value)
+#     return sitemaps
 
 def ics_subdomain(url):
     parsed = urlparse(url)
@@ -224,7 +223,7 @@ def ics_subdomain(url):
             ics_subdomains[path] = 1
 
 
-def is_valid(url, disallows = []) -> bool:
+def is_valid(url) -> bool:
     # Decide whether to crawl this url or not. 
     # If you decide to crawl it, return True; otherwise return False.
     # There are already some conditions that return False.
@@ -245,11 +244,6 @@ def is_valid(url, disallows = []) -> bool:
 
         if check_for_repeating_dirs(url):
             return False
-
-        # for disallowed_link in disallows:
-        #     pattern = re.compile(disallowed_link, re.I)
-        #     if re.match(pattern, parsed.path):
-        #         return False
         
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
@@ -300,7 +294,7 @@ def save_data():
     longest_page = max(content, key=content.get) if content else "None"
     top_50 = sorted(global_frequencies.items(), key=lambda x: (x[0])) # sort in alphabetical order
     top_50 = sorted(top_50, key=lambda x: (x[1]), reverse=True) [:50]
-    statistics = {"Unique Pages":num_pages, "Longest Page":longest_page, "Top 50":top_50, "ICS domain":ics_subdomains}
+    statistics = {"Unique Pages":num_pages, "Longest Page":longest_page, "Top 50":top_50, "ICS domain":sorted(ics_subdomains.items(), key=lambda x: (x[0]))}
     with open('data_statistics.txt', 'w') as file:
         # Write the statistics data to the file
         for key, value in statistics.items():
@@ -374,19 +368,6 @@ def get_crawl_data():
 
 if __name__ == "__main__":
     # testing is_valid function
-    """
-    print(is_valid("https://archive.ics.uci.edu/path/path/path/path"))
-    print(is_valid("https://ics.uci.edu/"))
-    print(is_valid("https://youtube.com/"))
-    with open("/Users/shika/Downloads/robots.txt", 'r') as f:
-        print(parse_robots_txt_for_disallows(f))
-    print()
-    with open("/Users/shika/Downloads/Arobots.txt", 'r') as f:
-        print(parse_robots_txt_for_disallows(f))
-    print()
-    with open("/Users/shika/Downloads/YTrobots.txt", 'r') as f:
-        print(parse_robots_txt_for_disallows(f))
-    """
 
     # url = "https://spaces.lib.uci.edu/reserve/Science"
     # # flag, disallows = check_robot_permission(url)
@@ -438,8 +419,17 @@ if __name__ == "__main__":
 
 
     # my_url = "https://www.google.com/"
-    # papa_url = "https://ics.uci.edu/~mikes/"
+    papa_url = "https://ics.uci.edu/~mikes/"
     print(is_valid("http://swiki.ics.uci.edu/doku.php/start?ns=courses&tab_files=files&do=media&tab_details=history&image=projects%3Anotice_power_shutdown_rev_0422021.png"))
+    print(normalize(papa_url))
+    num_pages = len(valid_set)
+    longest_page = max(content, key=content.get) if content else "None"
+    top_50 = sorted(global_frequencies.items(), key=lambda x: (x[0])) # sort in alphabetical order
+    top_50 = sorted(top_50, key=lambda x: (x[1]), reverse=True) [:50]
+    l = {"b":1, "a": 2, "d": 3, "c": 4}
+    statistics = {"Unique Pages":num_pages, "Longest Page":longest_page, "Top 50":top_50, "ICS domain":sorted(l.items(), key=lambda x: (x[0]))}
+    print(statistics)
+    save_data()
     # test1 = "https://www.ics.uci.edu/community/news/view_news.php?id=2"
     # test2 = "https://www.ics.uci.edu/community/news/view_news.php?id=2227"
 
