@@ -18,7 +18,6 @@ def load_pickled_data(filename):
             scraper.ics_subdomains = d.get("ics_subdomains")
             scraper.global_frequencies = d.get("global_frequencies")
             scraper.url_hashes = d.get("url_hashes")
-            scraper.url_path_count = d.get("url_path_count")
         return True
     except FileNotFoundError: 
         return None

@@ -2,24 +2,10 @@ import re, requests, cbor, pickle, time
 from urllib.parse import urlparse, urljoin
 from bs4 import BeautifulSoup
 from utils import  normalize
-from tokenize_words import tokenize_content, token_frequencies, write_to_file, check_file_size, check_url_ascii, check_content_ascii, tokenize_url
+from tokenize_words import tokenize_content, token_frequencies, write_to_file, check_url_ascii, tokenize_url
 from simhasing import sim_hash, compute_sim_hash_similarity
 # from pickle_storing import pickle_data, load_pickled_data, crawl_data
 
-"""
-Response
---------
-url: contains the url of the page request
-status: contains the status code of the request
-error: contains the error of the request
-raw_reponse: contains the text of the page
-
-Methods for checking traps
---------------------------
-1. hash the content of the page (urls may be different but content same)
-2. keep track of set of urls
-3. check for repetitions within urls paths
-"""
 valid_domains = [r"^((.*\.)*ics\.uci\.edu)$", r"^((.*\.)*cs\.uci\.edu)$",
                 r"^((.*\.)*informatics\.uci\.edu)$", r"^((.*\.)*stat\.uci\.edu)$"]
 # traps = r"^.*calendar.*$|^.*filter.*$|^.*png.*$"
@@ -35,48 +21,26 @@ global_frequencies = dict()
 url_hashes = set()
 
 def scraper(url, resp):
-    from pickle_storing import crawl_data, pickle_data
-    # Adds the url to a visited set of URL's to keep track of how far along we are
+    from pickle_storing import pickle_data
+    
     pickle_data(get_crawl_data(), "current_crawl_data.pickle")
     save_data()
-    # print("visited urls", crawl_data.get("visited_url"))
-    # print("content file",crawl_data.get("content_file"))
 
     if url in visited_set:
         return []
     
     visited_set.add(url)
-    
-    if not check_url_ascii(url):
-        return []
-        
-    url_freq = tokenize_url(url)
+   
+    url_tokens = tokenize_url(url)
+    url_freq = token_frequencies(url_tokens)
     url_hash = sim_hash(url_freq)
 
     try:
         if (resp.status == 200 and resp.raw_response and resp.raw_response.content):
-            # flag, disallows = check_robot_permission(url)
-            # if not flag: # cannot access page
-            #     return []
-            if len(resp.raw_response.content) > 10000000:
+            if len(resp.raw_response.content) > 2000000:
                 valid_set.add(url)
                 ics_subdomain(url)
                 return []
-            
-            # if not path_threshold_check(url, 50):
-            #     valid_set.add(url)
-            #     ics_subdomain(url)
-            #     return []
-
-            # if url not in url_depth:
-            #     url_depth[url] = 0
-
-            # # if not check_url(url_hash, similarity_threshold=.94) or url_depth[url] > depth_threshold:
-            # if not check_url(url_hash, similarity_threshold=.99):
-            #     valid_set.add(url)
-            #     ics_subdomain(url)
-            #     content[url] = total_tokens # [content folder num, total tokens]
-            #     return []
             
             tokens = tokenize_content(resp.raw_response.content) # get tokens
             frequencies = token_frequencies(tokens) # compute token frequencies
@@ -90,31 +54,21 @@ def scraper(url, resp):
             if total_tokens < 100 or total_tokens > 60000:
                 return []
             
-            if check_content(hash_vector, similarity_threshold=60):
+            if check_content(hash_vector, similarity_threshold=59):
                 url_hashes.add(url_hash)
                 add_token_to_frequencies(tokens)
                 content_hashes.add(hash_vector)
                 links = extract_next_links(url, resp) # extract the links
+                return links
             else:
                 return []
-
-            return [link for link in links if is_valid(link)]
         elif resp.status in set([301, 302, 308, 309]) and resp.raw_response and resp.url:
-            # flag, disallows = check_robot_permission(url)
-            # if not flag: # cannot access page
-            #     return []
-            # if url not in url_depth:
-            #     url_depth[url] = 0
-
             location = resp.url
             redirected_url = create_absolute_url(url, location)
             if  redirected_url not in visited_set and is_valid(redirected_url):
-                # if  redirected_url not in visited_set and is_valid(redirected_url) and url_depth[url] <= depth_threshold:
-                if path_threshold_check(url):
-                    valid_set.add(url)
-                    ics_subdomain(url)
-                    # if redirected_url not in url_depth:
-                    #     url_depth[redirected_url] = url_depth[url] + 1
+                url_hashes.add(url)
+                valid_set.add(url)
+                ics_subdomain(url)
                 return [redirected_url]
             else:
                 return []
@@ -138,23 +92,22 @@ def extract_next_links(url, resp) -> list:
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
-    
+
     #if resp.status == 200 and resp.raw_response.content:
     text = resp.raw_response.content
+    new_urls_set = set()
     new_urls  = []
     soup = BeautifulSoup(text, "html.parser") # gets the text
     for tag in soup.find_all('a', href=True):
         if tag.get('href'):
             new_url = tag['href']
             absolute_url = create_absolute_url(url, new_url)  
-            if  absolute_url not in visited_set and check_url_ascii(absolute_url) and is_valid(absolute_url):
-                # if absolute_url not in url_depth:
-                #     url_depth[absolute_url] = url_depth[url] + 1 
-                if path_threshold_check(url):
-                    new_urls.append(absolute_url)
+            if absolute_url not in visited_set and absolute_url not in new_urls_set and is_valid(absolute_url) and check_url(url_hash, similarity_threshold=59):
+                new_urls.append(absolute_url)
             else:
                 visited_set.add(absolute_url)
-    return list(set(new_urls))
+            new_urls_set.add(absolute_url)
+    return new_urls
     
 def create_absolute_url(base_url, new_url):
     new_url = new_url.split('#', 1)[0].strip()
@@ -173,27 +126,6 @@ def path_threshold_check(url, threshold = 10):
     if base_url in url_path_count and url_path_count[base_url] >= threshold:
         return False
     return True
-    
-    # parsed_url = urlparse(url)
-    # base_url = parsed_url.scheme + "://" + parsed_url.netloc + parsed_url.path
-    # query_string = parsed_url.query
-    # return base_url, query_string
-
-'''
-Example:
-
-https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=eppstein
-
-will  split into:
-Base URL: https://www.ics.uci.edu/faculty/profiles/view_faculty.php
-Query String: ucinetid=eppstein
-'''
-
-# def path_threshold_valid(url):
-#     base_url = get_base_url(url)
-#     if base_url in url_path_count and url_path_count[base_url] >= threshold:
-#         return False
-#     return True
 
 def check_robot_permission(url) -> bool:
     parsed = urlparse(url)
@@ -282,11 +214,10 @@ def find_all_sitemaps(robots_txt, keyword = "sitemap") -> list:
                 sitemaps.append(value)
     return sitemaps
 
-
 def ics_subdomain(url):
     parsed = urlparse(url)
     if (re.match(valid_domains[0], parsed.netloc)):
-        path = f"{parsed.scheme}://{parsed.netloc}"
+        path = f"{parsed.netloc}"
         if path in ics_subdomains:
             ics_subdomains[path] += 1
         else:
@@ -302,29 +233,23 @@ def is_valid(url, disallows = []) -> bool:
 
         if parsed.scheme not in set(["http", "https"]):
             return False
-
+        
         if  not (re.match(valid_domains[0], parsed.netloc) or \
             re.match(valid_domains[1], parsed.netloc) or \
             re.match(valid_domains[2], parsed.netloc) or \
             re.match(valid_domains[3], parsed.netloc)): # check for valid domain
                 return False
         
-        if check_for_repeating_dirs(url) or check_for_traps(url):
+        if not check_url_ascii(url):
             return False
 
-        for disallowed_link in disallows:
-            pattern = re.compile(disallowed_link, re.I)
-            if re.match(pattern, parsed.path):
-                return False
-            
-            
-        url_freq = tokenize_url(url)
-        url_hash = sim_hash(url_freq)
-
-        if not check_url(url_hash, similarity_threshold=60):
-            valid_set.add(url)
-            ics_subdomain(url)
+        if check_for_repeating_dirs(url):
             return False
+
+        # for disallowed_link in disallows:
+        #     pattern = re.compile(disallowed_link, re.I)
+        #     if re.match(pattern, parsed.path):
+        #         return False
         
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
@@ -342,7 +267,7 @@ def is_valid(url, disallows = []) -> bool:
  
 # Tokenize contents of a .txt file using a buffer and reading by each char!
 
-def check_url(new_hash_vector, similarity_threshold = 0.8):
+def check_url(new_hash_vector, similarity_threshold = 64):
     """Check if the new content set is exact or approximately similar to existing sets."""
 
     # Check for exact match first
@@ -356,7 +281,7 @@ def check_url(new_hash_vector, similarity_threshold = 0.8):
 
     return True  # Content is unique
 
-def check_content(new_hash_vector, similarity_threshold = 0.8):
+def check_content(new_hash_vector, similarity_threshold = 64):
     """Check if the new content set is exact or approximately similar to existing sets."""
 
     # Check for exact match first
@@ -418,10 +343,10 @@ def is_alpha_num(char) -> bool:
     pattern = r"[a-z0-9']"
     return re.match(pattern, char.lower()) or False
     
-# JUST TEMP COUNT FUNCTION TO TEST SAME TOKENS ARE BEING COUNTED FROM PAGE TO PAGE
-def count_common_tokens(set1, set2) -> int: # TO BE DELETED WHEN DONE COUNTING
-    common_tokens = set1.intersection(set2)
-    return len(common_tokens)
+# # JUST TEMP COUNT FUNCTION TO TEST SAME TOKENS ARE BEING COUNTED FROM PAGE TO PAGE
+# def count_common_tokens(set1, set2) -> int: # TO BE DELETED WHEN DONE COUNTING
+#     common_tokens = set1.intersection(set2)
+#     return len(common_tokens)
 
 def check_for_repeating_dirs(url) -> bool:
     pattern = r"^.*?(/.+?/).*?\1.*$|^.*?/(.+?/)\2.*$"
@@ -444,7 +369,6 @@ def get_crawl_data():
         "ics_subdomains": ics_subdomains,
         "global_frequencies": global_frequencies,
         "url_hashes": url_hashes,
-        "url_path_count": url_path_count
     }
     return crawl_data
 
