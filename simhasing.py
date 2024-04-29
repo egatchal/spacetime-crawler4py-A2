@@ -1,6 +1,18 @@
 from hashlib import md5
 from zlib import crc32
 def sim_hash(frequencies):
+    """Compute a similarity hash for the passed in dict
+    
+    Parameters
+    ----------
+    frequencies : dict
+        a dict containing URL tokens (key) and the corresponding count (value)
+    
+    Returns
+    -------
+    tuple
+        a tuple containing a binary vector representation of the dict passed in
+    """
     hashes = dict()
     for key in frequencies.keys():
         hash = md5(key.encode()).digest()[:8] # byte representation
@@ -36,6 +48,20 @@ def sim_hash(frequencies):
     return tuple(binary_vector)
 
 def compute_sim_hash_similarity(vector1, vector2):
+    """Compute the sim hash similarity between two tuples
+    
+    Parameters
+    ----------
+    vector1 : tuple
+        a tuple containing binary vector representation of it's similarity score
+    vector2 : tuple
+        a tuple containing binary vector representation of it's similarity score
+        
+    Returns
+    -------
+    int
+        an int indicating the similarity between the two tuples (vector1 & vector2)
+    """
     count = 0
     for i in range(64):
         if vector1[i] == vector2[i]:

@@ -35,6 +35,20 @@ global_frequencies = dict()
 url_hashes = set()
 
 def scraper(url, resp):
+    """Scrap URL links seen on current page
+    
+    Parameters
+    ----------
+    url : str
+        a path to the website we will scrap from
+    resp : dict
+        a dict storing information about the website in the format of dict[str, str | int | Any]
+    
+    Returns
+    -------
+    list
+        a list of websites to be scraped in the future
+    """
     from pickle_storing import crawl_data, pickle_data
     # Adds the url to a visited set of URL's to keep track of how far along we are
     pickle_data(get_crawl_data(), "current_crawl_data.pickle")
@@ -129,6 +143,20 @@ def scraper(url, resp):
 # have to be downloaded are not added to the frontier.
 
 def extract_next_links(url, resp) -> list:
+    """Extract links (or URLs) from the current webpage
+
+    Parameters
+    ----------
+    url : str
+        the path of the current webpage
+    resp : dict
+        a dict storing information about the website in the format of dict[str, str | int | Any]
+
+    Returns
+    -------
+    list
+        a list of links found on the current webpage 
+    """
     # Implementation required.
     # url: the URL that was used to get the page
     # resp.url: the actual url of the page
@@ -146,7 +174,7 @@ def extract_next_links(url, resp) -> list:
     for tag in soup.find_all('a', href=True):
         if tag.get('href'):
             new_url = tag['href']
-            absolute_url = create_absolute_url(url, new_url)  
+            absolute_url = create_absolute_url(url, new_url)
             if  absolute_url not in visited_set and check_url_ascii(absolute_url) and is_valid(absolute_url):
                 # if absolute_url not in url_depth:
                 #     url_depth[absolute_url] = url_depth[url] + 1 
@@ -157,6 +185,16 @@ def extract_next_links(url, resp) -> list:
     return list(set(new_urls))
     
 def create_absolute_url(base_url, new_url):
+    """Create a new URL based on the two passed in 
+    
+    Parameters
+    ----------
+
+    Returns
+    -------
+    bool
+        a bool indicating the 
+    """
     new_url = new_url.split('#', 1)[0].strip()
     absolute_url = urljoin(base_url, new_url)
     absolute_url = normalize(absolute_url)
@@ -196,6 +234,18 @@ Query String: ucinetid=eppstein
 #     return True
 
 def check_robot_permission(url) -> bool:
+    """Checks the URL for scraping permissions via the robots.txt file
+    
+    Parameters
+    ----------
+    url : str
+        a URL to the current webpage
+
+    Returns
+    -------
+    bool
+        a bool indicating if we are allowed to scrap the current URL
+    """
     parsed = urlparse(url)
     scheme = parsed.scheme
     domain = parsed.netloc
@@ -213,7 +263,20 @@ def check_robot_permission(url) -> bool:
         return False, None
 
 def parse_robots_txt_for_disallows(robots_txt, user_agent='*') -> set:
-    """ Parse the robots.txt to find all disallowed paths for the given user-agent. """
+    """ Parse the robots.txt to find all disallowed paths for the given user-agent.
+
+    Parameters
+    ----------
+    robots_txt : str
+        a URL to the robots.txt file of the current website
+    user_agent : char
+        a char being declared as *
+        
+    Returns
+    -------
+    set
+        a set of disallowed links that the crawler must obey
+    """
     disallow_paths = []
     finished = False
     found_agents = False
@@ -371,6 +434,7 @@ def check_content(new_hash_vector, similarity_threshold = 0.8):
     return True  # Content is unique
 
 def save_data():
+    """Saves the current state of crawled information."""
     num_pages = len(valid_set)
     longest_page = max(content, key=content.get) if content else "None"
     top_50 = sorted(global_frequencies.items(), key=lambda x: (x[0])) # sort in alphabetical order
@@ -406,6 +470,13 @@ def save_data():
             file.write(f"{k}: {v}\n")
 
 def add_token_to_frequencies(tokens):
+    """Adds tokens of a list to the global token frequency count
+    
+    Parameters
+    ----------
+    tokens : list
+        a list of tokens
+    """
     for token in tokens:
         if token in global_frequencies:
             global_frequencies[token] += 1
@@ -415,6 +486,18 @@ def add_token_to_frequencies(tokens):
 
 # Custom alpha numeric function that includes ' using regex
 def is_alpha_num(char) -> bool:
+    """Check if the char is a alphanumeric value (customized)
+    
+    Parameters
+    ----------
+    char : char
+        a char to be checked
+    
+    Returns
+    -------
+    bool
+        a bool indicating if the char is alphanumeric
+    """
     pattern = r"[a-z0-9']"
     return re.match(pattern, char.lower()) or False
     
@@ -424,17 +507,48 @@ def count_common_tokens(set1, set2) -> int: # TO BE DELETED WHEN DONE COUNTING
     return len(common_tokens)
 
 def check_for_repeating_dirs(url) -> bool:
+    """Check for the repeating directory trap
+
+    Parameters
+    ----------
+    url : str
+        a URL to the current webpage to be checked
+
+    Returns
+    -------
+    bool
+        a bool indicating if the URL contains repeated directories
+    """
     pattern = r"^.*?(/.+?/).*?\1.*$|^.*?/(.+?/)\2.*$"
     if re.match(pattern, url):
         return True
     return False
 
 def check_for_traps(url) -> bool:
+    """Validates the URL's path composition against a regex statement
+
+    Parameters
+    ----------
+    url : str
+        a URL to the current webpage to be checked
+
+    Returns
+    -------
+    bool
+        a bool indicating if the URL contains simple traps
+    """
     if re.match(traps, url):
         return True
     return False
 
 def get_crawl_data():
+    """Fetch crawled data information
+
+    Returns
+    -------
+    dict
+        a dict of all the web crawling information containers
+    """
     crawl_data = {
         "valid_urls": valid_set,
         "visited_urls": visited_set,
@@ -515,7 +629,7 @@ if __name__ == "__main__":
 
     # my_url = "https://www.google.com/"
     # papa_url = "https://ics.uci.edu/~mikes/"
-    print(is_valid("http://swiki.ics.uci.edu/doku.php/start?ns=courses&tab_files=files&do=media&tab_details=history&image=projects%3Anotice_power_shutdown_rev_0422021.png"))
+    # print(is_valid("http://swiki.ics.uci.edu/doku.php/start?ns=courses&tab_files=files&do=media&tab_details=history&image=projects%3Anotice_power_shutdown_rev_0422021.png"))
     # test1 = "https://www.ics.uci.edu/community/news/view_news.php?id=2"
     # test2 = "https://www.ics.uci.edu/community/news/view_news.php?id=2227"
 
@@ -526,3 +640,6 @@ if __name__ == "__main__":
     # papa_hash = sim_hash(papa_token)
 
     # print(compute_sim_hash_similarity(url_hash, papa_hash))
+
+    resp = requests.get("https://google.com")
+    print(type(resp))

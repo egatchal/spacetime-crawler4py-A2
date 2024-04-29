@@ -3,10 +3,30 @@ import pickle
 import scraper
 
 def pickle_data(crawl_data, filename):
+    """Serialize data to a file using the Pickle library
+
+    Parameters
+    ----------
+    crawl_data : dict
+        a dict of containers that store data on previously crawled websites
+    filename : str
+        the file name of where the pickled data will be stored
+    """
     with open(filename, "wb") as file:
         pickle.dump(crawl_data, file)
 
 def load_pickled_data(filename):
+    """Deserialize data from a Pickled file
+
+    Parameters
+    ----------
+    crawl_data : dict
+
+    Returns
+    -------
+    bool
+        a bool indicating whether the data was successfully deserialized
+    """
     try:
         with open(filename, "rb") as content:
             d = pickle.load(content)
