@@ -22,9 +22,6 @@ url_hashes = set()
 
 def scraper(url, resp):
     from pickle_storing import pickle_data
-    
-    pickle_data(get_crawl_data(), "current_crawl_data.pickle")
-    save_data()
 
     if url in visited_set:
         return []
@@ -40,6 +37,10 @@ def scraper(url, resp):
             if len(resp.raw_response.content) > 2000000:
                 valid_set.add(url)
                 ics_subdomain(url)
+                
+                pickle_data(get_crawl_data(), "current_crawl_data.pickle")
+                save_data()
+                
                 return []
             
             tokens = tokenize_content(resp.raw_response.content) # get tokens
@@ -52,6 +53,9 @@ def scraper(url, resp):
             content[url] = total_tokens # [content folder num, total tokens]
             
             if total_tokens < 100 or total_tokens > 60000:
+                pickle_data(get_crawl_data(), "current_crawl_data.pickle")
+                save_data()
+                
                 return []
             
             if check_content(hash_vector, similarity_threshold=59):
@@ -59,8 +63,15 @@ def scraper(url, resp):
                 add_token_to_frequencies(tokens)
                 content_hashes.add(hash_vector)
                 links = extract_next_links(url, resp) # extract the links
+                
+                pickle_data(get_crawl_data(), "current_crawl_data.pickle")
+                save_data()
+                
                 return links
             else:
+                pickle_data(get_crawl_data(), "current_crawl_data.pickle")
+                save_data()
+
                 return []
         elif resp.status in set([301, 302, 308, 309]) and resp.raw_response and resp.url:
             location = resp.url
@@ -68,12 +79,25 @@ def scraper(url, resp):
             if  redirected_url not in visited_set and is_valid(redirected_url):
                 valid_set.add(url)
                 ics_subdomain(url)
+                
+                pickle_data(get_crawl_data(), "current_crawl_data.pickle")
+                save_data()
+
                 return [redirected_url]
             else:
+                pickle_data(get_crawl_data(), "current_crawl_data.pickle")
+                save_data()
+                
                 return []
         else:
+            pickle_data(get_crawl_data(), "current_crawl_data.pickle")
+            save_data()
+            
             return []
     except:
+        pickle_data(get_crawl_data(), "current_crawl_data.pickle")
+        save_data()
+        
         return []
 
 # This function needs to return a list of urls that are scraped from the response. 
@@ -91,25 +115,29 @@ def extract_next_links(url, resp) -> list:
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
-
     #if resp.status == 200 and resp.raw_response.content:
     text = resp.raw_response.content
-    new_urls_set = set()
-    new_urls  = []
+    new_urls  = set()
     soup = BeautifulSoup(text, "html.parser") # gets the text
     for tag in soup.find_all('a', href=True):
         if tag.get('href'):
             new_url = tag['href']
             absolute_url = create_absolute_url(url, new_url)  
-            if absolute_url not in visited_set and absolute_url not in new_urls_set and is_valid(absolute_url) and check_url(url_hash, similarity_threshold=59):
-                new_urls.append(absolute_url)
+            if absolute_url not in visited_set and absolute_url not in new_urls and is_valid(absolute_url):
+                new_url_tokens = tokenize_url(absolute_url)
+                new_url_freq = token_frequencies(new_url_tokens)
+                new_url_hash = sim_hash(new_url_freq)
+                if check_url(new_url_hash, similarity_threshold=59):
+                    new_urls.add(absolute_url)
+                else:
+                    visited_set.add(absolute_url)
+                    valid_set.add(absolute_url)
             else:
                 visited_set.add(absolute_url)
-            new_urls_set.add(absolute_url)
-    return new_urls
+    return list(new_urls)
     
 def create_absolute_url(base_url, new_url):
-    new_url = new_url.split('#', 1)[0].strip()
+    new_url = new_url.split('#', 1)[0].strip().lower()
     absolute_url = urljoin(base_url, new_url)
     absolute_url = normalize(absolute_url)
     return absolute_url
@@ -242,7 +270,7 @@ def is_valid(url) -> bool:
         if not check_url_ascii(url):
             return False
 
-        if check_for_repeating_dirs(url):
+        if check_for_repeating_dirs(url) or check_for_traps(url):
             return False
         
         return not re.match(
@@ -321,7 +349,7 @@ def save_data():
             file.write(f"{k}: {v}\n")
     with open('data_ics_domains.txt', 'w') as file:
         # Write the statistics data to the file
-        for k, v in ics_subdomains.items():
+        for k, v in sorted(ics_subdomains.items(), key=lambda x: (x[0])):
             file.write(f"{k}: {v}\n")
 
 def add_token_to_frequencies(tokens):
@@ -428,7 +456,14 @@ if __name__ == "__main__":
     top_50 = sorted(top_50, key=lambda x: (x[1]), reverse=True) [:50]
     l = {"b":1, "a": 2, "d": 3, "c": 4}
     statistics = {"Unique Pages":num_pages, "Longest Page":longest_page, "Top 50":top_50, "ICS domain":sorted(l.items(), key=lambda x: (x[0]))}
+    
     print(statistics)
+    url_tokens = tokenize_url(papa_url)
+    print(url_tokens)
+    url_freq = token_frequencies(url_tokens)
+    print(url_freq)
+    url_hash = sim_hash(url_freq)
+    print(url_hash)
     save_data()
     # test1 = "https://www.ics.uci.edu/community/news/view_news.php?id=2"
     # test2 = "https://www.ics.uci.edu/community/news/view_news.php?id=2227"

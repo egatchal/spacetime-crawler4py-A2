@@ -43,7 +43,7 @@ def compute_sim_hash_similarity(vector1, vector2):
     return count
 
 if __name__ == "__main__":
-    d1 = {"high":2, "low":2, "begging":1}
+    d1 = {"high":2, "low":2, "begging":10}
     d2 = {"high":2, "low":2, "begging":3}
     hash1 = sim_hash(d1)
     hash2 = sim_hash(d2)
