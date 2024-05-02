@@ -10,7 +10,7 @@ cdb.ics.uci.edu: 1
 cert.ics.uci.edu: 10
 chenli.ics.uci.edu: 6
 circadiomics.ics.uci.edu: 4
-cml.ics.uci.edu: 24
+cml.ics.uci.edu: 28
 computableplant.ics.uci.edu: 25
 courselisting.ics.uci.edu: 1
 create.ics.uci.edu: 1
@@ -37,7 +37,7 @@ hobbes.ics.uci.edu: 8
 i-sensorium.ics.uci.edu: 4
 iasl.ics.uci.edu: 2
 ibook.ics.uci.edu: 1
-ics.uci.edu: 3308
+ics.uci.edu: 4692
 ieee.ics.uci.edu: 1
 industryshowcase.ics.uci.edu: 5
 informatics.mt-live.ics.uci.edu: 1
@@ -91,5 +91,5 @@ wiki.ics.uci.edu: 34
 www-db.ics.uci.edu: 7
 www.cert.ics.uci.edu: 1
 www.graphics.ics.uci.edu: 7
-www.ics.uci.edu: 1181
+www.ics.uci.edu: 1516
 xtune.ics.uci.edu: 6

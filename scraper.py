@@ -9,7 +9,7 @@ from simhasing import sim_hash, compute_sim_hash_similarity
 valid_domains = [r"^((.*\.)*ics\.uci\.edu)$", r"^((.*\.)*cs\.uci\.edu)$",
                 r"^((.*\.)*informatics\.uci\.edu)$", r"^((.*\.)*stat\.uci\.edu)$"]
 # traps = r"^.*calendar.*$|^.*filter.*$|^.*png.*$"
-traps = r"^.*\/commit.*$|^.*\/commits.*$|^.*\/tree.*$|^.*\/blob.*$"
+traps = r"^.*\/commit.*$|^.*\/commits.*$|^.*\/tree.*$|^.*\/blob.*"
 
 valid_set = set()
 visited_set = set()
@@ -19,6 +19,7 @@ content_file = dict()
 ics_subdomains = dict()
 global_frequencies = dict()
 url_hashes = set()
+# url_path_count = dict()
 
 def scraper(url, resp):
     from pickle_storing import pickle_data
@@ -58,7 +59,7 @@ def scraper(url, resp):
                 
                 return []
             
-            if check_content(hash_vector, similarity_threshold=59):
+            if check_content(hash_vector, similarity_threshold=59): # content unique get links
                 url_hashes.add(url_hash)
                 add_token_to_frequencies(tokens)
                 content_hashes.add(hash_vector)
@@ -68,7 +69,8 @@ def scraper(url, resp):
                 save_data()
                 
                 return links
-            else:
+            else: # content not unique do not get links
+                # path_threshold_update(url)
                 pickle_data(get_crawl_data(), "current_crawl_data.pickle")
                 save_data()
 
@@ -144,15 +146,19 @@ def create_absolute_url(base_url, new_url):
     
 # def path_threshold_check(url, threshold = 10):
 #     base_url = url.split('?', 1)[0].strip()
+    
+#     if base_url in url_path_count and url_path_count[base_url] >= threshold:
+#         return False
         
+#     return True
+
+# def path_threshold_update(url)
+#     base_url = url.split('?', 1)[0].strip()
+
 #     if base_url not in url_path_count:
 #         url_path_count[base_url] = 1
 #     else:
 #         url_path_count[base_url] += 1
-        
-#     if base_url in url_path_count and url_path_count[base_url] >= threshold:
-#         return False
-#     return True
 
 # def check_robot_permission(url) -> bool:
 #     parsed = urlparse(url)
@@ -391,6 +397,7 @@ def get_crawl_data():
         "ics_subdomains": ics_subdomains,
         "global_frequencies": global_frequencies,
         "url_hashes": url_hashes,
+        "url_path_count": url_path_count
     }
     return crawl_data
 

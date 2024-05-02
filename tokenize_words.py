@@ -91,8 +91,8 @@ def is_alpha_num(char) -> bool:
 if __name__ == "__main__":
     # resp1 = requests.get("https://ics.uci.edu/facts-figures/ics-mission-history/")
     # resp2 = requests.get("http://www.ics.uci.edu/about/search")
-    resp1 = "https://ics.uci.edu/people/?filter%5boffices_ics%5d%5b1%5d=1079&filter%5boffices_ics%5d%5b2%5d=1080&filter%5bresearch_areas_ics%5d=1113"
-    resp2 = "https://ics.uci.edu/people/?filter%5boffices_ics%5d%5b1%5d=1079&filter%5boffices_ics%5d%5b2%5d=1080&filter%5bresearch_areas_ics%5d=2065"
+    resp1 = "https://ngs.ics.uci.edu/from-calendars-to-chronicles-1"
+    resp2 = "https://ngs.ics.uci.edu/from-calendars-to-chronicles-6"
     # print(check_url_ascii(resp2))
     # values = set()
     # values.add("hello")
