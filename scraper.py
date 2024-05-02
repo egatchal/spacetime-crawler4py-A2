@@ -8,8 +8,8 @@ from simhasing import sim_hash, compute_sim_hash_similarity
 
 valid_domains = [r"^((.*\.)*ics\.uci\.edu)$", r"^((.*\.)*cs\.uci\.edu)$",
                 r"^((.*\.)*informatics\.uci\.edu)$", r"^((.*\.)*stat\.uci\.edu)$"]
-
-traps = r"^.*\/commit.*$|^.*\/commits.*$|^.*\/tree.*$|^.*\/blob.*$"
+# traps = r"^.*calendar.*$|^.*filter.*$|^.*png.*$"
+traps = r"^.*\/commit.*$|^.*\/commits.*$|^.*\/tree.*$|^.*\/blob.*"
 
 valid_set = set()
 visited_set = set()
@@ -19,6 +19,7 @@ content_file = dict()
 ics_subdomains = dict()
 global_frequencies = dict()
 url_hashes = set()
+# url_path_count = dict()
 
 def scraper(url, resp):
     """Scrap URL links seen on current page.
@@ -36,9 +37,6 @@ def scraper(url, resp):
         a list of websites to be scraped in the future
     """
     from pickle_storing import pickle_data
-    # Adds the url to a visited set of URL's to keep track of how far along we are
-    pickle_data(get_crawl_data(), "current_crawl_data.pickle")
-    save_data()
 
     if url in visited_set:
         return []
@@ -53,6 +51,10 @@ def scraper(url, resp):
             if len(resp.raw_response.content) > 2000000:
                 valid_set.add(url)
                 ics_subdomain(url)
+                
+                pickle_data(get_crawl_data(), "current_crawl_data.pickle")
+                save_data()
+                
                 return []
             
             tokens = tokenize_content(resp.raw_response.content) # get tokens
@@ -65,15 +67,26 @@ def scraper(url, resp):
             content[url] = total_tokens # [content folder num, total tokens]
             
             if total_tokens < 100 or total_tokens > 60000:
+                pickle_data(get_crawl_data(), "current_crawl_data.pickle")
+                save_data()
+                
                 return []
             
-            if check_content(hash_vector, similarity_threshold=59):
+            if check_content(hash_vector, similarity_threshold=59): # content unique get links
                 url_hashes.add(url_hash)
                 add_token_to_frequencies(tokens)
                 content_hashes.add(hash_vector)
                 links = extract_next_links(url, resp) # extract the links
+                
+                pickle_data(get_crawl_data(), "current_crawl_data.pickle")
+                save_data()
+                
                 return links
-            else:
+            else: # content not unique do not get links
+                # path_threshold_update(url)
+                pickle_data(get_crawl_data(), "current_crawl_data.pickle")
+                save_data()
+
                 return []
         elif resp.status in set([301, 302, 308, 309]) and resp.raw_response and resp.url:
             location = resp.url
@@ -81,12 +94,25 @@ def scraper(url, resp):
             if  redirected_url not in visited_set and is_valid(redirected_url):
                 valid_set.add(url)
                 ics_subdomain(url)
+                
+                pickle_data(get_crawl_data(), "current_crawl_data.pickle")
+                save_data()
+
                 return [redirected_url]
             else:
+                pickle_data(get_crawl_data(), "current_crawl_data.pickle")
+                save_data()
+                
                 return []
         else:
+            pickle_data(get_crawl_data(), "current_crawl_data.pickle")
+            save_data()
+            
             return []
     except:
+        pickle_data(get_crawl_data(), "current_crawl_data.pickle")
+        save_data()
+        
         return []
 
 # This function needs to return a list of urls that are scraped from the response. 
@@ -118,21 +144,26 @@ def extract_next_links(url, resp) -> list:
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
-
+    #if resp.status == 200 and resp.raw_response.content:
     text = resp.raw_response.content
-    new_urls_set = set()
-    new_urls  = []
+    new_urls  = set()
     soup = BeautifulSoup(text, "html.parser") # gets the text
     for tag in soup.find_all('a', href=True):
         if tag.get('href'):
             new_url = tag['href']
             absolute_url = create_absolute_url(url, new_url)  
-            if absolute_url not in visited_set and absolute_url not in new_urls_set and is_valid(absolute_url) and check_url(url_hash, similarity_threshold=59):
-                new_urls.append(absolute_url)
+            if absolute_url not in visited_set and absolute_url not in new_urls and is_valid(absolute_url):
+                new_url_tokens = tokenize_url(absolute_url)
+                new_url_freq = token_frequencies(new_url_tokens)
+                new_url_hash = sim_hash(new_url_freq)
+                if check_url(new_url_hash, similarity_threshold=59):
+                    new_urls.add(absolute_url)
+                else:
+                    visited_set.add(absolute_url)
+                    valid_set.add(absolute_url)
             else:
                 visited_set.add(absolute_url)
-            new_urls_set.add(absolute_url)
-    return new_urls
+    return list(new_urls)
     
 def create_absolute_url(base_url, new_url):
     """Create a new URL based on the two URL's passed in.
@@ -149,22 +180,26 @@ def create_absolute_url(base_url, new_url):
     bool
         a bool indicating if the 
     """
-    new_url = new_url.split('#', 1)[0].strip()
+    new_url = new_url.split('#', 1)[0].strip().lower()
     absolute_url = urljoin(base_url, new_url)
     absolute_url = normalize(absolute_url)
     return absolute_url
     
 # def path_threshold_check(url, threshold = 10):
 #     base_url = url.split('?', 1)[0].strip()
+    
+#     if base_url in url_path_count and url_path_count[base_url] >= threshold:
+#         return False
         
+#     return True
+
+# def path_threshold_update(url)
+#     base_url = url.split('?', 1)[0].strip()
+
 #     if base_url not in url_path_count:
 #         url_path_count[base_url] = 1
 #     else:
 #         url_path_count[base_url] += 1
-        
-#     if base_url in url_path_count and url_path_count[base_url] >= threshold:
-#         return False
-#     return True
 
 # def check_robot_permission(url) -> bool:
     """Checks the URL for scraping permissions via the robots.txt file.
@@ -326,7 +361,7 @@ def is_valid(url) -> bool:
         if not check_url_ascii(url):
             return False
 
-        if check_for_repeating_dirs(url):
+        if check_for_repeating_dirs(url) or check_for_traps(url):
             return False
         
         return not re.match(
@@ -433,7 +468,7 @@ def save_data():
             file.write(f"{k}: {v}\n")
     with open('data_ics_domains.txt', 'w') as file:
         # Write the statistics data to the file
-        for k, v in ics_subdomains.items():
+        for k, v in sorted(ics_subdomains.items(), key=lambda x: (x[0])):
             file.write(f"{k}: {v}\n")
 
 def add_token_to_frequencies(tokens):
@@ -521,10 +556,11 @@ def get_crawl_data():
         "visited_urls": visited_set, 
         "content_hashes": content_hashes, 
         "content": content,
-        "content_file": content_file, 
-        "ics_subdomains": ics_subdomains, 
-        "global_frequencies": global_frequencies, 
-        "url_hashes": url_hashes, 
+        "content_file": content_file,
+        "ics_subdomains": ics_subdomains,
+        "global_frequencies": global_frequencies,
+        "url_hashes": url_hashes,
+        "url_path_count": url_path_count
     }
     return crawl_data
 
@@ -582,17 +618,23 @@ if __name__ == "__main__":
 
     # my_url = "https://www.google.com/"
     papa_url = "https://ics.uci.edu/~mikes/"
-    # print(is_valid("http://swiki.ics.uci.edu/doku.php/start?ns=courses&tab_files=files&do=media&tab_details=history&image=projects%3Anotice_power_shutdown_rev_0422021.png"))
-    # print(normalize(papa_url))
+    print(is_valid("http://swiki.ics.uci.edu/doku.php/start?ns=courses&tab_files=files&do=media&tab_details=history&image=projects%3Anotice_power_shutdown_rev_0422021.png"))
+    print(normalize(papa_url))
+    num_pages = len(valid_set)
+    longest_page = max(content, key=content.get) if content else "None"
+    top_50 = sorted(global_frequencies.items(), key=lambda x: (x[0])) # sort in alphabetical order
+    top_50 = sorted(top_50, key=lambda x: (x[1]), reverse=True) [:50]
+    l = {"b":1, "a": 2, "d": 3, "c": 4}
+    statistics = {"Unique Pages":num_pages, "Longest Page":longest_page, "Top 50":top_50, "ICS domain":sorted(l.items(), key=lambda x: (x[0]))}
     
-    # num_pages = len(valid_set)
-    # longest_page = max(content, key=content.get) if content else "None"
-    # top_50 = sorted(global_frequencies.items(), key=lambda x: (x[0])) # sort in alphabetical order
-    # top_50 = sorted(top_50, key=lambda x: (x[1]), reverse=True) [:50]
-    # l = {"b":1, "a": 2, "d": 3, "c": 4}
-    # statistics = {"Unique Pages":num_pages, "Longest Page":longest_page, "Top 50":top_50, "ICS domain":sorted(l.items(), key=lambda x: (x[0]))}
-    # print(statistics)
-    # save_data()
+    print(statistics)
+    url_tokens = tokenize_url(papa_url)
+    print(url_tokens)
+    url_freq = token_frequencies(url_tokens)
+    print(url_freq)
+    url_hash = sim_hash(url_freq)
+    print(url_hash)
+    save_data()
     # test1 = "https://www.ics.uci.edu/community/news/view_news.php?id=2"
     # test2 = "https://www.ics.uci.edu/community/news/view_news.php?id=2227"
 

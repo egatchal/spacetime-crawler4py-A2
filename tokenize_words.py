@@ -160,34 +160,34 @@ def is_alpha_num(char) -> bool:
 if __name__ == "__main__":
     # resp1 = requests.get("https://ics.uci.edu/facts-figures/ics-mission-history/")
     # resp2 = requests.get("http://www.ics.uci.edu/about/search")
-    resp1 = "https://ics.uci.edu/~dechter/publications/r64.html"
-    resp2 = "https://en.wiktionary.org/wiki/维吾尔"
-    print(check_url_ascii(resp2))
-    values = set()
-    values.add("hello")
-    values.add("bush")
-    values.add("hands")
-    values.add("guard")
-    print(list(values))
+    resp1 = "https://ngs.ics.uci.edu/from-calendars-to-chronicles-1"
+    resp2 = "https://ngs.ics.uci.edu/from-calendars-to-chronicles-6"
+    # print(check_url_ascii(resp2))
+    # values = set()
+    # values.add("hello")
+    # values.add("bush")
+    # values.add("hands")
+    # values.add("guard")
+    # print(list(values))
     # print(check_url_ascii(url))
     # print(check_content_ascii(resp.content))
-#     tokens1 = tokenize_url(resp1)
-#     tokens2 = tokenize_url(resp2)
+    tokens1 = tokenize_url(resp1)
+    tokens2 = tokenize_url(resp2)
     
-#     # tokens1 = tokenize_content(resp1.content)
-#     # tokens2 = tokenize_content(resp2.content)
+    #     # tokens1 = tokenize_content(resp1.content)
+    #     # tokens2 = tokenize_content(resp2.content)
+        
+    #     print(tokens1)
+    #     print(tokens2)
     
-#     print(tokens1)
-#     print(tokens2)
-    
-# #     frequencies1 = token_frequencies(tokens1)
-# #     frequencies2 = token_frequencies(tokens2)
+    frequencies1 = token_frequencies(tokens1)
+    frequencies2 = token_frequencies(tokens2)
 
-# #     hash1 = sim_hash(frequencies1)
-# #     hash2 = sim_hash(frequencies2)
-#     hash1 = sim_hash(tokens1)
-#     hash2 = sim_hash(tokens2)
-#     print(compute_sim_hash_similarity(hash1, hash2))
+    hash1 = sim_hash(frequencies1)
+    hash2 = sim_hash(frequencies2)
+    #     hash1 = sim_hash(tokens1)
+    #     hash2 = sim_hash(tokens2)
+    print(compute_sim_hash_similarity(hash1, hash2))
     # filename = "read_page.txt.txt"
     # resp = requests.get("http://www.ics.uci.edu/~eppstein/junkyard/all.html")
     # write_to_file(filename, resp.text)
