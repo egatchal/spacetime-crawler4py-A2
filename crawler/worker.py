@@ -5,9 +5,7 @@ from utils.download import download
 from utils import get_logger
 import scraper
 import time
-from pickle_storing import load_pickled_data, crawl_data
-
-# restart_flag = False
+from pickle_storing import load_pickled_data
 
 class Worker(Thread):
     def __init__(self, worker_id, config, frontier):
@@ -24,7 +22,6 @@ class Worker(Thread):
             crawl_data = load_pickled_data("current_crawl_data.pickle")
             if crawl_data:
                 print("Loaded Pickled Data")
-                
             else:
                 print("No pickled data found. Starting fresh crawl.")
         while True:

@@ -27,10 +27,8 @@ stopwords_list = set([
     "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
 ])
 
-delimiter_patterns = r'[:;,.=\+\-%_?&%\s\/\\]+'
-
 def write_to_file(filename, text):
-    """Write data from one file (filename) to another specified file (text)
+    """Write data from one file (filename) to another specified file (text).
 
     Parameters
     ----------
@@ -44,62 +42,23 @@ def write_to_file(filename, text):
     with open(current_directory,"wb") as file:
         file.write(text)
 
-def check_file_size(filename):
-    """Check the size of file
-    
-    Parameters
-    ----------
-    filename : str
-        file path to be checked
-    
-    Returns
-    -------
-    int
-        an int indicating the size of filename
-    """
-    current_directory = os.getcwd()
-    current_directory = f"{current_directory}/{filename}"
-    return os.path.getsize(current_directory) / 1000000
-
 def check_url_ascii(text):
-    """Check if URL text contains only valid ascii chars
-    
-    Parameters
-    ----------
-    text : str
-        text to be checked
-    
-    Returns
-    -------
-    bool
-        a bool indicating if the URL text is only ascii
-    """
-    for c in text:
-        ascii_value = ord(c)
-        if ascii_value < 0 or ascii_value > 255:
-            return False
-    return True
+    """Check if content contains only valid ascii chars.
 
-def check_content_ascii(content):
-    """Check if content contains only valid ascii chars
-    
     Parameters
     ----------
     content : bytes
         content to be checked
-    
+
     Returns
     -------
     bool
         a bool indicating if the content is only ascii
     """
-    for byte in content:
-        if byte < 0 or byte > 255:
-            return False
-    return True
+    return text.isascii()
 
 def tokenize_content(text) -> list:
-    """Tokenizes the text file
+    """Tokenizes the text file.
 
     Parameters
     ----------
@@ -112,11 +71,10 @@ def tokenize_content(text) -> list:
         a list of tokens from the text file
     """
     text_tags = BeautifulSoup(text, "html.parser")
-    # text_content = [tag.get_text(separator = " ", strip = True) for tag in text_tags]
     text_content = text_tags.get_text(" ")
+    
     token_list = []
     token = ''
-    # for line in text_content:
     for char in text_content:
         char = char.lower()
         if is_alpha_num(char):
@@ -134,7 +92,7 @@ def tokenize_content(text) -> list:
     return token_list
 
 def tokenize_url(url):
-    """Tokenizes the passed in URL
+    """Tokenizes the passed in URL.
     
     Parameters
     ----------
@@ -157,13 +115,13 @@ def tokenize_url(url):
                 token_list.append(token)
                 token = ''
     if token:
-            token_list.append(token)
-    token_freq = token_frequencies(token_list)
-    return token_freq
+        token_list.append(token)
+
+    return token_list
 
 
 def token_frequencies(tokens):
-    """Check the frequencies of each token
+    """Check the frequencies of each token.
 
     Parameters
     ----------
@@ -184,7 +142,7 @@ def token_frequencies(tokens):
     return token_freq
 
 def is_alpha_num(char) -> bool:
-    """Check if char is alphanumeric
+    """Check if char is alphanumeric.
 
     Parameters
     ----------
@@ -197,17 +155,22 @@ def is_alpha_num(char) -> bool:
         a bool indicating whether the char is alphanumeric 
     """
     pattern = r"[a-z0-9]"
-    return re.match(pattern, char.lower()) or False
+    return re.match(pattern, char.lower())
 
 if __name__ == "__main__":
-    resp1 = requests.get("https://ics.uci.edu/facts-figures/ics-mission-history/")
-
-    print(type(resp1.content))
-#     # resp2 = requests.get("http://www.ics.uci.edu/about/search")
-#     resp1 = "https://ics.uci.edu/~dechter/publications/r64.html"
-#     resp2 = "https://ics.uci.edu/~dechter/publications/r255.html"
-#     # print(check_url_ascii(url))
-#     # print(check_content_ascii(resp.content))
+    # resp1 = requests.get("https://ics.uci.edu/facts-figures/ics-mission-history/")
+    # resp2 = requests.get("http://www.ics.uci.edu/about/search")
+    resp1 = "https://ics.uci.edu/~dechter/publications/r64.html"
+    resp2 = "https://en.wiktionary.org/wiki/维吾尔"
+    print(check_url_ascii(resp2))
+    values = set()
+    values.add("hello")
+    values.add("bush")
+    values.add("hands")
+    values.add("guard")
+    print(list(values))
+    # print(check_url_ascii(url))
+    # print(check_content_ascii(resp.content))
 #     tokens1 = tokenize_url(resp1)
 #     tokens2 = tokenize_url(resp2)
     
@@ -225,13 +188,13 @@ if __name__ == "__main__":
 #     hash1 = sim_hash(tokens1)
 #     hash2 = sim_hash(tokens2)
 #     print(compute_sim_hash_similarity(hash1, hash2))
-#     # filename = "read_page.txt.txt"
-#     # resp = requests.get("http://www.ics.uci.edu/~eppstein/junkyard/all.html")
-#     # write_to_file(filename, resp.text)
-#     # print(check_file_size(filename))
-#     # value = tuple([1,1,0,1,1,])
-#     # print(value)
-#     # print(str(value))
-#     pass
+    # filename = "read_page.txt.txt"
+    # resp = requests.get("http://www.ics.uci.edu/~eppstein/junkyard/all.html")
+    # write_to_file(filename, resp.text)
+    # print(check_file_size(filename))
+    # value = tuple([1,1,0,1,1,])
+    # print(value)
+    # print(str(value))
+    pass
 
 

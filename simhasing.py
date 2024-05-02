@@ -1,7 +1,7 @@
 from hashlib import md5
 from zlib import crc32
 def sim_hash(frequencies):
-    """Compute a similarity hash for the passed in dict
+    """Compute a similarity hash for the passed in dict.
     
     Parameters
     ----------
@@ -48,7 +48,7 @@ def sim_hash(frequencies):
     return tuple(binary_vector)
 
 def compute_sim_hash_similarity(vector1, vector2):
-    """Compute the sim hash similarity between two tuples
+    """Compute the sim hash similarity between two tuples.
     
     Parameters
     ----------
@@ -70,7 +70,7 @@ def compute_sim_hash_similarity(vector1, vector2):
 
 if __name__ == "__main__":
     d1 = {"high":2, "low":2, "begging":1}
-    d2 = {"high":2, "low":1, "begging":3}
+    d2 = {"high":2, "low":2, "begging":3}
     hash1 = sim_hash(d1)
     hash2 = sim_hash(d2)
     
