@@ -4,11 +4,10 @@ from bs4 import BeautifulSoup
 from utils import  normalize
 from tokenize_words import tokenize_content, token_frequencies, write_to_file, check_url_ascii, tokenize_url
 from simhasing import sim_hash, compute_sim_hash_similarity
-# from pickle_storing import pickle_data, load_pickled_data, crawl_data
 
 valid_domains = [r"^((.*\.)*ics\.uci\.edu)$", r"^((.*\.)*cs\.uci\.edu)$",
                 r"^((.*\.)*informatics\.uci\.edu)$", r"^((.*\.)*stat\.uci\.edu)$"]
-# traps = r"^.*calendar.*$|^.*filter.*$|^.*png.*$"
+
 traps = r"^.*\/commit.*$|^.*\/commits.*$|^.*\/tree.*$|^.*\/blob.*"
 
 valid_set = set()
@@ -19,7 +18,6 @@ content_file = dict()
 ics_subdomains = dict()
 global_frequencies = dict()
 url_hashes = set()
-# url_path_count = dict()
 
 def scraper(url, resp):
     """Scrap URL links seen on current page.
@@ -38,17 +36,18 @@ def scraper(url, resp):
     """
     from pickle_storing import pickle_data
 
-    if url in visited_set:
+    if url in visited_set: # if URL has already been seen, we don't want to scrape information
         return []
+    # since the URL is new, we tokenize and sim hash it
     visited_set.add(url)
     url_tokens = tokenize_url(url)
     url_freq = token_frequencies(url_tokens)
     url_hash = sim_hash(url_freq)
 
-    print(resp.raw_content)
     try:
+        # check the status of the webpage and if content is not None
         if (resp.status == 200 and resp.raw_response and resp.raw_response.content):
-            if len(resp.raw_response.content) > 2000000:
+            if len(resp.raw_response.content) > 2000000: # if contents of the page are too large, we save URL but don't scrape
                 valid_set.add(url)
                 ics_subdomain(url)
                 
@@ -60,13 +59,13 @@ def scraper(url, resp):
             tokens = tokenize_content(resp.raw_response.content) # get tokens
             frequencies = token_frequencies(tokens) # compute token frequencies
             hash_vector = sim_hash(frequencies) # compute the hash for the content
-            total_tokens = len(tokens)
+            total_tokens = len(tokens) # count of total tokens
             
             valid_set.add(url)
             ics_subdomain(url)
             content[url] = total_tokens # [content folder num, total tokens]
             
-            if total_tokens < 100 or total_tokens > 60000:
+            if total_tokens < 100 or total_tokens > 60000: # if the tokens from page are too small or too large, we save URL info but dont check content similarity
                 pickle_data(get_crawl_data(), "current_crawl_data.pickle")
                 save_data()
                 
@@ -88,7 +87,7 @@ def scraper(url, resp):
                 save_data()
 
                 return []
-        elif resp.status in set([301, 302, 308, 309]) and resp.raw_response and resp.url:
+        elif resp.status in set([301, 302, 308, 309]) and resp.raw_response and resp.url: # if the URL status is one from the set, we save redirected URL info
             location = resp.url
             redirected_url = create_absolute_url(url, location)
             if  redirected_url not in visited_set and is_valid(redirected_url):
@@ -144,41 +143,45 @@ def extract_next_links(url, resp) -> list:
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
-    #if resp.status == 200 and resp.raw_response.content:
+
     text = resp.raw_response.content
     new_urls  = set()
-    soup = BeautifulSoup(text, "html.parser") # gets the text
+    soup = BeautifulSoup(text, "html.parser") # gets HTML content from text (byte string)
     for tag in soup.find_all('a', href=True):
         if tag.get('href'):
             new_url = tag['href']
-            absolute_url = create_absolute_url(url, new_url)  
+            absolute_url = create_absolute_url(url, new_url) # create an absolute URL that we check against our visited set & new URLs set
             if absolute_url not in visited_set and absolute_url not in new_urls and is_valid(absolute_url):
+                # tokenize and compute sim hash for the absolute URL
                 new_url_tokens = tokenize_url(absolute_url)
                 new_url_freq = token_frequencies(new_url_tokens)
                 new_url_hash = sim_hash(new_url_freq)
+                # check if the URL is similar to previous URLs seen
                 if check_url(new_url_hash, similarity_threshold=59):
-                    new_urls.add(absolute_url)
+                    # since its similar, we then add it to new_urls set
+                    new_urls.add(absolute_url)  
                 else:
-                    visited_set.add(absolute_url)
+                    # since its NOT similar, we add it to our visited and valid set to not be tokenized & sim hashed again
+                    visited_set.add(absolute_url) 
                     valid_set.add(absolute_url)
             else:
                 visited_set.add(absolute_url)
     return list(new_urls)
     
 def create_absolute_url(base_url, new_url):
-    """Create a new URL based on the two URL's passed in.
+    """Create the absolute URL based on the base URL and the new URL passed in.
     
     Parameters
     ----------
     base_url : str
         a URL of the current webpage
     new_url : str
-        a newly created URL 
+        a newly created URL from links found on the current URL page
     
     Returns
     -------
-    bool
-        a bool indicating if the 
+    str
+        a str of the absolute URL
     """
     new_url = new_url.split('#', 1)[0].strip().lower()
     absolute_url = urljoin(base_url, new_url)
@@ -201,118 +204,6 @@ def create_absolute_url(base_url, new_url):
 #     else:
 #         url_path_count[base_url] += 1
 
-# def check_robot_permission(url) -> bool:
-    """Checks the URL for scraping permissions via the robots.txt file.
-    
-    Parameters
-    ----------
-    url : str
-        a URL to the current webpage
-
-    Returns
-    -------
-    bool
-        a bool indicating if we are allowed to scrap the current URL
-    # """
-    # parsed = urlparse(url)
-    # scheme = parsed.scheme
-    # domain = parsed.netloc
-    # robots_file_url = f"{scheme}://{domain}/robots.txt"
-    
-#     try: 
-#         response = requests.get(robots_file_url)
-#     except:
-#         return False, None
-
-#     if response.status_code == 200:
-#         robot_html_text = response.text
-#         return True, parse_robots_txt_for_disallows(robot_html_text), 
-#     else:
-#         return False, None
-
-# def parse_robots_txt_for_disallows(robots_txt, user_agent='*') -> set:
-    """ Parse the robots.txt to find all disallowed paths for the given user-agent.
-
-    Parameters
-    ----------
-    robots_txt : str
-        a URL to the robots.txt file of the current website
-    user_agent : char
-        a char being declared as *
-        
-    Returns
-    -------
-    set
-        a set of disallowed links that the crawler must obey
-    # """
-    # disallow_paths = []
-    # finished = False
-    # found_agents = False
-
-#     # Split the file into lines
-#     for line in robots_txt.splitlines():
-#         # print(line)
-#         line = line.split('#', 1)[0].strip()  # Defragment the url using (split '#') and take the 1st
-#         if not line:
-#             continue  # Skip empty lines
-
-#         if ':' in line:
-#             key, value = line.split(':', 1) # split line into two tokens
-#             key = key.strip().lower()
-#             value = value.strip()
-
-#             if key == 'user-agent':
-#                 if value == user_agent and not finished:
-#                     found_agents = True
-#                 else:
-#                     if found_agents and finished:
-#                         return set(disallow_paths)
-#             elif key == 'disallow' and found_agents:
-#                 finished = True
-#                 if value:  # Ignore empty Disallow directives which mean allow everything
-#                     disallow_paths.append(value)
-                
-#     return set(disallow_paths)
-
-# # Find specified crawl delay value for the page being searched
-# def parse_robots_txt_for_crawl_delay(robots_txt, user_agent = '*') -> int:
-#     finished = False
-#     found_delay = False
-#     crawl_delay = None
-
-#     for line in robots_txt.read().splitlines():
-#         line = line.split('#', 1)[0].strip()
-#         if not line:
-#             continue
-
-#         if ':' in line:
-#             key, value = line.split(':', 1)
-#             key = key.strip().lower()
-#             value = value.strip() 
-#             if key == "user-agent":
-#                 if value == user_agent and not finished:
-#                     found_delay = True
-#                 elif found_delay:
-#                     break
-#             elif key == "crawl-delay" and value:
-#                     crawl_delay = int(value)
-#                     finished = True
-#     return crawl_delay if crawl_delay and found_delay and finished else 2 # A delay of 2 (seconds) seems to be the standard delay for crawling websites
-# ''
-# # def find_all_sitemaps(robots_txt, keyword = "sitemap") -> list:
-#     sitemaps = []
-#     for line in robots_txt.read().splitlines():
-#         line = line.split('#', 1)[0].strip()
-#         if not line:
-#             continue
-#         if ':' in line:
-#             key, value = line.split(':', 1)
-#             key = key.strip().lower()
-#             value = value.strip()
-#             if key == keyword:
-#                 sitemaps.append(value)
-#     return sitemaps
-
 def ics_subdomain(url):
     """Check if the URL is part of the valid ics links.
 
@@ -321,6 +212,7 @@ def ics_subdomain(url):
     url : str
         the URL to be checked against the valid ics subdomains
     """
+    # check if the url path exists and increment accordingly, otherwise add path to ics_subdomains with count of 1
     parsed = urlparse(url)
     if (re.match(valid_domains[0], parsed.netloc)):
         path = f"{parsed.netloc}"
@@ -349,7 +241,7 @@ def is_valid(url) -> bool:
     try:
         parsed = urlparse(url)
 
-        if parsed.scheme not in set(["http", "https"]):
+        if parsed.scheme not in set(["http", "https"]): 
             return False
         
         if  not (re.match(valid_domains[0], parsed.netloc) or \
@@ -484,29 +376,7 @@ def add_token_to_frequencies(tokens):
             global_frequencies[token] += 1
         else:
             global_frequencies[token] = 1
-    # save the frequencies here
-
-# Custom alpha numeric function that includes ' using regex
-def is_alpha_num(char) -> bool:
-    """Check if the char is a alphanumeric value (customized).
     
-    Parameters
-    ----------
-    char : char
-        a char to be checked
-    
-    Returns
-    -------
-    bool
-        a bool indicating if the char is alphanumeric
-    """
-    pattern = r"[a-z0-9']"
-    return re.match(pattern, char.lower()) or False
-    
-# # JUST TEMP COUNT FUNCTION TO TEST SAME TOKENS ARE BEING COUNTED FROM PAGE TO PAGE
-# def count_common_tokens(set1, set2) -> int: # TO BE DELETED WHEN DONE COUNTING
-#     common_tokens = set1.intersection(set2)
-#     return len(common_tokens)
 
 def check_for_repeating_dirs(url) -> bool:
     """Check for the repeating directory trap.
@@ -559,8 +429,7 @@ def get_crawl_data():
         "content_file": content_file,
         "ics_subdomains": ics_subdomains,
         "global_frequencies": global_frequencies,
-        "url_hashes": url_hashes,
-        "url_path_count": url_path_count
+        "url_hashes": url_hashes
     }
     return crawl_data
 

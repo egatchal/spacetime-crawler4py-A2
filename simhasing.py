@@ -13,26 +13,30 @@ def sim_hash(frequencies):
     tuple
         a tuple containing a binary vector representation of the dict passed in
     """
+    # NOTE: Implementation for md5 below
     hashes = dict()
     for key in frequencies.keys():
         hash = md5(key.encode()).digest()[:8] # byte representation
-        # hash = crc32(key.encode())
-        hashes[key] = hash
+        hashes[key] = hash # store hash values into hashes
 
     binary_vector = []
     for bit_index in range(64):
         value = 0
-        byte_index = bit_index // 8
+        byte_index = bit_index // 8 # create a byte_index using bit_index in the range
         for key, hash in hashes.items():
+            # preform bit-shift operation (which is shifting bit_index % 8 spots) 
+            # on the hash's byte value to target a specific bit
+            # then use that bit with the AND operation
             if (hash[byte_index] >> (bit_index%8)) & 1:
-                value += frequencies[key]
+                value += frequencies[key] # if bit is 1 then we add the frequency to the value
             else:
-                value -= frequencies[key]
+                value -= frequencies[key] # if bit is 0 we subtract the frequency to the value
         if value >= 0:
-            binary_vector.append(1)
+            binary_vector.append(1) # append 1 if value is non-negative
         else:
-            binary_vector.append(0)
+            binary_vector.append(0) # append 0 if value is negative
     
+    # NOTE: Implementation for crc32 below
     # for bit_index in range(32):
     #     value = 0
     #     byte_index = bit_index
@@ -60,7 +64,7 @@ def compute_sim_hash_similarity(vector1, vector2):
     Returns
     -------
     int
-        an int indicating the similarity between the two tuples (vector1 & vector2)
+        an int indicating the number of bits similar between the two tuple hash vectors (vector1 & vector2)
     """
     count = 0
     for i in range(64):

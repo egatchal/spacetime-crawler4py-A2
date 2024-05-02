@@ -63,16 +63,18 @@ def tokenize_content(text) -> list:
     Parameters
     ----------
     text : str
-        a path to a text file
+        text content as bytes
 
     Returns
     -------
     list
         a list of tokens from the text file
     """
+    # Parse byte content to HTML content which is easier to navigate
     text_tags = BeautifulSoup(text, "html.parser")
     text_content = text_tags.get_text(" ")
     
+    # Gathering all valid tokens from page content (char by char)
     token_list = []
     token = ''
     for char in text_content:
@@ -135,7 +137,7 @@ def token_frequencies(tokens):
     """
     token_freq = dict()
     for token in tokens:
-        if token in token_freq:
+        if token in token_freq: # if the token has been seen before, we increment the count
             token_freq[token] += 1
         else:
             token_freq[token] = 1

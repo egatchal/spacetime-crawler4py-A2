@@ -18,7 +18,7 @@ class Worker(Thread):
         super().__init__(daemon=True)
         
     def run(self):
-        if not self.frontier.restart_flag:
+        if not self.frontier.restart_flag: # if the user does not restart, check for previous data to load
             crawl_data = load_pickled_data("current_crawl_data.pickle")
             if crawl_data:
                 print("Loaded Pickled Data")

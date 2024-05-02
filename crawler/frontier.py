@@ -13,7 +13,7 @@ class Frontier(object):
         self.config = config
         self.to_be_downloaded = list()
 
-        self.restart_flag = restart
+        self.restart_flag = restart # restart_flag represents if we have specified a restart 
         
         if not os.path.exists(self.config.save_file) and not restart:
             # Save file does not exist, but request to load save.
