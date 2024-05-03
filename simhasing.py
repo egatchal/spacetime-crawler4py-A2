@@ -16,18 +16,18 @@ def sim_hash(frequencies):
     # NOTE: Implementation for md5 below
     hashes = dict()
     for key in frequencies.keys():
-        hash = md5(key.encode()).digest()[:8] # byte representation
-        hashes[key] = hash # store hash values into hashes
+        hash_v = md5(key.encode()).digest()[:8] # byte representation
+        hashes[key] = hash_v # store hash values into hashes
 
     binary_vector = []
     for bit_index in range(64):
         value = 0
         byte_index = bit_index // 8 # create a byte_index using bit_index in the range
-        for key, hash in hashes.items():
+        for key, hash_v in hashes.items():
             # preform bit-shift operation (which is shifting bit_index % 8 spots) 
             # on the hash's byte value to target a specific bit
             # then use that bit with the AND operation
-            if (hash[byte_index] >> (bit_index%8)) & 1:
+            if (hash_v[byte_index] >> (bit_index%8)) & 1:
                 value += frequencies[key] # if bit is 1 then we add the frequency to the value
             else:
                 value -= frequencies[key] # if bit is 0 we subtract the frequency to the value
@@ -73,8 +73,8 @@ def compute_sim_hash_similarity(vector1, vector2):
     return count
 
 if __name__ == "__main__":
-    d1 = {"high":2, "low":2, "begging":10}
-    d2 = {"high":2, "low":2, "begging":3}
+    d1 = {"high":1, "low":1, "begging":1}
+    d2 = {"high":6, "low":20, "begging":1}
     hash1 = sim_hash(d1)
     hash2 = sim_hash(d2)
     

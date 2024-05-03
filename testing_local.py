@@ -49,6 +49,7 @@ def download(url):
 def run(restart):
         if not restart:
             crawl_data = load_pickled_data("current_crawl_data.pickle")
+            print(crawl_data)
             if crawl_data:
                 print("Data has been uploaded from previous crawl.")
             else:
@@ -64,4 +65,4 @@ def run(restart):
 
 if __name__ == "__main__":
     # testing is_valid function
-    run(True)
+    run(False)
